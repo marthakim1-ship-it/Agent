@@ -1,0 +1,335 @@
+================================================================================
+[096] RxSugar
+================================================================================
+발견 URL: https://rxsugar.com
+최종 URL: https://rxsugar.com
+URL 상태: active
+공식 사이트 확인 근거: Title과 메인 로고에서 RxSugar 공식 사이트 확인됨
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 096 candidate
+
+[확인 페이지]
+- P1 메인: https://rxsugar.com
+- P2 제품 목록 또는 서비스 목록: https://rxsugar.com/pages/shop
+- P3 제품 상세 또는 핵심 기능: https://rxsugar.com/products/rxsugar-1-pound-canister
+- P4 추가 확인: https://rxsugar.com/pages/contact-us
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Zero Calorie Allulose Sugar 제품군
+- 주요 제품 카테고리: Canisters, Stick Packs, Liquid Sugar, Syrups, Flavored Sugar
+- 관찰된 타깃: 키토, 글루텐프리, 비건, 당 섭취를 줄이려는 건강 관심층
+- 관찰된 사용 상황: 일상적인 식단(베이킹, 커피, 디저트 등)에 설탕 대체제로 사용
+- 핵심 메시지·대표 카피: The World’s Best Tasting Zero Calorie Allulose Sugar. Sugar Reimagined.
+- 브랜드 보이스: 건강을 강조하며(Swealthy) 자신감 있고 명확한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Login, Contact, Help, Cart로 단순한 구성
+- 히어로 구성: 주요 제품 패키지와 핵심 카피를 배치한 텍스트+이미지 구성
+- 메인 페이지 섹션 순서: 히어로 -> 주요 제품 목록 -> 브랜드 소개/메시지 -> 푸터
+- 제품 목록 탐색 방식: 제품명과 패키지 정면/후면 이미지를 격자 형태로 나열
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop, Login 버튼이 GNB와 히어로 영역에 위치
+- CTA 연결 대상: 제품 목록 페이지 및 계정 로그인 페이지
+
+[시각 관찰]
+- 전체 무드: 깔끔하고 직관적인 이커머스 무드
+- 배경·여백: 흰색 및 검정색 배경(On-Black) 교차 사용으로 대비 강조
+- 타이포그래피: 명확하고 가독성 높은 산세리프 폰트
+- 컬러 운영: 제품 패키지 컬러에 맞춘 포인트 컬러 사용
+- 제품·패키지 이미지: 패키지 정면 및 후면 이미지를 번갈아 보여주는(Hover) 방식
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 인증 마크(Non-GMO, Keto, Vegan 등) 배치
+- 제품군 구분 방식: 제품 형태(파우더, 스틱, 액상, 시럽)에 따른 패키지 형태로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Canister, Stick Pack, Bottle 등 패키지 형태 강조
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Zero Calorie, Non-GMO, Keto 등 인증 배지를 텍스트와 함께 적극 사용
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: 제품 이미지에 hover 시 후면 이미지로 전환(swap--visible)
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 햄버거 메뉴 및 모바일 GNB 구조 사용 (표준 반응형)
+- 모바일 콘텐츠 흐름: 세로형 스크롤에 맞춰 1열/2열 재배치
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Swealthy (Sweet & Healthy)라는 독자적 키워드 사용
+- 반복 패턴: 패키지 정면/후면 호버 전환 방식
+- 구현 복잡도: 보통 (일반적인 스토어프론트 구조)
+- 미확인·추가 확인: 상세 페이지 내 설명 구조 추가 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[097] Lakanto
+================================================================================
+발견 URL: https://www.lakanto.com
+최종 URL: https://www.lakanto.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Natural Monk Fruit Sweetener : Best Sugar Substitute | Lakanto"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 097 candidate
+
+[확인 페이지]
+- P1 메인: https://www.lakanto.com
+- P2 제품 목록 또는 서비스 목록: https://www.lakanto.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Monk Fruit 기반 무가당 스위트너 및 식품류
+- 주요 제품 카테고리: Sweetener, Lifestyle, Shop By Meal (Baking, Breakfast, Snacks)
+- 관찰된 타깃: Sugar Free, Keto, Gluten Free, Nut Free, Vegan 라이프스타일 지향 소비자
+- 관찰된 사용 상황: 베이킹, 아침식사, 간식 등 다양한 식사에 활용
+- 핵심 메시지·대표 카피: Natural Monk Fruit Sweetener : Best Sugar Substitute.
+- 브랜드 보이스: 자연 친화적이고 일상적인 활용성을 강조하는 친근한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop(다중 뎁스 메가메뉴), Subscribe, Social Links 등
+- 히어로 구성: 프로모션 배너 (Free shipping, BBQ E-BOOK 등)와 주요 메시지
+- 메인 페이지 섹션 순서: 최상단 띠배너 -> GNB -> 히어로 -> 제품 카테고리
+- 제품 목록 탐색 방식: 메가메뉴를 통해 Sweetener 종류별, Lifestyle별, Meal별 세분화된 탐색 제공
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: GNB 상단에 Subscribe & Save, Free shipping 배너 배치
+- CTA 연결 대상: 프로모션 페이지, 정기구독 안내, 신제품 목록
+
+[시각 관찰]
+- 전체 무드: 풍성하고 다양한 제품군을 보여주는 마켓 무드
+- 배경·여백: 밝은 배경 중심
+- 타이포그래피: 정보량이 많은 메가메뉴를 소화하는 정돈된 텍스트 계층
+- 컬러 운영: 브랜드 고유 컬러와 프로모션 강조 컬러 혼합
+- 제품·패키지 이미지: 카테고리별 대표 제품 이미지 썸네일 활용
+- 라이프스타일 이미지: BBQ E-book 등 라이프스타일 컷 일부 사용
+- 일러스트·아이콘·그래픽: 소셜 아이콘(Facebook, Instagram 등) 상단 배치
+- 제품군 구분 방식: 블렌드 원료(Allulose vs Erythritol), 식사 용도(Baking, Breakfast) 등 카테고리 텍스트로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: GNB에서 텍스트 분류를 통해 제품 성격 사전 안내
+- 사용 방법 설명 방식: 레시피 북(BBQ 101 E-BOOK 등)을 통한 활용법 제안
+- 숫자·배지·아이콘 사용: 가격, 할인, Free shipping 등 커머스 중심 숫자 강조
+- 비교표·필터 유무: GNB 내 필터(filter.p.m.custom.lifestyle=Keto 등)를 통한 URL 파라미터 필터 적용
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 메가메뉴 드롭다운 (Hover/Click)
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 모바일 최적화된 아코디언 메뉴(다중 뎁스) 제공
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: GNB를 성분, 라이프스타일, 용도(Meal)로 다각화하여 필터 URL로 연결
+- 반복 패턴: 상단 띠배너를 여러 겹 사용하여 프로모션 연속 노출
+- 구현 복잡도: 높음 (다양한 필터링 기준과 메가메뉴 구조)
+- 미확인·추가 확인: 상세 페이지 내 디자인 구조 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[098] Pyure Organic
+================================================================================
+발견 URL: https://pyureorganic.com
+최종 URL: https://pyureorganic.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Pyure Organic Brand | Sweeteners, Sugar-free baking mixes and Syrups"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 098 candidate
+
+[확인 페이지]
+- P1 메인: https://pyureorganic.com
+- P2 제품 목록 또는 서비스 목록: https://pyureorganic.com/pages/shop
+- P3 제품 상세 또는 핵심 기능: https://pyureorganic.com/products/organic-liquid-stevia-sweetener-drops
+- P4 추가 확인: https://pyureorganic.com/pages/our-story
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 유기농 스테비아, 몽크프룻, 알룰로스 등 감미료 및 베이킹 믹스, 시럽
+- 주요 제품 카테고리: Sweeteners, Syrups, Hazelnut Spreads, Baking Mixes, Commercial Ingredients
+- 관찰된 타깃: 유기농, Non-GMO, 키토, 비건, 글루텐프리 소비자 및 B2B 상업용 고객
+- 관찰된 사용 상황: 일상적 디저트 섭취, 홈베이킹 및 상업용 제조
+- 핵심 메시지·대표 카피: Dessert, Reimagined.
+- 브랜드 보이스: 유기농과 혁신(sparked a sugar-free revolution)을 강조하는 자신감 있는 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Learn(Our Story, Blog 등), Commercial Ingredients 등 3개 주요 축
+- 히어로 구성: 브랜드 메시지(Dessert, Reimagined)와 쇼핑 연동 버튼 배치
+- 메인 페이지 섹션 순서: GNB -> 히어로 -> 제품 인트로(our products) -> 개별 제품 리스트
+- 제품 목록 탐색 방식: 일반 B2C 상품과 Commercial Bulk 상품을 GNB에서 분리
+- 제품 상세 정보 순서: 제품 썸네일 -> 타이틀 -> 기존가/할인가 노출
+- CTA 종류·위치: Shop Now, Learn About Us 버튼을 메인 화면 중앙에 배치
+- CTA 연결 대상: 전체 상품 목록 페이지 및 브랜드 스토리 페이지
+
+[시각 관찰]
+- 전체 무드: 깨끗하고 전문적인 유기농 브랜드 무드
+- 배경·여백: 화이트 배경으로 텍스트와 상품 이미지를 선명하게 부각
+- 타이포그래피: 직관적인 산세리프 위주의 폰트, 할인 가격에 취소선(line-through) 적용
+- 컬러 운영: 브랜드 아이덴티티 컬러(자연 친화적 색상) 위주
+- 제품·패키지 이미지: 드롭퍼(Drops) 형태 등 용기 형태가 잘 드러나는 정면 컷
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 유기농, Non-GMO 등 텍스트 배지 형태로 사용
+- 제품군 구분 방식: B2C와 B2B(Commercial) 카테고리를 명확히 분리
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Liquid Stevia Drops 등 제품 제형을 직관적인 제품명으로 설명
+- 사용 방법 설명 방식: 블로그와 레시피 페이지(Recipes) 제공을 통해 안내
+- 숫자·배지·아이콘 사용: Organic Certified, Non-GMO Project Verified 등 텍스트 나열
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 드롭다운 메뉴
+- 옵션 선택 반응: 가격 계산 로직 (Unit price, Compare at 등) 동적 노출
+- 모바일 메뉴: 모바일용 햄버거 메뉴 적용
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: B2C와 B2B(Commercial Bulk)를 한 사이트 내에서 GNB로 명확하게 분리 운영
+- 반복 패턴: 가격 정보(기존가 취소선, 할인가)를 리스트 썸네일 아래 적극 노출
+- 구현 복잡도: 보통 (Shopify 등 표준 이커머스 기능)
+- 미확인·추가 확인: 장바구니/체크아웃 플로우 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[099] Wholesome Sweeteners
+================================================================================
+발견 URL: https://wholesomesweet.com
+최종 URL: https://wholesomesweet.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Wholesome Sugar & Sweeteners | Fair Trade and Organic Sugar"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 099 candidate
+
+[확인 페이지]
+- P1 메인: https://wholesomesweet.com
+- P2 제품 목록 또는 서비스 목록: https://wholesomesweet.com/collections/shop-all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: https://wholesomesweet.com/pages/who-we-are
+- P5 추가 확인: https://wholesomesweet.com/pages/fair-trade-101
+
+[브랜드·제품 관찰]
+- 제품·서비스: 공정무역 및 유기농 설탕, 꿀, 아가베 꿀, 시럽류
+- 주요 제품 카테고리: Infusions, Granulated Sugar, Blue Agave, Honey, Syrups & Molasses, Zero Calorie
+- 관찰된 타깃: 공정무역, 윤리적 소비, 재생농업(Regen)에 관심 있는 소비자 및 식품업계
+- 관찰된 사용 상황: 가정 내 요리, 베이킹 및 티타임
+- 핵심 메시지·대표 카피: deliciously celebrate the special moments that bring us all together.
+- 브랜드 보이스: 공동체, 긍정적 변화(positive, meaningful change), 공정무역을 강조하는 따뜻하고 윤리적인 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Story, Shop Products, Learn 세 가지 주요 카테고리
+- 히어로 구성: 빈 장바구니 및 무료 배송 안내(FREE SHIPPING ON ORDERS OVER $49)
+- 메인 페이지 섹션 순서: 최상단 공지 -> GNB -> (이하 콘텐츠 미확인)
+- 제품 목록 탐색 방식: 성분 및 용도(Honey, Agave, Zero Calorie 등)에 따라 세분화된 컬렉션 링크 제공
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 상단 유틸리티 영역에 Log in, Continue shopping 위치
+- CTA 연결 대상: 전체 상품 카테고리 및 회원가입/로그인
+
+[시각 관찰]
+- 전체 무드: 윤리적이고 따뜻한 커뮤니티 지향적 무드
+- 배경·여백: 깔끔하고 가독성 높은 여백 구성
+- 타이포그래피: 정보 전달(Impact, Fair Trade 101 등)을 중시하는 차분한 서체
+- 컬러 운영: Whole Earth Brand 소속임을 나타내는 브랜드 컬러 사용 추정
+- 제품·패키지 이미지: 카테고리별 컬렉션 분리
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 소셜 미디어 아이콘 및 브랜드 로고
+- 제품군 구분 방식: 원료 베이스(설탕, 아가베, 꿀, 무칼로리 등) 기준 분류
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Infusions 등 특징적 라인업은 별도 페이지로 소개(Meet Wholesome Infusions)
+- 사용 방법 설명 방식: Recipes 게시판 운영
+- 숫자·배지·아이콘 사용: Fair Trade, Regen(재생농업) 등의 인증 키워드 적극 노출
+- 비교표·필터 유무: Source Map을 통한 원산지 정보 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 내 드롭다운 방식 메뉴
+- 옵션 선택 반응: 카트 담기 시 동적 금액($0.00 USD) 업데이트 구조
+- 모바일 메뉴: 햄버거 메뉴 방식 적용
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Source Map(원산지 맵), Regen 101, Fair Trade 101 등 정보성/윤리성 페이지의 비중이 매우 큼
+- 반복 패턴: "A Whole Earth Brand"라는 기업 소속 정보 지속 노출
+- 구현 복잡도: 보통
+- 미확인·추가 확인: 제품 상세 화면 내 공정무역 스토리 노출 방식
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[100] Swerve Sweetener
+================================================================================
+발견 URL: https://swervesweet.com
+최종 URL: https://swervesweet.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Swerve Sweeteners, Keto Bake Mixes and Chocolate Chips"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 100 candidate
+
+[확인 페이지]
+- P1 메인: https://swervesweet.com
+- P2 제품 목록 또는 서비스 목록: https://swervesweet.com/collections/shop-all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: https://swervesweet.com/pages/community-page
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Zero-calorie 설탕 대체제, 키토 베이킹 믹스, 초콜릿 칩
+- 주요 제품 카테고리: Sweeteners, Organic Sweeteners, Variety Packs
+- 관찰된 타깃: 키토(Keto), 당뇨 환자(diabetic-friendly), 치아 건강 고려층
+- 관찰된 사용 상황: Guilt-free 베이킹 및 일상 레시피 활용
+- 핵심 메시지·대표 카피: natural sweetness revolution, the ultimate sugar substitute for guilt-free indulgence.
+- 브랜드 보이스: 혁신, 건강(guilt-free), 대중성(loved by health enthusiasts)을 어필하는 경쾌한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, COMMUNITY, LEARN 세 카테고리로 구성
+- 히어로 구성: 무료배송($49 이상) 배너 및 로그인/장바구니 기능
+- 메인 페이지 섹션 순서: 띠배너 -> GNB -> 카트뷰 -> 콘텐츠 영역
+- 제품 목록 탐색 방식: 오리지널 감미료, 유기농 라인, 버라이어티 팩으로 직관적 분류
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: FIND SWERVE NEAR YOU 버튼 등 오프라인 유도 CTA 포함
+- CTA 연결 대상: 오프라인 매장 찾기 지도(Store Locator) 페이지
+
+[시각 관찰]
+- 전체 무드: 커뮤니티 지향적이며 친근하고 대중적인 무드
+- 배경·여백: 정보 탐색이 쉬운 밝은 배경
+- 타이포그래피: 직관적이고 둥글거나 친근한 느낌의 서체 적용
+- 컬러 운영: Whole Earth Brand 라인업으로 관련된 브랜드 색상 사용
+- 제품·패키지 이미지: 상품 썸네일 중심
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: SNS 채널 위주의 아이콘 적용
+- 제품군 구분 방식: Organic 여부 및 번들(Variety Packs) 여부에 따른 1차 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: GNB 상단에서 유기농 라인을 별도 카테고리로 분리
+- 사용 방법 설명 방식: Recipes 메뉴와 커뮤니티(Community Page) 메뉴 연계
+- 숫자·배지·아이콘 사용: Zero-calorie, non-GMO, keto-friendly 등의 주요 속성 텍스트화
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 드롭다운 리스트
+- 옵션 선택 반응: 미니 카트 또는 드로어 카트 UI 확인($0.00 총액 노출)
+- 모바일 메뉴: 모바일 최적화된 아코디언 GNB
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 소비자 간 소통(Community Page)을 Shop 못지않게 비중 있게 GNB에 노출
+- 반복 패턴: 자매 브랜드(Wholesome)처럼 "A Whole Earth Brand" 문구 공통 사용
+- 구현 복잡도: 낮음 (일반 쇼핑몰 구조)
+- 미확인·추가 확인: 커뮤니티 페이지 내 UGC(User Generated Content) 적용 여부
+
+조사 상태: completed
+--------------------------------------------------------------------------------

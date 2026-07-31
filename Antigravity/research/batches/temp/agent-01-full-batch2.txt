@@ -1,0 +1,335 @@
+================================================================================
+[041] Once Upon a Farm
+================================================================================
+발견 URL: https://onceuponafarmorganics.com
+최종 URL: https://onceuponafarmorganics.com
+URL 상태: active
+공식 사이트 확인 근거: 사이트명, 로고 확인 및 제품 판매 (Shop)
+조사 시각: 2026-07-30T15:41:21+09:00
+사용한 검색어: Once Upon a Farm
+
+[확인 페이지]
+- P1 메인: https://onceuponafarmorganics.com
+- P2 제품 목록 또는 서비스 목록: https://onceuponafarmorganics.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Cold-pressed pouches, plant-rich meals for babies and kids
+- 주요 제품 카테고리: Pouches & Bars, Meals
+- 관찰된 타깃: babies, toddlers, big kids
+- 관찰된 사용 상황: on-the-go, lunch
+- 핵심 메시지·대표 카피: 40% off your first subscription with code SUB40
+- 브랜드 보이스: Clean, homemade style, organic
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, By subscription, By Product, About
+- 히어로 구성: 40% off your first subscription with code SUB40
+- 메인 페이지 섹션 순서: Hero, Subscribe & Save, Featured products, Quiz
+- 제품 목록 탐색 방식: Best Sellers, Pantry Snacks, Refrigerated Pouches, Variety Packs, Shop All
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now (Pouches & Bars, Meals, Bundle Box)
+- CTA 연결 대상: Subscription bundle builder
+
+[시각 관찰]
+- 전체 무드: Clean, colorful, engaging
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Pouches and boxes
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By age and type (Pouches, Bars, Meals)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: Carousel for recommendations
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Quiz for personalized age-based product recommendations
+- 반복 패턴: Subscription bundles
+- 구현 복잡도: Quiz functionality
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[042] Serenity Kids
+================================================================================
+발견 URL: https://myserenitykids.com
+최종 URL: https://myserenitykids.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 및 Power to the Littles 상표 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Serenity Kids
+
+[확인 페이지]
+- P1 메인: https://myserenitykids.com
+- P2 제품 목록 또는 서비스 목록: https://myserenitykids.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Nutrient-dense, clean baby foods
+- 주요 제품 카테고리: Meats, Veggies, Smoothies, Puffs, Formula
+- 관찰된 타깃: babies, toddlers
+- 관찰된 사용 상황: on-the-go
+- 핵심 메시지·대표 카피: Power to the Littles, Give meat a chance
+- 브랜드 보이스: Trusted, ethically sourced
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, About, Subscribe To Save
+- 히어로 구성: Power to the Littles, Serenity Favorites
+- 메인 페이지 섹션 순서: Hero, Serenity Favorites, Smoothies banner, Testimonials
+- 제품 목록 탐색 방식: Shop All, Meats, Veggies, Smoothies, Puffs, Formula
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now, Subscribe Now
+- CTA 연결 대상: Product collections and subscription page
+
+[시각 관찰]
+- 전체 무드: Natural, trusted, premium
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Puffs, Meat pouches
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: Categorized by protein type (Meats, Veggies, Smoothies)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: No Preservatives, Shelf-Stable, Ethically Sourced badges
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Heavy emphasis on meat-based protein pouches for babies
+- 반복 패턴: Subscription discount
+- 구현 복잡도: standard e-commerce
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[043] Beech-Nut
+================================================================================
+발견 URL: https://www.beechnut.com
+최종 URL: https://www.beechnut.com
+URL 상태: active
+공식 사이트 확인 근거: Beech-Nut 로고 및 제품 정보 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Beech-Nut
+
+[확인 페이지]
+- P1 메인: https://www.beechnut.com
+- P2 제품 목록 또는 서비스 목록: https://www.beechnut.com/foods/
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Real food for babies and toddlers
+- 주요 제품 카테고리: Purees, cereals, snacks, pouches, jars
+- 관찰된 타깃: babies (6-months, 8-months), toddlers (12-months, 18-months)
+- 관찰된 사용 상황: on-the-go snacks, meals
+- 핵심 메시지·대표 카피: explore our foods for babies (and toddlers!)
+- 브랜드 보이스: Authentic, high-quality, real food
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Foods, Shop Now, Our Story, Recipes, Coupons, WIC, Our Quality, Blog, Subscribe
+- 히어로 구성: Save $1.75 on a snack!, Buy 4 Turkey Pouches, Save $2
+- 메인 페이지 섹션 순서: Hero Slider, explore our foods, categories
+- 제품 목록 탐색 방식: By age (6, 8, 12, 18 months), by type (organic, jars, pouches, snacks)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Claim Offer, Shop Now
+- CTA 연결 대상: external coupons (Vizer), third-party retailers (BJs)
+
+[시각 관찰]
+- 전체 무드: Authentic, welcoming
+- 배경·여백: not_verified
+- 타이포그래피: Montserrat
+- 컬러 운영: green borders (#12C8B8, #063)
+- 제품·패키지 이미지: Glass jars, pouches, snacks
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: Age badges (6+, 8+, 12+, 18+)
+- 제품군 구분 방식: Age-based badges and format types (jars vs pouches)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Age category flags
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: Home slider
+- 탭·아코디언·필터: Mobile sub-nav with caret icons
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: Hamburger menu, expandable sub-menus
+- 모바일 콘텐츠 흐름: Slider changes background image for mobile
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Heavy metal testing results transparently available
+- 반복 패턴: Coupons and third party retailer links instead of direct sales
+- 구현 복잡도: Mobile-optimized slider and nested navigation
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[044] Gerber
+================================================================================
+발견 URL: https://www.gerber.com
+최종 URL: https://www.gerber.com
+URL 상태: failed
+공식 사이트 확인 근거: not_verified
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Gerber
+
+[확인 페이지]
+- P1 메인: not_verified
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: not_verified
+- 주요 제품 카테고리: not_verified
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: not_verified
+
+[객관적 연구 메모]
+- 고유 관찰: 403 Forbidden error
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: failed
+--------------------------------------------------------------------------------
+================================================================================
+[045] Sprout Organics
+================================================================================
+발견 URL: https://sproutorganics.com
+최종 URL: https://sproutorganics.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 및 로고 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Sprout Organics
+
+[확인 페이지]
+- P1 메인: https://sproutorganics.com
+- P2 제품 목록 또는 서비스 목록: https://sproutorganics.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Organic baby food and toddler meals
+- 주요 제품 카테고리: Snacks, Pouches, Meals, Yayz Bars
+- 관찰된 타깃: babies 6 months and up, toddlers
+- 관찰된 사용 상황: school lunches, on the playground, traveling, breakfast, lunch, dinner
+- 핵심 메시지·대표 카피: Organic Baby Food & Toddler Meals
+- 브랜드 보이스: Empowering, wholesome, convenient
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop (Featured, By Product), Learn, FAQs
+- 히어로 구성: Sensory Snacktime
+- 메인 페이지 섹션 순서: Hero, Extensively Tested, Yayz Bars, A Family Favorite, Jump Right In, Why choose Sprout Organics
+- 제품 목록 탐색 방식: Featured (Yayz Bars, Variety Packs, Sale), By Product (Snacks, Pouches, Meals)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now, Subscribe & Save
+- CTA 연결 대상: Product collections
+
+[시각 관찰]
+- 전체 무드: Playful, wholesome
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Pouch, Waffles, Curls, Yayz Bars
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By age and product type (Snacks, Pouches, Meals)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Yayz Bars as a key featured product with no added sugar
+- 반복 패턴: Free shipping threshold ($50+) and 15% subscribe & save
+- 구현 복잡도: Standard e-commerce
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------

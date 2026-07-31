@@ -1,0 +1,335 @@
+================================================================================
+[071] LesserEvil Snacks
+================================================================================
+발견 URL: https://lesserevil.com
+최종 URL: https://lesserevil.com
+URL 상태: active
+공식 사이트 확인 근거: OG Description (clean, classic snacks made with organic ingredients)
+조사 시각: 2026-07-30T15:48:23+09:00
+사용한 검색어: 없음 (주어진 URL 사용)
+
+[확인 페이지]
+- P1 메인: https://lesserevil.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 건강한 팝콘 및 스낵
+- 주요 제품 카테고리: 스낵류
+- 관찰된 타깃: 건강한 성분과 가성비를 중시하는 소비자
+- 관찰된 사용 상황: 일상적인 팬트리 간식
+- 핵심 메시지·대표 카피: the upgrade your pantry deserves
+- 브랜드 보이스: 친근하고 솔직한 건강 지향적 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: seed oils 무첨가 문구 사용
+- 반복 패턴: 유기농 원료 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각 요소
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[072] Simple Mills
+================================================================================
+발견 URL: https://www.simplemills.com
+최종 URL: https://www.simplemills.com
+URL 상태: active
+공식 사이트 확인 근거: 사이트 타이틀 및 도메인 일치
+조사 시각: 2026-07-30T15:48:23+09:00
+사용한 검색어: 없음 (주어진 URL 사용)
+
+[확인 페이지]
+- P1 메인: https://www.simplemills.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 베이킹 믹스와 크래커 등 식품
+- 주요 제품 카테고리: 스낵 및 베이킹류
+- 관찰된 타깃: 영양과 클린 라벨을 찾는 소비자
+- 관찰된 사용 상황: 간식 및 식사 대용
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 클린 라벨 식품 특화
+- 반복 패턴: 건강 지향 브랜드
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각 요소
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[073] Siete Foods
+================================================================================
+발견 URL: https://sietefoods.com
+최종 URL: https://sietefoods.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드 도메인 일치
+조사 시각: 2026-07-30T15:48:24+09:00
+사용한 검색어: 없음 (주어진 URL 사용)
+
+[확인 페이지]
+- P1 메인: https://sietefoods.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 멕시칸 스타일 그레인프리 식품
+- 주요 제품 카테고리: 스낵류 및 요리 베이스
+- 관찰된 타깃: 건강한 대안 식품을 찾는 소비자
+- 관찰된 사용 상황: 간식 및 요리 시
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 멕시칸 헤리티지 식품
+- 반복 패턴: 건강 지향 스낵류
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각 요소
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[074] Hippeas
+================================================================================
+발견 URL: https://hippeas.com
+최종 URL: https://hippeas.com
+URL 상태: active
+공식 사이트 확인 근거: OG Description (Snacks that taste good & do good!)
+조사 시각: 2026-07-30T15:48:24+09:00
+사용한 검색어: 없음 (주어진 URL 사용)
+
+[확인 페이지]
+- P1 메인: https://hippeas.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 비건, 글루텐 프리 스낵
+- 주요 제품 카테고리: 퍼프 스낵류
+- 관찰된 타깃: 건강과 환경을 생각하는 소비자
+- 관찰된 사용 상황: 간편한 간식
+- 핵심 메시지·대표 카피: Good for Mind, Body & Soil
+- 브랜드 보이스: 밝고 긍정적인 사회적 가치 지향 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 밝고 경쾌함
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 시그니처 옐로우 컬러 사용 예상
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 스마일 아이콘과 볼드한 그래픽 무드
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Non-GMO, Vegan, Gluten Free 아이콘
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 환경 보호(Soil)를 핵심 가치로 언급
+- 반복 패턴: 비건 및 글루텐 프리 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각 요소
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[075] Barnana
+================================================================================
+발견 URL: https://barnana.com
+최종 URL: https://barnana.com
+URL 상태: active
+공식 사이트 확인 근거: OG Description (Creators of the tastiest plantain chips, cassava chips, banana bites)
+조사 시각: 2026-07-30T15:48:24+09:00
+사용한 검색어: 없음 (주어진 URL 사용)
+
+[확인 페이지]
+- P1 메인: https://barnana.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 플랜틴 칩, 카사바 칩, 바나나 바이트 등 스낵
+- 주요 제품 카테고리: 과일·뿌리채소 기반 스낵류
+- 관찰된 타깃: 이국적인 건강 간식을 찾는 소비자
+- 관찰된 사용 상황: 일상적인 건강 간식
+- 핵심 메시지·대표 카피: taste out of this world good
+- 브랜드 보이스: 유쾌하고 자연친화적인 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 원물 색상 기반 (바나나 옐로우 등)
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Organic, Non GMO 문구 사용
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 업사이클링 및 자연친화적 원물 스낵 강조
+- 반복 패턴: 유기농 및 Non-GMO 제품 속성
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각 요소
+
+조사 상태: partial
+--------------------------------------------------------------------------------

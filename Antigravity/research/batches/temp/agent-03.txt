@@ -1,0 +1,335 @@
+================================================================================
+[011] Cocojune
+================================================================================
+발견 URL: https://cocojune.co
+최종 URL: https://cocojune.co
+URL 상태: active
+공식 사이트 확인 근거: 브랜드 상표 표기, organic coconut yogurt 제품 카테고리 구성, 공식 스토어 로케이터(Find Us) 페이지 제공 (https://cocojune.co)
+조사 시각: 2026-07-30T14:35:00+09:00
+사용한 검색어: organic coconut yogurt website Cocojune
+
+[확인 페이지]
+- P1 메인: https://cocojune.co
+- P2 제품 목록 또는 서비스 목록: https://cocojune.co/products
+- P3 제품 상세 또는 핵심 기능: https://cocojune.co/products/pure-coconut
+- P4 추가 확인: https://cocojune.co/our-probiotics
+- P5 추가 확인: https://cocojune.co/find-us
+
+[브랜드·제품 관찰]
+- 제품·서비스: 유기농 코코넛 밀크 기반 무유제품(Dairy-free) 요거트, 드링크, 딥, 사워크림
+- 주요 제품 카테고리: Pure Coconut, Vanilla Chamomile, Lemon Elderflower, Strawberry Rhubarb, High Protein Greek-Style, Savory Dips
+- 관찰된 타깃: 비건, 유제품 알레르기/불내증 섭취자, 유기농 원료 및 장 건강을 중시하는 웰니스 소비층
+- 관찰된 사용 상황: 간편 아침 식사, 스낵 간식, 드레싱/소스 조리, 영양 디저트 섭취
+- 핵심 메시지·대표 카피: "Purely Fermented Plant-Based Food", "Organically Crafted Coconut Yogurt", "Science-backed Probiotics" (P1)
+- 브랜드 보이스: 건강성, 서스테이너빌리티, 유기농 발효 및 명확한 과학적 사실 전달 톤앤매너
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 상단 헤더 GNB (Products, About, Our Probiotics, Find Us, Recipes, Merch) 및 모바일 햄버거 메뉴
+- 히어로 구성: 대형 제품 패키지 연출 컷, 파스텔톤 배경, 브랜드 슬로건 및 "Find Us" / "Shop Now" 버튼 배치 (P1)
+- 메인 페이지 섹션 순서: 히어로 영역 -> 대표 제품 슬라이더/그리드 -> 브랜드 유기농 발효 특징 -> 프로바이오틱스 균주 안내 -> 매장 찾기 안내 -> 인스타그램/고객 후기 -> 푸터 (P1)
+- 제품 목록 탐색 방식: 맛별 고유 컬러 패키지 그리드 카드 배치, 클릭 시 상세 페이지 이동 (P2)
+- 제품 상세 정보 순서: 대표 고화질 제품 연출 컷 -> 원재료 및 영양성분 표시 -> 사용 유산균 균주 설명 -> 관련 맛 제시 -> 매장 찾기 링크 (P3)
+- CTA 종류·위치: "Find Us", "Shop Now", "Learn More" (상단 히어로, 제품 카드 하단, 본문 섹션 내부)
+- CTA 연결 대상: /find-us, /products, /our-probiotics
+
+[시각 관찰]
+- 전체 무드: 미니멀하고 깨끗하며 부드러운 자연주의 무드
+- 배경·여백: 연한 아이보리 및 베이지 중성톤 배경, 시원한 넓은 여백 레이아웃
+- 타이포그래피: 가독성이 높은 둥근 형태의 산세리프(Sans-serif) 폰트, 대형 타이틀 사용
+- 컬러 운영: 아이보리/베이지 Base에 맛별 파스텔 Accent 컬러(분홍, 연두, 노랑, 파랑 등) 지정
+- 제품·패키지 이미지: 종이 컵 형태 패키지 고화질 컷 및 내부 요거트 질감 접사컷 (P3)
+- 라이프스타일 이미지: 자연광 분위기의 유기농 농장, 야외 식사 라이프스타일 사진
+- 일러스트·아이콘·그래픽: 심플한 픽토그램 아이콘 (유기농, 비건, 유산균 보증 수량 등)
+- 제품군 구분 방식: 맛별 고유 Accent 색상 패키지 및 텍스트 뱃지 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 코코넛 밀크 base + 유기농 과일/원료 + 검증된 유산균 균주 조합 구조 제시 (P4)
+- 사용 방법 설명 방식: 스푼 취식, 레시피(Recipes) 페이지를 통한 드레싱/요리 활용법 제공
+- 숫자·배지·아이콘 사용: USDA Organic, Non-GMO, Plastic Neutral, Probiotic count 배지 사용 (P1, P3)
+- 비교표·필터 유무: 제품 비교표 없음, 맛/제품군별 기본 분류 카테고리 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 스크롤 시 섹션 요소 페이드인 효과
+- 이미지 전환·확대·회전: 제품 목록 슬라이더/캐러셀 좌우 이동
+- 탭·아코디언·필터: FAQ 및 영양성분 영역 아코디언 토글 적용
+- 옵션 선택 반응: 맛 클릭 시 대표 제품 이미지 및 Accent 색상 동적 전환
+- 모바일 메뉴: 우측 상단 햄버거 아이콘 클릭 시 전체 화면 네비게이션 드로어 열림
+- 모바일 콘텐츠 흐름: 1열 세로 스크롤 배치, 손가락 터치 영역 고려한 대형 버튼
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 75% 플라스틱 절감 종이 컵 패키지 및 Plastic Neutral 인증 아이콘 명시 (P1)
+- 반복 패턴: 연한 베이지 바탕에 제품 용기 패키지와 대표 원료 그래픽을 중앙 정렬 배치
+- 구현 복잡도: 맛별 동적 컬러 배경 테마 및 캐러셀 스크롤 구현
+- 미확인·추가 확인: DTC 직접 결제 장바구니 페이지 연결 구조 (대부분 외부 리테일 매장 찾기로 유도)
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[012] Forager Project
+================================================================================
+발견 URL: https://foragerproject.com
+최종 URL: https://foragerproject.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드 상표 표기, organic plant-based yogurt 및 dairy-free 제품 라인업, 매장 찾기(Store Locator) 기능 제공 (https://foragerproject.com)
+조사 시각: 2026-07-30T14:35:00+09:00
+사용한 검색어: organic plant based yogurt website Forager Project
+
+[확인 페이지]
+- P1 메인: https://foragerproject.com
+- P2 제품 목록 또는 서비스 목록: https://foragerproject.com/pages/organic-plant-based-yogurt
+- P3 제품 상세 또는 핵심 기능: https://foragerproject.com/products/organic-unsweetened-plain-cashewmilk-yogurt
+- P4 추가 확인: https://foragerproject.com/pages/kids-yogurt-pouches
+- P5 추가 확인: https://foragerproject.com/pages/store-locator
+
+[브랜드·제품 관찰]
+- 제품·서비스: 캐슈넛/코코넛 밀크 기반 유기농 식물성 요거트, 파우치 요거트, 케피어, 식물성 밀크, 크리머, 사워크림
+- 주요 제품 카테고리: Cashew & Coconut Yogurt (Plain, Vanilla, Strawberry, Blueberry 등), Greek Style Yogurt, Kids Pouches, Organic Kefir
+- 관찰된 타깃: 식물성/비건 식품 선호층, 유제품 불내증 소비자, 어린이용 간편 영양식을 찾는 보호자
+- 관찰된 사용 상황: 가정 내 스푼 취식, 등교/외출 시 파우치 요거트 휴대, 음료용 드링크 섭취
+- 핵심 메시지·대표 카피: "Organic Plant-Based Food", "Crafted from Organic Cashews", "Nourishing Organic Plant-Based Goodness" (P1)
+- 브랜드 보이스: 정직하고 친근하며 100% 유기농 재배 및 식물성 원료 본연의 가치 전달 톤앤매너
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 상단 헤더 GNB (Our Foods, Learn, Recipes, Store Locator) 및 쇼핑백/검색 아이콘
+- 히어로 구성: 제품 실물과 원재료(캐슈넛, 과일)가 어우러진 비주얼, 핵심 메시지 헤드라인 및 "Shop Now" / "Find in Store" CTA (P1)
+- 메인 페이지 섹션 순서: 히어로 비주얼 -> 카테고리별 대표 제품 그리드 -> Kids Pouch 라인업 소개 -> 유기농 원료 및 자체 제조 프로세스 -> 레시피 안내 -> 매장 찾기 -> 푸터 (P1)
+- 제품 목록 탐색 방식: 제품 종류별 탭 구분 (Yogurt, Pouches, Drinks 등) 및 카드 그리드 형태 (P2)
+- 제품 상세 정보 순서: 제품 메인 패키지 컷 -> 맛/용량 선택 옵션 -> 원재료명 및 영양성분표 -> 주요 인증 뱃지 -> 관련 제품 노출 (P3)
+- CTA 종류·위치: "Shop Now", "Find Near You", "Explore Foods" (히어로, 카테고리 섹션, 상세 페이지 하단)
+- CTA 연결 대상: /pages/store-locator, /collections/all
+
+[시각 관찰]
+- 전체 무드: 네추럴하고 오가닉하며 친근한 핸드메이드 감성의 톤앤매너
+- 배경·여백: 화이트 및 연한 크림색 배경에 여백 확보
+- 타이포그래피: 자연스러운 느낌의 산세리프 및 타이틀용 손글씨 스타일 폰트 혼용
+- 컬러 운영: 나뭇잎/풀을 상징하는 그린(Green) Base에 원료별 자연색 Accent 활용
+- 제품·패키지 이미지: 용기 컵 및 키즈 파우치 패키지 선명한 누끼컷 및 연출컷 (P3, P4)
+- 라이프스타일 이미지: 어린이 취식 모습, 가정 내 아침 식사 테이블 라이프스타일 컷
+- 일러스트·아이콘·그래픽: 식물 잎/과일 수목 일러스트 및 유기농/비건 관련 핸드드로잉 아이콘
+- 제품군 구분 방식: 키즈 파우치 라인업과 일반 컵 라인업의 전용 비주얼 및 뱃지 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 유기농 캐슈 밀크 + 코코넛 밀크 발효 구조 및 100억 CFU 생유산균 포함 명시 (P3)
+- 사용 방법 설명 방식: 키즈 파우치의 짜먹는 휴대성 설명, 레시피 연동 활용법 소개 (P4)
+- 숫자·배지·아이콘 사용: USDA Organic, Certified Vegan, Non-GMO Project Verified, Gluten-Free, Kosher 배지 (P3)
+- 비교표·필터 유무: 제품 비교표 없음, 카테고리 필터 버튼 제공 (P2)
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 섹션별 부드러운 슬라이드 및 페이드 효과
+- 이미지 전환·확대·회전: 제품 상세 갤러리 썸네일 클릭 시 메인 이미지 변경
+- 탭·아코디언·필터: 영양 성분/원재료 상세 아코디언 토글
+- 옵션 선택 반응: 용량(5oz vs 24oz) 선택 시 텍스트 및 구입 링크 변경
+- 모바일 메뉴: 상단 좌측 햄버거 메뉴, 드롭다운 하위 카테고리 표시
+- 모바일 콘텐츠 흐름: 단일 컬럼 전환 및 풀위드(Full-width) 이미지 카드 배치
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 어린이용 파우치 요거트(Kids Yogurt Pouches) 전용 독립 라인업 페이지 운영 (P4)
+- 반복 패턴: 화이트/크림 바탕에 제품 팩과 캐슈넛/과일 원물 일러스트 배치가 전 제품 공통 적용
+- 구현 복잡도: 라인업별(컵 vs 파우치 vs 드링크) 선택 전환 탭 및 매장 찾기 지도 연동
+- 미확인·추가 확인: 지역별 상이한 유통망 보유로 매장 찾기(Store Locator) API 외부 연동
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[013] Stonyfield
+================================================================================
+발견 URL: https://www.stonyfield.com
+최종 URL: https://www.stonyfield.com
+URL 상태: active
+공식 사이트 확인 근거: Stonyfield Organic 상표 표기, 유기농 요거트/파우치 제품군 제공, 공식 매장 찾기(Where to Buy) 기능 지원 (https://www.stonyfield.com)
+조사 시각: 2026-07-30T14:35:00+09:00
+사용한 검색어: organic yogurt pouch brand website Stonyfield
+
+[확인 페이지]
+- P1 메인: https://www.stonyfield.com
+- P2 제품 목록 또는 서비스 목록: https://www.stonyfield.com/products
+- P3 제품 상세 또는 핵심 기능: https://www.stonyfield.com/products/pouches
+- P4 추가 확인: https://www.stonyfield.com/why-organic
+- P5 추가 확인: https://www.stonyfield.com/where-to-buy
+
+[브랜드·제품 관찰]
+- 제품·서비스: 유기농 요거트 파우치(YoBaby, YoKids, YoToddler), 요거트 컵, 스무디, 튜브
+- 주요 제품 카테고리: Organic Pouches (Strawberry, Banana Mango, Vanilla 등), YoBaby Cups, Organic Whole Milk Yogurt, Greek Yogurt
+- 관찰된 타깃: 영유아 및 어린이 부모/보호자, 유기농/무농약 성분을 중시하는 가족 단위 소비층
+- 관찰된 사용 상황: 아동 간식, 유치원/학교 도시락, 야외 활동 시 손에 묻지 않는 간편 취식
+- 핵심 메시지·대표 카피: "Organic Made Simple", "Good for Kids, Good for the Planet", "100% Real Organic Fruit & Milk" (P1)
+- 브랜드 보이스: 신뢰할 수 있고 밝으며 가족 친화적인 친환경 웰빙 톤앤매너
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 상단 헤더 GNB (Products, Why Organic, Healthy Planet, Recipes, Where to Buy)
+- 히어로 구성: 활기찬 어린이와 파우치 요거트 이미지, "Find in Store" 메인 CTA 및 브랜드 선언문 (P1)
+- 메인 페이지 섹션 순서: 히어로 슬라이더 -> 연령/라인업별 제품 탐색 (YoBaby, YoKids 등) -> 친환경 유기농 농장 소개 -> 친환경 패키징 안내 -> 레시피 -> 푸터 (P1)
+- 제품 목록 탐색 방식: 서브 브랜드/타입별(Pouches, Cups, Smoothies) 카테고리 필터링 및 그리드 카드 (P2)
+- 제품 상세 정보 순서: 파우치 패키지 전면/후면 컷 -> 영양 정보 및 비타민 함량 -> 안전 캡 및 리사이클 패키징 특징 -> 구입 가능 매장 찾기 버튼 (P3)
+- CTA 종류·위치: "Where to Buy", "Learn More", "View Ingredients" (히어로, 제품 카드 하단, 푸터)
+- CTA 연결 대상: /where-to-buy, /why-organic
+
+[시각 관찰]
+- 전체 무드: 밝고 생기 넘치며 친근한 파스텔 블루 및 자연 친화적 무드
+- 배경·여백: 깨끗한 화이트 및 하늘색/초록색 그라데이션 포인트
+- 타이포그래피: 가독성이 뛰어나고 명확한 산세리프 폰트 및 굵은 강조 헤드라인
+- 컬러 운영: Stonyfield 시그니처 블루(#005596 계열) Base에 유기농 Green 및 과일별 강렬한 색상 포인트
+- 제품·패키지 이미지: 지퍼/스파웃 캡이 달린 파우치 실물 누끼 및 아이가 잡고 있는 라이프스타일 컷 (P3)
+- 라이프스타일 이미지: 야외에서 파우치를 짜먹는 어린이, 유기농 농장 목초지 라이프스타일 컷
+- 일러스트·아이콘·그래픽: 젖소, 목초지, 과일 일러스트 및 유기농 인증 아이콘
+- 제품군 구분 방식: YoBaby(핑크/라임), YoKids(블루/옐로우) 등 타깃 연령별 상이한 색상/캐릭터 시스템 적용
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 재밀봉 가능한 안전 캡(Resealable Cap) + 100% PE 단일 소재 리사이클 파우치 구조 명시 (P3)
+- 사용 방법 설명 방식: 스푼 없이 손으로 직접 짜먹는(Easy Squeeze) 사용법 강조 (P3)
+- 숫자·배지·아이콘 사용: USDA Organic, Non-GMO Project Verified, Gluten-Free, No Toxic Pesticides 배지 (P1, P3)
+- 비교표·필터 유무: 연령대별(Baby / Toddler / Kids) 제품 필터 기능 제공 (P2)
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 패널 스크롤에 따른 비주얼 요소 슬라이드 반응
+- 이미지 전환·확대·회전: 제품 패키지 영양성분표 확대 보기 기능
+- 탭·아코디언·필터: 연령별/제품 형태별 탭 토글 반응
+- 옵션 선택 반응: 맛/팩 수량 선택 시 바코드 및 제품 정보 업데이트
+- 모바일 메뉴: 상단 우측 햄버거 메뉴, 아코디언 드롭다운 형태 하위 메뉴
+- 모바일 콘텐츠 흐름: 터치 중심의 대형 파우치 카드 및 한 손 조작 가능 CTA 배치
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 100% PE 단일 소재 파우치 및 어린이 안전 재밀봉 캡(Choke-safe Cap) 기능 설명 명시 (P3)
+- 반복 패턴: 블루 톤 상단 네비게이션과 유기농 농장 배경 컷의 지속적 노출
+- 구현 복잡도: 연령대별(YoBaby / YoKids) 세분화 필터 및 매장 좌표 검색 지도 연동
+- 미확인·추가 확인: 파우치 재활용(TerraCycle 등) 세부 수거 프로그램 안내 페이지 동작 상태
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[014] Yoplait
+================================================================================
+발견 URL: https://www.yoplait.com
+최종 URL: https://www.yoplait.com
+URL 상태: active
+공식 사이트 확인 근거: General Mills 소유 Yoplait 공식 상표 표기, 전 세계/미국 공식 요거트 제품군 및 Store Locator 기능 제공 (https://www.yoplait.com)
+조사 시각: 2026-07-30T14:35:00+09:00
+사용한 검색어: yogurt brand official website Yoplait
+
+[확인 페이지]
+- P1 메인: https://www.yoplait.com
+- P2 제품 목록 또는 서비스 목록: https://www.yoplait.com/products
+- P3 제품 상세 또는 핵심 기능: https://www.yoplait.com/products/gogurt
+- P4 추가 확인: https://www.yoplait.com/recipes
+- P5 추가 확인: https://www.yoplait.com/where-to-buy
+
+[브랜드·제품 관찰]
+- 제품·서비스: 대중적인 유제품 요거트, 튜브형 짜먹는 요거트(Go-GURT), 유리병 프랑스식 요거트(Oui), 프로틴 요거트, 무가당/저지방 요거트
+- 주요 제품 카테고리: Yoplait Original, Go-GURT Tubes, Oui by Yoplait, Yoplait Light, Yoplait Protein, Whips!
+- 관찰된 타깃: 어린이, 학생, 바쁜 직장인, 대중적 소비재 구매자, 가족 단위 소비자
+- 관찰된 사용 상황: 등교/출근 간편 간식, 냉동 후 아이스크림 대용 취식, 아침 식사 대용
+- 핵심 메시지·대표 카피: "Real Fruit, Real Milk, Real Good", "Squeeze the Fun Out of It", "Everyday Delicious Yogurt" (P1)
+- 브랜드 보이스: 대중적이고 친근하며 에너제틱하고 경쾌한 톤앤매너
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 상단 헤더 GNB (Products, Our Story, Recipes, Where to Buy, Site Map)
+- 히어로 구성: 다채로운 브랜드 컬러와 요거트 제품 및 과일 비주얼, "Explore Products" 및 "Find a Store" CTA (P1)
+- 메인 페이지 섹션 순서: 히어로 비주얼 -> 인기 라인업 (Original, Go-GURT, Oui) 카드로 묶음 -> 레시피 아이디어 -> 재활용/패키징 정보 -> 푸터 (P1)
+- 제품 목록 탐색 방식: 라인업별(Original, Go-GURT, Protein 등) 대형 카드 탭 탐색 (P2)
+- 제품 상세 정보 순서: 대표 튜브/용기 비주얼 -> 영양 성분 및 칼로리 요약 -> 맛 선택 휠/그리드 -> 구매 매장 찾기 버튼 (P3)
+- CTA 종류·위치: "Where to Buy", "Explore Products", "Get Recipe" (히어로, 카테고리 카드, 레시피 섹션)
+- CTA 연결 대상: /where-to-buy, /products, /recipes
+
+[시각 관찰]
+- 전체 무드: 대중적이고 밝으며 비비드(Vivid)한 다채로운 컬러감
+- 배경·여백: 순백색 배경 위에 강렬한 레드/체리 핑크 및 과일색 포인트
+- 타이포그래피: 볼드하고 굵은 산세리프 헤드라인, 선명한 본문 타이포그래피
+- 컬러 운영: Yoplait 로고의 Red/Flower 심볼 Base에 라인업별 다채로운 과일 색상(딸기 레드, 블루베리 퍼플 등) 활용
+- 제품·패키지 이미지: 시그니처 역시리얼 컵, Go-GURT 튜브 스트립, Oui 유리병 등의 정교한 제품 연출컷 (P3)
+- 라이프스타일 이미지: 어린이 간식 타임, 레시피 활용 요리컷
+- 일러스트·아이콘·그래픽: 6개 꽃잎 Yoplait 플라워 로고, Easy-Tear 튜브 그래픽 아이콘
+- 제품군 구분 방식: 라인업별 서브 브랜드 로고(Go-GURT, Oui) 및 고유 포장재 형상(튜브 vs 용기 vs 유리병) 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 튜브형 Easy Tear 개봉 구조(Go-GURT) 및 유리 포팅 구조(Oui) 등 패키지 구조 강조 (P3)
+- 사용 방법 설명 방식: 상단부를 찢어 바로 짜먹기, 얼려 먹기(Freeze & Thaw) 등 유연한 취식법 안내 (P3)
+- 숫자·배지·아이콘 사용: Gluten-Free, No High Fructose Corn Syrup, Real Fruit 배지 사용 (P3)
+- 비교표·필터 유무: 비교표 없음, 라인업 필터 탭 제공 (P2)
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 슬라이드 스크롤 및 색상 변화 반응
+- 이미지 전환·확대·회전: 튜브/컵 제품 360도 회전 또는 다각도 컷 전환
+- 탭·아코디언·필터: 맛 종류 선택 클릭 시 해당 포장 패키지 동적 변경
+- 옵션 선택 반응: 맛 클릭 시 원재료 및 영양 정보 즉시 업데이트
+- 모바일 메뉴: 상단 우측 슬라이드 햄버거 메뉴
+- 모바일 콘텐츠 흐름: 터치 스와이프 가능한 슬라이더 카드로 모바일 구성
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 튜브 포장(Go-GURT)의 Easy Tear 절취선 기술 및 Freeze & Thaw 취식 모드 표기 (P3)
+- 반복 패턴: 선명한 레드 톤 브랜드 헤더와 대형 제품 패키지 정면 컷 배치
+- 구현 복잡도: 라인업별(Original, Go-GURT, Oui) 상이한 서브 브랜드 비주얼 테마 전환
+- 미확인·추가 확인: 지역별(미국 vs 캐나다 vs 글로벌) 도메인 리디렉션 처리 반응
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[015] GoGo SqueeZ
+================================================================================
+발견 URL: https://www.gogosqueez.com
+최종 URL: https://www.gogosqueez.com
+URL 상태: active
+공식 사이트 확인 근거: GoGo squeeZ 상표 표기, 파우치형 간식/요거트/과일 스퀴즈 전문 라인업, 공식 매장 찾기(Buy Now / Store Locator) 제공 (https://www.gogosqueez.com)
+조사 시각: 2026-07-30T14:35:00+09:00
+사용한 검색어: food pouch packaging brand website GoGo SqueeZ
+
+[확인 페이지]
+- P1 메인: https://www.gogosqueez.com
+- P2 제품 목록 또는 서비스 목록: https://www.gogosqueez.com/products
+- P3 제품 상세 또는 핵심 기능: https://www.gogosqueez.com/products/yogurtz
+- P4 추가 확인: https://www.gogosqueez.com/sustainability
+- P5 추가 확인: https://www.gogosqueez.com/where-to-buy
+
+[브랜드·제품 관찰]
+- 제품·서비스: 파우치 전용 과일/야채 간식, 요거트 파우치(YogurtZ), 프로틴/스무디 파우치, 푸딩 파우치
+- 주요 제품 카테고리: GoGo squeeZ Fruit, GoGo squeeZ YogurtZ, GoGo squeeZ Active, GoGo Big, PuddingZ
+- 관찰된 타깃: 아동, 청소년, 활동적인 성인, 외출/스포츠 시 빠른 간식을 소비하는 사용자
+- 관찰된 사용 상황: 등하교 길, 운동/스포츠 전후, 야외 캠핑, 차량 이동 중, 스푼 없는 간편 취식
+- 핵심 메시지·대표 카피: "Goodness on the Go", "100% Fruit & Yogurt in a Pouch", "No Spoon, No Mess" (P1)
+- 브랜드 보이스: 에너제틱하고 유쾌하며 위트 있고 편리성을 강조하는 톤앤매너
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 상단 헤더 GNB (Products, About Us, Sustainability, Where to Buy)
+- 히어로 구성: 파우치 캡을 형상화한 프로펠러 비주얼과 제품 팩, "Explore Products" / "Buy Now" CTA (P1)
+- 메인 페이지 섹션 순서: 히어로 비주얼 -> 파우치 라인업 카테고리 (Fruit, YogurtZ, Big 등) -> "No Mess" 휴대성 이점 강조 -> 지속가능성/TerraCycle 파트너십 -> 매장 찾기 -> 푸터 (P1)
+- 제품 목록 탐색 방식: 제품 라인업별 카테고리 필터링 탭 및 그리드 카드 배치 (P2)
+- 제품 상세 정보 순서: 특허받은 헬리콥터 모양 캡 파우치 고화질 컷 -> 영양 정보 및 Real Fruit/Yogurt 강조 -> 재활용 캡 특징 -> "Buy Now" 구매 매장 버튼 (P3)
+- CTA 종류·위치: "Buy Now", "Explore Flavors", "Learn More" (히어로, 카테고리 카드, 하단 메인 섹션)
+- CTA 연결 대상: /where-to-buy, /products
+
+[시각 관찰]
+- 전체 무드: 비비드하고 활력 넘치며 친근한 팝(Pop) 스타일 무드
+- 배경·여백: 밝은 그린 및 화이트 바탕, 과일 색상 그라데이션
+- 타이포그래피: 통통하고 볼드한 샌드 산세리프 폰트 및 역동적인 타이틀
+- 컬러 운영: 브랜드 시그니처 숲속 그린(#1D7036 계열) Base에 과일/요거트 라인업별 선명한 파스텔 Accent
+- 제품·패키지 이미지: 특허받은 헬리콥터 모양 캡(Helicopter Cap)이 장착된 스탠딩 파우치 고화질 누끼컷 (P3)
+- 라이프스타일 이미지: 야외 활동, 스포츠, 아이들의 가방에서 파우치를 꺼내는 연출컷
+- 일러스트·아이콘·그래픽: 파우치 캡 모양 헬리콥터 캐릭터 그래픽 및 No Sugar Added 아이콘
+- 제품군 구분 방식: 라인업별(Fruit: 그린, YogurtZ: 파랑/옐로우, Big: 짙은 그린) 파우치 바탕색 및 캐릭터 시스템 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 스푼과 접시가 필요 없는 빌트인 스파웃 캡(Built-in Spout Cap) 스탠딩 파우치 구조 설명 (P3)
+- 사용 방법 설명 방식: 캡을 돌려 열고 직접 짜먹는(Squeeze & Go) 3단계 간편 동작 안내 (P3)
+- 숫자·배지·아이콘 사용: 100% Fruit, No Added Sugar, BPA Free, Non-GMO Project Verified 배지 (P3)
+- 비교표·필터 유무: 비교표 없음, 라인업별(Fruit, YogurtZ, Smoothie) 카테고리 필터 제공 (P2)
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 파우치 캡 회전 및 과일 그래픽 튀어나오는 패럴랙스 효과
+- 이미지 전환·확대·회전: 맛 변경 시 파우치 패키지 색상 및 과일 배경 전환
+- 탭·아코디언·필터: 라인업 탭 전환 시 상응하는 파우치 라인업 즉시 노출
+- 옵션 선택 반응: 맛 클릭 시 영양 성분 및 함량 텍스트 업데이트
+- 모바일 메뉴: 상단 풀다운 햄버거 메뉴, 큼직한 메뉴 폰트
+- 모바일 콘텐츠 흐름: 파우치 팩 중심 1열 배치, 스와이프 가능한 맛선택 슬라이더
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 특허받은 헬리콥터 모양 캡(Helicopter Cap / Easy-open Cap) 디자인 및 TerraCycle 연계 파우치 수거 프로그램 (P3, P4)
+- 반복 패턴: 그린 바탕 상단 네비게이션과 스탠딩 파우치 용기 중앙 배치
+- 구현 복잡도: 라인업별 상이한 파우치 캐릭터/컬러 테마 전환 및 파우치 캡 회전 모션 효과
+- 미확인·추가 확인: 영유아 대상 보안 규정에 따른 소셜 미디어 링크 연결 제한 유무
+
+조사 상태: completed
+--------------------------------------------------------------------------------

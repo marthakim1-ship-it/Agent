@@ -1,0 +1,1340 @@
+================================================================================
+[041] Once Upon a Farm
+================================================================================
+발견 URL: https://onceuponafarmorganics.com
+최종 URL: https://onceuponafarmorganics.com
+URL 상태: active
+공식 사이트 확인 근거: 사이트명, 로고 확인 및 제품 판매 (Shop)
+조사 시각: 2026-07-30T15:41:21+09:00
+사용한 검색어: Once Upon a Farm
+
+[확인 페이지]
+- P1 메인: https://onceuponafarmorganics.com
+- P2 제품 목록 또는 서비스 목록: https://onceuponafarmorganics.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Cold-pressed pouches, plant-rich meals for babies and kids
+- 주요 제품 카테고리: Pouches & Bars, Meals
+- 관찰된 타깃: babies, toddlers, big kids
+- 관찰된 사용 상황: on-the-go, lunch
+- 핵심 메시지·대표 카피: 40% off your first subscription with code SUB40
+- 브랜드 보이스: Clean, homemade style, organic
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, By subscription, By Product, About
+- 히어로 구성: 40% off your first subscription with code SUB40
+- 메인 페이지 섹션 순서: Hero, Subscribe & Save, Featured products, Quiz
+- 제품 목록 탐색 방식: Best Sellers, Pantry Snacks, Refrigerated Pouches, Variety Packs, Shop All
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now (Pouches & Bars, Meals, Bundle Box)
+- CTA 연결 대상: Subscription bundle builder
+
+[시각 관찰]
+- 전체 무드: Clean, colorful, engaging
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Pouches and boxes
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By age and type (Pouches, Bars, Meals)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: Carousel for recommendations
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Quiz for personalized age-based product recommendations
+- 반복 패턴: Subscription bundles
+- 구현 복잡도: Quiz functionality
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[042] Serenity Kids
+================================================================================
+발견 URL: https://myserenitykids.com
+최종 URL: https://myserenitykids.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 및 Power to the Littles 상표 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Serenity Kids
+
+[확인 페이지]
+- P1 메인: https://myserenitykids.com
+- P2 제품 목록 또는 서비스 목록: https://myserenitykids.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Nutrient-dense, clean baby foods
+- 주요 제품 카테고리: Meats, Veggies, Smoothies, Puffs, Formula
+- 관찰된 타깃: babies, toddlers
+- 관찰된 사용 상황: on-the-go
+- 핵심 메시지·대표 카피: Power to the Littles, Give meat a chance
+- 브랜드 보이스: Trusted, ethically sourced
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, About, Subscribe To Save
+- 히어로 구성: Power to the Littles, Serenity Favorites
+- 메인 페이지 섹션 순서: Hero, Serenity Favorites, Smoothies banner, Testimonials
+- 제품 목록 탐색 방식: Shop All, Meats, Veggies, Smoothies, Puffs, Formula
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now, Subscribe Now
+- CTA 연결 대상: Product collections and subscription page
+
+[시각 관찰]
+- 전체 무드: Natural, trusted, premium
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Puffs, Meat pouches
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: Categorized by protein type (Meats, Veggies, Smoothies)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: No Preservatives, Shelf-Stable, Ethically Sourced badges
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Heavy emphasis on meat-based protein pouches for babies
+- 반복 패턴: Subscription discount
+- 구현 복잡도: standard e-commerce
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[043] Beech-Nut
+================================================================================
+발견 URL: https://www.beechnut.com
+최종 URL: https://www.beechnut.com
+URL 상태: active
+공식 사이트 확인 근거: Beech-Nut 로고 및 제품 정보 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Beech-Nut
+
+[확인 페이지]
+- P1 메인: https://www.beechnut.com
+- P2 제품 목록 또는 서비스 목록: https://www.beechnut.com/foods/
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Real food for babies and toddlers
+- 주요 제품 카테고리: Purees, cereals, snacks, pouches, jars
+- 관찰된 타깃: babies (6-months, 8-months), toddlers (12-months, 18-months)
+- 관찰된 사용 상황: on-the-go snacks, meals
+- 핵심 메시지·대표 카피: explore our foods for babies (and toddlers!)
+- 브랜드 보이스: Authentic, high-quality, real food
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Foods, Shop Now, Our Story, Recipes, Coupons, WIC, Our Quality, Blog, Subscribe
+- 히어로 구성: Save $1.75 on a snack!, Buy 4 Turkey Pouches, Save $2
+- 메인 페이지 섹션 순서: Hero Slider, explore our foods, categories
+- 제품 목록 탐색 방식: By age (6, 8, 12, 18 months), by type (organic, jars, pouches, snacks)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Claim Offer, Shop Now
+- CTA 연결 대상: external coupons (Vizer), third-party retailers (BJs)
+
+[시각 관찰]
+- 전체 무드: Authentic, welcoming
+- 배경·여백: not_verified
+- 타이포그래피: Montserrat
+- 컬러 운영: green borders (#12C8B8, #063)
+- 제품·패키지 이미지: Glass jars, pouches, snacks
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: Age badges (6+, 8+, 12+, 18+)
+- 제품군 구분 방식: Age-based badges and format types (jars vs pouches)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Age category flags
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: Home slider
+- 탭·아코디언·필터: Mobile sub-nav with caret icons
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: Hamburger menu, expandable sub-menus
+- 모바일 콘텐츠 흐름: Slider changes background image for mobile
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Heavy metal testing results transparently available
+- 반복 패턴: Coupons and third party retailer links instead of direct sales
+- 구현 복잡도: Mobile-optimized slider and nested navigation
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[044] Gerber
+================================================================================
+발견 URL: https://www.gerber.com
+최종 URL: https://www.gerber.com/
+URL 상태: active
+공식 사이트 확인 근거: Gerber 공식 도메인에서 Our Foods, Baby Food, MyGerber, 브랜드 소개와 제품 구매 기능을 직접 확인
+조사 시각: 2026-07-30T17:18:06+09:00
+사용한 검색어: Gerber official baby food pouches
+
+[확인 페이지]
+- P1 메인: https://www.gerber.com/
+- P2 제품 목록 또는 서비스 목록: https://www.gerber.com/shop-by-product/baby-food
+- P3 제품 상세 또는 핵심 기능: https://www.gerber.com/organic-2nd-foods-pouches-pear-peach-strawberry
+- P4 추가 확인: https://www.gerber.com/why-gerber
+- P5 추가 확인: https://www.gerber.com/parenttalk
+
+[브랜드·제품 관찰]
+- 제품·서비스: 영유아용 퓌레, 파우치, 시리얼, 스낵, 음료, 식사 제품과 부모 지원 콘텐츠
+- 주요 제품 카테고리: Cereal, Baby Food, Snacks, Beverages, Meals, Organic, Bundles
+- 관찰된 타깃: 이유식을 시작하는 영유아의 보호자와 성장 단계별 식품을 찾는 가족
+- 관찰된 사용 상황: 첫 이유식, 외출용 파우치, 성장 단계별 간식과 식사 선택
+- 핵심 메시지·대표 카피: Nutritionist designed, made with the taste your little one will love
+- 브랜드 보이스: 보호자에게 안내와 신뢰를 제공하는 친근하고 교육적인 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Our Foods, Shop by Milestone, Quality, Parent Talk, About Gerber, MyGerber
+- 히어로 구성: 영유아 제품 이미지, 영양 설계 메시지, Shop Now CTA
+- 메인 페이지 섹션 순서: 프로모션 -> 브랜드 메시지 -> 패키지 리뉴얼 -> 번들 -> 성장 단계별 제품 -> 부모 콘텐츠
+- 제품 목록 탐색 방식: 제품 형태와 성장 단계별 카테고리 메뉴 및 상품 그리드
+- 제품 상세 정보 순서: 제품명과 패키지 -> 연령 단계 -> 성분·영양 -> 구매 정보
+- CTA 종류·위치: Shop Now, Explore, Discover More, Learn More
+- CTA 연결 대상: 카테고리, 제품 상세, 부모 가이드와 회원 서비스
+
+[시각 관찰]
+- 전체 무드: 영유아 식품의 안전성과 친근함을 강조하는 밝은 커머스 구성
+- 배경·여백: 흰 배경 중심의 카드형 상품 배열
+- 타이포그래피: 큰 제품명과 명확한 카테고리 레이블
+- 컬러 운영: Gerber 블루와 제품 패키지별 과일·채소 색상
+- 제품·패키지 이미지: 파우치와 용기 패키지를 전면에 배치
+- 라이프스타일 이미지: 부모와 아이의 식사 상황 이미지 사용
+- 일러스트·아이콘·그래픽: 성장 단계, 인증, 영양 정보를 보조하는 아이콘
+- 제품군 구분 방식: Cereal, Baby Food, Snacks 등 유형과 월령 단계로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 제품 형태와 월령, 맛, 원재료 정보를 함께 제시
+- 사용 방법 설명 방식: 성장 단계별 선택과 섭취 상황을 제품 페이지 및 Parent Talk에서 안내
+- 숫자·배지·아이콘 사용: 월령, Clean Label Project, WIC 관련 표기
+- 비교표·필터 유무: 제품 카테고리와 성장 단계 탐색 제공, 정식 비교표는 미확인
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: 상품 이미지 갤러리 구조 확인
+- 탭·아코디언·필터: 카테고리 메뉴와 상품 탐색 기능 확인
+- 옵션 선택 반응: 장바구니와 수량 선택 기능 확인
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial (콘텐츠·구조 확인, 모바일 동작 미검증)
+
+[객관적 연구 메모]
+- 고유 관찰: 제품을 월령 단계와 식품 형태라는 두 축으로 탐색할 수 있음
+- 반복 패턴: 패키지 중심 상품 카드와 부모 교육 콘텐츠의 결합
+- 구현 복잡도: 대규모 카탈로그, 회원 서비스, 장바구니와 성장 단계 추천
+- 미확인·추가 확인: 실제 모바일 메뉴와 동적 필터 반응
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[045] Sprout Organics
+================================================================================
+발견 URL: https://sproutorganics.com
+최종 URL: https://sproutorganics.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 및 로고 확인
+조사 시각: 2026-07-30T15:41:27+09:00
+사용한 검색어: Sprout Organics
+
+[확인 페이지]
+- P1 메인: https://sproutorganics.com
+- P2 제품 목록 또는 서비스 목록: https://sproutorganics.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Organic baby food and toddler meals
+- 주요 제품 카테고리: Snacks, Pouches, Meals, Yayz Bars
+- 관찰된 타깃: babies 6 months and up, toddlers
+- 관찰된 사용 상황: school lunches, on the playground, traveling, breakfast, lunch, dinner
+- 핵심 메시지·대표 카피: Organic Baby Food & Toddler Meals
+- 브랜드 보이스: Empowering, wholesome, convenient
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop (Featured, By Product), Learn, FAQs
+- 히어로 구성: Sensory Snacktime
+- 메인 페이지 섹션 순서: Hero, Extensively Tested, Yayz Bars, A Family Favorite, Jump Right In, Why choose Sprout Organics
+- 제품 목록 탐색 방식: Featured (Yayz Bars, Variety Packs, Sale), By Product (Snacks, Pouches, Meals)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now, Subscribe & Save
+- CTA 연결 대상: Product collections
+
+[시각 관찰]
+- 전체 무드: Playful, wholesome
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: Pouch, Waffles, Curls, Yayz Bars
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By age and product type (Snacks, Pouches, Meals)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Yayz Bars as a key featured product with no added sugar
+- 반복 패턴: Free shipping threshold ($50+) and 15% subscribe & save
+- 구현 복잡도: Standard e-commerce
+- 미확인·추가 확인: Product detail pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[046] NOKA Organics
+================================================================================
+발견 URL: https://nokaorganics.com
+최종 URL: https://nokaorganics.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치 및 온라인 스토어 운영 (https://nokaorganics.com)
+조사 시각: 2026-07-30T15:41:26+09:00
+사용한 검색어: 직결 접속
+
+[확인 페이지]
+- P1 메인: https://nokaorganics.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 단백질 함유 유기농 스무디 파우치
+- 주요 제품 카테고리: 스무디, 기능성 간식
+- 관찰된 타깃: 직장인, 학생, 여행자, 건강한 간식을 찾는 사람
+- 관찰된 사용 상황: 아침식사, 업무 중, 학교, 여행
+- 핵심 메시지·대표 카피: The best-tasting organic smoothies with premium fruits, plant protein, and functional nutrition.
+- 브랜드 보이스: 건강하고 활기찬 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: 메인 카피 및 스무디 파우치 이미지 노출 (추정)
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 구매, 쇼핑하기 (추정)
+- CTA 연결 대상: 제품 목록 또는 상세 페이지
+
+[시각 관찰]
+- 전체 무드: 활기찬, 건강한
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: 파우치 형태 강조
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: 패키지 색상 (추정)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 파우치 형태 및 원재료 강조
+- 사용 방법 설명 방식: 언제 어디서나 간편하게 섭취 가능함 강조
+- 숫자·배지·아이콘 사용: 단백질 함량, 유기농 인증 등
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 휴대성 높은 파우치형 과일 스무디 강조
+- 반복 패턴: 건강, 편리함 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 하위 페이지 구조 및 상세 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[047] Mamma Chia
+================================================================================
+발견 URL: https://www.mammachia.com
+최종 URL: https://www.mammachia.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치 및 온라인 스토어 운영 (https://www.mammachia.com)
+조사 시각: 2026-07-30T15:41:30+09:00
+사용한 검색어: 직결 접속
+
+[확인 페이지]
+- P1 메인: https://www.mammachia.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 유기농 치아시드 기반 식품 및 간식
+- 주요 제품 카테고리: 치아시드 스낵, 치아시드
+- 관찰된 타깃: 건강한 간식을 찾는 소비자
+- 관찰된 사용 상황: 일상적인 건강 간식 섭취
+- 핵심 메시지·대표 카피: Buy Organic Chia Seeds, Products & More
+- 브랜드 보이스: 자연친화적, 건강 지향적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: 치아시드 관련 제품 강조 (추정)
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now (추정)
+- CTA 연결 대상: 상점 페이지
+
+[시각 관찰]
+- 전체 무드: 자연 친화적인, 건강한
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: 치아시드 및 스낵 패키지 강조
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 유기농 인증 마크 등
+- 제품군 구분 방식: 맛별 색상 구분 (추정)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 치아시드 성분 강조
+- 사용 방법 설명 방식: 간편한 스낵 형태 섭취
+- 숫자·배지·아이콘 사용: 유기농, 비건 등 배지 (추정)
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 치아시드를 주요 성분으로 한 스낵 파우치 제품군 보유
+- 반복 패턴: 유기농, 자연 원재료 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 하위 페이지 구조 및 상세 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[048] Sambazon
+================================================================================
+발견 URL: https://www.sambazon.com
+최종 URL: https://www.sambazon.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치 및 온라인 스토어 운영 (https://www.sambazon.com)
+조사 시각: 2026-07-30T15:41:35+09:00
+사용한 검색어: 직결 접속
+
+[확인 페이지]
+- P1 메인: https://www.sambazon.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 아사이 기반 냉동, 유기농, 비건 제품
+- 주요 제품 카테고리: 아사이 스무디 팩, 음료, 볼
+- 관찰된 타깃: 유기농, 비건 및 건강을 중시하는 소비자
+- 관찰된 사용 상황: 아침 식사, 스무디 베이스, 에너지 보충
+- 핵심 메시지·대표 카피: Nourish your body, without endangering the biodiversity of the Amazon.
+- 브랜드 보이스: 친환경적, 활력 넘치는
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: 아마존 아사이 및 제품 이미지 (추정)
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop now (추정)
+- CTA 연결 대상: 온라인 상점
+
+[시각 관찰]
+- 전체 무드: 이국적인, 신선한, 건강한
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 아사이의 보라색 톤 활용 (추정)
+- 제품·패키지 이미지: 아사이 팩, 볼(Bowl) 패키지
+- 라이프스타일 이미지: 자연, 아마존 관련 이미지 (추정)
+- 일러스트·아이콘·그래픽: 유기농, 비건 배지
+- 제품군 구분 방식: 패키지 라벨 (추정)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 아사이 원물 및 영양성분 강조
+- 사용 방법 설명 방식: 스무디나 볼로 만들어 먹는 방법 안내 (추정)
+- 숫자·배지·아이콘 사용: Organic, Vegan 인증 마크
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 아마존 생물다양성 보존이라는 윤리적 메시지를 건강 기능성과 결합
+- 반복 패턴: 유기농, 친환경 메시지 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 하위 페이지 구조 및 상세 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[049] Kuli Kuli
+================================================================================
+발견 URL: https://kulikulifoods.com
+최종 URL: https://kulikulifoods.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치 및 온라인 스토어 운영 (https://kulikulifoods.com)
+조사 시각: 2026-07-30T15:41:39+09:00
+사용한 검색어: 직결 접속
+
+[확인 페이지]
+- P1 메인: https://kulikulifoods.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 모링가 기반 슈퍼푸드 파우더, 바, 샷
+- 주요 제품 카테고리: 파우더, 바, 에너지 샷
+- 관찰된 타깃: 건강과 영양 보충을 중시하는 소비자
+- 관찰된 사용 상황: 스무디 첨가, 일상 영양 보충
+- 핵심 메시지·대표 카피: Nourishing you, nourishing the world.™
+- 브랜드 보이스: 윤리적, 건강지향적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: 모링가의 영양 우수성 강조 (추정)
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop, Take 15% Off Your Order (추정)
+- CTA 연결 대상: 상점 페이지
+
+[시각 관찰]
+- 전체 무드: 신선한, 푸른 생명력
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 모링가의 녹색 톤 활용 (추정)
+- 제품·패키지 이미지: 파우더 및 바 제품 패키지
+- 라이프스타일 이미지: 스무디를 만드는 모습 등 (추정)
+- 일러스트·아이콘·그래픽: 식물성, 단백질 함량 배지
+- 제품군 구분 방식: 제품 형태(파우더, 바, 샷)에 따른 분류 (추정)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 모링가의 영양 성분(케일과의 비교 등) 강조
+- 사용 방법 설명 방식: Great In Smoothies 등 활용법 제시
+- 숫자·배지·아이콘 사용: Organic, 비타민 함량 등
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 특정 성분(모링가)을 다양한 간편 섭취 형태(파우더, 바, 샷)로 제공
+- 반복 패턴: 다른 채소(케일)와의 영양 성분 우위 비교
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 하위 페이지 구조 및 상세 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[050] Laird Superfood
+================================================================================
+발견 URL: https://lairdsuperfood.com
+최종 URL: https://lairdsuperfood.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치 및 온라인 스토어 운영 (https://lairdsuperfood.com)
+조사 시각: 2026-07-30T15:41:41+09:00
+사용한 검색어: 직결 접속
+
+[확인 페이지]
+- P1 메인: https://lairdsuperfood.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 크리머, 커피, 코코넛 워터 등 슈퍼푸드
+- 주요 제품 카테고리: 크리머, 커피, 코코넛 워터
+- 관찰된 타깃: 지속적인 에너지가 필요한 활력 지향 소비자
+- 관찰된 사용 상황: 아침 커피 타임, 일상 에너지 보충
+- 핵심 메시지·대표 카피: Sustained Energy From Real Food
+- 브랜드 보이스: 에너제틱, 실용적인
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: 실생활 음식에서 얻는 에너지 강조 (추정)
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 구매 (추정)
+- CTA 연결 대상: 온라인 상점
+
+[시각 관찰]
+- 전체 무드: 활동적인, 자연친화적인
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 식물성 및 자연의 톤 활용 (추정)
+- 제품·패키지 이미지: 파우치 및 팩 형태의 패키지 노출
+- 라이프스타일 이미지: 활동적인 라이프스타일 이미지 (추정)
+- 일러스트·아이콘·그래픽: 성분 보존 등 제조 공법 배지 (추정)
+- 제품군 구분 방식: 맛과 성분(크리머, 커피 등)별 패키지 라벨 (추정)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 영양소 보존 공법 및 책임 있는 원료 조달 강조
+- 사용 방법 설명 방식: 커피 등 음료와 섞어 마시는 방법 제시 (추정)
+- 숫자·배지·아이콘 사용: 식물성, 지속 가능성 배지
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 기능성 성분을 커피/크리머 같은 일상적 섭취 경로에 결합함
+- 반복 패턴: 리얼 푸드와 지속 가능한 에너지 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 하위 페이지 구조 및 상세 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[051] Olipop
+================================================================================
+발견 URL: https://drinkolipop.com
+최종 URL: https://drinkolipop.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Olipop healthy prebiotic soda
+조사 시각: 2026-07-30T15:41:24+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://drinkolipop.com
+- P2 제품 목록 또는 서비스 목록: https://drinkolipop.com/collections/drinks
+- P3 제품 상세 또는 핵심 기능: https://drinkolipop.com/products/blackberry-vanilla
+- P4 추가 확인: https://drinkolipop.com/pages/ingredients
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Healthy Prebiotic Soda, plant fiber soda
+- 주요 제품 카테고리: 9g fiber soda, 6g fiber soda, variety packs
+- 관찰된 타깃: Health-conscious soda drinkers, individuals seeking digestive health
+- 관찰된 사용 상황: Casual refreshment, alternative to traditional soda
+- 핵심 메시지·대표 카피: A new kind of soda. Real ingredients. Real refreshment. Real digestive health support.
+- 브랜드 보이스: Friendly, health-focused, reassuring
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Learn, Subscribe, Find a store, Log in
+- 히어로 구성: Introduction to healthy prebiotic soda with clear call to action
+- 메인 페이지 섹션 순서: Hero, Product categories (9g fiber, 6g fiber), Why OLIPOP, Customer reviews, Footer
+- 제품 목록 탐색 방식: Categorized by fiber content (9g vs 6g) and variety packs
+- 제품 상세 정보 순서: Product image, nutritional benefits, flavor description, purchasing options
+- CTA 종류·위치: Shop Now, Find Your Flavor, Subscribe (Header and Hero sections)
+- CTA 연결 대상: Product listing pages, subscription pages, store locator
+
+[시각 관찰]
+- 전체 무드: Vibrant, modern, playful but clean
+- 배경·여백: Bright backgrounds with ample whitespace
+- 타이포그래피: Bold, rounded sans-serif for headings, clean sans-serif for body
+- 컬러 운영: Distinctive pastel and bright colors corresponding to flavors
+- 제품·패키지 이미지: High-quality can renders, prominent display of packaging
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: Categorization by fiber content (6g vs 9g) and color-coded cans
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting fiber content, low sugar, and prebiotic benefits
+- 사용 방법 설명 방식: Keep Refrigerated (9g Fiber), Store Anywhere (6g Fiber)
+- 숫자·배지·아이콘 사용: Prominent display of 2-5g sugar, 9g fiber, plant-based badges
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Distinguishes product lines directly by fiber content (9g vs 6g)
+- 반복 패턴: Prominent health claims (prebiotic, low sugar) on all touchpoints
+- 구현 복잡도: Standard e-commerce structure
+- 미확인·추가 확인: Mobile interaction patterns
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[052] Poppi
+================================================================================
+발견 URL: https://drinkpoppi.com
+최종 URL: https://drinkpoppi.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Poppi prebiotic soda
+조사 시각: 2026-07-30T15:41:33+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://drinkpoppi.com
+- P2 제품 목록 또는 서비스 목록: https://drinkpoppi.com/collections/drinks
+- P3 제품 상세 또는 핵심 기능: https://drinkpoppi.com/products/punch-pop
+- P4 추가 확인: https://drinkpoppi.com/pages/our-story
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Prebiotic soda
+- 주요 제품 카테고리: Classic soda flavors, fruit flavors, limited editions, variety packs
+- 관찰된 타깃: Gen Z, millennials, health-conscious consumers looking for fun alternatives
+- 관찰된 사용 상황: Everyday refreshment, movie nights, casual hangouts
+- 핵심 메시지·대표 카피: variety is the spice of life, sip like a hero, friendly new neighborhood flavors
+- 브랜드 보이스: Energetic, fun, enthusiastic, youthful
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: shop, our story, why poppi?, find poppi
+- 히어로 구성: Showcase of limited-edition or featured cans
+- 메인 페이지 섹션 순서: Hero, Flavor carousel, Variety packs, Customer reviews, Store locator, Footer
+- 제품 목록 탐색 방식: Visual grid of cans categorized by variety packs and individual flavors
+- 제품 상세 정보 순서: Can visual, flavor description, size/pack options, buy button
+- CTA 종류·위치: shop pop, buy now, learn more
+- CTA 연결 대상: Product purchase pages, store locators, promotional campaigns
+
+[시각 관찰]
+- 전체 무드: Bold, colorful, pop-art inspired
+- 배경·여백: Bright, high-contrast backgrounds
+- 타이포그래피: lowercase stylization for brand names and headings, bold sans-serif
+- 컬러 운영: Neon and saturated primary colors matching the flavor profiles
+- 제품·패키지 이미지: Vibrant 3D renders and photography of cans
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: Sparkles and abstract pop shapes
+- 제품군 구분 방식: Strong color coding per flavor (e.g., orange for Orange Cream, red for Cherry Cola)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Focus on flavor and low sugar (5g)
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Emphasizing 5g sugar in reviews and copy
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Distinctive all-lowercase typography and heavy use of vibrant pop colors
+- 반복 패턴: Highlighting customer reviews directly on the main page to build trust
+- 구현 복잡도: Standard e-commerce with rich visual assets
+- 미확인·추가 확인: Mobile interaction and product detail interactions
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[053] Remedy Drinks
+================================================================================
+발견 URL: https://remedydrinks.com
+최종 URL: https://remedydrinks.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Remedy Kombucha and drinks
+조사 시각: 2026-07-30T15:41:45+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://remedydrinks.com
+- P2 제품 목록 또는 서비스 목록: https://remedydrinks.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: No sugar, fizzy drinks (Kombucha, Sodaly, Switchel ACV, Ginger Beer, Shots)
+- 주요 제품 카테고리: Kombucha, Sodaly, ACV drinks
+- 관찰된 타깃: Health-conscious consumers looking for zero sugar alternatives
+- 관찰된 사용 상황: Everyday refreshment
+- 핵심 메시지·대표 카피: Makers of tasty, no sugar, fizzy drinks
+- 브랜드 보이스: Approachable, straightforward, healthy
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Online
+- CTA 연결 대상: Product collections
+
+[시각 관찰]
+- 전체 무드: Natural, refreshing
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By beverage type (Kombucha vs Sodaly)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Emphasizing "no sugar" and "tasty"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strong emphasis on absolutely zero sugar across multiple beverage types
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Detailed site structure and interactions
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[054] Health-Ade Kombucha
+================================================================================
+발견 URL: https://health-ade.com
+최종 URL: https://health-ade.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Health-Ade Kombucha
+조사 시각: 2026-07-30T15:41:50+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://health-ade.com
+- P2 제품 목록 또는 서비스 목록: https://health-ade.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Bubbly Probiotic Tea (Kombucha)
+- 주요 제품 카테고리: Kombucha tea
+- 관찰된 타깃: Wellness enthusiasts, probiotic seekers
+- 관찰된 사용 상황: Daily health boost, refreshing drink
+- 핵심 메시지·대표 카피: Best tasting, organic, and highest quality fermented kombucha tea, full of probiotics. Brewed in Los Angeles.
+- 브랜드 보이스: Authentic, proud, health-focused
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: Organic, bright
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting "organic", "fermented", and "probiotics"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Highlights "Brewed in Los Angeles" as a point of origin and quality
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Layout and visual design specifics
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[055] GT's Living Foods
+================================================================================
+발견 URL: https://gtslivingfoods.com
+최종 URL: https://gtslivingfoods.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for GT's Living Foods
+조사 시각: 2026-07-30T15:41:55+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://gtslivingfoods.com
+- P2 제품 목록 또는 서비스 목록: https://gtslivingfoods.com/collections
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Kombucha, Kefir, Coconut Yogurt, Adaptogenic Tea
+- 주요 제품 카테고리: Fermented foods and beverages
+- 관찰된 타깃: Holistic health consumers, natural food enthusiasts
+- 관찰된 사용 상황: Daily holistic health routine
+- 핵심 메시지·대표 카피: Stewards of Nature. Cultivating offerings with whole raw ingredients and traditional practices in their purest, most potent forms.
+- 브랜드 보이스: Spiritual, natural, traditional, holistic
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: By product type (Kombucha, Kefir, Yogurt)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: Earthy, traditional, holistic
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Emphasizing "whole raw ingredients" and "purest forms"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strongly positions itself as "stewards of Nature" with a deeply holistic messaging compared to modern soda alternatives
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Complete visual analysis
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[056] Mush Overnight Oats
+================================================================================
+발견 URL: https://eatmush.com
+최종 URL: https://eatmush.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치, 전체 제품 판매, 공식 스토어 기능 제공
+조사 시각: 2026-07-30T15:42:00+09:00
+사용한 검색어: portable yogurt pouch brand
+
+[확인 페이지]
+- P1 메인: https://eatmush.com
+- P2 제품 목록 또는 서비스 목록: https://eatmush.com/collections/all-products
+- P3 제품 상세 또는 핵심 기능: https://eatmush.com/collections/protein-bars-2
+- P4 추가 확인: https://eatmush.com/pages/about
+- P5 추가 확인: https://eatmush.com/pages/store-locator
+
+[브랜드·제품 관찰]
+- 제품·서비스: 냉장 보관용 레디투잇(Ready-to-eat) 오버나이트 오츠 및 프로틴 바
+- 주요 제품 카테고리: 간편 아침식사, 단백질 스낵, 식물성 오츠
+- 관찰된 타깃: 바쁜 직장인, 건강한 식단을 추구하는 현대인
+- 관찰된 사용 상황: 냉장고에서 꺼내 바로 먹는 출근길이나 바쁜 아침
+- 핵심 메시지·대표 카피: Clean eating effortless, No prep, no fillers—just real food
+- 브랜드 보이스: 직관적, 활기참, 깔끔함
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Products (드롭다운), Learn, About Us, Build a Bundle, Find In Store, Account, Cart
+- 히어로 구성: 제품 패키지를 강조한 이미지와 Ready to Eat 헤드라인, 메인 CTA
+- 메인 페이지 섹션 순서: 히어로 영역, 제품 캐러셀, 핵심 가치(No prep, dairy free 등), 고객 리뷰, 오프라인 매장 찾기 안내
+- 제품 목록 탐색 방식: 그리드 뷰 형태, 각 맛별 카드로 구성, Add to Cart 및 Subscribe 옵션 즉시 제공
+- 제품 상세 정보 순서: 이미지 갤러리, 맛 선택, 구매 옵션, 영양 정보, 원재료, 고객 리뷰
+- CTA 종류·위치: Shop Now, Build a Bundle, Find in Store (히어로 및 주요 섹션)
+- CTA 연결 대상: 전체 제품 목록, 번들 구성 페이지, 오프라인 매장 찾기
+
+[시각 관찰]
+- 전체 무드: 밝고 경쾌함, 현대적, 에너지 넘침
+- 배경·여백: 각 제품 맛을 상징하는 단색 배경과 깔끔한 여백 활용
+- 타이포그래피: 굵고 가독성 높은 고딕(Sans-serif) 계열 폰트
+- 컬러 운영: 브랜드 메인 컬러와 패키지 뚜껑 색상(파랑, 노랑, 핑크 등)을 UI에 적극 반영
+- 제품·패키지 이미지: 다채로운 뚜껑 색상을 강조한 고해상도 제품 연출컷
+- 라이프스타일 이미지: 이동 중에 먹거나 활기찬 일상 속 제품 섭취 모습
+- 일러스트·아이콘·그래픽: 비건, 글루텐 프리 등 식이 정보를 나타내는 심플한 벡터 아이콘
+- 제품군 구분 방식: 오츠, 프로틴 오츠, 프로틴 바 등 제품군과 맛별 고유 컬러로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 귀리, 아몬드 밀크, 대추 등 단순한 핵심 재료 강조
+- 사용 방법 설명 방식: 텍스트로 냉장고에서 꺼내 바로 먹는(Straight from the fridge) 간편함 설명
+- 숫자·배지·아이콘 사용: Plant-based, Gluten-Free, Dairy-Free, No added sugar 배지 사용
+- 비교표·필터 유무: 제품 목록 내 뚜렷한 상세 필터보다는 단순 카테고리 분류 사용
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 부드러운 스크롤, 가벼운 페이드인 모션
+- 이미지 전환·확대·회전: 제품 카드 마우스 호버 시 이미지 전환 또는 버튼 활성화
+- 탭·아코디언·필터: 상세 페이지 내 영양 성분과 원재료 정보를 아코디언 메뉴로 제공
+- 옵션 선택 반응: 맛 선택 시 시각적 스와치(색상/이미지 버튼) 클릭 상호작용
+- 모바일 메뉴: 햄버거 메뉴, 오프캔버스(측면 슬라이드) 형태의 장바구니
+- 모바일 콘텐츠 흐름: 단일 열 구조, 스와이프 가능한 제품 캐러셀
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 패키지의 컬러풀한 뚜껑을 UI 디자인의 핵심 색상으로 활용
+- 반복 패턴: D2C 식품의 전형적인 '번들 구성(Build a Bundle)' 및 정기배송 유도 구조
+- 구현 복잡도: 커스텀 번들 구성 기능 구현이 일반 쇼핑몰 대비 난이도 있음
+- 미확인·추가 확인: 사용자 개인화 추천 기능 여부 미확인
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[057] Oats Overnight
+================================================================================
+발견 URL: https://oatsovernight.com
+최종 URL: https://oatsovernight.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치, 전체 제품 및 전용 셰이커 판매
+조사 시각: 2026-07-30T15:42:00+09:00
+사용한 검색어: on the go breakfast food brand website
+
+[확인 페이지]
+- P1 메인: https://oatsovernight.com
+- P2 제품 목록 또는 서비스 목록: https://oatsovernight.com/collections/all
+- P3 제품 상세 또는 핵심 기능: https://oatsovernight.com/products/starter-pack
+- P4 추가 확인: https://oatsovernight.com/pages/how-it-works
+- P5 추가 확인: https://oatsovernight.com/pages/about-us
+
+[브랜드·제품 관찰]
+- 제품·서비스: 우유나 물에 타서 마시는 형태의 오버나이트 오츠 파우치 및 전용 셰이커
+- 주요 제품 카테고리: 고단백 아침식사, 식사 대용 셰이크
+- 관찰된 타깃: 피트니스 관심층, 바쁜 직장인
+- 관찰된 사용 상황: 전날 밤 섞어두고 다음 날 아침 출근길이나 운동 전후 음용
+- 핵심 메시지·대표 카피: Life Is Hard, Make Breakfast Easy
+- 브랜드 보이스: 강렬함, 기능 중심적, 해결책 제시형
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, How it Works, Subscribe, About, Login, Cart
+- 히어로 구성: 파우치와 전용 셰이커를 배치한 직관적 이미지와 대형 헤드라인
+- 메인 페이지 섹션 순서: 히어로 영역, 3단계 사용법(How it works), 맛 선택 슬라이더, 고객 리뷰, 핵심 가치 제안
+- 제품 목록 탐색 방식: 정기배송 스타터팩 중심의 그리드, 각 맛을 선택하는 형태
+- 제품 상세 정보 순서: 영양 성분 하이라이트, 원재료 소개, 정기배송 혜택 안내, 리뷰 섹션
+- CTA 종류·위치: Build Your Box, Shop Now (상단 및 화면 곳곳)
+- CTA 연결 대상: 커스텀 번들 구성 페이지 및 주요 상품 페이지
+
+[시각 관찰]
+- 전체 무드: 다이내믹함, 기능성(피트니스)과 대중성의 혼합, 구조적
+- 배경·여백: 블랙/다크 그레이 등 다크 모드 요소와 화이트 여백의 대비
+- 타이포그래피: 무게감 있는 굵은 헤더 폰트와 깔끔한 본문 폰트 조합
+- 컬러 운영: 어두운 배경 위에 각 맛(Flavor)을 상징하는 강렬한 포인트 컬러 사용
+- 제품·패키지 이미지: 파우치 형태의 패키지와 로고가 박힌 셰이커의 조합 컷 중심
+- 라이프스타일 이미지: 차 안이나 헬스장에서 셰이커를 흔들거나 마시는 역동적인 컷
+- 일러스트·아이콘·그래픽: 단백질 함량, 당 함량 등을 나타내는 픽토그램
+- 제품군 구분 방식: 카페인 함유 여부, 비건(식물성)과 유청(Whey) 단백질로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 파우치 안의 내용물을 셰이커에 넣는 직관적 이미지
+- 사용 방법 설명 방식: 3단계(Pour, Shake, Sleep)를 아이콘과 짧은 텍스트로 시각화
+- 숫자·배지·아이콘 사용: 20g+ Protein, Gluten-Free, Low Sugar 등의 스펙 강조
+- 비교표·필터 유무: 비건, 유청, 카페인 유무에 따른 명확한 필터 및 토글 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 스크롤에 따른 페이드인 효과, 상세 페이지 하단 스티키(Sticky) 구매 버튼
+- 이미지 전환·확대·회전: 맛 선택 캐러셀에서 슬라이드 전환 효과
+- 탭·아코디언·필터: 영양 성분표를 비건 vs 유청 옵션에 따라 토글로 전환 가능
+- 옵션 선택 반응: 인터랙티브한 번들 구성기(Builder)에서 시각적 선택 효과
+- 모바일 메뉴: 햄버거 메뉴 및 화면 하단 고정 CTA 버튼
+- 모바일 콘텐츠 흐름: 수직 스택 구조, 다양한 맛을 가로 스크롤로 탐색
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 떠먹는 오츠가 아닌 '마시는(Drinkable)' 방식을 셰이커라는 도구로 시각화
+- 반복 패턴: D2C 특유의 스타터팩(Starter Pack) 유도 및 강력한 구독 모델 결합
+- 구현 복잡도: 다양한 맛을 조합하여 박스를 구성하는 Build Your Box 기능 구현 필요
+- 미확인·추가 확인: 회원 전용(VIP) 특정 혜택의 구체적 내용 미확인
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[058] Bob's Red Mill
+================================================================================
+발견 URL: https://www.bobsredmill.com
+최종 URL: https://www.bobsredmill.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치, 전체 제품 라인업 판매
+조사 시각: 2026-07-30T15:42:00+09:00
+사용한 검색어: healthy convenience food web design
+
+[확인 페이지]
+- P1 메인: https://www.bobsredmill.com
+- P2 제품 목록 또는 서비스 목록: https://www.bobsredmill.com/shop/oats.html
+- P3 제품 상세 또는 핵심 기능: https://www.bobsredmill.com/shop/oats/organic-regular-rolled-oats.html
+- P4 추가 확인: https://www.bobsredmill.com/recipes
+- P5 추가 확인: https://www.bobsredmill.com/about-us
+
+[브랜드·제품 관찰]
+- 제품·서비스: 오츠, 밀가루, 베이킹 믹스 등 통곡물 기반 식품
+- 주요 제품 카테고리: 팬트리 필수품, 베이킹 재료, 아침식사용 곡물
+- 관찰된 타깃: 홈 쿠킹을 즐기는 사람, 건강을 생각하는 일반 소비자, 베이커
+- 관찰된 사용 상황: 가정 내 주방에서 요리하거나 전통적인 방식으로 조리하는 상황
+- 핵심 메시지·대표 카피: An employee-owned company, Inspiring joy with wholesome foods
+- 브랜드 보이스: 따뜻함, 전통적, 신뢰감, 교육적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Recipes, About Us, Store Locator, Search, Account, Cart
+- 히어로 구성: 음식 연출컷과 시즌별 프로모션, 신제품 안내
+- 메인 페이지 섹션 순서: 히어로 영역, 카테고리별 쇼핑, 추천 레시피, 브랜드 스토리, 베스트셀러
+- 제품 목록 탐색 방식: 왼쪽 사이드바에 방대한 필터가 있는 전통적인 이커머스 그리드
+- 제품 상세 정보 순서: 제품 이미지, 장바구니 담기, 상세 설명, 영양 정보, 관련 레시피
+- CTA 종류·위치: Shop Now, View Recipe, Add to Cart
+- CTA 연결 대상: 카테고리별 상품 목록, 개별 레시피 페이지
+
+[시각 관찰]
+- 전체 무드: 전통적이고 소박함(Rustic), 따뜻하고 믿음직스러움
+- 배경·여백: 따뜻한 느낌의 오프화이트, 옅은 흙색(Earthy tones) 계열
+- 타이포그래피: 로고 등에는 클래식한 세리프, UI 정보에는 읽기 쉬운 산세리프 혼용
+- 컬러 운영: 시그니처 컬러인 레드와 보조적인 자연의 색(베이지, 그린, 브라운) 활용
+- 제품·패키지 이미지: 내용물이 보이는 투명한 패키지와 전통적인 로고가 두드러짐
+- 라이프스타일 이미지: 완성된 베이킹 결과물, 따뜻한 주방 풍경, 창립자(Bob Moore)의 모습
+- 일러스트·아이콘·그래픽: Non-GMO, Organic, Kosher 등을 나타내는 인증 마크 위주
+- 제품군 구분 방식: 곡물 종류(Oats, Flour 등)와 식이 필요성(Gluten-free 등)으로 대분류
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 전통적인 영양성분표와 텍스트 기반 원재료 나열
+- 사용 방법 설명 방식: 제품 포장지 후면의 조리법 텍스트 및 연관 레시피 링크 제공
+- 숫자·배지·아이콘 사용: USDA Organic, Non-GMO Project Verified 등 공식 인증 배지 다수 사용
+- 비교표·필터 유무: 식이성, 카테고리, 가격 등 매우 상세한 사이드바 필터 존재
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 기본적인 정적 스크롤
+- 이미지 전환·확대·회전: 상품 목록에서 마우스 호버 시 두 번째 이미지 또는 퀵 뷰 노출
+- 탭·아코디언·필터: 제품 설명, 영양 정보, 리뷰, 해당 제품을 활용한 레시피 등을 탭으로 구분
+- 옵션 선택 반응: 용량/무게 선택 시 드롭다운 형태의 기본 UI
+- 모바일 메뉴: 전통적인 햄버거 메뉴 내 중첩된 아코디언 형태의 카테고리 목록
+- 모바일 콘텐츠 흐름: 상하 스크롤 위주, 상세 필터는 토글 버튼 뒤로 숨김 처리
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 단순 소비재가 아닌 요리 재료로서 '레시피(Recipes)' 연계가 매우 강력함
+- 반복 패턴: 대형 종합 식품몰의 표준적인 레이아웃(좌측 필터, 우측 그리드)
+- 구현 복잡도: 방대한 제품 데이터베이스와 레시피 간의 교차 연결 시스템
+- 미확인·추가 확인: 레시피 내 재료 일괄 장바구니 담기 기능 유무
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[059] Purely Elizabeth
+================================================================================
+발견 URL: https://purelyelizabeth.com
+최종 URL: https://purelyelizabeth.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치, 전체 제품군 판매
+조사 시각: 2026-07-30T15:42:00+09:00
+사용한 검색어: healthy convenience food web design
+
+[확인 페이지]
+- P1 메인: https://purelyelizabeth.com
+- P2 제품 목록 또는 서비스 목록: https://purelyelizabeth.com/collections/granola
+- P3 제품 상세 또는 핵심 기능: https://purelyelizabeth.com/products/original-ancient-grain-granola
+- P4 추가 확인: https://purelyelizabeth.com/pages/our-story
+- P5 추가 확인: https://purelyelizabeth.com/blogs/recipes
+
+[브랜드·제품 관찰]
+- 제품·서비스: 고대 곡물(Ancient grains)을 활용한 그래놀라, 오트밀, 시리얼
+- 주요 제품 카테고리: 건강한 아침식사, 자연식품 스낵
+- 관찰된 타깃: 성분과 웰니스를 중시하는 건강 지향적 소비자
+- 관찰된 사용 상황: 요거트 토핑, 간편한 시리얼 볼, 건강한 간식
+- 핵심 메시지·대표 카피: Live Purely, Nourishing ingredients such as ancient grains
+- 브랜드 보이스: 웰니스 지향적, 깨끗함, 영감을 줌, 부드러움
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Recipes, Our Story, Store Locator, Rewards, Cart
+- 히어로 구성: 미학적으로 연출된 아침식사 보울 이미지와 깔끔한 타이포그래피
+- 메인 페이지 섹션 순서: 히어로 영역, 카테고리별 쇼핑, 베스트셀러, 핵심 원재료 하이라이트, 레시피 영감, 인스타그램 피드
+- 제품 목록 탐색 방식: 부드러운 호버 효과를 가진 깔끔한 제품 그리드와 빠른 장바구니 담기
+- 제품 상세 정보 순서: 이미지 갤러리, 단품/구독 선택, 섭취 이점, 원재료, 고객 리뷰
+- CTA 종류·위치: Shop All, Add to Bag, Subscribe
+- CTA 연결 대상: 전체 상품 목록 및 장바구니
+
+[시각 관찰]
+- 전체 무드: 깨끗함(Clean), 미학적, 프리미엄 자연주의
+- 배경·여백: 화이트 또는 부드러운 파스텔, 베이지 톤의 넓은 여백
+- 타이포그래피: 우아한 세리프 헤더와 깔끔한 산세리프 본문의 조화
+- 컬러 운영: 차분하고 자연스러운 얼시(Earthy) 톤, 패키지 컬러 포인트
+- 제품·패키지 이미지: 깨끗한 흰 배경 위 핵심 원재료가 잘 보이는 패키지 정면샷
+- 라이프스타일 이미지: 자연광을 활용한 미학적인 푸드 스타일링(요거트 보울 등)
+- 일러스트·아이콘·그래픽: Certified Gluten-Free, Vegan 등을 나타내는 미니멀 아이콘
+- 제품군 구분 방식: 그래놀라, 오트밀, 시리얼 등 제품 형태별 분류
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 고대 곡물 등 슈퍼푸드 원재료 이미지를 시각적으로 강조
+- 사용 방법 설명 방식: 우유나 요거트와 함께 연출된 고품질 라이프스타일 이미지로 전달
+- 숫자·배지·아이콘 사용: 미니멀한 디자인의 식이 정보 배지
+- 비교표·필터 유무: 맛이나 식이 필요성에 따른 간단한 드롭다운 또는 상단 필터 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 아래에서 위로 올라오는 부드러운 페이드인
+- 이미지 전환·확대·회전: 호버 시 포장을 벗어난 내용물 이미지 또는 연출컷 노출
+- 탭·아코디언·필터: 영양 성분표, 원재료, 먹는 방법(How to Enjoy)을 아코디언으로 구성
+- 옵션 선택 반응: 1개, 3개, 6개 등 팩 크기 선택 시 버튼 활성화 토글
+- 모바일 메뉴: 깔끔한 타이포그래피 중심의 햄버거 메뉴
+- 모바일 콘텐츠 흐름: 모바일에 최적화된 1열 그리드 및 연관 상품 가로 스크롤
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: '고대 곡물'이라는 특정 원재료 퀄리티를 시각적으로 고급스럽게 포장
+- 반복 패턴: 레시피 블로그 콘텐츠와 인스타그램 UGC 피드를 홈페이지 내 적극 연동
+- 구현 복잡도: 깔끔하고 미니멀한 UI 구현 자체의 난이도는 평이한 수준
+- 미확인·추가 확인: Rewards(리워드) 프로그램의 세부 작동 방식 미확인
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[060] Seven Sundays
+================================================================================
+발견 URL: https://www.sevensundays.com
+최종 URL: https://www.sevensundays.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명 일치, 전체 제품 판매
+조사 시각: 2026-07-30T15:42:00+09:00
+사용한 검색어: modern food packaging website
+
+[확인 페이지]
+- P1 메인: https://www.sevensundays.com
+- P2 제품 목록 또는 서비스 목록: https://www.sevensundays.com/collections/all
+- P3 제품 상세 또는 핵심 기능: https://www.sevensundays.com/products/real-cocoa-sunflower-cereal
+- P4 추가 확인: https://www.sevensundays.com/pages/our-story
+- P5 추가 확인: https://www.sevensundays.com/pages/store-locator
+
+[브랜드·제품 관찰]
+- 제품·서비스: 해바라기씨 시리얼, 뮤즐리, 귀리 단백질 시리얼
+- 주요 제품 카테고리: 아침식사용 시리얼, 뮤즐리, 업사이클링 식품
+- 관찰된 타깃: 친환경 및 건강을 중시하는 가족 단위 및 개인 소비자
+- 관찰된 사용 상황: 아침에 우유와 함께 먹는 캐주얼한 식사, 간식
+- 핵심 메시지·대표 카피: Real food breakfast, High Protein, Low Sugar
+- 브랜드 보이스: 친근함, 투명성, 지속가능성, 커뮤니티 지향적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Our Story, Impact, Store Locator, Account, Cart
+- 히어로 구성: 굵고 유쾌한 타이포그래피와 생동감 있는 제품 연출 이미지
+- 메인 페이지 섹션 순서: 히어로 영역, 제품 캐러셀, 핵심 가치(No refined sugar, Upcycled), 브랜드 스토리, 리뷰
+- 제품 목록 탐색 방식: 컬러풀한 그리드 배열, 명확한 맛 표기와 구매 버튼
+- 제품 상세 정보 순서: 제품 이미지, 기존 시리얼과의 영양 비교, 원재료 딥다이브, 정기배송 옵션
+- CTA 종류·위치: Shop Now, Add to Cart, Find in Store
+- CTA 연결 대상: 컬렉션, 개별 상품 페이지, 매장 찾기
+
+[시각 관찰]
+- 전체 무드: 유쾌함, 친근함, 친환경적이면서도 생동감 넘침
+- 배경·여백: 따뜻한 오프화이트 배경과 각 제품 패키지에 맞춘 강렬한 컬러 블로킹
+- 타이포그래피: 헤더에는 굵고 유쾌한 세리프/디스플레이 폰트, 본문은 산세리프
+- 컬러 운영: 패키지에서 차용한 옐로우, 블루, 레드 등 밝고 원색적인 컬러 활용
+- 제품·패키지 이미지: 타이포그래피와 일러스트가 돋보이는 컬러풀한 패키지 전면 이미지
+- 라이프스타일 이미지: 가족이 함께 시리얼을 먹는 장면, 알록달록한 아침 식탁 풍경
+- 일러스트·아이콘·그래픽: Upcycled Certified, Glyphosate Residue Free 등의 인증 아이콘
+- 제품군 구분 방식: 해바라기씨 시리얼, 오트 프로틴 시리얼, 뮤즐리 라인업으로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 업사이클링 재료(해바라기씨, 귀리 단백질)의 출처와 가치를 강조
+- 사용 방법 설명 방식: 우유나 요거트 보울에 담긴 직관적인 비주얼
+- 숫자·배지·아이콘 사용: Upcycled, No Refined Sugar, Plant-Based 등 직관적인 원형 배지
+- 비교표·필터 유무: 제품 라인업 단위의 기본적인 필터링 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 가벼운 패럴랙스와 다채로운 배경색 전환 효과
+- 이미지 전환·확대·회전: 호버 시 패키지 뒷면 영양성분표나 내용물이 담긴 보울 컷 노출
+- 탭·아코디언·필터: 영양 성분표, 원재료, 원산지(Sourcing) 정보를 아코디언으로 제공
+- 옵션 선택 반응: 맛이나 팩 수량(3-pack, 6-pack) 클릭 시 활성화 표시
+- 모바일 메뉴: 터치 영역이 넓은 대형 햄버거 메뉴
+- 모바일 콘텐츠 흐름: 1열 스크롤 구성, 화면 하단 스티키(Sticky) 장바구니 버튼
+- 확인 수준: verified
+
+[객관적 연구 메모]
+- 고유 관찰: 타사 일반 시리얼 브랜드와의 직접적인 당/단백질 수치 비교표를 PDP에 노출
+- 반복 패턴: D2C 시리얼 브랜드 특유의 유쾌한 팝 컬러 사용
+- 구현 복잡도: 섹션 별로 배경 컬러가 자연스럽게 전환되는 뷰포트 기반 스크롤 효과
+- 미확인·추가 확인: Impact 리포트의 세부적인 데이터 업데이트 주기
+
+조사 상태: completed
+--------------------------------------------------------------------------------

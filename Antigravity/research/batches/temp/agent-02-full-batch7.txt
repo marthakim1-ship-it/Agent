@@ -1,0 +1,335 @@
+================================================================================
+[146] Four Sigmatic
+================================================================================
+발견 URL: https://us.foursigmatic.com
+최종 URL: https://us.foursigmatic.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 도메인 일치
+조사 시각: 2026-07-30T16:08:18+09:00
+사용한 검색어: 사전 할당
+
+[확인 페이지]
+- P1 메인: https://us.foursigmatic.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 버섯 커피 및 대체품
+- 주요 제품 카테고리: 커피, 보충제
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: Shop the original mushroom coffee
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[147] Mud Wtr
+================================================================================
+발견 URL: https://mudwtr.com
+최종 URL: https://mudwtr.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 도메인 일치
+조사 시각: 2026-07-30T16:08:18+09:00
+사용한 검색어: 사전 할당
+
+[확인 페이지]
+- P1 메인: https://mudwtr.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 커피 대체품
+- 주요 제품 카테고리: 음료
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[148] Ryze Mushroom Coffee
+================================================================================
+발견 URL: https://www.ryzesuperfoods.com
+최종 URL: https://www.ryzesuperfoods.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 도메인 일치
+조사 시각: 2026-07-30T16:08:18+09:00
+사용한 검색어: 사전 할당
+
+[확인 페이지]
+- P1 메인: https://www.ryzesuperfoods.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 버섯 커피
+- 주요 제품 카테고리: 음료
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[149] Everyday Dose
+================================================================================
+발견 URL: https://www.everydaydose.com
+최종 URL: https://www.everydaydose.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 도메인 일치
+조사 시각: 2026-07-30T16:08:18+09:00
+사용한 검색어: 사전 할당
+
+[확인 페이지]
+- P1 메인: https://www.everydaydose.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 커피 대체품
+- 주요 제품 카테고리: 음료
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[150] Rasa Coffee Alternative
+================================================================================
+발견 URL: https://werasa.com
+최종 URL: https://werasa.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 도메인 일치
+조사 시각: 2026-07-30T16:08:18+09:00
+사용한 검색어: 사전 할당
+
+[확인 페이지]
+- P1 메인: https://werasa.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 커피 대체품
+- 주요 제품 카테고리: 음료
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: not_verified
+
+조사 상태: partial
+--------------------------------------------------------------------------------

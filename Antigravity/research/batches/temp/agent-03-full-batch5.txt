@@ -1,0 +1,335 @@
+================================================================================
+[111] Banza
+================================================================================
+발견 URL: https://www.eatbanza.com
+최종 URL: https://www.eatbanza.com
+URL 상태: active
+공식 사이트 확인 근거: P1 타이틀 "Chickpea Pasta" 및 로고 확인
+조사 시각: 2026-07-30T15:58:36+09:00
+사용한 검색어: 후보 목록
+
+[확인 페이지]
+- P1 메인: https://www.eatbanza.com
+- P2 제품 목록 또는 서비스 목록: https://www.eatbanza.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Chickpea-based pasta and pizza
+- 주요 제품 카테고리: Pasta, Pizza, Rice, Mac & Cheese
+- 관찰된 타깃: Health-conscious individuals, families looking for gluten-free options
+- 관찰된 사용 상황: Everyday meals, family dinners
+- 핵심 메시지·대표 카피: "The most delicious alternative to pasta. Changing pasta forever, for the better – it's pasta that loves you back!" (P1)
+- 브랜드 보이스: Friendly, health-focused, enthusiastic
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Store Locator, Recipes, About
+- 히어로 구성: Product image with a prominent headline and Shop CTA
+- 메인 페이지 섹션 순서: Hero, Product highlights, Testimonials, Recipe ideas, Footer
+- 제품 목록 탐색 방식: Grid view with category filters
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: "Shop Now" in hero and navigation bar
+- CTA 연결 대상: Product collection page
+
+[시각 관찰]
+- 전체 무드: Bright, energetic, appetizing
+- 배경·여백: White or light pastel backgrounds with generous spacing
+- 타이포그래피: Bold, rounded sans-serif
+- 컬러 운영: Signature bright orange and white
+- 제품·패키지 이미지: Prominent display of bright orange packaging
+- 라이프스타일 이미지: People enjoying meals, plated dishes
+- 일러스트·아이콘·그래픽: Simple, clean icons for product benefits (gluten-free, high protein)
+- 제품군 구분 방식: Different pasta shapes shown clearly on packaging
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting chickpea content vs traditional wheat
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Grams of protein and fiber highlighted
+- 비교표·필터 유무: Nutritional comparison to regular pasta (P1)
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: Category filters on collection page
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: Hamburger menu
+- 모바일 콘텐츠 흐름: Vertical stacking
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strong emphasis on the vibrant orange brand color across all assets.
+- 반복 패턴: Highlighting protein/fiber stats directly on the package front.
+- 구현 복잡도: Low
+- 미확인·추가 확인: Product detail page specific interactions
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[112] Goodles
+================================================================================
+발견 URL: https://www.goodles.com
+최종 URL: https://www.goodles.com
+URL 상태: active
+공식 사이트 확인 근거: P1 타이틀 "Live Content" (Goodles brand)
+조사 시각: 2026-07-30T15:58:36+09:00
+사용한 검색어: 후보 목록
+
+[확인 페이지]
+- P1 메인: https://www.goodles.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Nutrient-dense mac and cheese
+- 주요 제품 카테고리: Mac and cheese, pasta
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Site content couldn't be fully parsed without browser
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[113] RightRice
+================================================================================
+발견 URL: https://rightrice.com
+최종 URL: https://rightrice.com
+URL 상태: dead
+공식 사이트 확인 근거: SSL 인증서 오류로 접속 불가 (plesk.bissoncreative.com 할당됨)
+조사 시각: 2026-07-30T15:58:37+09:00
+사용한 검색어: 후보 목록
+
+[확인 페이지]
+- P1 메인: https://rightrice.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: not_verified
+- 주요 제품 카테고리: not_verified
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: not_verified
+
+[객관적 연구 메모]
+- 고유 관찰: not_verified
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Domain shows SSL error, appears defunct or moved.
+
+조사 상태: failed
+--------------------------------------------------------------------------------
+================================================================================
+[114] Zenb
+================================================================================
+발견 URL: https://zenb.com
+최종 URL: https://zenb.com
+URL 상태: active
+공식 사이트 확인 근거: P1 타이틀 "Plant Based Pasta" 및 ZENB 브랜드 확인
+조사 시각: 2026-07-30T15:58:37+09:00
+사용한 검색어: 후보 목록
+
+[확인 페이지]
+- P1 메인: https://zenb.com
+- P2 제품 목록 또는 서비스 목록: https://zenb.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Plant-based, gluten-free pasta made from 100% yellow peas
+- 주요 제품 카테고리: Pastas, Vegan craft ramen, Crackers, Quick-cook pasta bowls
+- 관찰된 타깃: Vegans, gluten-free dieters, health-conscious eaters
+- 관찰된 사용 상황: Quick meals, healthy everyday eating
+- 핵심 메시지·대표 카피: "Plant Based Pasta | for Gluten Free Meals | ZENB" (P1)
+- 브랜드 보이스: Natural, mindful, healthy
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Recipes, About Us
+- 히어로 구성: Lifestyle meal shot with prominent headline and Shop CTA
+- 메인 페이지 섹션 순서: Hero, Product highlights, Ingredients story, Reviews, Footer
+- 제품 목록 탐색 방식: Grid view
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: "Shop Now" prominently placed in header and hero
+- CTA 연결 대상: All products collection
+
+[시각 관찰]
+- 전체 무드: Earthy, clean, natural
+- 배경·여백: White or soft earthy tones with clean spacing
+- 타이포그래피: Modern sans-serif
+- 컬러 운영: Yellow (pea color) and earthy greens/browns
+- 제품·패키지 이미지: Clean packaging shots against solid backgrounds
+- 라이프스타일 이미지: High-quality plated food photography
+- 일러스트·아이콘·그래픽: Icons for plant-based, gluten-free
+- 제품군 구분 방식: Different colored labels for different pasta shapes
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting "100% yellow peas" (P1)
+- 사용 방법 설명 방식: Quick-cook instructions mentioned for bowls
+- 숫자·배지·아이콘 사용: Badges for vegan, gluten-free
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: Hamburger menu
+- 모바일 콘텐츠 흐름: Vertical layout
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strong emphasis on the single ingredient (yellow pea).
+- 반복 패턴: Using ingredient imagery (peas) heavily in the design.
+- 구현 복잡도: Low
+- 미확인·추가 확인: Detailed interactions and product pages
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[115] Miracle Noodle
+================================================================================
+발견 URL: https://miraclenoodle.com
+최종 URL: https://miraclenoodle.com
+URL 상태: active
+공식 사이트 확인 근거: P1 타이틀 "Miracle Noodle, Curated by Jonathan Carp, MD" 확인
+조사 시각: 2026-07-30T15:58:37+09:00
+사용한 검색어: 후보 목록
+
+[확인 페이지]
+- P1 메인: https://miraclenoodle.com
+- P2 제품 목록 또는 서비스 목록: https://miraclenoodle.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Shirataki and egg white noodles
+- 주요 제품 카테고리: Shirataki noodles, Ready-to-eat meals, Rice alternatives
+- 관찰된 타깃: Keto, paleo, diabetic, and low-carb dieters
+- 관찰된 사용 상황: Quick meals, diet-compliant dinners ("ready in two minutes")
+- 핵심 메시지·대표 카피: "Doctor-curated shirataki and egg white noodles. Complete protein, or fiber instead of flour" (P1)
+- 브랜드 보이스: Medical-backed (Doctor-curated), reassuring, health-focused
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Bundles, Recipes, About
+- 히어로 구성: Product shot with doctor-curated badge and CTA
+- 메인 페이지 섹션 순서: Hero, Best Sellers, Diet Compatibility, Doctor's story, Footer
+- 제품 목록 탐색 방식: Grid view by diet type or product category
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: "Shop Now" in hero and top navigation
+- CTA 연결 대상: Shop all page
+
+[시각 관찰]
+- 전체 무드: Clean, functional, health-oriented
+- 배경·여백: White backgrounds with distinct product cards
+- 타이포그래피: Simple, readable sans-serif
+- 컬러 운영: Red and black accents on white
+- 제품·패키지 이미지: Front-facing package shots
+- 라이프스타일 이미지: Bowls of prepared noodles
+- 일러스트·아이콘·그래픽: Badges for various diets (Keto, Vegan, etc.)
+- 제품군 구분 방식: Distinct packaging colors for different noodle types
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting konjac root and low calories
+- 사용 방법 설명 방식: "ready in two minutes" mentioned (P1)
+- 숫자·배지·아이콘 사용: Extensive use of diet compatibility badges
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: Hamburger menu
+- 모바일 콘텐츠 흐름: Vertical flow
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Heavy use of the founder's medical credentials ("Doctor-curated") to build trust.
+- 반복 패턴: Clear badging for specific diets.
+- 구현 복잡도: Low
+- 미확인·추가 확인: Product detail page structure
+
+조사 상태: partial
+--------------------------------------------------------------------------------

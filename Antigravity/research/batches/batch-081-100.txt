@@ -1,0 +1,1340 @@
+================================================================================
+[081] Daily Harvest
+================================================================================
+발견 URL: https://www.daily-harvest.com/app/browse/smoothies
+최종 URL: https://www.daily-harvest.com
+URL 상태: active
+공식 사이트 확인 근거: Organic Smoothies 타이틀 확인 (https://www.daily-harvest.com)
+조사 시각: 2026-07-30T15:50:00+09:00
+사용한 검색어: 없음
+
+[확인 페이지]
+- P1 메인: https://www.daily-harvest.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Organic Smoothies, Oat Bowls & Elixirs
+- 주요 제품 카테고리: 스무디, 오트볼
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: 일상적인 영양 섭취 루틴
+- 핵심 메시지·대표 카피: Your daily nourishment routine, simplified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 정기 구독 없이 이용 가능(No subscription needed) 명시
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: UI/UX 시각적 구성
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[082] Revive Superfoods
+================================================================================
+발견 URL: https://revivesuperfoods.com
+최종 URL: https://revivesuperfoods.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드 도메인 접속 확인 (https://revivesuperfoods.com)
+조사 시각: 2026-07-30T15:50:00+09:00
+사용한 검색어: 없음
+
+[확인 페이지]
+- P1 메인: https://revivesuperfoods.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 건강 식품 및 슈퍼푸드
+- 주요 제품 카테고리: 슈퍼푸드
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: not_verified
+- 핵심 메시지·대표 카피: not_verified
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 동적 로딩 콘텐츠로 구성됨(Live Content)
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: SPA 또는 자바스크립트 렌더링 의존성 높음
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[083] Evive Smoothie
+================================================================================
+발견 URL: https://evivesmoothie.com
+최종 URL: https://evivesmoothie.com
+URL 상태: active
+공식 사이트 확인 근거: 스무디 큐브 제품 소개 확인 (https://evivesmoothie.com)
+조사 시각: 2026-07-30T15:50:00+09:00
+사용한 검색어: 없음
+
+[확인 페이지]
+- P1 메인: https://evivesmoothie.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 냉동 스무디 큐브
+- 주요 제품 카테고리: 스무디 큐브
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: 간편한 아침 식사
+- 핵심 메시지·대표 카피: Ton smoothie parfait, simplifié | Ajoutes seulement de l'eau
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 냉동 큐브 형태로 물만 추가(Ajoutes seulement de l'eau)
+- 사용 방법 설명 방식: 8개의 큐브를 넣고 250ml 물을 더한 뒤 섞음
+- 숫자·배지·아이콘 사용: 8 cubes, 250ml 등 숫자 강조
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 오프라인(식료품점) 및 온라인 구매 동시 제공 안내
+- 반복 패턴: 사용 방법 단순화(물만 추가)
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 프랑스어 중심 콘텐츠 구성
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[084] Blender Bombs
+================================================================================
+발견 URL: https://blenderbombs.com
+최종 URL: https://blenderbombs.com
+URL 상태: active
+공식 사이트 확인 근거: 스무디 부스터(Bomb Co) 확인 (https://blenderbombs.com)
+조사 시각: 2026-07-30T15:50:00+09:00
+사용한 검색어: 없음
+
+[확인 페이지]
+- P1 메인: https://blenderbombs.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 스무디 부스터(Smoothie booster)
+- 주요 제품 카테고리: 스무디 첨가물, 부스터
+- 관찰된 타깃: 설탕 섭취를 줄이고 포만감을 원하는 소비자
+- 관찰된 사용 상황: 스무디 제조 시 추가
+- 핵심 메시지·대표 카피: Blender Bombs make smoothies easy, delicious and nutritious.
+- 브랜드 보이스: 실용적이고 직관적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 대추, 견과류, 씨앗, 꿀 등의 실제 식재료(whole food) 혼합물로 설명
+- 사용 방법 설명 방식: 스무디에 넣어 사용
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 포만감 지속 및 설탕 욕구 억제(curb sugar cravings) 강조
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 시각적 상품 패키지 표현
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[085] Subi Superfoods
+================================================================================
+발견 URL: https://my-subi.com
+최종 URL: https://getsubi.com
+URL 상태: redirected
+공식 사이트 확인 근거: Raw food powder 판매 확인 (https://getsubi.com)
+조사 시각: 2026-07-30T15:50:00+09:00
+사용한 검색어: Subi Superfoods website
+
+[확인 페이지]
+- P1 메인: https://getsubi.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 일상 생식 파우더(Everyday Raw food powder)
+- 주요 제품 카테고리: 슈퍼푸드 파우더
+- 관찰된 타깃: not_verified
+- 관찰된 사용 상황: 매일 섭취하는 식품 파우더
+- 핵심 메시지·대표 카피: Your Everyday Raw food powder
+- 브랜드 보이스: not_verified
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 가공되지 않은(Raw) 파우더 형태
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 기존 my-subi.com 도메인이 getsubi.com으로 전환됨
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 구체적인 섭취 방법 안내
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[086] AG1
+================================================================================
+발견 URL: https://drinkag1.com
+최종 URL: https://drinkag1.com/
+URL 상태: active
+공식 사이트 확인 근거: AG1 공식 도메인에서 AG1 Next Gen, AG1 Pro, AGZ, Omega3 제품군과 과학·구매 페이지를 확인
+조사 시각: 2026-07-30T17:18:06+09:00
+사용한 검색어: AG1 official daily health drink products
+
+[확인 페이지]
+- P1 메인: https://drinkag1.com/
+- P2 제품 목록 또는 서비스 목록: https://drinkag1.com/shop
+- P3 제품 상세 또는 핵심 기능: https://drinkag1.com/products/greens-powder-pouch
+- P4 추가 확인: https://drinkag1.com/science
+- P5 추가 확인: https://drinkag1.com/about
+
+[브랜드·제품 관찰]
+- 제품·서비스: 일일 영양 파우더 AG1 Next Gen과 Pro, 수면 지원 AGZ, Omega3, 비타민 제품
+- 주요 제품 카테고리: AG1, AG1 Pro, AGZ, AG Omega3, Vitamin D3 + K2
+- 관찰된 타깃: 간편한 아침 건강 루틴과 영양 보완을 원하는 성인
+- 관찰된 사용 상황: 매일 아침 물에 섞어 마시는 루틴, 운동·회복·수면 보완
+- 핵심 메시지·대표 카피: Experience the Daily Health Drink for all-in-one nutrition
+- 브랜드 보이스: 과학적 근거, 전문가 신뢰와 루틴 형성을 강조하는 자신감 있는 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Science, Explore, Sign In
+- 히어로 구성: 제품 파우치·음료 이미지, 인물 신뢰 요소, Get Started CTA
+- 메인 페이지 섹션 순서: 신제품 -> 일일 루틴 -> 리뷰·전문가 -> 효능 -> 제품 비교 -> 인증
+- 제품 목록 탐색 방식: 제품 목적별 카드와 Shop All 페이지
+- 제품 상세 정보 순서: 핵심 효능 -> 구성 -> 섭취법 -> 성분·과학 -> 구매 옵션
+- CTA 종류·위치: Get Started, Shop Now, Learn More, Try AG1 Pro
+- CTA 연결 대상: 제품 상세와 구매 플로우
+
+[시각 관찰]
+- 전체 무드: 프리미엄 웰니스와 과학적 신뢰를 결합한 구성
+- 배경·여백: 밝은 중성 배경과 짙은 녹색 섹션
+- 타이포그래피: 큰 효능 중심 헤드라인과 짧은 설명
+- 컬러 운영: AG1 녹색, 흰색, 검정 중심
+- 제품·패키지 이미지: 파우치, 스쿱, 쉐이커와 완성 음료를 반복 노출
+- 라이프스타일 이미지: 아침 루틴과 운동 인물 이미지
+- 일러스트·아이콘·그래픽: NSF 인증, 연구, 효능 아이콘
+- 제품군 구분 방식: 일일 영양, 퍼포먼스, 수면, 오메가 지원 목적별 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 기본 포뮬러와 Pro의 추가 성분·효능을 비교
+- 사용 방법 설명 방식: 매일 한 스쿱을 물에 섞는 루틴 중심 안내
+- 숫자·배지·아이콘 사용: 60,000+ 리뷰, NSF Certified for Sport, 성분 용량 표기
+- 비교표·필터 유무: AG1 Next Gen과 AG1 Pro 제품 비교표 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: 제품 카드와 비교 영역 이미지 전환 구조 확인
+- 탭·아코디언·필터: 제품 상세 FAQ·정보 영역 구조 확인
+- 옵션 선택 반응: 구독과 일회 구매 선택 구조 확인
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial (콘텐츠·구조 확인, 모바일 동작 미검증)
+
+[객관적 연구 메모]
+- 고유 관찰: 단일 루틴 제품에서 목적별 포트폴리오로 확장하면서 비교 UI를 사용
+- 반복 패턴: 효능 메시지, 사회적 증거, 인증, 구독 CTA의 반복
+- 구현 복잡도: 제품 비교, 구독 옵션과 지역별 구매 플로우
+- 미확인·추가 확인: 실제 모바일 비교표와 구독 선택 반응
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[087] Bloom Nutrition
+================================================================================
+발견 URL: https://bloomnu.com
+최종 URL: https://bloomnu.com
+URL 상태: active
+공식 사이트 확인 근거: 도메인 일치 및 공식 스토어 확인
+조사 시각: 2026-07-30T15:50:26+09:00
+사용한 검색어: Bloom Nutrition official website
+
+[확인 페이지]
+- P1 메인: https://bloomnu.com
+- P2 제품 목록 또는 서비스 목록: https://bloomnu.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 여성용 건강 및 웰니스 보충제
+- 주요 제품 카테고리: Greens & Superfoods, 단백질, 프리워크아웃
+- 관찰된 타깃: 20~30대 여성
+- 관찰된 사용 상황: 운동 전후, 일상 활력 보충
+- 핵심 메시지·대표 카피: Health and Wellness Supplements for Women
+- 브랜드 보이스: 밝고 친근한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 카테고리 중심 메뉴 구성
+- 히어로 구성: 제품 이미지 및 여성 모델 배너
+- 메인 페이지 섹션 순서: 히어로 영역, 베스트셀러, 성분 소개, 리뷰
+- 제품 목록 탐색 방식: 카테고리 필터링
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 배너 중앙 및 리스트 하단 (Shop Now)
+- CTA 연결 대상: 제품 목록 페이지
+
+[시각 관찰]
+- 전체 무드: 화사하고 활동적인 분위기
+- 배경·여백: 밝은 배경과 넓은 여백
+- 타이포그래피: 직관적인 산세리프
+- 컬러 운영: 파스텔톤, 주로 핑크와 그린 계열
+- 제품·패키지 이미지: 밝은 톤의 제품 팩샷
+- 라이프스타일 이미지: 운동하는 여성 사진 다수
+- 일러스트·아이콘·그래픽: 성분 강조 아이콘
+- 제품군 구분 방식: 패키지 라벨 컬러 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 주요 성분 리스트 나열
+- 사용 방법 설명 방식: 텍스트 기반 섭취 방법 안내
+- 숫자·배지·아이콘 사용: 기능성 성분 아이콘 사용
+- 비교표·필터 유무: 제품 목록에 카테고리 필터 존재
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 부드러운 스크롤 애니메이션
+- 이미지 전환·확대·회전: 호버 시 이미지 전환
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 햄버거 메뉴 제공
+- 모바일 콘텐츠 흐름: 1단 세로 스크롤
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 여성 타깃에 맞춘 화사한 컬러 톤
+- 반복 패턴: 베스트셀러 중심의 제품 노출
+- 구현 복잡도: 일반적인 쇼핑몰 수준
+- 미확인·추가 확인: 상세 페이지 구조 미확인
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[088] Organifi
+================================================================================
+발견 URL: https://www.organifishop.com
+최종 URL: https://www.organifishop.com
+URL 상태: active
+공식 사이트 확인 근거: 도메인 일치 및 공식 쇼핑몰 운영 확인
+조사 시각: 2026-07-30T15:50:29+09:00
+사용한 검색어: Organifi official website
+
+[확인 페이지]
+- P1 메인: https://www.organifishop.com
+- P2 제품 목록 또는 서비스 목록: https://www.organifishop.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 오가닉 슈퍼푸드 블렌드 파우더
+- 주요 제품 카테고리: 그린 주스, 레드 주스, 골드 등 기능성 블렌드
+- 관찰된 타깃: 건강과 웰니스에 관심 많은 성인
+- 관찰된 사용 상황: on the go, 간편한 영양 섭취
+- 핵심 메시지·대표 카피: perfect dose of nutrition on the go
+- 브랜드 보이스: 자연 친화적, 신뢰감 주는 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Our Story 등 직관적 구성
+- 히어로 구성: 자연 원료 이미지와 대표 제품 배치
+- 메인 페이지 섹션 순서: 히어로 영역, 대표 상품, 효능 안내
+- 제품 목록 탐색 방식: 제품 기능별 탐색
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 메인 배너 하단 (Shop Now)
+- CTA 연결 대상: 전체 상품 목록
+
+[시각 관찰]
+- 전체 무드: 오가닉하고 건강한 분위기
+- 배경·여백: 흰색 배경 기반 여유로운 배치
+- 타이포그래피: 깔끔하고 모던한 서체
+- 컬러 운영: 그린 및 어스 톤 컬러
+- 제품·패키지 이미지: 통 및 파우치 중심의 정면 샷
+- 라이프스타일 이미지: 식물과 함께 촬영된 제품 사진
+- 일러스트·아이콘·그래픽: 성분(비건, 글루텐프리) 배지
+- 제품군 구분 방식: 라벨 컬러(그린, 레드, 골드)로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 함유된 주요 원료 나열
+- 사용 방법 설명 방식: 물에 타먹는 방식 안내
+- 숫자·배지·아이콘 사용: 설탕 3g 미만 등 핵심 숫자 강조
+- 비교표·필터 유무: 기능별 필터
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 페이드 인 애니메이션
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: FAQ 형태의 아코디언 제공 추정
+- 옵션 선택 반응: 단품/구독 선택지 제공
+- 모바일 메뉴: 일반적인 모바일 최적화 메뉴
+- 모바일 콘텐츠 흐름: 수직 스택 배열
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 컬러 네이밍(Green, Red)을 통한 직관적 상품 인지
+- 반복 패턴: 섭취 편의성과 낮은 당 함량 강조
+- 구현 복잡도: 보통
+- 미확인·추가 확인: 옵션 선택 반응 등 디테일 추가 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[089] Amazing Grass
+================================================================================
+발견 URL: https://www.amazinggrass.com
+최종 URL: https://www.amazinggrass.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드 소개 및 제품군 안내 페이지
+조사 시각: 2026-07-30T15:50:32+09:00
+사용한 검색어: Amazing Grass official website
+
+[확인 페이지]
+- P1 메인: https://www.amazinggrass.com
+- P2 제품 목록 또는 서비스 목록: https://www.amazinggrass.com/collections
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 단백질 및 그린 슈퍼푸드
+- 주요 제품 카테고리: Green Superfood, Plant Based Protein, Effervescent
+- 관찰된 타깃: 가족 단위 소비자 및 웰니스 지향 성인
+- 관찰된 사용 상황: 일상적 영양 보충
+- 핵심 메시지·대표 카피: tasty nutritional needs for all your family
+- 브랜드 보이스: 실용적이고 대중적인 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: 카테고리별 분류 메뉴
+- 히어로 구성: 여러 제품군을 모아둔 배너
+- 메인 페이지 섹션 순서: 히어로 배너, 신제품, 인기 제품, 블로그/레시피
+- 제품 목록 탐색 방식: 제품군 리스트 나열
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Now 배너 버튼
+- CTA 연결 대상: 주요 제품군 카테고리
+
+[시각 관찰]
+- 전체 무드: 대중적이고 친근한 무드
+- 배경·여백: 흰색 여백
+- 타이포그래피: 고딕 계열의 굵은 서체 사용
+- 컬러 운영: 메인 컬러인 녹색 중심
+- 제품·패키지 이미지: 용기 및 박스 포장 패키지 샷
+- 라이프스타일 이미지: 가족 친화적이고 일상적인 컷
+- 일러스트·아이콘·그래픽: 직관적인 일러스트레이션 일부 사용
+- 제품군 구분 방식: 베이스 컬러를 녹색으로 유지하되 서브 컬러 배색
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 주원료 및 비타민 종류 명시
+- 사용 방법 설명 방식: 텍스트 안내
+- 숫자·배지·아이콘 사용: USDA 유기농 배지 등 사용
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 일반적 웹 스크롤
+- 이미지 전환·확대·회전: 제품 이미지 호버 인터랙션
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 스와이프 가능한 메뉴 및 사이드 바
+- 모바일 콘텐츠 흐름: 단일 컬럼
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 카테고리가 다양하며 레시피 제공을 통해 활용도를 높임
+- 반복 패턴: '유기농', '식물성' 키워드 반복 사용
+- 구현 복잡도: 낮음
+- 미확인·추가 확인: 상세 페이지 내 정보 제공 순서 미확인
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[090] Moon Juice
+================================================================================
+발견 URL: https://moonjuice.com
+최종 URL: https://moonjuice.com
+URL 상태: active
+공식 사이트 확인 근거: 공식 도메인 및 메타태그
+조사 시각: 2026-07-30T15:50:34+09:00
+사용한 검색어: Moon Juice official website
+
+[확인 페이지]
+- P1 메인: https://moonjuice.com
+- P2 제품 목록 또는 서비스 목록: https://moonjuice.com/collections
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 아답토젠 기반 뷰티 및 웰빙 보충제
+- 주요 제품 카테고리: Magnesi-Om, Mini Dew, SuperYou 등 기능성 블렌드
+- 관찰된 타깃: 마인드 케어와 뷰티에 관심 있는 성인
+- 관찰된 사용 상황: 스트레스 완화, 수면 및 에너지 균형 조절
+- 핵심 메시지·대표 카피: Adaptogenic Beauty & Wellbeing
+- 브랜드 보이스: 감각적이고 신비로운 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, About 등 심플한 구성
+- 히어로 구성: 감각적인 라이프스타일 컷과 상품
+- 메인 페이지 섹션 순서: 메인 비주얼, 베스트 아이템, 브랜드 철학, 후기
+- 제품 목록 탐색 방식: 라인업별 카테고리 구성
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 메인 이미지 위 심플한 텍스트 버튼
+- CTA 연결 대상: 베스트셀러 상품
+
+[시각 관찰]
+- 전체 무드: 신비롭고 미니멀하며 세련된 분위기
+- 배경·여백: 차분한 배경 컬러 및 넓은 여백
+- 타이포그래피: 고급스러운 세리프 및 모던 산세리프 혼용
+- 컬러 운영: 톤 다운된 뉴트럴 컬러 및 감각적인 포인트 컬러
+- 제품·패키지 이미지: 심플하고 모던한 패키지 디자인 샷
+- 라이프스타일 이미지: 인스타그램 감성의 감각적인 컷 다수
+- 일러스트·아이콘·그래픽: 임상 테스트 배지 및 심플한 아이콘
+- 제품군 구분 방식: 제품별 메인 타이포그래피 포인트 컬러
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 성분(adaptogen)에 대한 깊이 있는 설명 제공
+- 사용 방법 설명 방식: 감각적인 텍스트로 전달
+- 숫자·배지·아이콘 사용: 비건, 글루텐프리 등 아이콘화
+- 비교표·필터 유무: 제품 효능별 라인업 정리
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: 부드러운 패럴랙스 효과 
+- 이미지 전환·확대·회전: 마우스 오버 시 상품 클로즈업
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: 단품/구독 선택 버튼
+- 모바일 메뉴: 심플한 화면 차지 비율의 모바일 최적화
+- 모바일 콘텐츠 흐름: 수직 스택
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 뷰티와 웰니스를 결합한 신비로운 브랜드 아이덴티티
+- 반복 패턴: 스트레스 완화 및 마인드풀니스 키워드 노출
+- 구현 복잡도: 보통 (감각적 비주얼 배치가 중요)
+- 미확인·추가 확인: 상세 페이지 내 구체적 구조 파악 부족
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[091] Nuun Hydration
+================================================================================
+발견 URL: https://nuunlife.com
+최종 URL: https://nuunlife.com
+URL 상태: active
+공식 사이트 확인 근거: 타이틀 메타데이터 확인 (Nuun Hydration)
+조사 시각: 2026-07-30T15:50:11+09:00
+사용한 검색어: 지정된 후보 URL 직접 열람
+
+[확인 페이지]
+- P1 메인: https://nuunlife.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 전해질 발포정 및 수분 보충 제품
+- 주요 제품 카테고리: Hydration, Sport, Immunity, Rest
+- 관찰된 타깃: 운동선수 및 일상에서 빠른 수분 보충이 필요한 사람
+- 관찰된 사용 상황: 운동 중, 땀을 흘린 후, 일상 생활
+- 핵심 메시지·대표 카피: Transform water into a delicious, electrolyte-rich drink
+- 브랜드 보이스: 활동적, 건강 지향적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 스포티함, 청량감
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 컬러풀한 패키징 색상 활용
+- 제품·패키지 이미지: 원통형 튜브 패키지 중심
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: 튜브 라벨의 색상으로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: 물에 발포정을 떨어뜨리는 방식 강조
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 발포정 형태를 강조한 제품 시각화
+- 반복 패턴: 기능별(Sport, Immunity 등) 제품 라인업 분류
+- 구현 복잡도: 낮음
+- 미확인·추가 확인: 하위 페이지 접근 및 인터랙션 상세 확인 필요
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[092] Liquid I.V.
+================================================================================
+발견 URL: https://www.liquid-iv.com
+최종 URL: https://www.liquid-iv.com
+URL 상태: active
+공식 사이트 확인 근거: 타이틀 및 도메인 일치
+조사 시각: 2026-07-30T15:50:11+09:00
+사용한 검색어: 지정된 후보 URL 직접 열람
+
+[확인 페이지]
+- P1 메인: https://www.liquid-iv.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 전해질 수분 보충 파우더
+- 주요 제품 카테고리: Hydration Multiplier, Energy Multiplier, Sleep Multiplier
+- 관찰된 타깃: 빠른 수분 흡수를 원하는 모든 사람
+- 관찰된 사용 상황: 운동, 여행, 피로 회복
+- 핵심 메시지·대표 카피: Fueling life's adventures
+- 브랜드 보이스: 과학적 기반, 에너지 넘치는
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 밝고 에너제틱함
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 브랜드 고유의 쨍한 색상(파랑, 노랑 등)
+- 제품·패키지 이미지: 스틱 파우치 형태 강조
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: 패키지 베이스 컬러와 과일 일러스트 조합
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Cellular Transport Technology (CTT) 기술 설명
+- 사용 방법 설명 방식: 스틱 하나를 물에 섞는 간단한 방법 제시
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: CTT라는 자체 기술을 시각적, 텍스트적으로 강조함
+- 반복 패턴: 다양한 맛 옵션을 스틱 파우치 패키징과 함께 보여줌
+- 구현 복잡도: 낮음
+- 미확인·추가 확인: 개별 상품 페이지의 상세 정보 구조 확인 필요
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[093] DripDrop
+================================================================================
+발견 URL: https://dripdrop.com
+최종 URL: https://dripdrop.com
+URL 상태: active
+공식 사이트 확인 근거: 타이틀 메타데이터 확인 (DripDrop Electrolyte Packets)
+조사 시각: 2026-07-30T15:50:11+09:00
+사용한 검색어: 지정된 후보 URL 직접 열람
+
+[확인 페이지]
+- P1 메인: https://dripdrop.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: ORS 기반 전해질 수분 보충제
+- 주요 제품 카테고리: Hydration Relief
+- 관찰된 타깃: 탈수 예방이 필요한 일반인 및 전문가
+- 관찰된 사용 상황: 스포츠, 열 노출, 일상적 탈수
+- 핵심 메시지·대표 카피: Hydrate faster. Starting now.
+- 브랜드 보이스: 의학적 배경, 신뢰감, 직관적
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 깔끔함, 전문성
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 물을 연상시키는 파란색과 흰색 중심
+- 제품·패키지 이미지: 스틱형 패키지 팩 샷
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: 맛별 색상 라인 적용
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 의학적 포뮬러(ORS) 기반 성분 비율 설명
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: 전해질 3배, 설탕 절반 등 수치 강조
+- 비교표·필터 유무: 일반 스포츠 음료와의 성분 비교 언급
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 일반 음료 대비 수치적 비교를 강조하는 카피라이팅
+- 반복 패턴: 스틱 패키지와 물방울 모티프 사용
+- 구현 복잡도: 낮음
+- 미확인·추가 확인: 하위 페이지 구체적 정보 확인 필요
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[094] Waterdrop
+================================================================================
+발견 URL: https://www.waterdrop.com
+최종 URL: https://www.waterdrop.com
+URL 상태: active
+공식 사이트 확인 근거: 타이틀 메타데이터 확인 (waterdrop® Microdrink)
+조사 시각: 2026-07-30T15:50:11+09:00
+사용한 검색어: 지정된 후보 URL 직접 열람
+
+[확인 페이지]
+- P1 메인: https://www.waterdrop.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 마이크로드링크 큐브 (물에 타 먹는 고체 음료)
+- 주요 제품 카테고리: Microdrink, Microenergy, Microtea, 텀블러
+- 관찰된 타깃: 물 섭취를 늘리고 싶은 사람, 환경을 생각하는 소비자
+- 관찰된 사용 상황: 사무실, 홈카페, 외출 중
+- 핵심 메시지·대표 카피: Drink More Water
+- 브랜드 보이스: 친환경적, 세련된, 라이프스타일 중심
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 미니멀, 감성적, 모던
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 부드러운 파스텔톤과 제품별 포인트 컬러
+- 제품·패키지 이미지: 작은 큐브형 제품과 전용 텀블러 시각화
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 식물 추출물을 상징하는 그래픽 요소
+- 제품군 구분 방식: 큐브 패키지 및 라벨 컬러 변화
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 실제 과일 및 식물 추출물 성분 강조
+- 사용 방법 설명 방식: 큐브를 물에 넣는 동작 묘사
+- 숫자·배지·아이콘 사용: 플라스틱 감소, 식물성 성분 아이콘 사용
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 음료뿐 아니라 전용 보틀을 주요 제품군으로 함께 시각화함
+- 반복 패턴: 큐브가 물에 녹는 시각적 효과 연출
+- 구현 복잡도: 중간
+- 미확인·추가 확인: 상세 페이지 내 인터랙션 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[095] Cure Hydration
+================================================================================
+발견 URL: https://curehydration.com
+최종 URL: https://curehydration.com
+URL 상태: active
+공식 사이트 확인 근거: 타이틀 메타데이터 확인 (Cure Hydrating Electrolyte Drink Mixes)
+조사 시각: 2026-07-30T15:50:11+09:00
+사용한 검색어: 지정된 후보 URL 직접 열람
+
+[확인 페이지]
+- P1 메인: https://curehydration.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 코코넛 워터 기반 프리미엄 전해질 믹스
+- 주요 제품 카테고리: Hydrating Electrolyte Drink Mix
+- 관찰된 타깃: 무설탕, 유기농 원료를 선호하는 웰니스 소비자
+- 관찰된 사용 상황: 일상적 수분 보충, 운동 전후
+- 핵심 메시지·대표 카피: Premium, hydrating electrolyte drink mix
+- 브랜드 보이스: 자연 친화적, 투명한, 깨끗한
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: 오가닉, 밝고 산뜻함
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: 밝은 톤, 코코넛 워터와 핑크 솔트를 연상시키는 색감
+- 제품·패키지 이미지: 심플한 파우치 디자인
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: 맛별 단순한 색상 블록 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: 유기농 코코넛 워터, 핑크 히말라야 솔트 등 원재료 강조
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: 무설탕(No added sugar), 유기농 마크 사용
+- 비교표·필터 유무: WHO의 ORS 기준을 따름을 텍스트로 설명
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 성분의 자연스러움(코코넛 워터, 핑크 솔트)을 전면에 내세움
+- 반복 패턴: No added sugar 카피 반복 노출
+- 구현 복잡도: 낮음
+- 미확인·추가 확인: 하위 페이지 접근 불가로 미확인
+
+조사 상태: partial
+--------------------------------------------------------------------------------
+================================================================================
+[096] RxSugar
+================================================================================
+발견 URL: https://rxsugar.com
+최종 URL: https://rxsugar.com
+URL 상태: active
+공식 사이트 확인 근거: Title과 메인 로고에서 RxSugar 공식 사이트 확인됨
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 096 candidate
+
+[확인 페이지]
+- P1 메인: https://rxsugar.com
+- P2 제품 목록 또는 서비스 목록: https://rxsugar.com/pages/shop
+- P3 제품 상세 또는 핵심 기능: https://rxsugar.com/products/rxsugar-1-pound-canister
+- P4 추가 확인: https://rxsugar.com/pages/contact-us
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Zero Calorie Allulose Sugar 제품군
+- 주요 제품 카테고리: Canisters, Stick Packs, Liquid Sugar, Syrups, Flavored Sugar
+- 관찰된 타깃: 키토, 글루텐프리, 비건, 당 섭취를 줄이려는 건강 관심층
+- 관찰된 사용 상황: 일상적인 식단(베이킹, 커피, 디저트 등)에 설탕 대체제로 사용
+- 핵심 메시지·대표 카피: The World’s Best Tasting Zero Calorie Allulose Sugar. Sugar Reimagined.
+- 브랜드 보이스: 건강을 강조하며(Swealthy) 자신감 있고 명확한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Login, Contact, Help, Cart로 단순한 구성
+- 히어로 구성: 주요 제품 패키지와 핵심 카피를 배치한 텍스트+이미지 구성
+- 메인 페이지 섹션 순서: 히어로 -> 주요 제품 목록 -> 브랜드 소개/메시지 -> 푸터
+- 제품 목록 탐색 방식: 제품명과 패키지 정면/후면 이미지를 격자 형태로 나열
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop, Login 버튼이 GNB와 히어로 영역에 위치
+- CTA 연결 대상: 제품 목록 페이지 및 계정 로그인 페이지
+
+[시각 관찰]
+- 전체 무드: 깔끔하고 직관적인 이커머스 무드
+- 배경·여백: 흰색 및 검정색 배경(On-Black) 교차 사용으로 대비 강조
+- 타이포그래피: 명확하고 가독성 높은 산세리프 폰트
+- 컬러 운영: 제품 패키지 컬러에 맞춘 포인트 컬러 사용
+- 제품·패키지 이미지: 패키지 정면 및 후면 이미지를 번갈아 보여주는(Hover) 방식
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 인증 마크(Non-GMO, Keto, Vegan 등) 배치
+- 제품군 구분 방식: 제품 형태(파우더, 스틱, 액상, 시럽)에 따른 패키지 형태로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Canister, Stick Pack, Bottle 등 패키지 형태 강조
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Zero Calorie, Non-GMO, Keto 등 인증 배지를 텍스트와 함께 적극 사용
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: 제품 이미지에 hover 시 후면 이미지로 전환(swap--visible)
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 햄버거 메뉴 및 모바일 GNB 구조 사용 (표준 반응형)
+- 모바일 콘텐츠 흐름: 세로형 스크롤에 맞춰 1열/2열 재배치
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Swealthy (Sweet & Healthy)라는 독자적 키워드 사용
+- 반복 패턴: 패키지 정면/후면 호버 전환 방식
+- 구현 복잡도: 보통 (일반적인 스토어프론트 구조)
+- 미확인·추가 확인: 상세 페이지 내 설명 구조 추가 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[097] Lakanto
+================================================================================
+발견 URL: https://www.lakanto.com
+최종 URL: https://www.lakanto.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Natural Monk Fruit Sweetener : Best Sugar Substitute | Lakanto"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 097 candidate
+
+[확인 페이지]
+- P1 메인: https://www.lakanto.com
+- P2 제품 목록 또는 서비스 목록: https://www.lakanto.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Monk Fruit 기반 무가당 스위트너 및 식품류
+- 주요 제품 카테고리: Sweetener, Lifestyle, Shop By Meal (Baking, Breakfast, Snacks)
+- 관찰된 타깃: Sugar Free, Keto, Gluten Free, Nut Free, Vegan 라이프스타일 지향 소비자
+- 관찰된 사용 상황: 베이킹, 아침식사, 간식 등 다양한 식사에 활용
+- 핵심 메시지·대표 카피: Natural Monk Fruit Sweetener : Best Sugar Substitute.
+- 브랜드 보이스: 자연 친화적이고 일상적인 활용성을 강조하는 친근한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop(다중 뎁스 메가메뉴), Subscribe, Social Links 등
+- 히어로 구성: 프로모션 배너 (Free shipping, BBQ E-BOOK 등)와 주요 메시지
+- 메인 페이지 섹션 순서: 최상단 띠배너 -> GNB -> 히어로 -> 제품 카테고리
+- 제품 목록 탐색 방식: 메가메뉴를 통해 Sweetener 종류별, Lifestyle별, Meal별 세분화된 탐색 제공
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: GNB 상단에 Subscribe & Save, Free shipping 배너 배치
+- CTA 연결 대상: 프로모션 페이지, 정기구독 안내, 신제품 목록
+
+[시각 관찰]
+- 전체 무드: 풍성하고 다양한 제품군을 보여주는 마켓 무드
+- 배경·여백: 밝은 배경 중심
+- 타이포그래피: 정보량이 많은 메가메뉴를 소화하는 정돈된 텍스트 계층
+- 컬러 운영: 브랜드 고유 컬러와 프로모션 강조 컬러 혼합
+- 제품·패키지 이미지: 카테고리별 대표 제품 이미지 썸네일 활용
+- 라이프스타일 이미지: BBQ E-book 등 라이프스타일 컷 일부 사용
+- 일러스트·아이콘·그래픽: 소셜 아이콘(Facebook, Instagram 등) 상단 배치
+- 제품군 구분 방식: 블렌드 원료(Allulose vs Erythritol), 식사 용도(Baking, Breakfast) 등 카테고리 텍스트로 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: GNB에서 텍스트 분류를 통해 제품 성격 사전 안내
+- 사용 방법 설명 방식: 레시피 북(BBQ 101 E-BOOK 등)을 통한 활용법 제안
+- 숫자·배지·아이콘 사용: 가격, 할인, Free shipping 등 커머스 중심 숫자 강조
+- 비교표·필터 유무: GNB 내 필터(filter.p.m.custom.lifestyle=Keto 등)를 통한 URL 파라미터 필터 적용
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 메가메뉴 드롭다운 (Hover/Click)
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: 모바일 최적화된 아코디언 메뉴(다중 뎁스) 제공
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: GNB를 성분, 라이프스타일, 용도(Meal)로 다각화하여 필터 URL로 연결
+- 반복 패턴: 상단 띠배너를 여러 겹 사용하여 프로모션 연속 노출
+- 구현 복잡도: 높음 (다양한 필터링 기준과 메가메뉴 구조)
+- 미확인·추가 확인: 상세 페이지 내 디자인 구조 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[098] Pyure Organic
+================================================================================
+발견 URL: https://pyureorganic.com
+최종 URL: https://pyureorganic.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Pyure Organic Brand | Sweeteners, Sugar-free baking mixes and Syrups"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 098 candidate
+
+[확인 페이지]
+- P1 메인: https://pyureorganic.com
+- P2 제품 목록 또는 서비스 목록: https://pyureorganic.com/pages/shop
+- P3 제품 상세 또는 핵심 기능: https://pyureorganic.com/products/organic-liquid-stevia-sweetener-drops
+- P4 추가 확인: https://pyureorganic.com/pages/our-story
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 유기농 스테비아, 몽크프룻, 알룰로스 등 감미료 및 베이킹 믹스, 시럽
+- 주요 제품 카테고리: Sweeteners, Syrups, Hazelnut Spreads, Baking Mixes, Commercial Ingredients
+- 관찰된 타깃: 유기농, Non-GMO, 키토, 비건, 글루텐프리 소비자 및 B2B 상업용 고객
+- 관찰된 사용 상황: 일상적 디저트 섭취, 홈베이킹 및 상업용 제조
+- 핵심 메시지·대표 카피: Dessert, Reimagined.
+- 브랜드 보이스: 유기농과 혁신(sparked a sugar-free revolution)을 강조하는 자신감 있는 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Learn(Our Story, Blog 등), Commercial Ingredients 등 3개 주요 축
+- 히어로 구성: 브랜드 메시지(Dessert, Reimagined)와 쇼핑 연동 버튼 배치
+- 메인 페이지 섹션 순서: GNB -> 히어로 -> 제품 인트로(our products) -> 개별 제품 리스트
+- 제품 목록 탐색 방식: 일반 B2C 상품과 Commercial Bulk 상품을 GNB에서 분리
+- 제품 상세 정보 순서: 제품 썸네일 -> 타이틀 -> 기존가/할인가 노출
+- CTA 종류·위치: Shop Now, Learn About Us 버튼을 메인 화면 중앙에 배치
+- CTA 연결 대상: 전체 상품 목록 페이지 및 브랜드 스토리 페이지
+
+[시각 관찰]
+- 전체 무드: 깨끗하고 전문적인 유기농 브랜드 무드
+- 배경·여백: 화이트 배경으로 텍스트와 상품 이미지를 선명하게 부각
+- 타이포그래피: 직관적인 산세리프 위주의 폰트, 할인 가격에 취소선(line-through) 적용
+- 컬러 운영: 브랜드 아이덴티티 컬러(자연 친화적 색상) 위주
+- 제품·패키지 이미지: 드롭퍼(Drops) 형태 등 용기 형태가 잘 드러나는 정면 컷
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 유기농, Non-GMO 등 텍스트 배지 형태로 사용
+- 제품군 구분 방식: B2C와 B2B(Commercial) 카테고리를 명확히 분리
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Liquid Stevia Drops 등 제품 제형을 직관적인 제품명으로 설명
+- 사용 방법 설명 방식: 블로그와 레시피 페이지(Recipes) 제공을 통해 안내
+- 숫자·배지·아이콘 사용: Organic Certified, Non-GMO Project Verified 등 텍스트 나열
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 드롭다운 메뉴
+- 옵션 선택 반응: 가격 계산 로직 (Unit price, Compare at 등) 동적 노출
+- 모바일 메뉴: 모바일용 햄버거 메뉴 적용
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: B2C와 B2B(Commercial Bulk)를 한 사이트 내에서 GNB로 명확하게 분리 운영
+- 반복 패턴: 가격 정보(기존가 취소선, 할인가)를 리스트 썸네일 아래 적극 노출
+- 구현 복잡도: 보통 (Shopify 등 표준 이커머스 기능)
+- 미확인·추가 확인: 장바구니/체크아웃 플로우 확인 필요
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[099] Wholesome Sweeteners
+================================================================================
+발견 URL: https://wholesomesweet.com
+최종 URL: https://wholesomesweet.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Wholesome Sugar & Sweeteners | Fair Trade and Organic Sugar"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 099 candidate
+
+[확인 페이지]
+- P1 메인: https://wholesomesweet.com
+- P2 제품 목록 또는 서비스 목록: https://wholesomesweet.com/collections/shop-all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: https://wholesomesweet.com/pages/who-we-are
+- P5 추가 확인: https://wholesomesweet.com/pages/fair-trade-101
+
+[브랜드·제품 관찰]
+- 제품·서비스: 공정무역 및 유기농 설탕, 꿀, 아가베 꿀, 시럽류
+- 주요 제품 카테고리: Infusions, Granulated Sugar, Blue Agave, Honey, Syrups & Molasses, Zero Calorie
+- 관찰된 타깃: 공정무역, 윤리적 소비, 재생농업(Regen)에 관심 있는 소비자 및 식품업계
+- 관찰된 사용 상황: 가정 내 요리, 베이킹 및 티타임
+- 핵심 메시지·대표 카피: deliciously celebrate the special moments that bring us all together.
+- 브랜드 보이스: 공동체, 긍정적 변화(positive, meaningful change), 공정무역을 강조하는 따뜻하고 윤리적인 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Story, Shop Products, Learn 세 가지 주요 축
+- 히어로 구성: 빈 장바구니 및 무료 배송 안내(FREE SHIPPING ON ORDERS OVER $49)
+- 메인 페이지 섹션 순서: 최상단 공지 -> GNB -> (이하 콘텐츠 미확인)
+- 제품 목록 탐색 방식: 성분 및 용도(Honey, Agave, Zero Calorie 등)에 따라 세분화된 컬렉션 링크 제공
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: 상단 유틸리티 영역에 Log in, Continue shopping 위치
+- CTA 연결 대상: 전체 상품 카테고리 및 회원가입/로그인
+
+[시각 관찰]
+- 전체 무드: 윤리적이고 따뜻한 커뮤니티 지향적 무드
+- 배경·여백: 깔끔하고 가독성 높은 여백 구성
+- 타이포그래피: 정보 전달(Impact, Fair Trade 101 등)을 중시하는 차분한 서체
+- 컬러 운영: Whole Earth Brand 소속임을 나타내는 브랜드 컬러 사용 추정
+- 제품·패키지 이미지: 카테고리별 컬렉션 분리
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: 소셜 미디어 아이콘 및 브랜드 로고
+- 제품군 구분 방식: 원료 베이스(설탕, 아가베, 꿀, 무칼로리 등) 기준 분류
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Infusions 등 특징적 라인업은 별도 페이지로 소개(Meet Wholesome Infusions)
+- 사용 방법 설명 방식: Recipes 게시판 운영
+- 숫자·배지·아이콘 사용: Fair Trade, Regen(재생농업) 등의 인증 키워드 적극 노출
+- 비교표·필터 유무: Source Map을 통한 원산지 정보 제공
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 내 드롭다운 방식 메뉴
+- 옵션 선택 반응: 카트 담기 시 동적 금액($0.00 USD) 업데이트 구조
+- 모바일 메뉴: 햄버거 메뉴 방식 적용
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Source Map(원산지 맵), Regen 101, Fair Trade 101 등 정보성/윤리성 페이지의 비중이 매우 큼
+- 반복 패턴: "A Whole Earth Brand"라는 기업 소속 정보 지속 노출
+- 구현 복잡도: 보통
+- 미확인·추가 확인: 제품 상세 화면 내 공정무역 스토리 노출 방식
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[100] Swerve Sweetener
+================================================================================
+발견 URL: https://swervesweet.com
+최종 URL: https://swervesweet.com
+URL 상태: active
+공식 사이트 확인 근거: Title "Swerve Sweeteners, Keto Bake Mixes and Chocolate Chips"
+조사 시각: 2026-07-30T15:51:00+09:00
+사용한 검색어: 100 candidate
+
+[확인 페이지]
+- P1 메인: https://swervesweet.com
+- P2 제품 목록 또는 서비스 목록: https://swervesweet.com/collections/shop-all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: https://swervesweet.com/pages/community-page
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Zero-calorie 설탕 대체제, 키토 베이킹 믹스, 초콜릿 칩
+- 주요 제품 카테고리: Sweeteners, Organic Sweeteners, Variety Packs
+- 관찰된 타깃: 키토(Keto), 당뇨 환자(diabetic-friendly), 치아 건강 고려층
+- 관찰된 사용 상황: Guilt-free 베이킹 및 일상 레시피 활용
+- 핵심 메시지·대표 카피: natural sweetness revolution, the ultimate sugar substitute for guilt-free indulgence.
+- 브랜드 보이스: 혁신, 건강(guilt-free), 대중성(loved by health enthusiasts)을 어필하는 경쾌한 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, COMMUNITY, LEARN 세 카테고리로 구성
+- 히어로 구성: 무료배송($49 이상) 배너 및 로그인/장바구니 기능
+- 메인 페이지 섹션 순서: 띠배너 -> GNB -> 카트뷰 -> 콘텐츠 영역
+- 제품 목록 탐색 방식: 오리지널 감미료, 유기농 라인, 버라이어티 팩으로 직관적 분류
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: FIND SWERVE NEAR YOU 버튼 등 오프라인 유도 CTA 포함
+- CTA 연결 대상: 오프라인 매장 찾기 지도(Store Locator) 페이지
+
+[시각 관찰]
+- 전체 무드: 커뮤니티 지향적이며 친근하고 대중적인 무드
+- 배경·여백: 정보 탐색이 쉬운 밝은 배경
+- 타이포그래피: 직관적이고 둥글거나 친근한 느낌의 서체 적용
+- 컬러 운영: Whole Earth Brand 라인업으로 관련된 브랜드 색상 사용
+- 제품·패키지 이미지: 상품 썸네일 중심
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: SNS 채널 위주의 아이콘 적용
+- 제품군 구분 방식: Organic 여부 및 번들(Variety Packs) 여부에 따른 1차 구분
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: GNB 상단에서 유기농 라인을 별도 카테고리로 분리
+- 사용 방법 설명 방식: Recipes 메뉴와 커뮤니티(Community Page) 메뉴 연계
+- 숫자·배지·아이콘 사용: Zero-calorie, non-GMO, keto-friendly 등의 주요 속성 텍스트화
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: GNB 드롭다운 리스트
+- 옵션 선택 반응: 미니 카트 또는 드로어 카트 UI 확인($0.00 총액 노출)
+- 모바일 메뉴: 모바일 최적화된 아코디언 GNB
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 소비자 간 소통(Community Page)을 Shop 못지않게 비중 있게 GNB에 노출
+- 반복 패턴: 자매 브랜드(Wholesome)처럼 "A Whole Earth Brand" 문구 공통 사용
+- 구현 복잡도: 낮음 (일반 쇼핑몰 구조)
+- 미확인·추가 확인: 커뮤니티 페이지 내 UGC(User Generated Content) 적용 여부
+
+조사 상태: completed
+--------------------------------------------------------------------------------
