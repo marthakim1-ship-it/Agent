@@ -1,0 +1,62 @@
+flowchart TD
+    start(["시작"])
+    home["홈"]
+    choose{"탐색 기준 선택"}
+    explore["제품 탐색"]
+    sensory["맛·식감 탐색"]
+    validInput{"입력값 유효?"}
+    inputError["입력 오류 안내"]
+    hasResult{"결과 있음?"}
+    noResult["결과 없음"]
+    compare["제품 비교"]
+    detail["제품 상세"]
+    evidence{"추가 근거 확인?"}
+    gallery["제품 갤러리"]
+    info["제품 정보"]
+    assets["자산 상태"]
+    validation["검증 상태"]
+    confirmed{"CONFIRMED?"}
+    action["다음 행동"]
+    loginNeeded{"로그인 필요?"}
+    login["로그인"]
+    loginValid{"입력값 유효?"}
+    actionReady{"CTA 확정?"}
+    pending["준비 중 안내"]
+    errorPage["오류 안내"]
+    finish(["결과 확인·종료"])
+
+    start --> home --> choose
+    choose -->|"제품"| explore
+    choose -->|"맛·식감"| sensory
+    explore --> validInput
+    sensory --> validInput
+    validInput -->|"아니요"| inputError -->|"이전 단계"| choose
+    validInput -->|"예"| hasResult
+    hasResult -->|"아니요"| noResult -->|"조건 초기화"| explore
+    hasResult -->|"예"| compare --> detail --> evidence
+    evidence -->|"이미지"| gallery --> assets --> validation
+    evidence -->|"정보"| info --> validation
+    validation --> confirmed
+    confirmed -->|"아니요"| detail
+    confirmed -->|"예"| action --> loginNeeded
+    loginNeeded -->|"가정: 예"| login --> loginValid
+    loginValid -->|"아니요"| inputError --> login
+    loginValid -->|"예"| actionReady
+    loginNeeded -->|"아니요"| actionReady
+    actionReady -->|"아니요"| pending --> detail
+    actionReady -->|"예"| finish
+    gallery -.->|"이미지 오류"| errorPage
+    info -.->|"데이터 오류"| errorPage
+    errorPage -->|"재시도"| detail
+    errorPage -->|"홈"| home
+
+    classDef terminal fill:#DFF3E4,stroke:#388E3C,stroke-width:2px
+    classDef user fill:#E8F3FF,stroke:#357ABD,stroke-width:2px
+    classDef system fill:#F3E8FF,stroke:#7E57C2,stroke-width:2px
+    classDef decision fill:#FFF4CE,stroke:#C58B00,stroke-width:2px
+    classDef exception fill:#FDE1DC,stroke:#C5221F,stroke-width:2px
+    class start,finish terminal
+    class home,explore,sensory,compare,detail,gallery,info,action,login user
+    class assets,validation system
+    class choose,validInput,hasResult,evidence,confirmed,loginNeeded,loginValid,actionReady decision
+    class inputError,noResult,pending,errorPage exception

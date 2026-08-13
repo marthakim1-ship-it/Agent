@@ -1,0 +1,19 @@
+flowchart TD
+  START([시작]) --> SCR001
+  SCR001["SCR001 홈"]
+  SCR002["SCR002 안전 공지 목록"]
+  SCR003["SCR003 안전 공지 상세"]
+  SCR004["SCR004 영향 제품 확인"]
+  SCR005["SCR005 확인 결과"]
+  SCR006["SCR006 문의"]
+  SCR007["SCR007 문의 완료"]
+  SCR008["SCR008 이전 버전"]
+  SCR001 --> SCR002
+  SCR002 --> SCR003
+  SCR003 --> SCR004
+  SCR004 --> SCR005
+  SCR005 --> SCR006
+  SCR006 --> SCR007
+  SCR007 --> SCR003
+  SCR008 --> SCR003
+  SCR008 -. 복구·재진입 .-> SCR001

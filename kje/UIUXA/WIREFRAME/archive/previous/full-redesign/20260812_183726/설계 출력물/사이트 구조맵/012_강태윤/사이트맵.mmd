@@ -1,0 +1,13 @@
+flowchart TD
+ HOME["홈"] --> PRODUCTS["제품"] --> DETAIL["제품 상세"] --> FINDER["판매처 찾기"]
+ FINDER --> METHOD{"지역 확인 방식"}
+ METHOD -->|"직접 선택"| REGION["지역 선택"]
+ METHOD -->|"위치 사용 · 가정"| PERMISSION{"위치 권한 허용?"}
+ PERMISSION -->|"아니요"| REGION
+ PERMISSION -->|"예"| RESULTS["판매처 결과"]
+ REGION --> RESULTS
+ RESULTS --> STORE["판매처 상세"] --> OUT["외부 이동 안내"] --> COMPLETE["이동 결과 확인"] --> HOME
+ RESULTS -.->|"0건"| EMPTY["결과 없음"] --> REGION
+ FINDER -.-> STATUS["채널·재고 상태 안내"] --> FINDER
+ OUT -.->|"실패"| ERROR["연결 오류 안내"] --> STORE
+ FINDER -.->|"채널 미확정"| PENDING["준비 중 안내"] --> DETAIL

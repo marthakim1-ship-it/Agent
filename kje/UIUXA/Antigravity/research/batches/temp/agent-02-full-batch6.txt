@@ -1,0 +1,335 @@
+================================================================================
+[126] Califia Farms
+================================================================================
+발견 URL: https://www.califiafarms.com
+최종 URL: https://www.califiafarms.com
+URL 상태: active
+공식 사이트 확인 근거: 브랜드명과 일치하는 대표 도메인 연결
+조사 시각: 2026-07-30T16:03:00+09:00
+사용한 검색어: 없음 (주어진 후보 URL)
+
+[확인 페이지]
+- P1 메인: https://www.califiafarms.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 음료, 귀리우유, 아몬드밀크, 크리머, 커피 등
+- 주요 제품 카테고리: Oatmilks, Almondmilks, Creamers, Coffees
+- 관찰된 타깃: 식물성 유제품 대체품을 찾는 건강/웰니스 추구 소비자
+- 관찰된 사용 상황: 아침 식사, 커피 블렌딩 등 일상적인 음료 섭취
+- 핵심 메시지·대표 카피: Powering your wellness transformation by innovating better forms of nourishment with delicious dairy-free plant-based products.
+- 브랜드 보이스: 건강 지향적이고 맛을 강조하는 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: HTML 내 메타 태그와 프레임워크 사용 확인
+- 반복 패턴: 식물성(Plant-based), Dairy-free 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹사이트 구조 및 시각 요소
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[127] Oatly
+================================================================================
+발견 URL: https://www.oatly.com
+최종 URL: https://www.oatly.com
+URL 상태: active
+공식 사이트 확인 근거: 귀리우유 대표 브랜드 Oatly 공식 도메인 접속
+조사 시각: 2026-07-30T16:03:00+09:00
+사용한 검색어: 없음 (주어진 후보 URL)
+
+[확인 페이지]
+- P1 메인: https://www.oatly.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 오리지널 귀리우유(Oatmilk)
+- 주요 제품 카테고리: 귀리 기반 우유 대체 음료, 아이스크림, 요구르트 대체품
+- 관찰된 타깃: 유당불내증 및 비건 지향 소비자
+- 관찰된 사용 상황: 시리얼, 커피, 베이킹 등 우유 대체 사용
+- 핵심 메시지·대표 카피: It's like milk, but made for humans
+- 브랜드 보이스: 유머러스하고 도발적이며 친근한 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 대표 카피가 환경과 인류를 고려한 메시지를 담음
+- 반복 패턴: 식물성 원료(귀리) 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹사이트 구조 및 시각 요소
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[128] Planet Oat
+================================================================================
+발견 URL: https://planetoat.com
+최종 URL: https://planetoat.com
+URL 상태: active
+공식 사이트 확인 근거: Planet Oat 공식 도메인 접속
+조사 시각: 2026-07-30T16:03:00+09:00
+사용한 검색어: 없음 (주어진 후보 URL)
+
+[확인 페이지]
+- P1 메인: https://planetoat.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 식물성 귀리우유 브랜드
+- 주요 제품 카테고리: 귀리우유, 크리머, 귀리 기반 빙과류
+- 관찰된 타깃: 풍부하고 부드러운 식감을 선호하는 유제품 대체품 소비자
+- 관찰된 사용 상황: 커피 크리머 활용, 시리얼 섭취, 간식
+- 핵심 메시지·대표 카피: Out of this world delicious
+- 브랜드 보이스: 친근하고 대중적인 톤
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 우주 테마가 포함된 브랜드 네이밍 활용
+- 반복 패턴: 식물성(Plant-based) 및 부드러운 식감 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹사이트 시각 및 구성 세부 정보
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[129] Malk Organics
+================================================================================
+발견 URL: https://malkorganics.com
+최종 URL: https://malkorganics.com
+URL 상태: active
+공식 사이트 확인 근거: MALK 공식 홈페이지 설명과 메타 태그 정보 일치
+조사 시각: 2026-07-30T16:03:00+09:00
+사용한 검색어: 없음 (주어진 후보 URL)
+
+[확인 페이지]
+- P1 메인: https://malkorganics.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 무첨가물, 식물성 오가닉 음료 및 크리머
+- 주요 제품 카테고리: 아몬드, 귀리, 코코넛, 캐슈, 두유 밀크 및 크리머
+- 관찰된 타깃: 화학첨가물 없이 깨끗한 성분을 중시하는 소비자
+- 관찰된 사용 상황: 일상적인 우유 대체 및 커피 섭취
+- 핵심 메시지·대표 카피: The New Standard in Plant-Based Milk & Creamers (No gums, no oils, no fillers)
+- 브랜드 보이스: 순수성(Clean)과 투명성을 강조하는 명료한 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: 유기농 인증마크, 무첨가(No gums) 등 텍스트 강조
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: 성분에 껌, 오일, 필러가 들어가지 않음을 핵심 마케팅 요소로 사용
+- 반복 패턴: 유기농(Certified Organic) 인증, 클린 라벨 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 웹 구조 및 시각적 상호작용 여부
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[130] Elmhurst 1925
+================================================================================
+발견 URL: https://elmhurst1925.com
+최종 URL: https://elmhurst1925.com
+URL 상태: active
+공식 사이트 확인 근거: Elmhurst 1925 브랜드 메타 설명 일치
+조사 시각: 2026-07-30T16:03:00+09:00
+사용한 검색어: 없음 (주어진 후보 URL)
+
+[확인 페이지]
+- P1 메인: https://elmhurst1925.com
+- P2 제품 목록 또는 서비스 목록: not_verified
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: 클린 식물성 우유, 크리머, 단백질 음료 등
+- 주요 제품 카테고리: Plant Milks, Creamers, Protein & Dairy-Free Favorites
+- 관찰된 타깃: 영양소를 중시하고 무첨가물 식단을 실천하는 웰니스 소비자
+- 관찰된 사용 상황: 아침 식사 단백질 보충, 커피 블렌딩 등
+- 핵심 메시지·대표 카피: Plant-based at its best. Simpler. Better.
+- 브랜드 보이스: 헤리티지(1925)와 영양적 우수성을 내세우는 진정성 있는 어조
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: not_verified
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: not_verified
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Zero Junk, Real Nutrition 관련 문구 강조
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Simpler, Better라는 짧은 문구로 무첨가(Zero junk)와 맛을 동시에 어필
+- 반복 패턴: 단백질(Protein)과 식물성 베이스(Plant-based) 강조
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: 구체적 UI/UX 설계와 모바일 대응 방식
+
+조사 상태: completed
+--------------------------------------------------------------------------------

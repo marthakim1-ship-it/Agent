@@ -1,0 +1,335 @@
+================================================================================
+[051] Olipop
+================================================================================
+발견 URL: https://drinkolipop.com
+최종 URL: https://drinkolipop.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Olipop healthy prebiotic soda
+조사 시각: 2026-07-30T15:41:24+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://drinkolipop.com
+- P2 제품 목록 또는 서비스 목록: https://drinkolipop.com/collections/drinks
+- P3 제품 상세 또는 핵심 기능: https://drinkolipop.com/products/blackberry-vanilla
+- P4 추가 확인: https://drinkolipop.com/pages/ingredients
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Healthy Prebiotic Soda, plant fiber soda
+- 주요 제품 카테고리: 9g fiber soda, 6g fiber soda, variety packs
+- 관찰된 타깃: Health-conscious soda drinkers, individuals seeking digestive health
+- 관찰된 사용 상황: Casual refreshment, alternative to traditional soda
+- 핵심 메시지·대표 카피: A new kind of soda. Real ingredients. Real refreshment. Real digestive health support.
+- 브랜드 보이스: Friendly, health-focused, reassuring
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: Shop, Learn, Subscribe, Find a store, Log in
+- 히어로 구성: Introduction to healthy prebiotic soda with clear call to action
+- 메인 페이지 섹션 순서: Hero, Product categories (9g fiber, 6g fiber), Why OLIPOP, Customer reviews, Footer
+- 제품 목록 탐색 방식: Categorized by fiber content (9g vs 6g) and variety packs
+- 제품 상세 정보 순서: Product image, nutritional benefits, flavor description, purchasing options
+- CTA 종류·위치: Shop Now, Find Your Flavor, Subscribe (Header and Hero sections)
+- CTA 연결 대상: Product listing pages, subscription pages, store locator
+
+[시각 관찰]
+- 전체 무드: Vibrant, modern, playful but clean
+- 배경·여백: Bright backgrounds with ample whitespace
+- 타이포그래피: Bold, rounded sans-serif for headings, clean sans-serif for body
+- 컬러 운영: Distinctive pastel and bright colors corresponding to flavors
+- 제품·패키지 이미지: High-quality can renders, prominent display of packaging
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: Categorization by fiber content (6g vs 9g) and color-coded cans
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting fiber content, low sugar, and prebiotic benefits
+- 사용 방법 설명 방식: Keep Refrigerated (9g Fiber), Store Anywhere (6g Fiber)
+- 숫자·배지·아이콘 사용: Prominent display of 2-5g sugar, 9g fiber, plant-based badges
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Distinguishes product lines directly by fiber content (9g vs 6g)
+- 반복 패턴: Prominent health claims (prebiotic, low sugar) on all touchpoints
+- 구현 복잡도: Standard e-commerce structure
+- 미확인·추가 확인: Mobile interaction patterns
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[052] Poppi
+================================================================================
+발견 URL: https://drinkpoppi.com
+최종 URL: https://drinkpoppi.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Poppi prebiotic soda
+조사 시각: 2026-07-30T15:41:33+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://drinkpoppi.com
+- P2 제품 목록 또는 서비스 목록: https://drinkpoppi.com/collections/drinks
+- P3 제품 상세 또는 핵심 기능: https://drinkpoppi.com/products/punch-pop
+- P4 추가 확인: https://drinkpoppi.com/pages/our-story
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Prebiotic soda
+- 주요 제품 카테고리: Classic soda flavors, fruit flavors, limited editions, variety packs
+- 관찰된 타깃: Gen Z, millennials, health-conscious consumers looking for fun alternatives
+- 관찰된 사용 상황: Everyday refreshment, movie nights, casual hangouts
+- 핵심 메시지·대표 시피: variety is the spice of life, sip like a hero, friendly new neighborhood flavors
+- 브랜드 보이스: Energetic, fun, enthusiastic, youthful
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: shop, our story, why poppi?, find poppi
+- 히어로 구성: Showcase of limited-edition or featured cans
+- 메인 페이지 섹션 순서: Hero, Flavor carousel, Variety packs, Customer reviews, Store locator, Footer
+- 제품 목록 탐색 방식: Visual grid of cans categorized by variety packs and individual flavors
+- 제품 상세 정보 순서: Can visual, flavor description, size/pack options, buy button
+- CTA 종류·위치: shop pop, buy now, learn more
+- CTA 연결 대상: Product purchase pages, store locators, promotional campaigns
+
+[시각 관찰]
+- 전체 무드: Bold, colorful, pop-art inspired
+- 배경·여백: Bright, high-contrast backgrounds
+- 타이포그래피: lowercase stylization for brand names and headings, bold sans-serif
+- 컬러 운영: Neon and saturated primary colors matching the flavor profiles
+- 제품·패키지 이미지: Vibrant 3D renders and photography of cans
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: Sparkles and abstract pop shapes
+- 제품군 구분 방식: Strong color coding per flavor (e.g., orange for Orange Cream, red for Cherry Cola)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Focus on flavor and low sugar (5g)
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: Emphasizing 5g sugar in reviews and copy
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Distinctive all-lowercase typography and heavy use of vibrant pop colors
+- 반복 패턴: Highlighting customer reviews directly on the main page to build trust
+- 구현 복잡도: Standard e-commerce with rich visual assets
+- 미확인·추가 확인: Mobile interaction and product detail interactions
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[053] Remedy Drinks
+================================================================================
+발견 URL: https://remedydrinks.com
+최종 URL: https://remedydrinks.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Remedy Kombucha and drinks
+조사 시각: 2026-07-30T15:41:45+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://remedydrinks.com
+- P2 제품 목록 또는 서비스 목록: https://remedydrinks.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: No sugar, fizzy drinks (Kombucha, Sodaly, Switchel ACV, Ginger Beer, Shots)
+- 주요 제품 카테고리: Kombucha, Sodaly, ACV drinks
+- 관찰된 타깃: Health-conscious consumers looking for zero sugar alternatives
+- 관찰된 사용 상황: Everyday refreshment
+- 핵심 메시지·대표 카피: Makers of tasty, no sugar, fizzy drinks
+- 브랜드 보이스: Approachable, straightforward, healthy
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: Shop Online
+- CTA 연결 대상: Product collections
+
+[시각 관찰]
+- 전체 무드: Natural, refreshing
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: By beverage type (Kombucha vs Sodaly)
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Emphasizing "no sugar" and "tasty"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strong emphasis on absolutely zero sugar across multiple beverage types
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Detailed site structure and interactions
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[054] Health-Ade Kombucha
+================================================================================
+발견 URL: https://health-ade.com
+최종 URL: https://health-ade.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for Health-Ade Kombucha
+조사 시각: 2026-07-30T15:41:50+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://health-ade.com
+- P2 제품 목록 또는 서비스 목록: https://health-ade.com/collections/all
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Bubbly Probiotic Tea (Kombucha)
+- 주요 제품 카테고리: Kombucha tea
+- 관찰된 타깃: Wellness enthusiasts, probiotic seekers
+- 관찰된 사용 상황: Daily health boost, refreshing drink
+- 핵심 메시지·대표 카피: Best tasting, organic, and highest quality fermented kombucha tea, full of probiotics. Brewed in Los Angeles.
+- 브랜드 보이스: Authentic, proud, health-focused
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: not_verified
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: Organic, bright
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Highlighting "organic", "fermented", and "probiotics"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Highlights "Brewed in Los Angeles" as a point of origin and quality
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Layout and visual design specifics
+
+조사 상태: completed
+--------------------------------------------------------------------------------
+================================================================================
+[055] GT's Living Foods
+================================================================================
+발견 URL: https://gtslivingfoods.com
+최종 URL: https://gtslivingfoods.com
+URL 상태: active
+공식 사이트 확인 근거: Official brand site for GT's Living Foods
+조사 시각: 2026-07-30T15:41:55+09:00
+사용한 검색어: direct url provided
+
+[확인 페이지]
+- P1 메인: https://gtslivingfoods.com
+- P2 제품 목록 또는 서비스 목록: https://gtslivingfoods.com/collections
+- P3 제품 상세 또는 핵심 기능: not_verified
+- P4 추가 확인: not_verified
+- P5 추가 확인: not_verified
+
+[브랜드·제품 관찰]
+- 제품·서비스: Kombucha, Kefir, Coconut Yogurt, Adaptogenic Tea
+- 주요 제품 카테고리: Fermented foods and beverages
+- 관찰된 타깃: Holistic health consumers, natural food enthusiasts
+- 관찰된 사용 상황: Daily holistic health routine
+- 핵심 메시지·대표 카피: Stewards of Nature. Cultivating offerings with whole raw ingredients and traditional practices in their purest, most potent forms.
+- 브랜드 보이스: Spiritual, natural, traditional, holistic
+
+[웹 구조 관찰]
+- 글로벌 내비게이션: not_verified
+- 히어로 구성: not_verified
+- 메인 페이지 섹션 순서: not_verified
+- 제품 목록 탐색 방식: By product type (Kombucha, Kefir, Yogurt)
+- 제품 상세 정보 순서: not_verified
+- CTA 종류·위치: not_verified
+- CTA 연결 대상: not_verified
+
+[시각 관찰]
+- 전체 무드: Earthy, traditional, holistic
+- 배경·여백: not_verified
+- 타이포그래피: not_verified
+- 컬러 운영: not_verified
+- 제품·패키지 이미지: not_verified
+- 라이프스타일 이미지: not_verified
+- 일러스트·아이콘·그래픽: not_verified
+- 제품군 구분 방식: not_verified
+
+[제품 설명 관찰]
+- 제품 구조 설명 방식: Emphasizing "whole raw ingredients" and "purest forms"
+- 사용 방법 설명 방식: not_verified
+- 숫자·배지·아이콘 사용: not_verified
+- 비교표·필터 유무: not_verified
+
+[인터랙션·반응형 관찰]
+- 스크롤 모션: not_verified
+- 이미지 전환·확대·회전: not_verified
+- 탭·아코디언·필터: not_verified
+- 옵션 선택 반응: not_verified
+- 모바일 메뉴: not_verified
+- 모바일 콘텐츠 흐름: not_verified
+- 확인 수준: partial
+
+[객관적 연구 메모]
+- 고유 관찰: Strongly positions itself as "stewards of Nature" with a deeply holistic messaging compared to modern soda alternatives
+- 반복 패턴: not_verified
+- 구현 복잡도: not_verified
+- 미확인·추가 확인: Complete visual analysis
+
+조사 상태: completed
+--------------------------------------------------------------------------------

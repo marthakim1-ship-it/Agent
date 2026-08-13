@@ -1,0 +1,46 @@
+flowchart TD
+    start(["시작"])
+    home["홈"]
+    choose{"탐색 목적 선택"}
+    products["제품"]
+    gallery["제품 갤러리"]
+    groups["제품군"]
+    hasLineup{"라인업 확정?"}
+    noResult["결과 없음"]
+    scenes["사용 장면"]
+    content["콘텐츠"]
+    method["사용 방법"]
+    info["제품 정보"]
+    assets["자산 상태"]
+    detail["제품 상세"]
+    assetReady{"자산 확정?"}
+    action["다음 행동"]
+    loginNeeded{"로그인 필요?"}
+    actionReady{"행동 확정?"}
+    pending["준비 중 안내"]
+    errorPage["오류 안내"]
+    finish(["종료"])
+
+    start --> home --> choose
+    choose -->|"제품 탐색"| products --> gallery --> method --> detail
+    products --> groups --> hasLineup
+    hasLineup -->|"아니요"| noResult --> products
+    hasLineup -->|"예"| detail
+    choose -->|"장면 탐색"| scenes --> content --> info --> assets --> detail
+    detail --> assetReady
+    assetReady -->|"미확정"| assets
+    assetReady -->|"확정"| action --> loginNeeded
+    loginNeeded -->|"예: 가정"| pending
+    loginNeeded -->|"아니요"| actionReady
+    actionReady -->|"아니요"| pending --> detail
+    actionReady -->|"예"| finish
+    gallery -.->|"이미지 오류"| errorPage
+    errorPage -->|"재시도"| gallery
+    errorPage -->|"홈"| home
+
+    classDef terminal fill:#CDF4D3,stroke:#66D575
+    classDef decision fill:#FFECBD,stroke:#FFC943
+    classDef exception fill:#FFCDC2,stroke:#FF7556
+    class start,finish terminal
+    class choose,hasLineup,assetReady,loginNeeded,actionReady decision
+    class noResult,pending,errorPage exception

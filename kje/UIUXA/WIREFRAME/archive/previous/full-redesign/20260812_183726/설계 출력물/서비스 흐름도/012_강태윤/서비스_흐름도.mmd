@@ -1,0 +1,18 @@
+flowchart TD
+ START(["시작"]) --> HOME["홈"] --> PRODUCTS["제품"] --> DETAIL["제품 상세"] --> FINDER["판매처 찾기"]
+ FINDER --> CHANNEL{"확정 판매 채널인가?"}
+ CHANNEL -->|"아니요"| PENDING["준비 중 안내"] --> DETAIL
+ CHANNEL -->|"예"| METHOD{"지역 확인 방식"}
+ METHOD -->|"직접 선택"| REGION["지역 선택"]
+ METHOD -->|"위치 사용 · 가정"| PERMISSION{"위치 권한 허용?"}
+ PERMISSION -->|"거부"| REGION
+ PERMISSION -->|"허용"| VALID{"지역값 유효?"}
+ REGION --> VALID
+ VALID -->|"아니요"| INPUT["입력 오류 안내"] --> REGION
+ VALID -->|"예"| RESULTS["판매처 결과"] --> HAS{"결과 있음?"}
+ HAS -->|"아니요"| EMPTY["결과 없음"] --> REGION
+ HAS -->|"예"| STORE["판매처 상세"] --> CURRENT{"상태·기준일 확인?"}
+ CURRENT -->|"아니요"| STATUS["채널·재고 상태 안내"] --> STORE
+ CURRENT -->|"예"| OUT["외부 이동 안내"] --> LINK{"연결 성공?"}
+ LINK -->|"아니요"| ERROR["연결 오류 안내"] --> STORE
+ LINK -->|"예"| COMPLETE["이동 결과 확인"] --> END(["종료"])

@@ -1,0 +1,17 @@
+flowchart TD
+  START([시작]) --> SCR001
+  SCR001["SCR001 홈"]
+  SCR002["SCR002 제품 목록"]
+  SCR003["SCR003 제품 상세"]
+  SCR004["SCR004 사용법"]
+  SCR005["SCR005 구매 안내"]
+  SCR006["SCR006 외부 연결 결과"]
+  SCR007["SCR007 오류 안내"]
+  SCR001 --> SCR002
+  SCR002 --> SCR003
+  SCR003 --> SCR004
+  SCR004 --> SCR005
+  SCR005 --> SCR006
+  SCR006 --> SCR003
+  SCR007 --> SCR002
+  SCR007 -. 복구·재진입 .-> SCR001

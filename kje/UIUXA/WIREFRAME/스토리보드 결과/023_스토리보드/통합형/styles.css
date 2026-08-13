@@ -1,0 +1,15 @@
+@import url("../개인용/styles.css");
+
+.integrated-hero{background:linear-gradient(120deg,#f4f4f4,#dedede)}
+.purpose-cards{padding:64px 5%;background:#fff}
+.purpose-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.purpose-card{min-height:235px;padding:28px;border:1px solid #999;color:#333;text-decoration:none;display:flex;flex-direction:column}
+.purpose-card span{font-size:12px;letter-spacing:1px;color:#777}.purpose-card h3{font-size:27px;margin:22px 0 8px}.purpose-card p{color:#666}.purpose-card b{margin-top:auto}
+.purpose-card.personal{border-top:7px solid #777}.purpose-card.gift{border-top:7px double #777}.purpose-card.group{border-top:7px dashed #777}
+.product{min-height:320px}.product>span{padding:2px 0;border-bottom:1px dotted #bbb}
+.journey-summary{padding:60px 5%;background:#ededed}.journey-summary h3{font-size:30px;margin:0}.journey-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:25px 0}.journey-row span{padding:22px;background:#fff;border:1px solid #aaa}.journey-row b{display:block;margin-bottom:6px}
+.mode-tabs{display:grid;grid-template-columns:repeat(3,1fr);padding:0 5%;background:#eee}.mode-tabs button{margin:0;background:#ddd;color:#444;border:1px solid #aaa}.mode-tabs button.active{background:#555;color:#fff}
+.context-note{margin-top:25px;padding:20px;border-left:6px solid #777;background:#eee}.context-note p{margin:5px 0 0;color:#666}
+.three-promises{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#aaa}.three-promises article{padding:40px;background:#eee}.three-promises span{font-size:12px;letter-spacing:2px}.three-promises h3{margin:12px 0 5px}.three-promises p{color:#666}
+@media(max-width:900px){.purpose-grid,.journey-row,.three-promises{grid-template-columns:1fr}.purpose-card{min-height:190px}}
+@media(max-width:600px){.purpose-cards,.journey-summary{padding:36px 20px}.mode-tabs{padding:0 20px}.mode-tabs button{padding:10px 5px;font-size:12px}}

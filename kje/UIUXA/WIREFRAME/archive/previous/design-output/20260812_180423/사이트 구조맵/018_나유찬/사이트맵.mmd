@@ -1,0 +1,17 @@
+flowchart TD
+  START([시작]) --> SCR001
+  SCR001["SCR001 캠페인 랜딩"]
+  SCR002["SCR002 이용 조건"]
+  SCR003["SCR003 제품 상세"]
+  SCR004["SCR004 행동 결과"]
+  SCR005["SCR005 캠페인 목록"]
+  SCR006["SCR006 종료·품절 안내"]
+  SCR007["SCR007 오류 안내"]
+  SCR001 --> SCR002
+  SCR002 --> SCR003
+  SCR003 --> SCR004
+  SCR004 --> SCR001
+  SCR005 --> SCR001
+  SCR006 --> SCR003
+  SCR007 --> SCR005
+  SCR007 -. 복구·재진입 .-> SCR001

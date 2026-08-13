@@ -1,0 +1,46 @@
+flowchart TD
+    home(["홈"])
+    explore["제품 탐색"]
+    sensory["맛·식감 탐색"]
+    compare["제품 비교"]
+    detail["제품 상세"]
+    gallery["제품 갤러리"]
+    info["제품 정보"]
+    assets["자산 상태"]
+    validation["검증 상태"]
+    action["다음 행동"]
+    login["로그인"]
+    pending["준비 중 안내"]
+    noResult["결과 없음"]
+    inputError["입력 오류 안내"]
+    errorPage["오류 안내"]
+
+    home --> explore
+    home --> sensory
+    explore --> compare
+    explore --> detail
+    sensory --> compare
+    sensory --> detail
+    compare --> detail
+    detail --> gallery
+    detail --> info
+    gallery --> assets
+    info --> validation
+    assets --> validation
+    detail --> action
+    action -.->|"가정: 인증 필요"| login
+    action -.->|"CTA 미확정"| pending
+    explore -.->|"검색 결과 없음"| noResult
+    compare -.->|"선택값 오류"| inputError
+    noResult --> explore
+    inputError --> compare
+    errorPage --> home
+
+    classDef common fill:#E8F3FF,stroke:#357ABD,stroke-width:2px
+    classDef member fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    classDef conditional fill:#FFF4CE,stroke:#C58B00,stroke-width:2px
+    classDef exception fill:#FDE1DC,stroke:#C5221F,stroke-width:2px
+    class home,explore,sensory,compare,detail,gallery,info common
+    class login member
+    class assets,validation,action,pending conditional
+    class noResult,inputError,errorPage exception

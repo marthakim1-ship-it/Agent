@@ -1,0 +1,40 @@
+flowchart TD
+  HOME["SCR-001 홈"]
+  LAND["SCR-002 검색 유입 랜딩"]
+  HUB["SCR-003 제품 정보"]
+  DETAIL["SCR-004 제품 상세"]
+  USE["SCR-005 사용법"]
+  ING["SCR-006 원료·성분"]
+  VERIFY["SCR-007 검증 정보"]
+  RELATED["SCR-008 관련 콘텐츠"]
+  GUIDE["SCR-009 페이지 안내"]
+  NEXT["SCR-010 다음 행동"]
+  LOGIN["SCR-011 로그인 · 가정"]
+  INPUT["SCR-012 입력 오류 · 가정"]
+  RESULT["SCR-013 결과 확인 · 가정"]
+  EMPTY["SCR-014 콘텐츠 없음"]
+  PENDING["SCR-015 자료 준비 중"]
+  ERROR["SCR-016 오류 안내"]
+  HOME --> HUB
+  HOME --> USE
+  HOME --> ING
+  HOME --> VERIFY
+  LAND --> DETAIL
+  HUB --> DETAIL
+  DETAIL --> USE
+  DETAIL --> ING
+  DETAIL --> VERIFY
+  USE --> RELATED
+  ING --> RELATED
+  VERIFY --> RELATED
+  RELATED --> GUIDE
+  GUIDE --> NEXT
+  NEXT --> LOGIN
+  LOGIN --> INPUT
+  LOGIN --> RESULT
+  RELATED --> EMPTY
+  VERIFY --> PENDING
+  LAND --> ERROR
+  EMPTY --> HUB
+  PENDING --> RELATED
+  ERROR --> HOME

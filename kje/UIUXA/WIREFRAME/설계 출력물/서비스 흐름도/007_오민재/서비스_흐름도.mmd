@@ -1,0 +1,19 @@
+flowchart TD
+  S([시작]) --> MAIN001
+  MAIN001 -->|카테고리 선택| CATEGORY001
+  CATEGORY001 -->|상품 선택| TASK001
+  TASK001 -->|상세·검증| TASK002
+  TASK002 -->|결과 확인| E([종료])
+  MAIN001 -->|브랜드 탐색| BRAND001
+  BRAND001 -->|관련 제품| CATEGORY001
+  CATEGORY001 --> EMPTY{결과 있음?}
+  EMPTY -->|없음| REC[조건 완화·이전 단계]
+  REC --> CATEGORY001
+  TASK001 --> ERR{오류?}
+  ERR -->|예| RETRY[재시도·복구]
+  RETRY --> TASK001
+  ERR -->|아니오| TASK002
+  AUTH{로그인 필요?}
+  MAIN001 --> AUTH
+  AUTH -->|근거 없음·비로그인 계속| CATEGORY001
+  TASK002 -->|재진입| MAIN001

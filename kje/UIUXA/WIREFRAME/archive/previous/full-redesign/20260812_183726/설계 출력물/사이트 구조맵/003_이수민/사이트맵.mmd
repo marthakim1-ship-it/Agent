@@ -1,0 +1,44 @@
+flowchart TD
+    home(["홈"])
+    productInfo["제품 정보"]
+    compare["제품 비교"]
+    detail["제품 상세"]
+    ingredients["원료 및 성분"]
+    nutrition["영양 정보"]
+    allergy["알레르기 및 주의"]
+    evidence["인증 및 근거"]
+    status["검증 상태"]
+    action["다음 행동"]
+    purchase["구매 안내"]
+    noResult["결과 없음"]
+    pending["준비 중 안내"]
+    errorPage["오류 안내"]
+
+    home --> productInfo
+    home --> ingredients
+    home --> nutrition
+    home --> allergy
+    home --> evidence
+    productInfo --> compare
+    productInfo --> detail
+    compare --> detail
+    compare -.->|"조건 불일치"| noResult
+    noResult --> compare
+    ingredients --> detail
+    nutrition --> detail
+    allergy --> detail
+    evidence --> status
+    status --> detail
+    detail --> action
+    action -.->|"근거와 채널 확정"| purchase
+    action -.->|"미확정"| pending
+    pending --> detail
+    purchase -.->|"연결 실패"| errorPage
+    errorPage --> home
+
+    classDef common fill:#C2E5FF,stroke:#3DADFF
+    classDef conditional fill:#FFECBD,stroke:#FFC943
+    classDef exception fill:#FFCDC2,stroke:#FF7556
+    class home,productInfo,compare,detail,ingredients,nutrition,allergy,evidence,status common
+    class action,purchase,pending conditional
+    class noResult,errorPage exception

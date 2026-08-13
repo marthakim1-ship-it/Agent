@@ -1,0 +1,1 @@
+.product-slider{display:flex!important;gap:16px;overflow-x:auto!important;scroll-snap-type:x mandatory;padding:20px 0 28px}.product-slider>article{flex:0 0 235px;min-height:245px;scroll-snap-align:start;display:flex;flex-direction:column;padding:17px}.product-slider small{margin-top:auto}@media(max-width:600px){.product-slider>article{flex-basis:82vw}}

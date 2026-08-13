@@ -1,0 +1,283 @@
+[
+    {
+        "id":  "MAIN-001",
+        "name":  "메인페이지(홈)",
+        "purpose":  "정리·폐기 경험 관점의 브랜드·상품 탐색 시작",
+        "sections":  [
+                         "브랜드·제품 가치",
+                         "카테고리 진입",
+                         "상품 15개",
+                         "브랜드 소개 진입",
+                         "검증 상태"
+                     ],
+        "actions":  [
+                        "카테고리 보기",
+                        "브랜드 소개 보기"
+                    ],
+        "states":  [
+                       "기본",
+                       "로딩",
+                       "빈 상태",
+                       "오류",
+                       "완료"
+                   ],
+        "nextScreens":  [
+                            "CATEGORY-001",
+                            "BRAND-001"
+                        ],
+        "products":  [
+                         {
+                             "id":  "PRODUCT-001",
+                             "name":  "상품명 NOT_VERIFIED 01",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 1",
+                             "coreInfo":  "VC009-REQ-001 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-002",
+                             "name":  "상품명 NOT_VERIFIED 02",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 2",
+                             "coreInfo":  "VC009-REQ-002 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-003",
+                             "name":  "상품명 NOT_VERIFIED 03",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 3",
+                             "coreInfo":  "VC009-REQ-003 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-004",
+                             "name":  "상품명 NOT_VERIFIED 04",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 4",
+                             "coreInfo":  "VC009-REQ-004 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-005",
+                             "name":  "상품명 NOT_VERIFIED 05",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 5",
+                             "coreInfo":  "VC009-REQ-005 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-006",
+                             "name":  "상품명 NOT_VERIFIED 06",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 6",
+                             "coreInfo":  "VC009-REQ-006 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-007",
+                             "name":  "상품명 NOT_VERIFIED 07",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 7",
+                             "coreInfo":  "VC009-REQ-001 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-008",
+                             "name":  "상품명 NOT_VERIFIED 08",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 8",
+                             "coreInfo":  "VC009-REQ-002 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-009",
+                             "name":  "상품명 NOT_VERIFIED 09",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 9",
+                             "coreInfo":  "VC009-REQ-003 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-010",
+                             "name":  "상품명 NOT_VERIFIED 10",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 10",
+                             "coreInfo":  "VC009-REQ-004 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-011",
+                             "name":  "상품명 NOT_VERIFIED 11",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 11",
+                             "coreInfo":  "VC009-REQ-005 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-012",
+                             "name":  "상품명 NOT_VERIFIED 12",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 12",
+                             "coreInfo":  "VC009-REQ-006 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-013",
+                             "name":  "상품명 NOT_VERIFIED 13",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 13",
+                             "coreInfo":  "VC009-REQ-001 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-014",
+                             "name":  "상품명 NOT_VERIFIED 14",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 14",
+                             "coreInfo":  "VC009-REQ-002 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         },
+                         {
+                             "id":  "PRODUCT-015",
+                             "name":  "상품명 NOT_VERIFIED 15",
+                             "image":  "NOT_VERIFIED",
+                             "alt":  "정리·폐기 경험 상품 이미지 미확정 15",
+                             "coreInfo":  "VC009-REQ-003 연결 정보 · NOT_VERIFIED",
+                             "primaryAction":  "상품 상세 확인",
+                             "target":  "TASK-001 (조건부 상품 상세 후보)",
+                             "status":  "NOT_VERIFIED"
+                         }
+                     ]
+    },
+    {
+        "id":  "CATEGORY-001",
+        "name":  "카테고리 페이지",
+        "purpose":  "정리·폐기 경험 기준으로 상품 후보를 탐색",
+        "sections":  [
+                         "현재 위치",
+                         "정렬·필터 후보",
+                         "상품 결과",
+                         "결과 없음·복구"
+                     ],
+        "actions":  [
+                        "상품 후보 확인",
+                        "메인으로"
+                    ],
+        "states":  [
+                       "기본",
+                       "로딩",
+                       "빈 상태",
+                       "오류",
+                       "완료"
+                   ],
+        "nextScreens":  [
+                            "TASK-001",
+                            "MAIN-001"
+                        ]
+    },
+    {
+        "id":  "BRAND-001",
+        "name":  "브랜드 소개 페이지",
+        "purpose":  "YOVIA 정의와 정리·폐기 경험 관련 근거를 구분",
+        "sections":  [
+                         "브랜드 정의",
+                         "그릭요거트 기반 간편 건강식",
+                         "근거 상태",
+                         "관련 제품 탐색"
+                     ],
+        "actions":  [
+                        "관련 제품 보기",
+                        "메인으로"
+                    ],
+        "states":  [
+                       "기본",
+                       "로딩",
+                       "자료 없음",
+                       "오류",
+                       "완료"
+                   ],
+        "nextScreens":  [
+                            "CATEGORY-001",
+                            "MAIN-001"
+                        ]
+    },
+    {
+        "id":  "TASK-001",
+        "name":  "사용 후 정리",
+        "purpose":  "정리·폐기 경험 핵심 과업 수행",
+        "sections":  [
+                         "폐기 단계표",
+                         "지역 조건 패널"
+                     ],
+        "actions":  [
+                        "환경 근거 보기",
+                        "이전 단계"
+                    ],
+        "states":  [
+                       "기본",
+                       "로딩",
+                       "빈 상태",
+                       "오류",
+                       "완료"
+                   ],
+        "nextScreens":  [
+                            "TASK-002",
+                            "CATEGORY-001"
+                        ]
+    },
+    {
+        "id":  "TASK-002",
+        "name":  "환경 근거",
+        "purpose":  "정리·폐기 경험 검증 상태와 다음 행동 확인",
+        "sections":  [
+                         "근거·기준일",
+                         "상태·조건",
+                         "다음 행동·복구"
+                     ],
+        "actions":  [
+                        "메인으로",
+                        "이전 단계"
+                    ],
+        "states":  [
+                       "기본",
+                       "로딩",
+                       "NOT_VERIFIED",
+                       "HOLD",
+                       "오류",
+                       "완료"
+                   ],
+        "nextScreens":  [
+                            "MAIN-001",
+                            "TASK-001"
+                        ]
+    }
+]

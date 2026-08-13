@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VC-023 목적 통합형 스토리보드</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../consumer-reviews.css"></head>
+<body>
+<a class="skip" href="#storyboard">본문 바로가기</a>
+<header class="document-head">
+  <p>VC-023 차유나 · 목적 통합 설계</p>
+  <h1>개인·선물·단체 통합 스토리보드</h1>
+  <p>하나의 상품 체계에서 구매 목적에 따라 필요한 냉장 유통·보관 정보를 다르게 제시하는 YOVIA 쇼핑 경험</p>
+</header>
+
+<main id="storyboard" class="storyboard">
+  <article class="screen" aria-labelledby="main-title">
+    <div class="screen-label"><b>01</b><span>MAIN-001 · 메인페이지</span><em>목표: 방문 목적을 빠르게 정하고 적합한 탐색으로 진입</em></div>
+    <div class="browser">
+      <header class="site-head"><strong>YOVIA</strong><nav aria-label="주 메뉴"><a href="#purpose">목적별 쇼핑</a><a href="#products">제품</a><a href="#storage">보관 안내</a><a href="#brand">브랜드</a></nav><span>검색 · 검토함 · 장바구니</span></header>
+
+      <section class="hero integrated-hero">
+        <div><span class="eyebrow">ONE PRODUCT, DIFFERENT MOMENTS</span><h2 id="main-title">누구와 어떻게 먹을지부터<br>선택하세요</h2><p>나를 위한 한 끼, 소중한 사람에게 보내는 선물, 여러 명을 위한 준비. 목적에 맞는 수령·보관·섭취 정보를 먼저 보여드립니다.</p><a class="button" href="#purpose">구매 목적 선택하기</a></div>
+        <div class="image-box">[개인·선물·단체 사용 장면]<br>IMAGE NOT_VERIFIED</div>
+      </section>
+
+      <section id="purpose" class="purpose-cards" aria-labelledby="purpose-title">
+        <div class="section-title"><div><span class="eyebrow">CHOOSE YOUR PURPOSE</span><h3 id="purpose-title">어떤 목적으로 찾고 있나요?</h3></div></div>
+        <div class="purpose-grid">
+          <a href="#products" class="purpose-card personal"><span>01 · PERSONAL</span><h3>나를 위해</h3><p>내 섭취 일정, 냉장 공간, 개봉 전후와 이동 조건을 기준으로 비교합니다.</p><b>개인용 후보 보기 →</b></a>
+          <a href="#products" class="purpose-card gift"><span>02 · GIFT</span><h3>선물하기</h3><p>받는 날짜와 장소, 부재 가능성, 즉시 냉장 가능 여부와 안내 전달을 확인합니다.</p><b>선물 후보 보기 →</b></a>
+          <a href="#products" class="purpose-card group"><span>03 · GROUP</span><h3>단체로 준비하기</h3><p>인원, 수령·검수 담당자, 냉장 공간, 배포 시간과 이상 대응 절차를 검토합니다.</p><b>단체 후보 보기 →</b></a>
+        </div>
+      </section>
+
+      <section id="products" class="section-block">
+        <div class="section-title"><div><span class="eyebrow">15 PRODUCT CANDIDATES</span><h3>목적에 맞춰 다시 읽는 제품 후보</h3><p>상품은 같아도 개인은 섭취, 선물은 수령, 단체는 운영 정보를 우선 확인합니다.</p></div><a href="#category">조건별 전체 비교 →</a></div>
+        <div class="product-slider" aria-label="통합 상품 후보 15개">
+          <article id="PRODUCT-001" class="product"><div class="product-img">01</div><b>상품 후보 01</b><span>개인: 아침 섭취</span><span>선물: 집 수령</span><span>단체: 소규모 제공</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-002" class="product"><div class="product-img">02</div><b>상품 후보 02</b><span>개인: 외출 휴대</span><span>선물: 직장 수령</span><span>단체: 회의 제공</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-003" class="product"><div class="product-img">03</div><b>상품 후보 03</b><span>개인: 운동 후</span><span>선물: 직접 전달</span><span>단체: 행사 배포</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-004" class="product"><div class="product-img">04</div><b>상품 후보 04</b><span>개인: 1회 섭취</span><span>선물: 부재 가능</span><span>단체: 당일 배포</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-005" class="product"><div class="product-img">05</div><b>상품 후보 05</b><span>개인: 나눠 섭취</span><span>선물: 가족 전달</span><span>단체: 사내 복지</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-006" class="product"><div class="product-img">06</div><b>상품 후보 06</b><span>개인: 주말 보관</span><span>선물: 감사 선물</span><span>단체: 정기 제공</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-007" class="product"><div class="product-img">07</div><b>상품 후보 07</b><span>개인: 당일 섭취</span><span>선물: 지정일 후보</span><span>단체: 오전 수령</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-008" class="product"><div class="product-img">08</div><b>상품 후보 08</b><span>개인: 냉장 공간</span><span>선물: 장거리 전달</span><span>단체: 전날 수령</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-009" class="product"><div class="product-img">09</div><b>상품 후보 09</b><span>개인: 소용량 후보</span><span>선물: 가벼운 구성</span><span>단체: 분산 배포</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-010" class="product"><div class="product-img">10</div><b>상품 후보 10</b><span>개인: 개봉 관리</span><span>선물: 나눔 구성</span><span>단체: 일괄 배포</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-011" class="product"><div class="product-img">11</div><b>상품 후보 11</b><span>개인: 보관 위치</span><span>선물: 안내 동봉</span><span>단체: 개별 라벨</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-012" class="product"><div class="product-img">12</div><b>상품 후보 12</b><span>개인: 이동 상태</span><span>선물: 어른 선물</span><span>단체: 혼합 구성</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-013" class="product"><div class="product-img">13</div><b>상품 후보 13</b><span>개인: 식사 대용</span><span>선물: 운동 지인</span><span>단체: 대형 행사</span><small>효능 주장 HOLD</small></article>
+          <article id="PRODUCT-014" class="product"><div class="product-img">14</div><b>상품 후보 14</b><span>개인: 토핑 조합</span><span>선물: 깜짝 선물</span><span>단체: 잔여 관리</span><small>정보 NOT_VERIFIED</small></article>
+          <article id="PRODUCT-015" class="product"><div class="product-img">15</div><b>상품 후보 15</b><span>개인: 비상 간식</span><span>선물: 직접 인계</span><span>단체: 반복 도입</span><small>정보 NOT_VERIFIED</small></article>
+        </div>
+      </section>
+
+      <section id="storage" class="journey-summary">
+        <div><span class="eyebrow">SHARED PRINCIPLE</span><h3>목적은 달라도 확인 순서는 같습니다</h3><p>수령 상태 확인 → 냉장 보관 → 개봉·배포 → 이상 시 섭취 보류와 문의</p></div>
+        <div class="journey-row"><span><b>개인</b> 내가 보관하고 먹는 행동</span><span><b>선물</b> 수령인에게 이어지는 행동</span><span><b>단체</b> 담당자와 구성원이 나누는 행동</span></div>
+        <p class="notice">실제 온도·시간·배송·공급 정책은 승인 자료가 없어 NOT_VERIFIED입니다.</p>
+      </section>
+      <footer>목적별 쇼핑 · 제품 · 보관 안내 · 브랜드 · FAQ · 문의 · 정책</footer>
+    </div>
+  </article>
+
+  <article id="category" class="screen" aria-labelledby="category-title">
+    <div class="screen-label"><b>02</b><span>CATEGORY-001 · 카테고리 페이지</span><em>목표: 목적과 이용 조건을 함께 적용해 상품 비교</em></div>
+    <div class="browser">
+      <header class="site-head"><strong>YOVIA</strong><nav><a href="#purpose">목적별 쇼핑</a><a href="#products">제품</a><a href="#storage">보관 안내</a><a href="#brand">브랜드</a></nav><span>검색 · 검토함 · 장바구니</span></header>
+      <section class="category-head"><p>HOME / 목적별 제품 찾기</p><h2 id="category-title">누구를 위해, 어떤 환경에서 준비하나요?</h2><span>구매 목적을 먼저 선택하면 같은 제품도 필요한 판단 정보가 달라집니다.</span></section>
+      <div class="mode-tabs" aria-label="구매 목적"><button class="active">나를 위해</button><button>선물하기</button><button>단체로 준비</button></div>
+      <section class="filter-layout">
+        <aside><h3>조건 좁히기</h3><fieldset><legend>공통 조건</legend><label><input type="checkbox"> 수령 일정 확인</label><label><input type="checkbox"> 냉장 공간 확보</label><label><input type="checkbox"> 보관 안내 필요</label></fieldset><fieldset><legend>목적별 조건</legend><label><input type="checkbox"> 개인 · 섭취 시점</label><label><input type="checkbox"> 선물 · 부재 가능성</label><label><input type="checkbox"> 단체 · 인원과 배포</label></fieldset><button>조건 초기화</button></aside>
+        <div class="results"><div class="result-head"><b>선택 목적: 나를 위해 · 결과 수 NOT_VERIFIED</b><select aria-label="정렬"><option>목적 적합 정보 많은 순</option><option>보관 정보 많은 순</option></select></div><div class="grid-cards"><div class="wide-card"><div>IMAGE</div><b>상품 후보 01</b><span><strong>개인 우선:</strong> 오늘 섭취·개봉 전후</span><small>보관 정보 NOT_VERIFIED</small></div><div class="wide-card"><div>IMAGE</div><b>상품 후보 02</b><span><strong>선물 전환 시:</strong> 직장 수령·냉장 가능</span><small>수령 정보 NOT_VERIFIED</small></div><div class="wide-card"><div>IMAGE</div><b>상품 후보 03</b><span><strong>단체 전환 시:</strong> 수령 담당·배포 시간</span><small>운영 정보 NOT_VERIFIED</small></div><div class="wide-card"><div>IMAGE</div><b>상품 후보 04</b><span><strong>공통:</strong> 이상 상태·문의 경로</span><small>판정 기준 NOT_VERIFIED</small></div></div><div class="context-note"><b>목적을 바꾸면</b><p>상품 목록 자체를 임의로 바꾸지 않고, 카드의 정보 우선순위·필터·비교 항목을 해당 목적에 맞게 전환합니다.</p></div><div class="empty-state"><b>조건에 맞는 후보가 없나요?</b><span>목적은 유지한 채 세부 조건을 줄이거나 전체 후보로 돌아갑니다.</span><button>전체 후보 보기</button></div></div>
+      </section>
+      <footer>오류 발생 시 선택 목적 유지 · 조건 재설정 · 이전 목록 · 홈 이동 제공</footer>
+    </div>
+  </article>
+
+  <article id="brand" class="screen" aria-labelledby="brand-title">
+    <div class="screen-label"><b>03</b><span>BRAND-001 · 브랜드 소개</span><em>목표: 세 구매 목적을 하나로 잇는 브랜드 정보 원칙 확인</em></div>
+    <div class="browser">
+      <header class="site-head"><strong>YOVIA</strong><nav><a href="#purpose">목적별 쇼핑</a><a href="#products">제품</a><a href="#storage">보관 안내</a><a href="#brand">브랜드</a></nav><span>검색 · 검토함 · 장바구니</span></header>
+      <section class="brand-hero"><div class="image-box">[다양한 이용자가 YOVIA를 받는 장면]<br>IMAGE NOT_VERIFIED</div><div><span class="eyebrow">YOVIA, FOR EVERY HANDOFF</span><h2 id="brand-title">먹는 사람에게 닿을 때까지<br>정보가 이어지도록</h2><p>YOVIA는 그릭요거트 기반 간편 건강식입니다. 혼자 먹든, 선물하든, 여러 사람과 나누든 필요한 보관 정보가 다음 사람에게 이어지는 경험을 설계합니다.</p></div></section>
+      <section class="values"><div><b>01</b><h3>목적에 맞게 보여줍니다</h3><p>개인에게는 섭취, 선물에는 수령, 단체에는 운영 정보를 우선 제공합니다.</p></div><div><b>02</b><h3>같은 안전 원칙을 지킵니다</h3><p>이동 편의와 냉장 안전을 구분하고 이상 상태에는 섭취 보류와 문의를 연결합니다.</p></div><div><b>03</b><h3>확인된 만큼만 말합니다</h3><p>온도·시간·배송·공급 조건이 미확정이면 NOT_VERIFIED 또는 HOLD로 표시합니다.</p></div></section>
+      <section class="three-promises"><article><span>PERSONAL</span><h3>내가 판단할 수 있게</h3><p>개봉 전후와 섭취 일정에 맞는 행동 정보</p></article><article><span>GIFT</span><h3>받는 사람까지 안심하게</h3><p>수령 조건과 함께 전달되는 보관 안내</p></article><article><span>GROUP</span><h3>담당자가 운영할 수 있게</h3><p>검수·냉장·배포·이상 대응의 공통 기준</p></article></section>
+      <section class="evidence"><div><h3>하나의 정보, 세 가지 사용 맥락</h3><p>보관 안내가 변경되면 제품 정보·FAQ·공지뿐 아니라 수령인 안내와 단체 운영 자료 후보도 함께 갱신합니다.</p><a class="button" href="#purpose">내 목적에 맞게 제품 찾기</a></div><div class="status-list"><span><b>CONFIRMED</b> 그릭요거트 기반 간편 건강식</span><span><b>NOT_VERIFIED</b> 실제 제품·온도·시간·배송·공급 조건</span><span><b>HOLD</b> 근거 없는 상온 보관·신선도·효능 주장</span></div></section>
+      <footer>브랜드 원칙 · 목적별 제품 · 보관 안내 · 검증 상태 · 문의</footer>
+    </div>
+  </article>
+<section class="consumer-reviews" aria-labelledby="consumer-reviews-title"><header><div><small>CONSUMER REVIEWS</small><h2 id="consumer-reviews-title">목적별 소비자 후기</h2></div><span>실제 후기 0 · 평점 NOT_VERIFIED · 허위 생성 HOLD</span></header><div class="consumer-review-grid"><article><b>후기 데이터 준비 중</b><p>개인·선물·단체 등 이용 목적과 조건을 구분해 실제 경험을 확인합니다.</p><small>출처·작성일·이용 조건 확인 후 공개</small></article><article><b>현재 빈 상태</b><p>목적과 출처가 검증된 실제 후기가 아직 없습니다.</p><small>실제 데이터가 들어오면 동일 위치에 표시</small></article><article><b>검증 원칙</b><p>공식 제품 정보와 개인 경험을 분리하고 긍정·부정을 같은 기준으로 제공합니다.</p><small>효능 경험담과 임의 평점은 생성하지 않음</small></article></div></section></main>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* PRODUCT-001~015: JavaScript 없는 가로 슬라이드 */
+.product-slider-section {
+  overflow: hidden;
+}
+
+.slider-help {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.product-slider-section .products {
+  display: flex;
+  grid-template-columns: none;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  padding: .25rem .25rem 1.25rem;
+  scrollbar-color: #555 #ccc;
+}
+
+.product-slider-section .products:focus-visible {
+  outline: 3px solid #111;
+  outline-offset: 4px;
+}
+
+.product-slider-section .product {
+  flex: 0 0 calc((100% - 2rem) / 3.15);
+  min-width: 240px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.product-slider-section .product > div {
+  min-height: 150px;
+}
+
+.product-slider-section .product a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: .7rem;
+  border: 1px solid #555;
+  background: #eee;
+  font-weight: 700;
+}
+
+.slider-range {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.track-line {
+  height: 4px;
+  flex: 1;
+  background: #999;
+}
+
+@media (max-width: 1199px) {
+  .product-slider-section .product {
+    flex-basis: calc((100% - 1rem) / 2.15);
+  }
+}
+
+@media (max-width: 767px) {
+  .product-slider-section .products {
+    display: flex;
+  }
+
+  .product-slider-section .product {
+    flex-basis: 88%;
+    min-width: 0;
+  }
+
+  .product-slider-section .product > div {
+    min-height: 180px;
+  }
+}

@@ -1,0 +1,41 @@
+flowchart TD
+  START(["외부 검색·공유 링크"])
+  LAND["SCR-002 검색 유입 랜딩"]
+  DIRECT{"유효한 상세 경로인가?"}
+  ERROR["SCR-016 오류 안내"]
+  DETAIL["SCR-004 제품 상세"]
+  ANSWER{"질문의 답을 찾았는가?"}
+  HUB["SCR-003 제품 정보"]
+  INFO{"추가 정보 선택"}
+  USE["SCR-005 사용법"]
+  ING["SCR-006 원료·성분"]
+  VERIFY["SCR-007 검증 정보"]
+  STATUS{"자료가 확인됨인가?"}
+  PENDING["SCR-015 자료 준비 중"]
+  RELATED["SCR-008 관련 콘텐츠"]
+  EMPTY["SCR-014 콘텐츠 없음"]
+  GUIDE["SCR-009 페이지 안내"]
+  NEXT["SCR-010 다음 행동"]
+  ACTION{"알림 신청을 선택했는가? · 가정"}
+  LOGIN["SCR-011 로그인 · 가정"]
+  VALID{"입력값이 유효한가? · 가정"}
+  INPUT["SCR-012 입력 오류 · 가정"]
+  RESULT["SCR-013 결과 확인 · 가정"]
+  END(["정보 확인 완료"])
+  START --> LAND --> DIRECT
+  DIRECT -- 아니오 --> ERROR --> LAND
+  DIRECT -- 예 --> DETAIL --> ANSWER
+  ANSWER -- 아니오 --> HUB --> INFO
+  ANSWER -- 예 --> INFO
+  INFO -- 사용법 --> USE --> RELATED
+  INFO -- 원료·성분 --> ING --> RELATED
+  INFO -- 검증 정보 --> VERIFY --> STATUS
+  STATUS -- 아니오 --> PENDING --> RELATED
+  STATUS -- 예 --> RELATED
+  RELATED --> EMPTY
+  EMPTY -- 이전 단계 --> RELATED
+  RELATED --> GUIDE --> NEXT --> ACTION
+  ACTION -- 아니오 --> END
+  ACTION -- 예 --> LOGIN --> VALID
+  VALID -- 아니오 --> INPUT --> LOGIN
+  VALID -- 예 --> RESULT --> END

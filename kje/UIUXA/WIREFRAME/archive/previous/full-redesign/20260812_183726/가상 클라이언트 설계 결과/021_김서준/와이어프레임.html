@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VC-021 김서준 검색 유입 와이어프레임</title>
+<style>
+:root{--ink:#202421;--muted:#68706a;--line:#cbd1cc;--paper:#fff;--soft:#f3f5f2;--accent:#315c42;--warn:#765613}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--soft);font:15px/1.55 system-ui,-apple-system,"Noto Sans KR",sans-serif}a{color:inherit}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;background:#fff;padding:10px;z-index:10}.layout{display:grid;grid-template-columns:250px 1fr;min-height:100vh}aside{position:sticky;top:0;height:100vh;overflow:auto;background:#1f2922;color:#fff;padding:24px 18px}aside h1{font-size:20px;margin:0 0 6px}aside p{color:#bdc7bf;font-size:12px}nav a{display:block;padding:8px 10px;border-radius:6px;text-decoration:none}nav a:hover,nav a:focus{background:#34443a;outline:2px solid #fff}main{padding:32px;max-width:1240px}.intro{margin-bottom:24px}.screen{display:none;background:var(--paper);border:1px solid var(--line);box-shadow:0 8px 24px #1d2a2020;min-height:680px}.screen.active{display:block}.top{border-bottom:1px solid var(--line);padding:16px 24px}.brand{font-weight:800;letter-spacing:.12em}.global{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.global a,.btn{display:inline-block;border:1px solid var(--ink);padding:10px 14px;text-decoration:none;background:#fff;border-radius:4px;cursor:pointer}.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.body{padding:28px}.crumb{color:var(--muted);font-size:13px}.eyebrow{font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}h2{font-size:32px;line-height:1.2;margin:12px 0}.answer{font-size:19px;border-left:4px solid var(--accent);padding:12px 16px;background:var(--soft);max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0}.card,.media,.notice{border:1px solid var(--line);padding:18px;background:#fff}.media{min-height:160px;display:grid;place-items:center;background:#e8ebe7;color:var(--muted)}.tag{display:inline-block;border:1px solid var(--accent);color:var(--accent);font-size:12px;padding:3px 7px;border-radius:99px}.tag.hold{border-color:var(--warn);color:var(--warn)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}label{display:block;margin:12px 0 5px}input{width:min(100%,420px);padding:12px;border:1px solid #707771;font:inherit}.error{border-left:4px solid #9b3030;background:#fff1f1;padding:14px}footer{padding:18px 24px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}@media(max-width:900px){.layout{display:block}aside{position:static;height:auto}nav{display:flex;overflow:auto;gap:4px}nav a{white-space:nowrap}main{padding:16px}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){h2{font-size:26px}.body{padding:20px}.grid{grid-template-columns:1fr}.screen{min-height:620px}.global{overflow:auto;flex-wrap:nowrap}.global a{white-space:nowrap}.actions .btn{width:100%;text-align:center;min-height:44px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">본문으로 건너뛰기</a>
+<div class="layout">
+<aside><h1>YOVIA / VC-021</h1><p>검색 유입·콘텐츠 발견성<br>16개 독립 화면</p><nav aria-label="화면 목차" id="toc"></nav></aside>
+<main id="content"><div class="intro"><strong>저충실도 와이어프레임</strong><br><span>가격·재고·리뷰·효능은 확정 전 표시하지 않습니다. 로그인·입력은 가정입니다.</span></div><div id="screens"></div></main>
+</div>
+<script>
+const screens=[
+['SCR-001','홈','YOVIA는 어떤 브랜드인가요?','그릭요거트를 기반으로 바쁜 일상에서도 간편한 건강 습관을 돕는 브랜드입니다.',['제품 정보','사용법','원료·성분','검증 정보'],['SCR-003','SCR-005','SCR-006','SCR-007']],
+['SCR-002','검색 유입 랜딩','찾던 YOVIA 정보가 맞나요?','이 페이지는 검색 질문과 연결된 제품 정보의 확인 범위를 한 문장으로 안내합니다.',['질문과 답','현재 위치','근거 요약'],['SCR-004','SCR-016']],
+['SCR-003','제품 정보','YOVIA 제품 정보는 어디서 확인하나요?','확인된 제품 범위와 준비 중인 정보를 구분해 탐색할 수 있습니다.',['제품 범위','정보 상태','제품 카드'],['SCR-004','SCR-014']],
+['SCR-004','제품 상세','이 제품에서 지금 확인할 수 있는 것은 무엇인가요?','제품의 확정된 특징과 관련 근거만 표시합니다.',['제품 이미지','확인된 사실','정보 상태'],['SCR-005','SCR-006','SCR-007']],
+['SCR-005','사용법','YOVIA를 어떻게 이용하나요?','확정된 사용 순서와 주의 범위를 단계별로 확인합니다.',['1. 준비','2. 사용','3. 정리'],['SCR-008']],
+['SCR-006','원료·성분','원료와 성분은 어디까지 확인됐나요?','승인된 원료 정보와 아직 준비 중인 항목을 구분합니다.',['확인된 원료','상태 라벨','관련 근거'],['SCR-008','SCR-015']],
+['SCR-007','검증 정보','이 정보의 근거 상태는 무엇인가요?','문서 범위와 기준일, 확인 상태를 함께 표시합니다.',['확인됨','기준일 필요','문서 범위'],['SCR-008','SCR-015']],
+['SCR-008','관련 콘텐츠','다음으로 어떤 정보를 보면 좋을까요?','현재 질문과 가까운 정보만 설명형 링크로 연결합니다.',['제품과 사용법','원료와 검증','페이지 목적'],['SCR-009','SCR-014']],
+['SCR-009','페이지 안내','지금 어떤 정보를 보고 있나요?','현재 위치와 페이지의 고유한 탐색 목적을 다시 확인합니다.',['홈 / 정보 / 현재 위치','페이지 목적','정보 범위'],['SCR-010']],
+['SCR-010','다음 행동','정보 확인 후 무엇을 할까요?','제품 정보를 계속 보거나 알림 신청 흐름을 선택합니다.',['확인한 정보','계속 탐색','알림 신청 · 가정'],['SCR-003','SCR-011']],
+['SCR-011','로그인','알림 신청을 위해 로그인할까요? · 가정','정보 열람에는 로그인이 필요 없으며 이 입력 흐름은 가정입니다.',['이메일 입력','비밀번호 입력','비회원 계속'],['SCR-012','SCR-013','SCR-003']],
+['SCR-012','입력 오류','입력 정보를 다시 확인해 주세요. · 가정','오류 원인과 수정 방법을 같은 위치에서 알려줍니다.',['오류 요약','이메일 형식 확인','입력 수정'],['SCR-011']],
+['SCR-013','결과 확인','신청이 완료되었습니다. · 가정','가정된 처리 결과를 확인하고 제품 정보 탐색으로 돌아갑니다.',['완료 상태','신청 범위','다음 탐색'],['SCR-003']],
+['SCR-014','콘텐츠 없음','연결할 콘텐츠가 아직 없습니다.','정보를 추정하지 않고 제품 정보나 이전 관련 콘텐츠로 복귀합니다.',['빈 상태','제품 정보로','이전 단계'],['SCR-003','SCR-008']],
+['SCR-015','자료 준비 중','아직 확인되지 않은 자료입니다.','가격·재고·리뷰·효능을 만들지 않고 확인 가능한 대체 정보만 연결합니다.',['자료 준비 중','미노출 항목','대체 정보'],['SCR-008']],
+['SCR-016','오류 안내','페이지를 불러오지 못했습니다.','다시 시도하거나 홈으로 이동해 탐색을 재개할 수 있습니다.',['오류 설명','다시 시도','홈 복귀'],['SCR-002','SCR-001']]
+];
+const names=Object.fromEntries(screens.map(s=>[s[0],s[1]]));
+const go=id=>{document.querySelectorAll('.screen').forEach(x=>x.classList.toggle('active',x.id===id));location.hash=id;document.getElementById(id)?.focus();};
+document.getElementById('toc').innerHTML=screens.map(s=>`<a href="#${s[0]}" data-go="${s[0]}">${s[0]} ${s[1]}</a>`).join('');
+document.getElementById('screens').innerHTML=screens.map((s,i)=>`<section class="screen ${i?'':'active'}" id="${s[0]}" tabindex="-1" aria-labelledby="h-${s[0]}"><header class="top"><div class="brand">YOVIA</div><div class="global"><a href="#SCR-003" data-go="SCR-003">제품 정보</a><a href="#SCR-005" data-go="SCR-005">사용법</a><a href="#SCR-006" data-go="SCR-006">원료·성분</a><a href="#SCR-007" data-go="SCR-007">검증 정보</a></div></header><div class="body"><div class="crumb">홈 / 정보 / ${s[1]}</div><p class="eyebrow">${s[0]} · ${s[1]}</p><h2 id="h-${s[0]}">${s[2]}</h2><p class="answer">${s[3]}</p>${s[0]==='SCR-004'?'<div class="media" role="img" aria-label="YOVIA 제품 형태를 설명할 이미지 플레이스홀더">제품 설명 이미지 플레이스홀더</div>':''}${s[0]==='SCR-011'?'<label for="email">이메일</label><input id="email" type="email" placeholder="name@example.com"><label for="pw">비밀번호</label><input id="pw" type="password" placeholder="비밀번호">':''}${s[0]==='SCR-012'?'<p class="error" role="alert">이메일 형식을 확인하고 다시 입력해 주세요.</p>':''}<div class="grid">${s[4].map((x,j)=>`<article class="card"><span class="tag ${x.includes('준비')?'hold':''}">${x.includes('가정')?'가정':'정보 '+(j+1)}</span><h3>${x}</h3><p>페이지 고유 목적에 맞는 설명과 상태를 표시합니다.</p></article>`).join('')}</div><div class="actions">${s[5].map((id,j)=>`<a class="btn ${j?'':'primary'}" href="#${id}" data-go="${id}">${names[id]}로 이동</a>`).join('')}</div></div><footer>YOVIA — 현재 페이지의 질문·답·검증 상태를 우선합니다.</footer></section>`).join('');
+document.addEventListener('click',e=>{const a=e.target.closest('[data-go]');if(a){e.preventDefault();go(a.dataset.go)}});if(location.hash&&names[location.hash.slice(1)])go(location.hash.slice(1));
+</script>
+</body>
+</html>

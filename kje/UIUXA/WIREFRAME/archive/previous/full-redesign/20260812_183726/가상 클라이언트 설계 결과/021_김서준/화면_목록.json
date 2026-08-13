@@ -1,0 +1,18 @@
+[
+  {"id":"SCR-001","name":"홈","purpose":"브랜드와 정보 영역 소개","entryConditions":["직접 방문","오류 복구"],"sections":["브랜드 정의","전역 메뉴","정보 카드"],"actions":["제품 정보 보기","사용법 보기","원료·성분 보기","검증 정보 보기"],"states":["기본","로딩"],"nextScreens":["SCR-003","SCR-005","SCR-006","SCR-007"]},
+  {"id":"SCR-002","name":"검색 유입 랜딩","purpose":"검색 질문과 한 문장 답 일치","entryConditions":["외부 검색","공유 링크"],"sections":["현재 위치","검색 질문","한 문장 답","근거 요약"],"actions":["제품 상세 보기","오류 복구"],"states":["기본","오류"],"nextScreens":["SCR-004","SCR-016"]},
+  {"id":"SCR-003","name":"제품 정보","purpose":"제품 정보 범위 재탐색","entryConditions":["홈","답 미해결","콘텐츠 없음"],"sections":["페이지 안내","제품 범위","상태 카드"],"actions":["제품 상세 보기"],"states":["기본","로딩","빈 상태"],"nextScreens":["SCR-004","SCR-014"]},
+  {"id":"SCR-004","name":"제품 상세","purpose":"제품 사실과 근거 확인","entryConditions":["검색 유입 랜딩","제품 정보"],"sections":["질문과 답","제품 이미지","확인된 사실","관련 정보"],"actions":["사용법 보기","원료·성분 보기","검증 정보 보기"],"states":["기본","로딩"],"nextScreens":["SCR-005","SCR-006","SCR-007"]},
+  {"id":"SCR-005","name":"사용법","purpose":"사용 순서 확인","entryConditions":["홈","제품 상세"],"sections":["한 문장 답","사용 단계","주의","관련 링크"],"actions":["관련 콘텐츠 보기"],"states":["기본","로딩"],"nextScreens":["SCR-008"]},
+  {"id":"SCR-006","name":"원료·성분","purpose":"확정된 원료 정보 범위 확인","entryConditions":["홈","제품 상세"],"sections":["한 문장 답","원료 범위","상태 라벨","관련 링크"],"actions":["관련 콘텐츠 보기"],"states":["기본","자료 준비 중"],"nextScreens":["SCR-008","SCR-015"]},
+  {"id":"SCR-007","name":"검증 정보","purpose":"문서의 범위와 상태 확인","entryConditions":["홈","제품 상세"],"sections":["검증 범위","기준일","문서 상태"],"actions":["관련 콘텐츠 보기","준비 상태 보기"],"states":["확인됨","자료 준비 중"],"nextScreens":["SCR-008","SCR-015"]},
+  {"id":"SCR-008","name":"관련 콘텐츠","purpose":"현재 질문과 가까운 다음 정보 탐색","entryConditions":["사용법","원료·성분","검증 정보","자료 준비 중"],"sections":["설명형 링크 카드","정보 상태"],"actions":["페이지 안내 보기","이전 단계"],"states":["기본","빈 상태"],"nextScreens":["SCR-009","SCR-014"]},
+  {"id":"SCR-009","name":"페이지 안내","purpose":"현재 위치와 페이지 목적 재확인","entryConditions":["관련 콘텐츠"],"sections":["경로","페이지 목적","정보 범위"],"actions":["다음 행동 보기"],"states":["기본"],"nextScreens":["SCR-010"]},
+  {"id":"SCR-010","name":"다음 행동","purpose":"탐색 지속 또는 가정된 알림 선택","entryConditions":["페이지 안내"],"sections":["확인 내용","행동 선택"],"actions":["제품 정보로","알림 신청"],"states":["기본"],"nextScreens":["SCR-003","SCR-011"]},
+  {"id":"SCR-011","name":"로그인","purpose":"회원 여부 분기(가정)","entryConditions":["알림 신청","입력 오류 수정"],"sections":["가정 안내","이메일","비밀번호"],"actions":["로그인","비회원 계속"],"states":["기본","오류"],"nextScreens":["SCR-012","SCR-013","SCR-003"]},
+  {"id":"SCR-012","name":"입력 오류","purpose":"잘못된 입력 복구(가정)","entryConditions":["로그인 입력 실패"],"sections":["오류 요약","수정 안내"],"actions":["입력 수정"],"states":["오류"],"nextScreens":["SCR-011"]},
+  {"id":"SCR-013","name":"결과 확인","purpose":"가정된 신청 결과 확인","entryConditions":["유효한 입력"],"sections":["완료 메시지","신청 범위","다음 탐색"],"actions":["제품 정보로"],"states":["완료"],"nextScreens":["SCR-003"]},
+  {"id":"SCR-014","name":"콘텐츠 없음","purpose":"결과 없음에서 복구","entryConditions":["관련 콘텐츠 빈 상태","제품 없음"],"sections":["빈 상태 설명","복구 링크"],"actions":["제품 정보로","관련 콘텐츠로"],"states":["빈 상태"],"nextScreens":["SCR-003","SCR-008"]},
+  {"id":"SCR-015","name":"자료 준비 중","purpose":"미확정 자료의 노출 통제","entryConditions":["검증 자료 미확정"],"sections":["상태 라벨","미노출 항목","대체 정보"],"actions":["관련 콘텐츠로"],"states":["자료 준비 중"],"nextScreens":["SCR-008"]},
+  {"id":"SCR-016","name":"오류 안내","purpose":"잘못된 경로 또는 시스템 오류 복구","entryConditions":["유효하지 않은 URL","처리 오류"],"sections":["오류 설명","복구 행동"],"actions":["다시 시도","홈으로"],"states":["오류"],"nextScreens":["SCR-002","SCR-001"]}
+]

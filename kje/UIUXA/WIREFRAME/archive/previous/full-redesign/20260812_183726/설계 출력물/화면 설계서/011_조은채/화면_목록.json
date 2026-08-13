@@ -1,0 +1,440 @@
+[
+  {
+    "id": "SCR-001",
+    "name": "홈",
+    "purpose": "브랜드 정의와 편익 즉시 이해",
+    "entryConditions": [
+      "최초 진입",
+      "오류 복귀"
+    ],
+    "sections": [
+      "공통 헤더",
+      "한 문장 정의",
+      "제품 이미지",
+      "입문 CTA"
+    ],
+    "actions": [
+      "입문 시작",
+      "구성 보기",
+      "검증 보기"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-002",
+      "SCR-004",
+      "SCR-010",
+      "SCR-017"
+    ]
+  },
+  {
+    "id": "SCR-002",
+    "name": "입문 가이드",
+    "purpose": "학습 순서 예고",
+    "entryConditions": [
+      "홈"
+    ],
+    "sections": [
+      "진행 표시",
+      "4단계 개요"
+    ],
+    "actions": [
+      "학습 시작",
+      "홈"
+    ],
+    "states": [
+      "기본"
+    ],
+    "nextScreens": [
+      "SCR-003",
+      "SCR-001"
+    ]
+  },
+  {
+    "id": "SCR-003",
+    "name": "제품 소개",
+    "purpose": "제품 범위 이해",
+    "entryConditions": [
+      "입문 가이드"
+    ],
+    "sections": [
+      "브랜드 정의",
+      "사용 맥락",
+      "용어 도움말"
+    ],
+    "actions": [
+      "다음",
+      "용어 확인"
+    ],
+    "states": [
+      "기본",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-004",
+      "SCR-009"
+    ]
+  },
+  {
+    "id": "SCR-004",
+    "name": "제품 구성",
+    "purpose": "구성 관계 이해",
+    "entryConditions": [
+      "제품 소개",
+      "홈"
+    ],
+    "sections": [
+      "파우치",
+      "빌트인 스푼",
+      "토핑",
+      "상태 라벨"
+    ],
+    "actions": [
+      "요소 선택",
+      "다음"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "빈 상태",
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-005",
+      "SCR-006",
+      "SCR-017"
+    ]
+  },
+  {
+    "id": "SCR-005",
+    "name": "구성요소 상세",
+    "purpose": "요소 역할 확인",
+    "entryConditions": [
+      "제품 구성"
+    ],
+    "sections": [
+      "명칭",
+      "역할",
+      "근거 상태"
+    ],
+    "actions": [
+      "이전 요소",
+      "다음 요소",
+      "구성 복귀"
+    ],
+    "states": [
+      "기본",
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-004",
+      "SCR-006"
+    ]
+  },
+  {
+    "id": "SCR-006",
+    "name": "사용법",
+    "purpose": "전체 순서 이해",
+    "entryConditions": [
+      "제품 구성",
+      "홈"
+    ],
+    "sections": [
+      "열기",
+      "준비",
+      "즐기기",
+      "정리"
+    ],
+    "actions": [
+      "단계 선택",
+      "완료"
+    ],
+    "states": [
+      "기본",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-007",
+      "SCR-008"
+    ]
+  },
+  {
+    "id": "SCR-007",
+    "name": "단계 상세",
+    "purpose": "행동과 주의 확인",
+    "entryConditions": [
+      "사용법"
+    ],
+    "sections": [
+      "현재 단계",
+      "제품 상태",
+      "주의",
+      "이미지"
+    ],
+    "actions": [
+      "이전",
+      "다음",
+      "사용법 복귀"
+    ],
+    "states": [
+      "기본",
+      "오류",
+      "완료"
+    ],
+    "nextScreens": [
+      "SCR-006",
+      "SCR-008",
+      "SCR-017"
+    ]
+  },
+  {
+    "id": "SCR-008",
+    "name": "학습 완료",
+    "purpose": "학습 요약과 후속 선택",
+    "entryConditions": [
+      "사용법"
+    ],
+    "sections": [
+      "완료 요약",
+      "체크리스트"
+    ],
+    "actions": [
+      "다시 보기",
+      "검증 확인",
+      "다음 행동"
+    ],
+    "states": [
+      "완료"
+    ],
+    "nextScreens": [
+      "SCR-003",
+      "SCR-004",
+      "SCR-006",
+      "SCR-010",
+      "SCR-011"
+    ]
+  },
+  {
+    "id": "SCR-009",
+    "name": "용어 안내",
+    "purpose": "낯선 용어 해소",
+    "entryConditions": [
+      "제품 소개",
+      "제품 구성",
+      "사용법"
+    ],
+    "sections": [
+      "용어명",
+      "쉬운 정의",
+      "관련 화면"
+    ],
+    "actions": [
+      "호출 화면 복귀"
+    ],
+    "states": [
+      "기본",
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-003",
+      "SCR-004",
+      "SCR-006"
+    ]
+  },
+  {
+    "id": "SCR-010",
+    "name": "검증 정보",
+    "purpose": "공개 상태와 근거 확인",
+    "entryConditions": [
+      "홈",
+      "학습 완료"
+    ],
+    "sections": [
+      "CONFIRMED",
+      "NOT_VERIFIED",
+      "HOLD",
+      "기준일"
+    ],
+    "actions": [
+      "근거 확인",
+      "다음 행동"
+    ],
+    "states": [
+      "기본",
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-011",
+      "SCR-015"
+    ]
+  },
+  {
+    "id": "SCR-011",
+    "name": "다음 행동",
+    "purpose": "조건부 행동 선택",
+    "entryConditions": [
+      "학습 완료",
+      "검증 정보"
+    ],
+    "sections": [
+      "목적",
+      "도착 정보",
+      "활성 조건"
+    ],
+    "actions": [
+      "CTA 실행",
+      "다시 보기"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "빈 상태",
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-012",
+      "SCR-013",
+      "SCR-014",
+      "SCR-015",
+      "SCR-017"
+    ]
+  },
+  {
+    "id": "SCR-012",
+    "name": "로그인",
+    "purpose": "회원 인증",
+    "entryConditions": [
+      "다음 행동"
+    ],
+    "sections": [
+      "아이디",
+      "비밀번호",
+      "가정 표시"
+    ],
+    "actions": [
+      "로그인",
+      "취소"
+    ],
+    "states": [
+      "기본",
+      "입력 오류",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-013",
+      "SCR-014"
+    ]
+  },
+  {
+    "id": "SCR-013",
+    "name": "입력 오류 안내",
+    "purpose": "로그인 입력 수정",
+    "entryConditions": [
+      "로그인"
+    ],
+    "sections": [
+      "오류 원인",
+      "수정 방법"
+    ],
+    "actions": [
+      "입력 수정"
+    ],
+    "states": [
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-012"
+    ]
+  },
+  {
+    "id": "SCR-014",
+    "name": "결과 확인",
+    "purpose": "행동 결과 확인",
+    "entryConditions": [
+      "다음 행동",
+      "로그인"
+    ],
+    "sections": [
+      "결과 요약",
+      "계속 탐색"
+    ],
+    "actions": [
+      "홈 이동"
+    ],
+    "states": [
+      "완료"
+    ],
+    "nextScreens": [
+      "SCR-001"
+    ]
+  },
+  {
+    "id": "SCR-015",
+    "name": "결과 없음",
+    "purpose": "연결 결과 0건 복구",
+    "entryConditions": [
+      "다음 행동"
+    ],
+    "sections": [
+      "0건 안내",
+      "대체 정보"
+    ],
+    "actions": [
+      "학습 완료 복귀"
+    ],
+    "states": [
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-008"
+    ]
+  },
+  {
+    "id": "SCR-016",
+    "name": "자료 준비 중",
+    "purpose": "미확정 정보 복구",
+    "entryConditions": [
+      "검증 정보",
+      "다음 행동"
+    ],
+    "sections": [
+      "미확정 이유",
+      "필요 자료"
+    ],
+    "actions": [
+      "검증 복귀"
+    ],
+    "states": [
+      "기본"
+    ],
+    "nextScreens": [
+      "SCR-010"
+    ]
+  },
+  {
+    "id": "SCR-017",
+    "name": "오류 안내",
+    "purpose": "경로·자산 실패 복구",
+    "entryConditions": [
+      "전체 화면"
+    ],
+    "sections": [
+      "오류 설명",
+      "유지된 단계"
+    ],
+    "actions": [
+      "재시도",
+      "이전",
+      "홈"
+    ],
+    "states": [
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-001"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>YOVIA VC-006 정다은 와이어프레임</title>
+  <style>
+    :root{--ink:#202124;--line:#667085;--paper:#fff;--soft:#f2f4f7;--accent:#175cd3;--warn:#b54708;--error:#b42318;--ok:#027a48}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:16px/1.5 system-ui,"Noto Sans KR","Malgun Gothic",sans-serif;background:#e9edf2}button,a,input{font:inherit}button,a{min-height:44px}.shell{display:grid;grid-template-columns:280px 1fr;min-height:100vh}.toc{background:#111827;color:#fff;padding:20px;position:sticky;top:0;height:100vh;overflow:auto}.toc h1{font-size:18px;margin:0 0 8px}.toc p{font-size:13px;color:#cbd5e1}.toc button{display:block;width:100%;margin:5px 0;padding:9px 10px;border:1px solid #475467;border-radius:6px;background:#1f2937;color:#fff;text-align:left;cursor:pointer}.toc button[aria-current="page"]{background:#fff;color:#111827}.workspace{padding:24px}.device{max-width:1280px;margin:auto;background:var(--paper);border:2px solid #344054;min-height:720px}.global{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:2px solid #98a2b3}.brand{font-weight:800;margin-right:auto}.global button,.actions button{border:2px solid #475467;background:#fff;border-radius:6px;padding:8px 12px;cursor:pointer}.global button:hover,.actions button:hover{background:#eef4ff}.screen{padding:24px}.eyebrow{color:#475467;font-size:14px}.screen h2{margin:4px 0 20px}.status{display:inline-block;padding:4px 8px;border:1px solid var(--ok);color:var(--ok);font-weight:700}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}.panel,.card{border:2px solid #98a2b3;padding:16px;background:#fff}.placeholder{min-height:180px;display:grid;place-items:center;border:2px dashed #667085;background:var(--soft);text-align:center;padding:20px}.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.controls label{border:1px solid #98a2b3;padding:12px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.actions .primary{background:var(--accent);border-color:var(--accent);color:#fff}.note{border-left:5px solid var(--warn);background:#fffaeb;padding:12px}.error{border-left-color:var(--error);background:#fef3f2}.statebar{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.statebar button{border:1px solid #98a2b3;background:#fff;padding:6px 10px}.statebar button.active{background:#344054;color:#fff}.mock-table{width:100%;border-collapse:collapse}.mock-table th,.mock-table td{border:1px solid #98a2b3;padding:10px;text-align:left}.footer{border-top:2px solid #98a2b3;padding:16px;display:flex;gap:16px;flex-wrap:wrap}.footer button{border:0;background:none;text-decoration:underline;cursor:pointer}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}:focus-visible{outline:3px solid #f79009;outline-offset:2px}
+    @media(max-width:1199px){.grid{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:767px){.shell{display:block}.toc{position:static;height:auto;max-height:260px}.workspace{padding:10px}.global{flex-wrap:wrap}.global .brand{width:100%}.grid,.controls{grid-template-columns:1fr}.screen{padding:16px}.mock-scroll{overflow-x:auto}.mock-table{min-width:620px}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <aside class="toc" aria-label="화면 목차"><h1>VC-006 와이어프레임</h1><p>버튼을 누르면 서비스 흐름에 따라 화면이 전환됩니다.</p><nav id="toc"></nav></aside>
+  <main class="workspace">
+    <div class="device">
+      <header class="global"><span class="brand">YOVIA</span><button data-go="SCR-001">홈</button><button data-go="SCR-002">제품 탐색</button><button data-go="SCR-003">맛·식감 탐색</button></header>
+      <div class="statebar" aria-label="상태 미리보기"><button data-state="default" class="active">기본</button><button data-state="loading">로딩</button><button data-state="empty">빈 상태</button><button data-state="error">오류</button><button data-state="complete">완료</button></div>
+      <section id="screen" class="screen" aria-live="polite"></section>
+      <footer class="footer"><button data-go="SCR-001">홈</button><button data-go="SCR-002">제품 탐색</button><button data-go="SCR-009">검증 상태</button><span>촬영 출처·사용권: 가정/확정 필요</span></footer>
+    </div>
+  </main>
+</div>
+<script>
+const screens=[
+['SCR-001','홈','실제 대표 제품과 확인된 감각 정보로 탐색 시작',['제품 탐색','맛·식감 탐색'],['SCR-002','SCR-003']],
+['SCR-002','제품 탐색','확정 제품 후보 탐색',['비교하기','제품 상세','결과 없음','입력 오류'],['SCR-004','SCR-005','SCR-013','SCR-014']],
+['SCR-003','맛·식감 탐색','맛·질감·토핑 기준으로 제품 탐색',['비교하기','제품 상세','결과 없음','입력 오류'],['SCR-004','SCR-005','SCR-013','SCR-014']],
+['SCR-004','제품 비교','확정 옵션의 맛·질감·토핑 차이 확인',['제품 상세','제품 탐색','입력 오류'],['SCR-005','SCR-002','SCR-014']],
+['SCR-005','제품 상세','이미지·감각 요약·근거·행동 통합',['제품 갤러리','제품 정보','다음 행동','오류 안내'],['SCR-006','SCR-007','SCR-010','SCR-015']],
+['SCR-006','제품 갤러리','실제 제품 이미지와 세부 질감 확인',['제품 상세','자산 상태','오류 안내'],['SCR-005','SCR-008','SCR-015']],
+['SCR-007','제품 정보','적용 제품과 감각 정보의 근거 확인',['제품 상세','검증 상태','오류 안내'],['SCR-005','SCR-009','SCR-015']],
+['SCR-008','자산 상태','실제·콘셉트·미검증 이미지 구분',['제품 갤러리','검증 상태'],['SCR-006','SCR-009']],
+['SCR-009','검증 상태','공개 가능 정보와 미검증·보류 정보 구분',['제품 상세','제품 정보'],['SCR-005','SCR-007']],
+['SCR-010','다음 행동','확정 정보를 확인한 사용자의 행동 선택',['제품 상세','로그인 (가정)','준비 중 안내'],['SCR-005','SCR-011','SCR-012']],
+['SCR-011','로그인','가정상 인증 필요 행동 지원',['다음 행동','입력 오류'],['SCR-010','SCR-014']],
+['SCR-012','준비 중 안내','미확정 CTA에서 안전하게 복구',['제품 탐색','제품 상세'],['SCR-002','SCR-005']],
+['SCR-013','결과 없음','필터 결과가 없을 때 조건 초기화',['제품 탐색','맛·식감 탐색'],['SCR-002','SCR-003']],
+['SCR-014','입력 오류 안내','필터·비교·로그인 입력 오류 복구',['제품 탐색','맛·식감 탐색','제품 비교','로그인'],['SCR-002','SCR-003','SCR-004','SCR-011']],
+['SCR-015','오류 안내','URL·이미지·데이터 오류 복구',['홈','제품 상세','제품 갤러리','제품 정보'],['SCR-001','SCR-005','SCR-006','SCR-007']]
+];
+const byId=Object.fromEntries(screens.map(s=>[s[0],s]));let current='SCR-001',state='default';
+const toc=document.querySelector('#toc'),host=document.querySelector('#screen');
+screens.forEach(s=>{const b=document.createElement('button');b.textContent=`${s[0]} · ${s[1]}`;b.dataset.go=s[0];toc.append(b)});
+function content(s){
+ const [id,name,purpose,labels,targets]=s;
+ const special=name==='제품 비교'?`<div class="mock-scroll"><table class="mock-table"><tr><th>비교 항목</th><th>제품 A</th><th>제품 B</th></tr><tr><th>맛</th><td>확정 정보</td><td>확정 정보</td></tr><tr><th>질감</th><td>텍스트 설명</td><td>텍스트 설명</td></tr><tr><th>토핑</th><td>적용 여부</td><td>적용 여부</td></tr></table></div>`:name==='로그인'?`<div class="panel"><label>이메일 <input type="email" placeholder="name@example.com"></label><br><label>비밀번호 <input type="password"></label><p>가정: 인증 정책 미확정</p></div>`:`<div class="grid"><div class="placeholder" role="img" aria-label="${name} 대표 제품 이미지 플레이스홀더">이미지 플레이스홀더<br>대체 텍스트 포함</div><div class="card"><h3>맛·질감·토핑</h3><p>확정된 감각 정보만 표시합니다.</p><span class="status">CONFIRMED</span></div><div class="card"><h3>상태와 근거</h3><p>CONCEPT · NOT_VERIFIED · HOLD를 텍스트로 구분합니다.</p></div></div>`;
+ const stateMsg=state==='default'?'':`<div class="note ${state==='error'?'error':''}" role="status">${state==='loading'?'콘텐츠를 불러오는 중입니다.':state==='empty'?'표시할 결과가 없습니다. 조건을 초기화해 주세요.':state==='error'?'정보를 불러오지 못했습니다. 다시 시도해 주세요.':'작업이 완료되었습니다.'}</div>`;
+ return `<div class="eyebrow">${id}</div><h2>${name}</h2><p>${purpose}</p>${stateMsg}${special}<div class="actions">${labels.map((l,i)=>`<button class="${i===0?'primary':''}" data-go="${targets[i]}">${l}</button>`).join('')}</div>`;
+}
+function render(id){current=byId[id]?id:'SCR-015';host.innerHTML=content(byId[current]);document.querySelectorAll('[data-go]').forEach(b=>b.setAttribute('aria-current',b.dataset.go===current?'page':'false'));history.replaceState(null,'','#'+current);host.focus()}
+document.addEventListener('click',e=>{const go=e.target.closest('[data-go]'),st=e.target.closest('[data-state]');if(go)render(go.dataset.go);if(st){state=st.dataset.state;document.querySelectorAll('[data-state]').forEach(b=>b.classList.toggle('active',b===st));render(current)}});
+render(location.hash.slice(1)||'SCR-001');
+</script>
+</body>
+</html>

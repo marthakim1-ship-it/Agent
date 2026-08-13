@@ -1,0 +1,15 @@
+flowchart TD
+  S([시작]) --> MAIN001
+  MAIN001 --> CATEGORY001
+  MAIN001 --> BRAND001
+  BRAND001 --> CATEGORY001
+  CATEGORY001 --> TASK001
+  TASK001 --> TASK002
+  TASK002 --> E([결과 확인])
+  TASK002 --> MAIN001
+  CATEGORY001 --> EMPTY{결과 있음?}
+  EMPTY -->|없음| REC[조건 완화·복구]
+  REC --> CATEGORY001
+  TASK001 --> ERR{오류?}
+  ERR -->|예| RETRY[재시도]
+  RETRY --> TASK001

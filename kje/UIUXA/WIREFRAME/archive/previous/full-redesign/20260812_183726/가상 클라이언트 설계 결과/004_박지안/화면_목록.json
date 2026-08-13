@@ -1,0 +1,16 @@
+[
+  {"id":"SCR-001","name":"홈","purpose":"상황과 제품 탐색으로 빠르게 진입","entryConditions":["최초 진입","오류 안내에서 홈 선택"],"sections":["헤더","상황 요약","제품 요약","푸터"],"actions":["상황 탐색","제품 탐색"],"states":["기본","로딩","오류"],"nextScreens":["SCR-002","SCR-004"]},
+  {"id":"SCR-002","name":"사용 상황","purpose":"일상 장면별 문제와 가치 확인","entryConditions":["홈 또는 GNB"],"sections":["상황 카드","문제와 가치","관련 제품"],"actions":["상황 선택","방법 확인","제품 비교"],"states":["기본","로딩","빈 상태"],"nextScreens":["SCR-003","SCR-005"]},
+  {"id":"SCR-003","name":"사용 방법","purpose":"준비·휴대·취식·정리 순서 확인","entryConditions":["사용 상황"],"sections":["단계 표시","생활 장면","주의"],"actions":["이전 단계","다음 단계","제품 상세"],"states":["기본","로딩","완료","이미지 오류"],"nextScreens":["SCR-007"]},
+  {"id":"SCR-004","name":"제품","purpose":"제품 탐색 허브","entryConditions":["홈 또는 GNB"],"sections":["제품 요약","제품 카드"],"actions":["제품 비교","제품 상세"],"states":["기본","로딩","빈 상태","오류"],"nextScreens":["SCR-005","SCR-007"]},
+  {"id":"SCR-005","name":"제품 비교","purpose":"상황·용도·확정 옵션 비교","entryConditions":["사용 상황, 제품, 다음 행동"],"sections":["필터","비교표","선택 기준"],"actions":["조건 적용","초기화","제품 정보","제품 상세"],"states":["기본","로딩","입력 오류","빈 상태"],"nextScreens":["SCR-006","SCR-007","SCR-012"]},
+  {"id":"SCR-006","name":"제품 정보","purpose":"전환 전 신뢰 정보 확인","entryConditions":["제품 비교, 제품 상세"],"sections":["사용성","성분","확정 옵션","상태"],"actions":["상세 펼치기","제품 상세"],"states":["기본","로딩","정보 미확정","오류"],"nextScreens":["SCR-007"]},
+  {"id":"SCR-007","name":"제품 상세","purpose":"제품·사용법·신뢰 정보를 통합 검토","entryConditions":["제품, 비교, 방법, 정보"],"sections":["제품 요약","사용 방법","선택 근거","CTA"],"actions":["정보 확인","다음 행동"],"states":["기본","로딩","오류","완료"],"nextScreens":["SCR-006","SCR-008"]},
+  {"id":"SCR-008","name":"다음 행동","purpose":"목적이 명확한 행동 선택","entryConditions":["제품 상세"],"sections":["제품 비교","제품 확인","판매처 상태"],"actions":["비교하기","판매처 확인","정책 확인","상세 복귀"],"states":["기본","채널 미확정"],"nextScreens":["SCR-005","SCR-007","SCR-009","SCR-010","SCR-013"]},
+  {"id":"SCR-009","name":"판매처 안내","purpose":"확정 판매 채널 안내","entryConditions":["판매 채널 확정"],"sections":["판매처 목록","외부 이동 안내"],"actions":["외부 이동","이전"],"states":["기본","로딩","빈 상태","연결 오류"],"nextScreens":["SCR-008","SCR-014"]},
+  {"id":"SCR-010","name":"구매 정책 상태","purpose":"가격·배송·할인 정책 상태 확인","entryConditions":["다음 행동 또는 판매처 안내"],"sections":["가격 상태","배송 상태","할인 상태","기준일"],"actions":["다음 행동","반복 구매 상태","준비 중 안내"],"states":["기본","정보 미확정"],"nextScreens":["SCR-008","SCR-011","SCR-013"]},
+  {"id":"SCR-011","name":"반복 구매","purpose":"정책 확정 후 반복 구매 관리 설명","entryConditions":["반복 구매 정책 확정 후"],"sections":["주기","혜택","변경","해지"],"actions":["다음 행동"],"states":["HOLD"],"nextScreens":["SCR-008"]},
+  {"id":"SCR-012","name":"결과 없음","purpose":"비교 결과 0건 복구","entryConditions":["제품 비교 결과 없음"],"sections":["빈 상태","조건","복구 행동"],"actions":["필터 초기화","제품 이동"],"states":["빈 상태"],"nextScreens":["SCR-004","SCR-005"]},
+  {"id":"SCR-013","name":"준비 중 안내","purpose":"미확정 채널·정책 안내","entryConditions":["채널 또는 정책 미확정","가정상 로그인 요구"],"sections":["상태 안내","대체 행동"],"actions":["제품 상세","제품 비교"],"states":["기본"],"nextScreens":["SCR-005","SCR-007"]},
+  {"id":"SCR-014","name":"오류 안내","purpose":"경로·연결 실패 복구","entryConditions":["잘못된 URL","로드 실패","외부 연결 오류"],"sections":["오류 설명","복구 행동"],"actions":["재시도","홈"],"states":["오류"],"nextScreens":["SCR-001","SCR-009"]}
+]

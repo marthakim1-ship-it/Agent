@@ -1,0 +1,17 @@
+[
+  {"id":"SCR-001","name":"홈","purpose":"대표 제품과 장면으로 탐색 진입","entryConditions":["최초 진입","오류 안내에서 홈 선택"],"sections":["헤더","대표 제품","짧은 정의","탐색 카드","푸터"],"actions":["브랜드","제품","사용 장면"],"states":["기본","로딩","이미지 오류"],"nextScreens":["SCR-002","SCR-003","SCR-007"]},
+  {"id":"SCR-002","name":"브랜드","purpose":"제품 중심 브랜드 원칙 설명","entryConditions":["홈 또는 GNB"],"sections":["브랜드 정의","시각 원칙","제품 연결"],"actions":["콘텐츠","제품"],"states":["기본","로딩"],"nextScreens":["SCR-003","SCR-010"]},
+  {"id":"SCR-003","name":"제품","purpose":"제품 시각 탐색 허브","entryConditions":["홈, 브랜드, 결과 없음"],"sections":["제품 카드","상태 라벨"],"actions":["갤러리","제품군","제품 상세"],"states":["기본","로딩","빈 상태","오류"],"nextScreens":["SCR-004","SCR-005","SCR-011"]},
+  {"id":"SCR-004","name":"제품 갤러리","purpose":"패키지·질감·토핑 디테일 확인","entryConditions":["제품 또는 상세"],"sections":["대표 이미지","썸네일","자산 상태"],"actions":["확대","전환","스와이프","사용 방법","제품 상세"],"states":["기본","로딩","이미지 오류"],"nextScreens":["SCR-006","SCR-011","SCR-015"]},
+  {"id":"SCR-005","name":"제품군","purpose":"확정 라인업과 컬러 의미 탐색","entryConditions":["제품"],"sections":["컬러 범례","텍스트 라벨","필터"],"actions":["조건 선택","제품 상세"],"states":["기본","로딩","입력 오류","빈 상태"],"nextScreens":["SCR-011","SCR-014"]},
+  {"id":"SCR-006","name":"사용 방법","purpose":"개봉·섭취 과정 확인","entryConditions":["제품 갤러리"],"sections":["단계 표시","단계 이미지","짧은 설명"],"actions":["이전 단계","다음 단계","제품 상세"],"states":["기본","로딩","완료","이미지 오류"],"nextScreens":["SCR-011"]},
+  {"id":"SCR-007","name":"사용 장면","purpose":"실제 일상 맥락과 제품 연결","entryConditions":["홈 또는 GNB"],"sections":["상황 카드","제품 행동","관련 제품"],"actions":["콘텐츠","제품 상세"],"states":["기본","로딩","빈 상태"],"nextScreens":["SCR-010","SCR-011"]},
+  {"id":"SCR-008","name":"제품 정보","purpose":"제품 구조·성분·주의·근거 확인","entryConditions":["콘텐츠 또는 상세"],"sections":["핵심 요약","구조","성분","주의","근거"],"actions":["상세 펼치기","자산 상태","제품 상세"],"states":["기본","로딩","정보 미확정","오류"],"nextScreens":["SCR-009","SCR-011"]},
+  {"id":"SCR-009","name":"자산 상태","purpose":"실제·콘셉트·미검증 자산 구분","entryConditions":["제품 정보 또는 상세"],"sections":["상태 범례","자산 목록","공개 제한"],"actions":["제품 정보","제품 상세"],"states":["기본","로딩","HOLD"],"nextScreens":["SCR-008","SCR-011"]},
+  {"id":"SCR-010","name":"콘텐츠","purpose":"감성 장면을 제품 이해로 연결","entryConditions":["브랜드 또는 사용 장면"],"sections":["생활 스토리","제품 행동","관련 제품"],"actions":["제품 정보","제품 상세"],"states":["기본","로딩","빈 상태"],"nextScreens":["SCR-008","SCR-011"]},
+  {"id":"SCR-011","name":"제품 상세","purpose":"이미지·설명·신뢰·행동 통합","entryConditions":["제품, 갤러리, 제품군, 장면, 정보"],"sections":["대표 이미지","짧은 설명","상세 갤러리","신뢰 정보","CTA"],"actions":["갤러리","정보","자산 상태","다음 행동"],"states":["기본","로딩","정보 미확정","오류"],"nextScreens":["SCR-004","SCR-008","SCR-009","SCR-012"]},
+  {"id":"SCR-012","name":"다음 행동","purpose":"제품 이해 후 확정 행동 선택","entryConditions":["제품 상세"],"sections":["CTA 목적","도착 정보","상태"],"actions":["제품 상세","준비 중 안내"],"states":["기본","행동 미확정"],"nextScreens":["SCR-011","SCR-013"]},
+  {"id":"SCR-013","name":"준비 중 안내","purpose":"미확정 행동 복구","entryConditions":["CTA 미확정","가정상 로그인 요구"],"sections":["상태 안내","대체 행동"],"actions":["제품 상세","제품"],"states":["기본"],"nextScreens":["SCR-003","SCR-011"]},
+  {"id":"SCR-014","name":"결과 없음","purpose":"미확정 라인업·필터 복구","entryConditions":["제품군 결과 없음"],"sections":["빈 상태","조건","복구 행동"],"actions":["제품군","제품"],"states":["빈 상태"],"nextScreens":["SCR-003","SCR-005"]},
+  {"id":"SCR-015","name":"오류 안내","purpose":"경로·이미지 오류 복구","entryConditions":["잘못된 URL","이미지 또는 데이터 로드 실패"],"sections":["오류 설명","복구 행동"],"actions":["갤러리 재시도","홈"],"states":["오류"],"nextScreens":["SCR-001","SCR-004"]}
+]

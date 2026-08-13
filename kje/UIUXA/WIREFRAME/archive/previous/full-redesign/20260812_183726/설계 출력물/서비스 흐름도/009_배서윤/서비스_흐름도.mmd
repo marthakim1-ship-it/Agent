@@ -1,0 +1,47 @@
+﻿flowchart TD
+    n1["홈"]
+    n2["사용 방법"]
+    n3["정리 안내"]
+    n4["폐기 안내"]
+    n5["소재·환경"]
+    n6["검증 정보"]
+    n7["제품 상세"]
+    n8["보류 정보"]
+    n9["다음 행동"]
+    n10["로그인"]
+    n11["결과 없음"]
+    n12["입력 오류 안내"]
+    n13["오류 안내"]
+    start(["시작"]) --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n10 --> n11
+    n11 --> n12
+    n12 --> n13
+    n1 --> n3
+    n3 --> n5
+    n5 --> decision{"핵심 정보 확정?"}
+    decision -->|"예"| n9
+    decision -->|"아니요"| n6
+n9 --> loginQ{"로그인 필요?"}
+    loginQ -->|"가정: 예"| n10
+    loginQ -->|"아니요"| finish(["결과 확인·종료"])
+n10 --> valid{"입력값 유효?"}
+    valid -->|"예"| finish
+    valid -->|"아니요"| n12
+    n2 -.->|"결과 없음"| n11
+n11 --> n2
+    n5 -.->|"로드 실패"| n13
+n13 --> n1
+    classDef terminal fill:#DFF3E4,stroke:#388E3C,stroke-width:2px
+    classDef decision fill:#FFF4CE,stroke:#C58B00,stroke-width:2px
+    classDef exception fill:#FDE1DC,stroke:#C5221F,stroke-width:2px
+    class start,finish terminal
+    class decision,loginQ,valid decision

@@ -1,0 +1,14 @@
+flowchart TD
+ START(["시작"]) --> HOME["홈"] --> GUIDE["입문 가이드"] --> INTRO["제품 소개"] --> STRUCT["제품 구성"] --> USE["사용법"] --> DONE["학습 완료"] --> VERIFY["검증 정보"] --> READY{"조건 확정?"}
+ STRUCT --> PART["구성요소 상세"] --> STRUCT
+ USE --> STEP["단계 상세"] --> USE
+ INTRO -.-> TERMS["용어 안내"] --> INTRO
+ READY -->|"아니요"| PENDING["자료 준비 중"] --> VERIFY
+ READY -->|"예"| ACTION["다음 행동"] --> NEED{"로그인 필요? · 가정"}
+ NEED -->|"예"| LOGIN["로그인"] --> VALID{"입력 유효?"}
+ VALID -->|"아니요"| INPUT["입력 오류 안내"] --> LOGIN
+ VALID -->|"예"| HAS{"결과 있음?"}
+ NEED -->|"아니요"| HAS
+ HAS -->|"아니요"| EMPTY["결과 없음"] --> DONE
+ HAS -->|"예"| RESULT["결과 확인"] --> END(["종료"])
+ ERROR["오류 안내"] --> HOME

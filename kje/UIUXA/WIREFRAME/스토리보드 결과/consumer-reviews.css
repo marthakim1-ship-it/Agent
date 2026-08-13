@@ -1,0 +1,7 @@
+.consumer-reviews{margin:28px;padding:28px;border:2px solid #777;background:#f4f4f4;color:#303030;font-family:Arial,"Noto Sans KR",sans-serif}
+.consumer-reviews>header{display:flex;justify-content:space-between;gap:20px;align-items:end;padding-bottom:16px;border-bottom:1px solid #aaa}
+.consumer-reviews h2{margin:4px 0 0;font-size:25px}.consumer-reviews header span{font-size:12px;color:#666}
+.consumer-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.consumer-review-grid article{min-height:118px;padding:18px;border:1px solid #aaa;background:#fff;display:flex;flex-direction:column;gap:7px}
+.consumer-review-grid b{font-size:13px}.consumer-review-grid p{margin:0;color:#555}.consumer-review-grid small{margin-top:auto;color:#777}
+@media(max-width:720px){.consumer-reviews{margin:16px;padding:20px}.consumer-reviews>header{align-items:flex-start;flex-direction:column}.consumer-review-grid{grid-template-columns:1fr}}

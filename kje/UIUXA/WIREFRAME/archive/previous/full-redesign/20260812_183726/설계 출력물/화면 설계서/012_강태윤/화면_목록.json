@@ -1,0 +1,399 @@
+[
+  {
+    "id": "SCR-001",
+    "name": "홈",
+    "purpose": "제품·판매처 진입",
+    "entryConditions": [
+      "최초",
+      "오류 복귀"
+    ],
+    "sections": [
+      "브랜드 요약",
+      "제품 진입",
+      "판매처 상태"
+    ],
+    "actions": [
+      "제품 보기"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-002",
+      "SCR-016"
+    ]
+  },
+  {
+    "id": "SCR-002",
+    "name": "제품",
+    "purpose": "확정 제품 탐색",
+    "entryConditions": [
+      "홈"
+    ],
+    "sections": [
+      "제품 카드",
+      "제품 상태",
+      "채널 상태"
+    ],
+    "actions": [
+      "제품 선택"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-003",
+      "SCR-014"
+    ]
+  },
+  {
+    "id": "SCR-003",
+    "name": "제품 상세",
+    "purpose": "제품 맥락 확인",
+    "entryConditions": [
+      "제품"
+    ],
+    "sections": [
+      "제품 요약",
+      "선택 제품",
+      "판매 채널 상태"
+    ],
+    "actions": [
+      "판매처 찾기"
+    ],
+    "states": [
+      "기본",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-004",
+      "SCR-015"
+    ]
+  },
+  {
+    "id": "SCR-004",
+    "name": "판매처 찾기",
+    "purpose": "지역 탐색 시작",
+    "entryConditions": [
+      "제품 상세"
+    ],
+    "sections": [
+      "선택 제품 요약",
+      "확인 범위",
+      "기준일"
+    ],
+    "actions": [
+      "지역 방식 선택"
+    ],
+    "states": [
+      "기본",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-005",
+      "SCR-010",
+      "SCR-015"
+    ]
+  },
+  {
+    "id": "SCR-005",
+    "name": "지역 확인 방식",
+    "purpose": "지역 방식 선택",
+    "entryConditions": [
+      "판매처 찾기"
+    ],
+    "sections": [
+      "직접 선택",
+      "위치 사용 가정"
+    ],
+    "actions": [
+      "방식 선택"
+    ],
+    "states": [
+      "기본"
+    ],
+    "nextScreens": [
+      "SCR-006",
+      "SCR-007"
+    ]
+  },
+  {
+    "id": "SCR-006",
+    "name": "지역 선택",
+    "purpose": "권한 없는 지역 대안",
+    "entryConditions": [
+      "지역 방식",
+      "권한 거부",
+      "결과 없음"
+    ],
+    "sections": [
+      "지역 입력",
+      "최근 선택",
+      "기준일"
+    ],
+    "actions": [
+      "적용",
+      "초기화"
+    ],
+    "states": [
+      "기본",
+      "입력 오류"
+    ],
+    "nextScreens": [
+      "SCR-008",
+      "SCR-013"
+    ]
+  },
+  {
+    "id": "SCR-007",
+    "name": "위치 권한",
+    "purpose": "선택적 위치 사용",
+    "entryConditions": [
+      "지역 방식"
+    ],
+    "sections": [
+      "수집 목적",
+      "허용 영향",
+      "거부 대안"
+    ],
+    "actions": [
+      "허용",
+      "거부"
+    ],
+    "states": [
+      "기본",
+      "거부"
+    ],
+    "nextScreens": [
+      "SCR-008",
+      "SCR-006"
+    ]
+  },
+  {
+    "id": "SCR-008",
+    "name": "판매처 결과",
+    "purpose": "지역별 결과 확인",
+    "entryConditions": [
+      "지역 선택",
+      "위치 권한"
+    ],
+    "sections": [
+      "제품 요약",
+      "지역",
+      "판매처 카드",
+      "기준일"
+    ],
+    "actions": [
+      "판매처 선택",
+      "조건 변경"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-009",
+      "SCR-014",
+      "SCR-006"
+    ]
+  },
+  {
+    "id": "SCR-009",
+    "name": "판매처 상세",
+    "purpose": "채널·상태 확인",
+    "entryConditions": [
+      "판매처 결과"
+    ],
+    "sections": [
+      "채널명",
+      "주소",
+      "확인 범위",
+      "기준일"
+    ],
+    "actions": [
+      "상태 확인",
+      "외부 이동"
+    ],
+    "states": [
+      "기본",
+      "로딩"
+    ],
+    "nextScreens": [
+      "SCR-010",
+      "SCR-011"
+    ]
+  },
+  {
+    "id": "SCR-010",
+    "name": "채널·재고 상태 안내",
+    "purpose": "상태 의미 설명",
+    "entryConditions": [
+      "판매처 찾기",
+      "판매처 상세"
+    ],
+    "sections": [
+      "CONFIRMED",
+      "NOT_VERIFIED",
+      "HOLD"
+    ],
+    "actions": [
+      "상세 복귀"
+    ],
+    "states": [
+      "기본"
+    ],
+    "nextScreens": [
+      "SCR-004",
+      "SCR-009"
+    ]
+  },
+  {
+    "id": "SCR-011",
+    "name": "외부 이동 안내",
+    "purpose": "외부 채널 이동 고지",
+    "entryConditions": [
+      "판매처 상세"
+    ],
+    "sections": [
+      "목적지",
+      "선택 제품",
+      "외부 정책"
+    ],
+    "actions": [
+      "이동",
+      "취소"
+    ],
+    "states": [
+      "기본",
+      "로딩",
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-012",
+      "SCR-016",
+      "SCR-009"
+    ]
+  },
+  {
+    "id": "SCR-012",
+    "name": "이동 결과 확인",
+    "purpose": "이동 결과 확인",
+    "entryConditions": [
+      "외부 이동"
+    ],
+    "sections": [
+      "결과 요약",
+      "계속 탐색"
+    ],
+    "actions": [
+      "홈",
+      "제품"
+    ],
+    "states": [
+      "완료"
+    ],
+    "nextScreens": [
+      "SCR-001",
+      "SCR-002"
+    ]
+  },
+  {
+    "id": "SCR-013",
+    "name": "입력 오류 안내",
+    "purpose": "지역값 수정",
+    "entryConditions": [
+      "지역 선택"
+    ],
+    "sections": [
+      "오류 원인",
+      "수정 방법"
+    ],
+    "actions": [
+      "입력 수정"
+    ],
+    "states": [
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-006"
+    ]
+  },
+  {
+    "id": "SCR-014",
+    "name": "결과 없음",
+    "purpose": "판매처 0건 복구",
+    "entryConditions": [
+      "제품",
+      "판매처 결과"
+    ],
+    "sections": [
+      "0건 안내",
+      "대안 지역",
+      "상태"
+    ],
+    "actions": [
+      "조건 변경",
+      "제품 복귀"
+    ],
+    "states": [
+      "빈 상태"
+    ],
+    "nextScreens": [
+      "SCR-006",
+      "SCR-002"
+    ]
+  },
+  {
+    "id": "SCR-015",
+    "name": "준비 중 안내",
+    "purpose": "미확정 채널 복구",
+    "entryConditions": [
+      "제품 상세",
+      "판매처 찾기"
+    ],
+    "sections": [
+      "미확정 이유",
+      "필요 정책"
+    ],
+    "actions": [
+      "제품 상세 복귀"
+    ],
+    "states": [
+      "기본"
+    ],
+    "nextScreens": [
+      "SCR-003"
+    ]
+  },
+  {
+    "id": "SCR-016",
+    "name": "연결 오류 안내",
+    "purpose": "외부·경로 실패 복구",
+    "entryConditions": [
+      "홈",
+      "외부 이동"
+    ],
+    "sections": [
+      "오류 설명",
+      "재시도"
+    ],
+    "actions": [
+      "재시도",
+      "상세",
+      "홈"
+    ],
+    "states": [
+      "오류"
+    ],
+    "nextScreens": [
+      "SCR-011",
+      "SCR-009",
+      "SCR-001"
+    ]
+  }
+]

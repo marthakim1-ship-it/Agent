@@ -1,0 +1,59 @@
+flowchart TD
+  HOME["P00 홈"]
+  BRAND["P10 브랜드"]
+  PRODUCTS["P20 제품"]
+  LIST["P21 제품 목록"]
+  DETAIL["P22 제품 상세"]
+  COMPARE["P23 제품 비교"]
+  STRUCTURE["P30 제품 구조"]
+  HOWTO["P31 사용 방법"]
+  USECASES["P40 사용 상황"]
+  USEDETAIL["P41 상황 상세"]
+  TRUST["P50 성분·영양"]
+  EVIDENCE["P51 검증 정보"]
+  QUALITY["P52 품질·시험\n조건부"]
+  ACTION["P60 판매처·다음 행동\n조건부"]
+  LOGIN["P70 로그인\n가정"]
+  MY["P71 내 활동\n가정"]
+  SEARCH["P80 검색 결과\n가정"]
+  EMPTY["P81 결과 없음"]
+  ERROR["P82 오류 안내"]
+  POLICY["P83 정책·접근성"]
+
+  HOME --> BRAND
+  HOME --> PRODUCTS
+  HOME --> STRUCTURE
+  HOME --> USECASES
+  HOME --> TRUST
+  PRODUCTS --> LIST
+  LIST --> DETAIL
+  LIST --> COMPARE
+  COMPARE --> DETAIL
+  DETAIL --> STRUCTURE
+  DETAIL --> HOWTO
+  DETAIL --> TRUST
+  DETAIL --> EVIDENCE
+  DETAIL -. "채널 확정 시" .-> ACTION
+  STRUCTURE --> HOWTO
+  USECASES --> USEDETAIL
+  USEDETAIL --> DETAIL
+  TRUST --> EVIDENCE
+  EVIDENCE -. "시험 자료 확보 시" .-> QUALITY
+  HOME -. "가정" .-> LOGIN
+  LOGIN -. "인증 성공" .-> MY
+  MY --> DETAIL
+  HOME -. "가정: 검색" .-> SEARCH
+  SEARCH --> DETAIL
+  SEARCH --> EMPTY
+  EMPTY --> LIST
+  ERROR --> HOME
+  POLICY --> HOME
+
+  classDef primary fill:#eef7ff,stroke:#2563eb,color:#111827;
+  classDef conditional fill:#fff7ed,stroke:#ea580c,color:#111827,stroke-dasharray:5 3;
+  classDef assumed fill:#f5f3ff,stroke:#7c3aed,color:#111827,stroke-dasharray:5 3;
+  classDef exception fill:#fef2f2,stroke:#dc2626,color:#111827;
+  class HOME,BRAND,PRODUCTS,LIST,DETAIL,COMPARE,STRUCTURE,HOWTO,USECASES,USEDETAIL,TRUST,EVIDENCE,POLICY primary;
+  class QUALITY,ACTION conditional;
+  class LOGIN,MY,SEARCH assumed;
+  class EMPTY,ERROR exception;

@@ -1,0 +1,62 @@
+flowchart TD
+  START(["시작"])
+  HOME["P00 홈"]
+  INTENT{"확인 목적"}
+  STRUCTURE["P20 제품 구조"]
+  PART["P21 부품 상세"]
+  HOWTO["P30 사용 방법"]
+  STEP["P31 단계 상세"]
+  DETAIL["P11 제품 상세"]
+  QUALITY["P40 품질·검증"]
+  EVIDENCE{"검증 자료 있음?"}
+  TEST["P41 시험 근거"]
+  HOLD["P40 품질·검증\nNOT_VERIFIED 안내"]
+  ACTIONQ{"다음 행동 확정?"}
+  ACTION["P50 다음 행동"]
+  RESULT(["외부 행동 결과 / 종료"])
+  EMPTY["P71 결과 없음"]
+  LOGINQ{"저장 기능 사용?\n가정"}
+  LOGIN["P60 로그인"]
+  VALID{"입력값 유효?"}
+  AUTH{"인증 성공?"}
+  SAVED["P61 저장 항목"]
+  ERROR["P72 오류 안내"]
+  RETRY{"재시도?"}
+  EXIT(["이탈"])
+  START --> HOME --> INTENT
+  INTENT -- "구조" --> STRUCTURE --> PART --> HOWTO
+  INTENT -- "사용 순서" --> HOWTO
+  HOWTO --> STEP --> DETAIL
+  INTENT -- "제품 상세" --> DETAIL
+  DETAIL --> QUALITY --> EVIDENCE
+  EVIDENCE -- "예" --> TEST --> DETAIL
+  EVIDENCE -- "아니오" --> HOLD --> DETAIL
+  DETAIL --> ACTIONQ
+  ACTIONQ -- "예" --> ACTION --> RESULT
+  ACTIONQ -- "아니오" --> DETAIL
+  HOME -. "가정: 검색 결과 없음" .-> EMPTY
+  EMPTY --> STRUCTURE
+  DETAIL -. "저장" .-> LOGINQ
+  LOGINQ -- "아니오·로그인됨" --> SAVED
+  LOGINQ -- "예" --> LOGIN --> VALID
+  VALID -- "아니오" --> LOGIN
+  VALID -- "예" --> AUTH
+  AUTH -- "성공" --> SAVED --> DETAIL
+  AUTH -- "실패" --> ERROR --> RETRY
+  RETRY -- "로그인" --> LOGIN
+  RETRY -- "홈" --> HOME
+  RETRY -- "종료" --> EXIT
+  STEP -. "이전 단계" .-> HOWTO
+  HOME -. "중단" .-> EXIT
+  DETAIL -. "중단" .-> EXIT
+  EXIT -. "URL·기록 재진입" .-> HOME
+  classDef terminal fill:#111827,stroke:#111827,color:#fff;
+  classDef user fill:#eef7ff,stroke:#2563eb,color:#111827;
+  classDef system fill:#ecfdf5,stroke:#059669,color:#111827;
+  classDef decision fill:#fff7ed,stroke:#ea580c,color:#111827;
+  classDef error fill:#fef2f2,stroke:#dc2626,color:#111827;
+  class START,RESULT,EXIT terminal;
+  class HOME,STRUCTURE,PART,HOWTO,STEP,DETAIL,QUALITY,TEST,ACTION,LOGIN,SAVED user;
+  class HOLD system;
+  class INTENT,EVIDENCE,ACTIONQ,LOGINQ,VALID,AUTH,RETRY decision;
+  class EMPTY,ERROR error;

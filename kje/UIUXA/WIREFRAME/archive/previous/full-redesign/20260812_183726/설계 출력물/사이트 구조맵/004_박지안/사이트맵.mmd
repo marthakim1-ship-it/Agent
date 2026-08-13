@@ -1,0 +1,44 @@
+flowchart TD
+    home(["홈"])
+    situations["사용 상황"]
+    method["사용 방법"]
+    products["제품"]
+    compare["제품 비교"]
+    info["제품 정보"]
+    detail["제품 상세"]
+    action["다음 행동"]
+    retailer["판매처 안내"]
+    policy["구매 정책 상태"]
+    repeat["반복 구매"]
+    noResult["결과 없음"]
+    pending["준비 중 안내"]
+    errorPage["오류 안내"]
+
+    home --> situations
+    home --> products
+    situations --> method
+    situations --> compare
+    method --> detail
+    products --> compare
+    products --> detail
+    compare --> info
+    compare --> detail
+    compare -.->|"조건 불일치"| noResult
+    noResult --> compare
+    info --> detail
+    detail --> action
+    action -.->|"채널 확정"| retailer
+    action -.->|"정책 확인"| policy
+    policy -.->|"미확정"| pending
+    policy -.->|"반복 정책 확인"| repeat
+    retailer -.->|"연결 실패"| errorPage
+    pending --> detail
+    errorPage --> home
+    repeat -.->|"정책 확정 후"| action
+
+    classDef common fill:#C2E5FF,stroke:#3DADFF
+    classDef conditional fill:#FFECBD,stroke:#FFC943
+    classDef exception fill:#FFCDC2,stroke:#FF7556
+    class home,situations,method,products,compare,info,detail common
+    class action,retailer,policy,repeat,pending conditional
+    class noResult,errorPage exception

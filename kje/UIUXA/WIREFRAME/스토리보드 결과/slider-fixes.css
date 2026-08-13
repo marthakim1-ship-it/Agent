@@ -1,0 +1,8 @@
+/* 누락 결과물용 상품 15개 가로 슬라이드 보완 */
+.product-grid{display:flex!important;grid-template-columns:none!important;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px}
+.product-grid>.product-card{flex:0 0 230px;scroll-snap-align:start}
+.tablewrap{overflow-x:auto;scroll-snap-type:x mandatory}.tablewrap .products{min-width:1050px}.tablewrap .products tr{scroll-snap-align:start}
+.columns{display:flex!important;grid-template-columns:none!important;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px}
+.columns>.column{flex:0 0 min(420px,85vw);scroll-snap-align:start}
+.matrix-rows{display:flex!important;overflow-x:auto;scroll-snap-type:x mandatory}
+.matrix-rows>article{flex:0 0 min(980px,90vw);scroll-snap-align:start}

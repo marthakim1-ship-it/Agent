@@ -1,0 +1,48 @@
+flowchart TD
+    home(["홈"])
+    brand["브랜드 소개"]
+    products["제품"]
+    productStructure["제품 구조"]
+    productCompare["제품 비교"]
+    productDetail["제품 상세"]
+    usage["사용 가이드"]
+    usageScenes["사용 상황"]
+    usageMethod["사용 방법"]
+    trust["성분 및 신뢰 정보"]
+    ingredients["원료 및 영양"]
+    evidence["검증 정보"]
+    action["다음 행동"]
+    retailer["판매처 안내"]
+    noResult["결과 없음"]
+    errorPage["오류 안내"]
+
+    home --> brand
+    home --> products
+    home --> usage
+    home --> trust
+    products --> productStructure
+    products --> productCompare
+    products --> productDetail
+    usage --> usageScenes
+    usage --> usageMethod
+    usageScenes --> productDetail
+    usageScenes --> usageMethod
+    productStructure --> usageMethod
+    productStructure --> productDetail
+    trust --> ingredients
+    trust --> evidence
+    ingredients --> productDetail
+    evidence --> productDetail
+    productCompare --> productDetail
+    productDetail --> action
+    action -.->|"채널 확정 시"| retailer
+    productCompare -.->|"조건 불일치"| noResult
+    noResult --> products
+    errorPage --> home
+
+    classDef common fill:#C2E5FF,stroke:#3DADFF
+    classDef conditional fill:#FFECBD,stroke:#FFC943
+    classDef exception fill:#FFCDC2,stroke:#FF7556
+    class home,brand,products,productStructure,productCompare,productDetail,usage,usageScenes,usageMethod,trust,ingredients,evidence common
+    class action,retailer conditional
+    class noResult,errorPage exception

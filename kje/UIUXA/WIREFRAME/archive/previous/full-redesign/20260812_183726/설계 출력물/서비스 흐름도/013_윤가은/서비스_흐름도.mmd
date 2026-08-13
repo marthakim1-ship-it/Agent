@@ -1,0 +1,26 @@
+flowchart TD
+  START([시작]) --> SCR001
+  SCR001["SCR-001<br/>홈"]
+  SCR002["SCR-002<br/>FAQ"]
+  SCR003["SCR-003<br/>FAQ 상세"]
+  SCR004["SCR-004<br/>문의"]
+  SCR005["SCR-005<br/>문의 완료"]
+  SCR006["SCR-006<br/>제품 안내"]
+  SCR007["SCR-007<br/>오류 안내"]
+  SCR001 -->|주요 행동| SCR002
+  SCR002 -->|주요 행동| SCR003
+  SCR003 -->|주요 행동| SCR004
+  SCR004 -->|주요 행동| SCR005
+  SCR005 -->|주요 행동| SCR002
+  SCR006 -->|주요 행동| SCR002
+  SCR007 -->|주요 행동| SCR001
+  ERR{오류 또는 결과 없음?}
+  SCR002 --> ERR
+  ERR -->|예| REC[복구 행동: 재시도·이전 단계]
+  REC --> SCR001
+  ERR -->|아니오| SCR003
+  AUTH{로그인이 필요한가?}
+  SCR001 --> AUTH
+  AUTH -->|근거 없음: 로그인 없이 계속| SCR002
+  END([종료])
+  SCR007 --> END

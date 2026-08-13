@@ -1,0 +1,6 @@
+# YOVIA Unresolved Sites Log
+# Format: [ID] URL | Status | Reason
+
+[036] https://www.chobani.com | dead | Chobani Gimmies product line discontinued (404 page)
+[113] https://rightrice.com | dead | SSL certificate error / domain misconfigured
+[152] https://eatingevolved.com | dead | Site closed / unreachable
