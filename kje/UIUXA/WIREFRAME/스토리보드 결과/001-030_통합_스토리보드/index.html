@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>YOVIA 001~030 최종 통합 와이어프레임</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .review-strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,30%);gap:1rem;overflow-x:auto;padding:.5rem .2rem 1.25rem;scroll-snap-type:x mandatory}
+    .review-strip article{scroll-snap-align:start;display:flex;flex-direction:column;min-height:210px;padding:1rem;border:1px solid var(--line);background:var(--soft)}
+    .review-strip small{color:var(--muted)}.review-strip p{flex:1}.review-strip article>span{align-self:flex-start;padding:.25rem .45rem;border:1px solid var(--line);font-size:.75rem;font-weight:800}
+    @media(max-width:1000px){.review-strip{grid-auto-columns:44%}}@media(max-width:767px){.review-strip{grid-auto-columns:84%}}
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#content">본문 바로가기</a>
@@ -94,9 +100,26 @@
             </div>
           </section>
 
+          <section class="block" aria-labelledby="virtual-review-title">
+            <div class="section-heading"><div><p class="label">MAIN-001-A07 · VIRTUAL CLIENT</p><h3 id="virtual-review-title">가상 사용자 검토</h3></div><span class="state concept">CONCEPT · 실제 후기 아님</span></div>
+            <p class="helper">30명의 가상 클라이언트 성향을 바탕으로 만든 설계 검토 의견입니다. 구매 후기나 효능 체감 자료로 사용할 수 없습니다.</p>
+            <div class="review-strip" aria-label="가상 사용자 검토 의견">
+              <article><b>VC-001 서하린</b><small>빠른 제품 이해</small><p>제품 정의는 빠르게 이해되지만 실제 상품과 구매 경로가 확정되어야 선택을 끝낼 수 있어요.</p><span>조건부 긍정</span></article>
+              <article><b>VC-003 이수민</b><small>원료·영양 신뢰</small><p>감성 문구보다 승인된 원재료와 알레르기 정보를 먼저 확인하고 싶어요.</p><span>보류</span></article>
+              <article><b>VC-006 정다은</b><small>맛·식감·토핑</small><p>‘맛있다’보다 맛과 식감의 구체적인 차이를 보고 싶어요.</p><span>정보 요청</span></article>
+              <article><b>VC-008 한유진</b><small>가족·알레르기 안전</small><p>알레르기 정보가 찾기 어렵다면 가족용으로 선택하지 않겠어요.</p><span>강한 우려</span></article>
+              <article><b>VC-014 최현우</b><small>개인정보 최소화</small><p>탐색 단계에서 로그인이나 개인정보 입력을 요구하지 않는 점이 중요해요.</p><span>긍정</span></article>
+              <article><b>VC-020 홍준서</b><small>안전 공지</small><p>안전 문제는 프로모션보다 먼저 보여주고 영향 제품을 식별해야 해요.</p><span>강한 요구</span></article>
+              <article><b>VC-025 장하늘</b><small>정기배송 경험</small><p>변경·건너뛰기·해지 조건이 먼저 보여야 반복 주문을 고려할 수 있어요.</p><span>조건부</span></article>
+              <article><b>VC-027 유승호</b><small>후기 신뢰</small><p>가상 의견은 실제 고객 후기와 명확히 분리해야 해요.</p><span>원칙 요구</span></article>
+              <article><b>VC-030 고은별</b><small>출시 QA</small><p>빈 상태와 오류, 재시도까지 검증되기 전에는 출시 완료로 볼 수 없어요.</p><span>출시 보류</span></article>
+            </div>
+            <p><a href="가상_사용자_검토.md">VC-001~030 전체 가상 사용자 검토 보기</a></p>
+          </section>
+
           <section class="block status-panel" aria-labelledby="trust-title">
             <div><p class="label">MAIN-001-A06~A08</p><h3 id="trust-title">신뢰·운영 상태</h3></div>
-            <dl><div><dt>원료·영양·알레르기</dt><dd>승인 표시 정보 필요 <span class="state unverified">NOT_VERIFIED</span></dd></div><div><dt>소비자 후기</dt><dd>실제 후기 0건 <span class="state hold">허위 생성 HOLD</span></dd></div><div><dt>가격·배송·구독</dt><dd>운영 정책 필요 <span class="state hold">HOLD</span></dd></div><div><dt>접근성 준수</dt><dd>설계 기준 반영, 감사 필요 <span class="state unverified">NOT_VERIFIED</span></dd></div></dl>
+            <dl><div><dt>원료·영양·알레르기</dt><dd>승인 표시 정보 필요 <span class="state unverified">NOT_VERIFIED</span></dd></div><div><dt>가상 사용자 검토</dt><dd>30명 설계 검토용 <span class="state concept">CONCEPT</span></dd></div><div><dt>실제 소비자 후기</dt><dd>현재 0건 <span class="state hold">허위 생성 HOLD</span></dd></div><div><dt>가격·배송·구독</dt><dd>운영 정책 필요 <span class="state hold">HOLD</span></dd></div><div><dt>접근성 준수</dt><dd>설계 기준 반영, 감사 필요 <span class="state unverified">NOT_VERIFIED</span></dd></div></dl>
           </section>
         </div>
         <footer class="site-footer"><strong>YOVIA</strong><span>정책 · 문의 · 콘텐츠 기준일 목적지 미확정</span><a href="#main-screen">화면 위로</a></footer>
