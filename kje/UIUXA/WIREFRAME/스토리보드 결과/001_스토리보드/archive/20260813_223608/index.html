@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOVIA 핵심 화면 스토리보드</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../consumer-reviews.css"><link rel="stylesheet" href="../slider-fixes.css"></head>
+<body>
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
+
+  <header class="document-header">
+    <div>
+      <p class="eyebrow">YOVIA · HTML/CSS WIREFRAME</p>
+      <h1>핵심 화면 스토리보드</h1>
+      <p>최종_스토리보드.md 기반 · 회색 박스와 글자만 사용 · JavaScript 없음</p>
+    </div>
+    <nav aria-label="스토리보드 화면 이동">
+      <a href="#main-screen">MAIN-001 메인</a>
+      <a href="#category-screen">CATEGORY-001 카테고리</a>
+      <a href="#brand-screen">BRAND-001 브랜드 소개</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="storyboard">
+    <section id="main-screen" class="screen" aria-labelledby="main-title">
+      <header class="screen-meta">
+        <div>
+          <p class="screen-id">SCREEN 01 · MAIN-001</p>
+          <h2 id="main-title">메인페이지(홈)</h2>
+        </div>
+        <p class="status">구조 CONFIRMED · 콘텐츠 NOT_VERIFIED</p>
+      </header>
+
+      <div class="browser-frame">
+        <a class="in-screen-skip" href="#main-primary">메인 화면 본문 바로가기</a>
+        <header class="site-header box">
+          <a class="wordmark" href="#main-screen" aria-label="YOVIA 메인페이지">YOVIA</a>
+          <nav aria-label="메인 화면 전역 메뉴">
+            <a href="#main-screen" aria-current="page">메인</a>
+            <a href="#category-screen">카테고리</a>
+            <a href="#brand-screen">브랜드 소개</a>
+          </nav>
+        </header>
+
+        <div id="main-primary" class="page-content">
+          <section class="hero box" aria-labelledby="hero-title">
+            <div>
+              <p class="label">MAIN-001-A02 · CONCEPT</p>
+              <h3 id="hero-title">그릭요거트 기반 간편 건강식</h3>
+              <p>[카피 작성 필요] YOVIA와 제품 범위를 확인된 사실 안에서 설명합니다.</p>
+              <div class="actions">
+                <a class="button" href="#category-screen">제품 후보 살펴보기</a>
+                <a class="button secondary" href="#brand-screen">브랜드 근거 확인</a>
+              </div>
+            </div>
+            <div class="image-placeholder" role="img" aria-label="YOVIA 제품 이미지 미확정">
+              <span>IMAGE PLACEHOLDER</span>
+              <strong>제품 이미지</strong>
+              <small>NOT_VERIFIED</small>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="main-navigation-title">
+            <div class="section-heading">
+              <p class="label">MAIN-001-A03</p>
+              <h3 id="main-navigation-title">핵심 탐색</h3>
+            </div>
+            <div class="two-column">
+              <article class="box action-card">
+                <h4>카테고리 페이지</h4>
+                <p>미확정 상품 슬롯과 탐색 조건을 확인합니다.</p>
+                <a href="#category-screen">CATEGORY-001로 이동</a>
+              </article>
+              <article class="box action-card">
+                <h4>브랜드 소개 페이지</h4>
+                <p>YOVIA 정의와 검증 상태를 확인합니다.</p>
+                <a href="#brand-screen">BRAND-001로 이동</a>
+              </article>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="guide-title">
+            <div class="section-heading">
+              <p class="label">MAIN-001-A04~A08</p>
+              <h3 id="guide-title">이해·주의·검증 정보</h3>
+            </div>
+            <div class="information-grid">
+              <article class="box"><span class="tag concept">CONCEPT</span><h4>제품 구조·사용</h4><p>구조와 사용 단계는 실제 자료 확인 후 제공합니다.</p></article>
+              <article class="box"><span class="tag unverified">NOT_VERIFIED</span><h4>감각·가치 비교</h4><p>맛·식감·토핑·가격·구성 기준이 미확정입니다.</p></article>
+              <article class="box warning"><span class="tag hold">HOLD</span><h4>원료·알레르기·안전</h4><p>승인 원재료표와 안전 자료가 필요합니다.</p></article>
+              <article class="box"><span class="tag hold">HOLD</span><h4>정리·폐기·환경</h4><p>포장 사양과 지역별 공식 지침이 필요합니다.</p></article>
+              <article class="box"><span class="tag unverified">NOT_VERIFIED</span><h4>검증·운영 상태</h4><p>출처, 기준일, 승인자와 버전 정보가 필요합니다.</p></article>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="products-title">
+            <div class="section-heading product-heading">
+              <div>
+                <p class="label">MAIN-001-A09 · PRODUCT-001~015</p>
+                <h3 id="products-title">상품 슬롯 15개</h3>
+              </div>
+              <p class="status">실제 상품 라인업 아님 · 전체 NOT_VERIFIED</p>
+            </div>
+            <div class="product-grid">
+              <article class="product-card box"><div class="product-image">IMAGE 01</div><p class="product-id">PRODUCT-001</p><h4>상품명 NOT_VERIFIED 01</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 02</div><p class="product-id">PRODUCT-002</p><h4>상품명 NOT_VERIFIED 02</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 03</div><p class="product-id">PRODUCT-003</p><h4>상품명 NOT_VERIFIED 03</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 04</div><p class="product-id">PRODUCT-004</p><h4>상품명 NOT_VERIFIED 04</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 05</div><p class="product-id">PRODUCT-005</p><h4>상품명 NOT_VERIFIED 05</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 06</div><p class="product-id">PRODUCT-006</p><h4>상품명 NOT_VERIFIED 06</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 07</div><p class="product-id">PRODUCT-007</p><h4>상품명 NOT_VERIFIED 07</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 08</div><p class="product-id">PRODUCT-008</p><h4>상품명 NOT_VERIFIED 08</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 09</div><p class="product-id">PRODUCT-009</p><h4>상품명 NOT_VERIFIED 09</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 10</div><p class="product-id">PRODUCT-010</p><h4>상품명 NOT_VERIFIED 10</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 11</div><p class="product-id">PRODUCT-011</p><h4>상품명 NOT_VERIFIED 11</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 12</div><p class="product-id">PRODUCT-012</p><h4>상품명 NOT_VERIFIED 12</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 13</div><p class="product-id">PRODUCT-013</p><h4>상품명 NOT_VERIFIED 13</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 14</div><p class="product-id">PRODUCT-014</p><h4>상품명 NOT_VERIFIED 14</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+              <article class="product-card box"><div class="product-image">IMAGE 15</div><p class="product-id">PRODUCT-015</p><h4>상품명 NOT_VERIFIED 15</h4><p>핵심 정보 NOT_VERIFIED</p><span class="disabled-action">상세 조건 미확정</span></article>
+            </div>
+          </section>
+
+          <section class="box disabled-panel" aria-labelledby="conditional-action-title">
+            <p class="label">MAIN-001-A10 · 조건부 CTA 비활성</p>
+            <h3 id="conditional-action-title">다음 행동은 아직 연결되지 않았습니다</h3>
+            <p>판매 채널, 캠페인 조건, 개인정보와 로그인 정책이 확정된 뒤 활성화합니다.</p>
+          </section>
+        </div>
+
+        <footer class="site-footer box">
+          <strong>YOVIA</strong>
+          <p>정책 · 문의 · 접근성 링크 NOT_VERIFIED</p>
+          <a href="#main-screen">화면 상단으로</a>
+        </footer>
+      </div>
+    </section>
+
+    <section id="category-screen" class="screen" aria-labelledby="category-title">
+      <header class="screen-meta">
+        <div>
+          <p class="screen-id">SCREEN 02 · CATEGORY-001</p>
+          <h2 id="category-title">카테고리 페이지</h2>
+        </div>
+        <p class="status">분류·상품 데이터 NOT_VERIFIED</p>
+      </header>
+
+      <div class="browser-frame">
+        <header class="site-header box">
+          <a class="wordmark" href="#main-screen">YOVIA</a>
+          <nav aria-label="카테고리 화면 전역 메뉴">
+            <a href="#main-screen">메인</a><a href="#category-screen" aria-current="page">카테고리</a><a href="#brand-screen">브랜드 소개</a>
+          </nav>
+        </header>
+        <div class="page-content">
+          <nav class="breadcrumb" aria-label="현재 위치"><a href="#main-screen">홈</a><span aria-hidden="true">/</span><span aria-current="page">카테고리</span></nav>
+          <section class="box category-intro">
+            <p class="label">CATEGORY-001-A02</p>
+            <h3>[카테고리명 작성 필요]</h3>
+            <p>[설명 작성 필요] 실제 카테고리 체계와 상품 수는 확정되지 않았습니다.</p>
+          </section>
+          <div class="category-layout">
+            <aside class="box filter-panel" aria-labelledby="filter-title">
+              <p class="label">CATEGORY-001-A03 · CONCEPT</p>
+              <h3 id="filter-title">정렬·필터 후보</h3>
+              <fieldset disabled>
+                <legend>미확정 필터</legend>
+                <label><input type="checkbox"> 맛</label>
+                <label><input type="checkbox"> 원료</label>
+                <label><input type="checkbox"> 알레르기</label>
+                <label><input type="checkbox"> 가격</label>
+                <label><input type="checkbox"> 지역</label>
+              </fieldset>
+              <p class="small-text">필터 값과 상품 데이터 확정 후 활성화</p>
+            </aside>
+            <section class="results" aria-labelledby="results-title">
+              <div class="section-heading result-heading"><div><p class="label">CATEGORY-001-A04</p><h3 id="results-title">상품 결과</h3></div><span class="tag unverified">NOT_VERIFIED</span></div>
+              <div class="result-grid">
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 01</h4><p>정보 NOT_VERIFIED</p></article>
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 02</h4><p>정보 NOT_VERIFIED</p></article>
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 03</h4><p>정보 NOT_VERIFIED</p></article>
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 04</h4><p>정보 NOT_VERIFIED</p></article>
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 05</h4><p>정보 NOT_VERIFIED</p></article>
+                <article class="box compact-product"><div class="product-image">IMAGE</div><h4>상품 후보 06</h4><p>정보 NOT_VERIFIED</p></article>
+              </div>
+            </section>
+          </div>
+          <section class="state-examples" aria-labelledby="category-states-title">
+            <h3 id="category-states-title">결과 없음·오류 복구 상태</h3>
+            <div class="two-column">
+              <article class="box"><span class="tag">EMPTY</span><h4>결과가 없습니다</h4><p>조건을 초기화하거나 메인으로 돌아갑니다.</p><a href="#main-screen">메인으로</a></article>
+              <article class="box warning"><span class="tag">ERROR</span><h4>결과를 불러오지 못했습니다</h4><p>오류는 정보 미확정 상태와 구분합니다.</p><a href="#category-screen">다시 확인</a></article>
+            </div>
+          </section>
+        </div>
+        <footer class="site-footer box"><strong>YOVIA</strong><p>카테고리 화면 푸터</p><a href="#main-screen">메인으로</a></footer>
+      </div>
+    </section>
+
+    <section id="brand-screen" class="screen" aria-labelledby="brand-title">
+      <header class="screen-meta">
+        <div><p class="screen-id">SCREEN 03 · BRAND-001</p><h2 id="brand-title">브랜드 소개 페이지</h2></div>
+        <p class="status">정의 CONFIRMED · 서사·자산 NOT_VERIFIED</p>
+      </header>
+      <div class="browser-frame">
+        <header class="site-header box">
+          <a class="wordmark" href="#main-screen">YOVIA</a>
+          <nav aria-label="브랜드 화면 전역 메뉴"><a href="#main-screen">메인</a><a href="#category-screen">카테고리</a><a href="#brand-screen" aria-current="page">브랜드 소개</a></nav>
+        </header>
+        <div class="page-content">
+          <section class="brand-definition box">
+            <div>
+              <p class="label">BRAND-001-A02 · CONFIRMED</p>
+              <h3>YOVIA 브랜드 정의</h3>
+              <p class="lead">그릭요거트 기반 간편 건강식</p>
+              <p>[카피 작성 필요] 이 범위를 넘어서는 효능·수치·인증 주장은 사용하지 않습니다.</p>
+            </div>
+            <div class="image-placeholder" role="img" aria-label="YOVIA 브랜드와 제품 사용 맥락 이미지 미확정"><span>BRAND IMAGE</span><strong>자산 필요</strong><small>NOT_VERIFIED</small></div>
+          </section>
+          <section class="section-block" aria-labelledby="brand-values-title">
+            <div class="section-heading"><p class="label">BRAND-001-A03</p><h3 id="brand-values-title">가치·사용 맥락 후보</h3></div>
+            <div class="information-grid">
+              <article class="box"><h4>빠른 제품 이해</h4><p>첫 방문자가 제품과 브랜드의 범위를 구분합니다.</p></article>
+              <article class="box"><h4>사용 경험</h4><p>구조·상황·정리 과정은 실제 자료 확인 후 설명합니다.</p></article>
+              <article class="box"><h4>정보 접근성</h4><p>텍스트 우선 정보와 오류 복구 경로를 제공합니다.</p></article>
+            </div>
+          </section>
+          <section class="box evidence-panel" aria-labelledby="evidence-title">
+            <p class="label">BRAND-001-A04</p><h3 id="evidence-title">근거·검증 상태</h3>
+            <dl class="status-list"><div><dt>출처</dt><dd>NOT_VERIFIED</dd></div><div><dt>기준일</dt><dd>NOT_VERIFIED</dd></div><div><dt>승인 상태</dt><dd>NOT_VERIFIED</dd></div><div><dt>버전</dt><dd>NOT_VERIFIED</dd></div></dl>
+          </section>
+          <section class="box excluded-panel" aria-labelledby="excluded-title">
+            <span class="tag hold">HOLD</span><h3 id="excluded-title">확정 전 사용하지 않는 브랜드 주장</h3><p>연혁 · 수상 · 인증 · 효능 · 환경 효과 · 구체적 제품 성능</p>
+          </section>
+          <section class="box related-products">
+            <p class="label">BRAND-001-A06 · 조건부</p><h3>관련 제품 탐색</h3><p>실제 연관 데이터가 없으므로 일반 카테고리로 연결합니다.</p><a class="button" href="#category-screen">카테고리 페이지로 이동</a>
+          </section>
+        </div>
+        <footer class="site-footer box"><strong>YOVIA</strong><p>브랜드 소개 화면 푸터</p><a href="#main-screen">메인으로</a></footer>
+      </div>
+    </section>
+  <section class="consumer-reviews" aria-labelledby="consumer-reviews-title"><header><div><small>CONSUMER REVIEWS</small><h2 id="consumer-reviews-title">상품 선택에 참고하는 소비자 후기</h2></div><span>실제 후기 0 · 평점 NOT_VERIFIED · 허위 생성 HOLD</span></header><div class="consumer-review-grid"><article><b>후기 데이터 준비 중</b><p>제품별 사용 맥락과 주의 정보를 함께 확인합니다.</p><small>출처·작성일·이용 조건 확인 후 공개</small></article><article><b>현재 빈 상태</b><p>선택한 상품의 실제 후기가 아직 없습니다.</p><small>실제 데이터가 들어오면 동일 위치에 표시</small></article><article><b>검증 원칙</b><p>공식 제품 정보와 개인 경험을 분리하고 긍정·부정을 같은 기준으로 제공합니다.</p><small>효능 경험담과 임의 평점은 생성하지 않음</small></article></div></section></main>
+
+  <footer class="document-footer">
+    <p>출력 기준: 최종_스토리보드.md · 화면 3장 · PRODUCT-001~015 · JavaScript 미사용</p>
+  </footer>
+</body>
+</html>
