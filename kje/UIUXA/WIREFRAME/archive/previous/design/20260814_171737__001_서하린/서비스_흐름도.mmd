@@ -4,6 +4,8 @@ flowchart TD
     ROUTE{"진입 경로?"}
     HOME[["P-001 홈"]]
     CHOOSE[/"사용자: 탐색 정보 선택"/]
+    LOGIN{"로그인이 필요한가?"}
+    NOLOGIN["시스템: 로그인 요구 없음"]
     DETAIL[["P-002 제품 상세"]]
     PICK[/"사용자: 구조 항목 선택"/]
     LOAD{"자료가 존재하는가?"}
@@ -14,6 +16,8 @@ flowchart TD
     UPDATE["시스템: 현재 단계 갱신"]
     TRUST[["P-004 성분·영양"]]
     OPEN[/"사용자: 상세 정보 펼치기"/]
+    INPUT{"입력값 검사가 필요한가?"}
+    NOINPUT["시스템: 입력 폼 없음"]
     EMPTY{"표시할 결과가 있는가?"}
     RESULT["시스템: 근거와 결과 표시"]
     EMPTY_STATE["시스템: 빈 상태와 복귀 수단 표시"]
@@ -26,7 +30,9 @@ flowchart TD
     ROUTE -->|제품| DETAIL
     ROUTE -->|사용 안내| GUIDE
     ROUTE -->|성분·영양| TRUST
-    HOME --> CHOOSE --> DETAIL
+    HOME --> CHOOSE --> LOGIN
+    LOGIN -->|아니오| NOLOGIN --> DETAIL
+    LOGIN -->|예: 현재 해당 없음| NOLOGIN
     DETAIL --> PICK --> LOAD
     LOAD -->|예| SHOW --> GUIDE
     LOAD -->|아니오| EMPTY_STATE
@@ -34,7 +40,9 @@ flowchart TD
     GUIDE --> STEP --> PREV
     PREV -->|예| UPDATE --> GUIDE
     PREV -->|아니오| UPDATE --> TRUST
-    TRUST --> OPEN --> EMPTY
+    TRUST --> OPEN --> INPUT
+    INPUT -->|아니오| NOINPUT --> EMPTY
+    INPUT -->|예: 현재 해당 없음| NOINPUT
     EMPTY -->|예| RESULT --> MORE
     EMPTY -->|아니오| EMPTY_STATE
     EMPTY_STATE -->|이전 화면| DETAIL

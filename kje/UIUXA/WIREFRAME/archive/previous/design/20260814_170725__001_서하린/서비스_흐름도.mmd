@@ -1,0 +1,33 @@
+flowchart TD
+    START(["시작"])
+    ENTRY{"진입 경로"}
+    HOME["P-001 홈"]
+    DETAIL["P-002 제품 상세"]
+    GUIDE["P-003 사용 안내"]
+    TRUST["P-004 성분·영양"]
+    NEED{"추가 정보가 필요한가?"}
+    ERROR["자료·이미지 오류 상태"]
+    END(["정보 확인 완료"])
+
+    START --> ENTRY
+    ENTRY -->|홈| HOME
+    ENTRY -->|제품 링크| DETAIL
+    ENTRY -->|사용 안내 링크| GUIDE
+    ENTRY -->|성분·영양 링크| TRUST
+    HOME --> DETAIL
+    HOME --> GUIDE
+    HOME --> TRUST
+    DETAIL --> GUIDE
+    DETAIL --> TRUST
+    GUIDE --> TRUST
+    GUIDE --> DETAIL
+    TRUST --> NEED
+    NEED -->|예| DETAIL
+    NEED -->|아니오| END
+    DETAIL -->|정보 확인 완료| END
+    GUIDE -->|정보 확인 완료| END
+    DETAIL -. "이미지 오류" .-> ERROR
+    GUIDE -. "자료 없음" .-> ERROR
+    TRUST -. "검증 자료 없음" .-> ERROR
+    ERROR -->|텍스트 정보로 계속| NEED
+    ERROR -->|홈으로| HOME

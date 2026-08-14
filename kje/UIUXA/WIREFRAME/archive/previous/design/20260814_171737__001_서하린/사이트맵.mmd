@@ -1,0 +1,23 @@
+flowchart TD
+    COMMON["공통 영역<br/>헤더 · 현재 위치 · 푸터"]
+    HOME["1차 · P-001 홈"]
+    DETAIL["2차 · P-002 제품 상세"]
+    GUIDE["2차 · P-003 사용 안내"]
+    TRUST["2차 · P-004 성분·영양"]
+    MEMBER["회원 상태별 영역<br/>해당 없음"]
+    STATES["화면 내 예외 상태<br/>로딩 · 빈 · 오류 · 완료"]
+
+    COMMON --> HOME
+    HOME --> DETAIL
+    HOME --> GUIDE
+    HOME --> TRUST
+    COMMON -. "공통 적용" .-> DETAIL
+    COMMON -. "공통 적용" .-> GUIDE
+    COMMON -. "공통 적용" .-> TRUST
+    DETAIL <-. "관련 정보" .-> GUIDE
+    GUIDE <-. "관련 정보" .-> TRUST
+    DETAIL <-. "관련 정보" .-> TRUST
+    MEMBER -. "로그인 요구 없음" .-> HOME
+    STATES -. "화면별 상태" .-> DETAIL
+    STATES -. "화면별 상태" .-> GUIDE
+    STATES -. "화면별 상태" .-> TRUST
