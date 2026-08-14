@@ -1,0 +1,14 @@
+flowchart TD
+    HOME["P-001 홈"]
+    DETAIL["P-002 제품 상세"]
+    GUIDE["P-003 사용 안내"]
+    TRUST["P-004 성분·영양"]
+
+    HOME --> DETAIL
+    HOME --> GUIDE
+    HOME --> TRUST
+    DETAIL --> GUIDE
+    DETAIL --> TRUST
+    GUIDE --> DETAIL
+    GUIDE --> TRUST
+    TRUST --> DETAIL
