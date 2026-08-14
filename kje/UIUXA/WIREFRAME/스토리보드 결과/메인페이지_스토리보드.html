@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOVIA P-001 메인페이지 스토리보드</title>
+  <style>
+    :root {
+      --black: #222;
+      --dark-gray: #555;
+      --mid-gray: #999;
+      --line: #aaa;
+      --light-gray: #ddd;
+      --pale-gray: #eee;
+      --white: #fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--black);
+      background: var(--light-gray);
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+    }
+
+    .skip-link:focus {
+      left: 12px;
+      top: 12px;
+      z-index: 10;
+      padding: 10px;
+      color: var(--black);
+      background: var(--white);
+      border: 2px solid var(--black);
+    }
+
+    .page {
+      width: min(1200px, 100%);
+      margin: 0 auto;
+      background: var(--white);
+    }
+
+    .wire-box {
+      border: 1px solid var(--line);
+      background: var(--pale-gray);
+    }
+
+    .area-label {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 3px 7px;
+      border: 1px solid var(--mid-gray);
+      color: var(--dark-gray);
+      background: var(--white);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 18px 24px;
+      border-bottom: 2px solid var(--black);
+    }
+
+    .brand {
+      flex: 0 0 auto;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .global-nav {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(110px, 1fr));
+      gap: 8px;
+      width: 100%;
+    }
+
+    .nav-item,
+    .button-box {
+      display: block;
+      padding: 10px 14px;
+      border: 1px solid var(--black);
+      color: var(--black);
+      background: var(--light-gray);
+      text-align: center;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-item[aria-current="page"],
+    .button-box.primary {
+      color: var(--white);
+      background: var(--dark-gray);
+    }
+
+    main { padding: 34px 28px 60px; }
+
+    .screen-intro { margin-bottom: 28px; }
+
+    .screen-id {
+      margin: 0 0 6px;
+      color: var(--dark-gray);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 10px; font-size: clamp(30px, 5vw, 48px); line-height: 1.2; }
+    .lead { max-width: 720px; font-size: 18px; }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 22px;
+      margin-bottom: 38px;
+    }
+
+    .hero-copy { padding: 28px; }
+    .hero-copy p { max-width: 620px; }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .image-placeholder {
+      min-height: 300px;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      border: 2px dashed var(--mid-gray);
+      background: var(--light-gray);
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .image-placeholder small {
+      display: block;
+      margin-top: 8px;
+      font-weight: 400;
+    }
+
+    .information-section { margin-bottom: 30px; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .info-card {
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      border: 1px solid var(--line);
+      background: var(--pale-gray);
+    }
+
+    .info-card .button-box { margin-top: auto; }
+
+    .destination {
+      margin: 8px 0 0;
+      color: var(--dark-gray);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .completion {
+      padding: 22px;
+      margin-top: 28px;
+      border: 1px solid var(--line);
+      background: var(--pale-gray);
+    }
+
+    .completion .button-box { max-width: 260px; }
+
+    .site-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 28px;
+      border-top: 2px solid var(--black);
+      background: var(--light-gray);
+    }
+
+    .site-footer p { margin: 0; }
+    .site-footer .button-box { min-width: 160px; }
+
+    .annotation {
+      margin: 0;
+      padding: 10px 28px;
+      border-top: 1px dashed var(--mid-gray);
+      background: var(--pale-gray);
+      color: var(--dark-gray);
+      font-size: 13px;
+    }
+
+    @media (max-width: 767px) {
+      .site-header { align-items: flex-start; flex-direction: column; gap: 12px; }
+      .global-nav { grid-template-columns: repeat(2, 1fr); }
+      main { padding: 24px 18px 42px; }
+      .hero, .card-grid { grid-template-columns: 1fr; }
+      .image-placeholder { min-height: 210px; }
+      .info-card { min-height: 190px; }
+      .site-footer { align-items: stretch; flex-direction: column; }
+      .site-footer .button-box { width: 100%; }
+      .annotation { padding: 10px 18px; }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .card-grid { grid-template-columns: repeat(2, 1fr); }
+      .info-card:last-child { grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
+  <div class="page">
+    <header class="site-header">
+      <div>
+        <span class="area-label">P-001-01 공통 헤더</span>
+        <div class="brand">YOVIA</div>
+      </div>
+      <nav class="global-nav" aria-label="주요 화면">
+        <span class="nav-item" aria-current="page">홈</span>
+        <span class="nav-item">제품 상세</span>
+        <span class="nav-item">사용 안내</span>
+        <span class="nav-item">성분·영양</span>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="screen-intro" aria-labelledby="page-title">
+        <span class="area-label">P-001-02 화면 도입부</span>
+        <p class="screen-id">P-001 · 홈</p>
+        <h1 id="page-title">바쁜 하루를 위한 한 번의 준비</h1>
+        <p class="lead">제품의 정체와 사용 가치를 이해하고 필요한 정보를 선택합니다.</p>
+      </section>
+
+      <section class="hero" aria-label="제품 경험 소개">
+        <div class="hero-copy wire-box">
+          <span class="area-label">P-001-03 히어로 정보</span>
+          <h2>YOVIA 제품 경험 후보</h2>
+          <p>그릭요거트 기반 올인원 경험을 실제 제품 자료가 확인된 범위에서 설명합니다.</p>
+          <div class="actions" aria-label="주요 이동 예시">
+            <span class="button-box primary">제품 상세 보기</span>
+            <span class="button-box">사용 안내 보기</span>
+          </div>
+          <p class="destination">이동 대상: P-002 제품 상세 / P-003 사용 안내</p>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="YOVIA 실제 제품 대표 이미지 자리">
+          <div>
+            <span class="area-label">P-001-04 대표 제품 이미지</span><br>
+            대표 이미지 회색 박스
+            <small>가정: 원본 제품 자산 확인 필요</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="information-section" aria-labelledby="information-title">
+        <span class="area-label">P-001-05~07 정보 탐색</span>
+        <h2 id="information-title">필요한 정보 선택</h2>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <span class="area-label">P-001-05</span>
+            <h3>제품 구조</h3>
+            <p>구성 요소와 역할을 확인합니다.</p>
+            <span class="button-box">제품 상세로 이동</span>
+            <p class="destination">P-002 제품 상세</p>
+          </article>
+
+          <article class="info-card">
+            <span class="area-label">P-001-06</span>
+            <h3>사용 방법</h3>
+            <p>상황과 개봉·준비·섭취·정리 4단계를 확인합니다.</p>
+            <span class="button-box">사용 안내로 이동</span>
+            <p class="destination">P-003 사용 안내</p>
+          </article>
+
+          <article class="info-card">
+            <span class="area-label">P-001-07</span>
+            <h3>성분·영양</h3>
+            <p>원료·영양·알레르기와 근거 상태를 확인합니다.</p>
+            <span class="button-box">성분·영양으로 이동</span>
+            <p class="destination">P-004 성분·영양</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="completion">
+        <span class="area-label">P-001-08 탐색 완료 행동</span>
+        <h2>메인 정보 확인 완료</h2>
+        <p>제품 상세, 사용 안내 또는 성분·영양 정보를 계속 확인할 수 있습니다.</p>
+        <span class="button-box">홈 정보 확인 완료</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span class="area-label">P-001-09 공통 푸터</span>
+        <p>VC-001 후보 설계 · 비교·판매·구매 기능 보류</p>
+      </div>
+      <span class="button-box">홈으로 이동</span>
+    </footer>
+
+    <p class="annotation">정적 스토리보드: JavaScript 및 실제 화면 이동 없음 · 회색 박스와 텍스트만 사용</p>
+  </div>
+</body>
+</html>
