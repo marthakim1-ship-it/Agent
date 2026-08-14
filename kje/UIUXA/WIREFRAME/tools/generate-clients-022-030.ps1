@@ -1,4 +1,5 @@
 $ErrorActionPreference = 'Stop'
+throw '사용 중단: 이 레거시 스크립트는 분석과 사이트맵·흐름도·화면 설계를 한 번에 생성합니다. 분석과 후속 설계를 분리하여 진행하세요.'
 $Root = Split-Path -Parent $PSScriptRoot
 $Workspace = Split-Path -Parent $Root
 $ClientRoot = Join-Path $Workspace 'Md_Skill\output\04_virtual_clients\clients'

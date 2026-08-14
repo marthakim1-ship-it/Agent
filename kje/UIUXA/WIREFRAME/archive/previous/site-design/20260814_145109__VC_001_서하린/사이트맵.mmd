@@ -1,0 +1,45 @@
+flowchart TD
+  HOME["IA-001 홈"]
+  PRODUCTS["IA-100 제품"]
+  OVERVIEW["IA-110 제품 개요"]
+  DETAIL["IA-120 제품 상세 · 조건부"]
+  EXPERIENCE["IA-200 올인원 경험"]
+  STRUCTURE["IA-210 제품 구조"]
+  HOWTO["IA-220 사용 방법"]
+  OCCASIONS["IA-230 사용 상황"]
+  TRUST["IA-300 제품 정보"]
+  INGREDIENTS["IA-310 원료·성분"]
+  NUTRITION["IA-320 영양 정보"]
+  ALLERGENS["IA-330 알레르기 정보"]
+  EVIDENCE["IA-340 근거·검증 상태"]
+  ABOUT["IA-400 YOVIA 소개"]
+  COMPARE["IA-510 제품 비교 · 조건부"]
+  STORES["IA-520 판매처 확인 · 조건부"]
+  QUALITY["IA-H10 품질·시험 · HOLD"]
+
+  HOME --> PRODUCTS
+  HOME --> EXPERIENCE
+  HOME --> TRUST
+  HOME --> ABOUT
+
+  PRODUCTS --> OVERVIEW
+  OVERVIEW -. "제품 선택지 확정 후" .-> DETAIL
+  OVERVIEW -. "옵션 2개 이상 확정 후" .-> COMPARE
+  DETAIL --> STRUCTURE
+  DETAIL --> HOWTO
+  DETAIL --> TRUST
+  DETAIL -. "판매 채널 확정 후" .-> STORES
+
+  EXPERIENCE --> STRUCTURE
+  EXPERIENCE --> HOWTO
+  EXPERIENCE --> OCCASIONS
+  OCCASIONS --> OVERVIEW
+
+  TRUST --> INGREDIENTS
+  TRUST --> NUTRITION
+  TRUST --> ALLERGENS
+  TRUST --> EVIDENCE
+  EVIDENCE -. "시험 자료 확보 후" .-> QUALITY
+
+  ABOUT --> PRODUCTS
+

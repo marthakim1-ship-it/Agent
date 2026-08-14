@@ -1,4 +1,5 @@
 $ErrorActionPreference = 'Stop'
+throw '사용 중단: 이 레거시 스크립트는 사이트맵·흐름도·화면 설계를 자동 생성합니다. 분석 결과 이후의 설계는 독립 검토 후 별도 단계로 진행하세요.'
 $Root = Split-Path -Parent $PSScriptRoot
 $AnalysisRoot = Join-Path $Root '가상 클라이언트 분석 결과'
 $DesignRoot = Join-Path $Root '가상 클라이언트 설계 결과'
