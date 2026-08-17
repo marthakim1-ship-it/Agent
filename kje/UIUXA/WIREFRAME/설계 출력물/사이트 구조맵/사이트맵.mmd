@@ -3,10 +3,14 @@ flowchart TD
     DETAIL["2차 · P-002 제품 상세"]
     GUIDE["2차 · P-003 사용 안내"]
     TRUST["2차 · P-004 성분·영양"]
+    BRAND["2차 · P-005 브랜드 소개"]
 
     HOME --> DETAIL
     HOME --> GUIDE
     HOME --> TRUST
+    HOME --> BRAND
+    BRAND <-. "관련 정보" .-> DETAIL
+    BRAND <-. "관련 정보" .-> GUIDE
     DETAIL <-. "관련 정보" .-> GUIDE
     GUIDE <-. "관련 정보" .-> TRUST
     DETAIL <-. "관련 정보" .-> TRUST
