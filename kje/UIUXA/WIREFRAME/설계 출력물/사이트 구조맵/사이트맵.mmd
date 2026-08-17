@@ -4,11 +4,14 @@ flowchart TD
     GUIDE["2차 · P-003 사용 안내"]
     TRUST["2차 · P-004 성분·영양"]
     BRAND["2차 · P-005 브랜드 소개"]
+    CATEGORY["2차 · P-006 제품 카테고리 · 상품 15개"]
 
     HOME --> DETAIL
     HOME --> GUIDE
     HOME --> TRUST
     HOME --> BRAND
+    HOME --> CATEGORY
+    CATEGORY --> DETAIL
     BRAND <-. "관련 정보" .-> DETAIL
     BRAND <-. "관련 정보" .-> GUIDE
     DETAIL <-. "관련 정보" .-> GUIDE

@@ -14,6 +14,8 @@ flowchart TD
     UPDATE["시스템: 현재 단계 갱신"]
     TRUST[["P-004 성분·영양"]]
     BRAND[["P-005 브랜드 소개"]]
+    CATEGORY[["P-006 제품 카테고리 · 상품 15개"]]
+    FILTER[/"사용자: 제품군 필터·상품 카드 선택"/]
     READ["시스템: 정의·배경·미션·가치 표시"]
     VERIFY{"제품 차별점 근거가 확정됐는가?"}
     OPEN[/"사용자: 상세 정보 펼치기"/]
@@ -30,7 +32,10 @@ flowchart TD
     ROUTE -->|사용 안내| GUIDE
     ROUTE -->|성분·영양| TRUST
     ROUTE -->|브랜드 소개| BRAND
+    ROUTE -->|제품 카테고리| CATEGORY
     HOME --> CHOOSE --> BRAND
+    BRAND --> CATEGORY
+    CATEGORY --> FILTER --> DETAIL
     BRAND --> READ --> VERIFY
     VERIFY -->|예| DETAIL
     VERIFY -->|아니오·보류 표시| GUIDE
