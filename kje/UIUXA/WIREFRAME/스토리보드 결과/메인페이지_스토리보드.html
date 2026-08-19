@@ -80,7 +80,7 @@
 
     .global-nav {
       display: grid;
-      grid-template-columns: repeat(4, minmax(110px, 1fr));
+      grid-template-columns: repeat(6, minmax(110px, 1fr));
       gap: 8px;
       width: 100%;
     }
@@ -152,6 +152,18 @@
       font-weight: 400;
     }
 
+    .product-showcase { margin: 0 0 38px; }
+    .slider-head { display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:14px; }
+    .slider-controls { display:flex;gap:8px; }
+    .slider-controls button { width:44px;height:44px;border:1px solid var(--black);background:var(--white);font-size:20px;cursor:pointer; }
+    .slider-controls button:disabled { opacity:.35;cursor:not-allowed; }
+    .product-viewport { overflow:hidden; }
+    .product-track { display:flex;gap:14px;transition:transform .25s ease; }
+    .product-card { flex:0 0 calc((100% - 28px)/3);min-width:0;padding:16px;border:1px solid var(--line);background:var(--pale-gray); }
+    .product-card .image-placeholder { min-height:150px;margin-bottom:14px; }
+    .product-card .button-box { margin-top:14px; }
+    .slider-status { margin:12px 0;color:var(--dark-gray); }
+    .category-link { max-width:260px; }
     .information-section { margin-bottom: 30px; }
 
     .card-grid {
@@ -214,6 +226,7 @@
       .global-nav { grid-template-columns: repeat(2, 1fr); }
       main { padding: 24px 18px 42px; }
       .hero, .card-grid { grid-template-columns: 1fr; }
+      .product-card { flex-basis:100%; }
       .image-placeholder { min-height: 210px; }
       .info-card { min-height: 190px; }
       .site-footer { align-items: stretch; flex-direction: column; }
@@ -222,6 +235,8 @@
     }
 
     @media (min-width: 768px) and (max-width: 1199px) {
+      .global-nav { grid-template-columns:repeat(3,1fr); }
+      .product-card { flex-basis:calc((100% - 14px)/2); }
       .card-grid { grid-template-columns: repeat(2, 1fr); }
       .info-card:last-child { grid-column: 1 / -1; }
     }
@@ -238,6 +253,8 @@
       </div>
       <nav class="global-nav" aria-label="주요 화면">
         <span class="nav-item" aria-current="page">홈</span>
+        <span class="nav-item">제품 카테고리</span>
+        <span class="nav-item">브랜드 소개</span>
         <span class="nav-item">제품 상세</span>
         <span class="nav-item">사용 안내</span>
         <span class="nav-item">성분·영양</span>
@@ -273,13 +290,28 @@
         </div>
       </section>
 
+      <section class="product-showcase" aria-labelledby="product-slider-title">
+        <span class="area-label">P-001-05 대표 상품 슬라이드</span>
+        <div class="slider-head"><div><h2 id="product-slider-title">한 팩으로 만나는 yovia</h2><p>기본 팩과 시그니처·스타터 팩 7종을 먼저 살펴보세요.</p></div><div class="slider-controls"><button type="button" id="slider-prev" aria-label="이전 상품">←</button><button type="button" id="slider-next" aria-label="다음 상품">→</button></div></div>
+        <div class="product-viewport"><div class="product-track" id="product-track">
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="120g 모닝 파우치 이미지 자리">PRODUCT-001</div><h3>120g 모닝 파우치</h3><p>기본 팩 · 기획서 명시</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="400g 홈트레이닝 팩 이미지 자리">PRODUCT-002</div><h3>400g 홈트레이닝 팩</h3><p>기본 팩 · 기획서 명시</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="800g 그릭 매니아 팩 이미지 자리">PRODUCT-003</div><h3>800g 그릭 매니아 팩</h3><p>기본 팩 · 기획서 명시</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="yovia 7AM 갓생 팩 이미지 자리">PRODUCT-012</div><h3>yovia 7AM 갓생 팩</h3><p>시그니처 메뉴 제안</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="yovia 3PM 리프레시 팩 이미지 자리">PRODUCT-013</div><h3>yovia 3PM 리프레시 팩</h3><p>시그니처 메뉴 제안</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="yovia 위켄드 뷰티 팩 이미지 자리">PRODUCT-014</div><h3>yovia 위켄드 뷰티 팩</h3><p>시그니처 메뉴 제안</p><span class="button-box">상세 보기</span></article>
+          <article class="product-card"><div class="image-placeholder" role="img" aria-label="yovia 스타터 팩 이미지 자리">PRODUCT-015</div><h3>yovia 스타터 팩</h3><p>런칭 기획 상품</p><span class="button-box">상세 보기</span></article>
+        </div></div>
+        <p class="slider-status" id="slider-status" aria-live="polite"></p><span class="button-box primary category-link">전체 15개 상품 보기</span><p class="destination">이동 대상: P-002 제품 상세 / P-006 제품 카테고리</p>
+      </section>
+
       <section class="information-section" aria-labelledby="information-title">
-        <span class="area-label">P-001-05~07 정보 탐색</span>
+        <span class="area-label">P-001-06~08 정보 탐색</span>
         <h2 id="information-title">필요한 정보 선택</h2>
 
         <div class="card-grid">
           <article class="info-card">
-            <span class="area-label">P-001-05</span>
+            <span class="area-label">P-001-06</span>
             <h3>제품 구조</h3>
             <p>구성 요소와 역할을 확인합니다.</p>
             <span class="button-box">제품 상세로 이동</span>
@@ -287,7 +319,7 @@
           </article>
 
           <article class="info-card">
-            <span class="area-label">P-001-06</span>
+            <span class="area-label">P-001-07</span>
             <h3>사용 방법</h3>
             <p>상황과 개봉·준비·섭취·정리 4단계를 확인합니다.</p>
             <span class="button-box">사용 안내로 이동</span>
@@ -295,7 +327,7 @@
           </article>
 
           <article class="info-card">
-            <span class="area-label">P-001-07</span>
+            <span class="area-label">P-001-08</span>
             <h3>성분·영양</h3>
             <p>원료·영양·알레르기와 근거 상태를 확인합니다.</p>
             <span class="button-box">성분·영양으로 이동</span>
@@ -305,7 +337,7 @@
       </section>
 
       <section class="completion">
-        <span class="area-label">P-001-08 탐색 완료 행동</span>
+        <span class="area-label">P-001-09 탐색 완료 행동</span>
         <h2>메인 정보 확인 완료</h2>
         <p>제품 상세, 사용 안내 또는 성분·영양 정보를 계속 확인할 수 있습니다.</p>
         <span class="button-box">홈 정보 확인 완료</span>
@@ -314,13 +346,17 @@
 
     <footer class="site-footer">
       <div>
-        <span class="area-label">P-001-09 공통 푸터</span>
+        <span class="area-label">P-001-10 공통 푸터</span>
         <p>VC-001 후보 설계 · 비교·판매·구매 기능 보류</p>
       </div>
       <span class="button-box">홈으로 이동</span>
     </footer>
 
-    <p class="annotation">정적 스토리보드: JavaScript 및 실제 화면 이동 없음 · 회색 박스와 텍스트만 사용</p>
+    <p class="annotation">동작형 스토리보드: 상품 슬라이드만 JavaScript로 확인 · 실제 화면 이동과 판매 기능 없음</p>
   </div>
+  <script>
+    const track=document.getElementById('product-track'),cards=[...track.children],prev=document.getElementById('slider-prev'),next=document.getElementById('slider-next'),status=document.getElementById('slider-status');let index=0;
+    function visibleCount(){return innerWidth<768?1:innerWidth<1200?2:3}function renderSlider(){const visible=visibleCount(),max=Math.max(0,cards.length-visible);index=Math.min(index,max);const width=cards[0].getBoundingClientRect().width+14;track.style.transform='translateX('+(-index*width)+'px)';prev.disabled=index===0;next.disabled=index===max;status.textContent=(index+1)+'~'+Math.min(index+visible,cards.length)+' / '+cards.length+' 상품 표시'}prev.onclick=()=>{if(index>0){index--;renderSlider()}};next.onclick=()=>{if(index<cards.length-visibleCount()){index++;renderSlider()}};addEventListener('resize',renderSlider);renderSlider();
+  </script>
 </body>
 </html>
