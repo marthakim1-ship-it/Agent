@@ -1,0 +1,1118 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YOVIA 메인페이지 스토리보드 2차 보완본</title>
+    <style>
+      :root {
+        --ink: #111;
+        --gray-1: #333;
+        --gray-2: #737373;
+        --gray-3: #b8b8b8;
+        --gray-4: #e4e4e4;
+        --paper: #fff;
+        --off: #f4f4f4;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: #d6d6d6;
+        font-family: Arial, "Noto Sans KR", sans-serif;
+        line-height: 1.5;
+      }
+      .page {
+        width: min(1280px, 100%);
+        margin: auto;
+        overflow: hidden;
+        background: var(--paper);
+      }
+      button {
+        font: inherit;
+      }
+      .skip {
+        position: absolute;
+        left: -9999px;
+      }
+      .skip:focus {
+        left: 12px;
+        top: 12px;
+        z-index: 20;
+        padding: 10px;
+        background: #fff;
+        border: 2px solid #111;
+      }
+      .label {
+        display: inline-block;
+        padding: 4px 8px;
+        border: 1px solid currentColor;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+      }
+      .header {
+        display: grid;
+        grid-template-columns: 220px 1fr auto;
+        align-items: center;
+        gap: 24px;
+        padding: 18px 32px;
+        border-bottom: 1px solid #111;
+      }
+      .brand {
+        font-size: 29px;
+        font-weight: 900;
+        letter-spacing: -0.08em;
+      }
+      .header-note {
+        color: var(--gray-2);
+        font-size: 12px;
+      }
+      .nav {
+        display: flex;
+        gap: 6px;
+      }
+      .nav button,
+      .btn {
+        min-height: 46px;
+        padding: 11px 18px;
+        border: 1px solid #111;
+        background: #fff;
+        color: #111;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .nav button[aria-current="page"],
+      .btn.primary {
+        background: #111;
+        color: #fff;
+      }
+      .nav button:hover,
+      .btn:hover {
+        outline: 2px solid #111;
+        outline-offset: 2px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        min-height: 650px;
+        border-bottom: 1px solid #111;
+      }
+      .hero-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 46px 32px 32px;
+        border-right: 1px solid #111;
+      }
+      .hero h1 {
+        max-width: 760px;
+        margin: 20px 0;
+        font-size: clamp(58px, 8vw, 106px);
+        line-height: 0.86;
+        letter-spacing: -0.085em;
+      }
+      .hero-lead {
+        max-width: 590px;
+        font-size: 19px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 24px;
+      }
+      .hero-visual {
+        position: relative;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        background: var(--off);
+      }
+      .hero-visual::before {
+        content: "YOVIA";
+        position: absolute;
+        top: 14px;
+        right: -8px;
+        color: #d7d7d7;
+        font-size: 118px;
+        font-weight: 900;
+        letter-spacing: -0.09em;
+        writing-mode: vertical-rl;
+      }
+      .pack {
+        position: relative;
+        width: min(300px, 64%);
+        height: 410px;
+        border: 3px solid #111;
+        border-radius: 26px 26px 54px 54px;
+        background: #fff;
+        box-shadow: 18px 18px 0 #111;
+      }
+      .pack::before {
+        content: "YOVIA";
+        position: absolute;
+        left: 28px;
+        top: 28px;
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -0.07em;
+      }
+      .pack::after {
+        content: "제품 이미지 자리\A팩 · 퓨레 · 토핑";
+        white-space: pre;
+        position: absolute;
+        left: 28px;
+        bottom: 36px;
+        font-size: 14px;
+        font-weight: 800;
+      }
+      .visual-note {
+        position: absolute;
+        left: 26px;
+        bottom: 24px;
+        width: 160px;
+        padding: 12px;
+        border: 1px solid #111;
+        background: #fff;
+        font-size: 12px;
+      }
+      .signal-strip {
+        display: flex;
+        overflow: hidden;
+        border-bottom: 1px solid #111;
+        background: #111;
+        color: #fff;
+      }
+      .signal-strip span {
+        flex: 1 0 auto;
+        padding: 13px 28px;
+        border-right: 1px solid #fff;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+      }
+      .section {
+        padding: 86px 32px;
+        border-bottom: 1px solid #111;
+      }
+      .section-head {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        gap: 30px;
+        margin-bottom: 42px;
+      }
+      .section-head h2 {
+        max-width: 850px;
+        margin: 0;
+        font-size: clamp(40px, 6vw, 72px);
+        line-height: 0.98;
+        letter-spacing: -0.06em;
+      }
+      .section-head p {
+        max-width: 650px;
+        margin: 14px 0 0;
+        color: var(--gray-1);
+      }
+      .assembly {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        border: 1px solid #111;
+      }
+      .assembly-figure {
+        min-height: 480px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 12px;
+        padding: 36px;
+        background: var(--off);
+      }
+      .part {
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        border: 2px solid #111;
+        border-radius: 50%;
+        background: #fff;
+        text-align: center;
+        font-weight: 900;
+      }
+      .part:nth-child(2) {
+        border-style: dashed;
+      }
+      .part:nth-child(3) {
+        border-radius: 20px;
+      }
+      .assembly-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        border-left: 1px solid #111;
+      }
+      .assembly-copy ol {
+        margin: 24px 0 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+      .assembly-copy li {
+        display: grid;
+        grid-template-columns: 42px 1fr;
+        gap: 12px;
+        padding: 18px 0;
+        border-top: 1px solid #111;
+        counter-increment: step;
+      }
+      .assembly-copy li::before {
+        content: "0" counter(step);
+        font-weight: 900;
+      }
+      .slider-section {
+        padding: 86px 0;
+        border-bottom: 1px solid #111;
+      }
+      .slider-section .section-head,
+      .slider-bottom {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      .slider-headline {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 20px;
+      }
+      .controls {
+        display: flex;
+        gap: 6px;
+      }
+      .controls button {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #111;
+        background: #fff;
+        font-size: 22px;
+        cursor: pointer;
+      }
+      .controls button:disabled {
+        color: var(--gray-3);
+        border-color: var(--gray-3);
+      }
+      .viewport {
+        overflow: hidden;
+        padding-left: 32px;
+      }
+      .track {
+        display: flex;
+        gap: 0;
+        transition: transform 0.28s ease;
+      }
+      .product {
+        flex: 0 0 calc((100% - 96px) / 3);
+        min-width: 0;
+        border: 1px solid #111;
+        border-right: 0;
+        background: #fff;
+      }
+      .product:last-child {
+        border-right: 1px solid #111;
+      }
+      .product-image {
+        height: 260px;
+        display: grid;
+        place-items: center;
+        border-bottom: 1px solid #111;
+        background: var(--off);
+        font-size: 46px;
+        font-weight: 900;
+        color: #c3c3c3;
+      }
+      .product:nth-child(even) .product-image {
+        background: #222;
+        color: #555;
+      }
+      .product-body {
+        padding: 22px;
+      }
+      .product h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+        letter-spacing: -0.04em;
+      }
+      .product p {
+        min-height: 48px;
+        color: var(--gray-1);
+      }
+      .product .btn {
+        width: 100%;
+      }
+      .slider-bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        margin-top: 18px;
+      }
+      .moments {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: 90px;
+        gap: 10px;
+      }
+      .moment {
+        position: relative;
+        overflow: hidden;
+        padding: 24px;
+        border: 1px solid #111;
+        background: #fff;
+      }
+      .moment:nth-child(1) {
+        grid-column: 1/8;
+        grid-row: span 3;
+        background: #111;
+        color: #fff;
+      }
+      .moment:nth-child(2) {
+        grid-column: 8/13;
+        grid-row: span 2;
+        background: var(--off);
+      }
+      .moment:nth-child(3) {
+        grid-column: 8/13;
+        grid-row: span 3;
+      }
+      .moment:nth-child(4) {
+        grid-column: 1/8;
+        grid-row: span 2;
+        background: var(--gray-4);
+      }
+      .moment-no {
+        position: absolute;
+        right: 18px;
+        top: 4px;
+        font-size: 74px;
+        font-weight: 900;
+        line-height: 1;
+        color: var(--gray-3);
+      }
+      .moment:nth-child(1) .moment-no {
+        color: #444;
+      }
+      .moment h3 {
+        position: relative;
+        margin: 58px 0 8px;
+        font-size: 30px;
+      }
+      .trust {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        border: 1px solid #111;
+      }
+      .trust-title {
+        padding: 38px;
+        background: #111;
+        color: #fff;
+      }
+      .trust-title h2 {
+        margin: 18px 0;
+        font-size: 46px;
+        line-height: 1;
+      }
+      .trust-list {
+        padding: 20px 38px;
+      }
+      .trust-row {
+        display: grid;
+        grid-template-columns: 150px 1fr auto;
+        gap: 18px;
+        padding: 20px 0;
+        border-bottom: 1px solid #111;
+      }
+      .trust-row:last-child {
+        border-bottom: 0;
+      }
+      .status {
+        padding: 3px 7px;
+        border: 1px solid #111;
+        font-size: 11px;
+        font-weight: 900;
+      }
+      .closing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        border-bottom: 1px solid #111;
+      }
+      .closing > div {
+        min-height: 360px;
+        padding: 48px 32px;
+      }
+      .closing > div:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: var(--off);
+      }
+      .closing > div:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-left: 1px solid #111;
+        background: #fff;
+      }
+      .closing h2 {
+        margin: 0;
+        font-size: clamp(50px, 7vw, 90px);
+        line-height: 0.9;
+        letter-spacing: -0.075em;
+      }
+      .footer {
+        background: #111;
+        color: #fff;
+      }
+      .footer-main {
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr 0.8fr;
+        gap: 40px;
+        padding: 70px 32px 42px;
+      }
+      .footer-mark {
+        font-size: clamp(72px, 12vw, 150px);
+        font-weight: 900;
+        line-height: 0.75;
+        letter-spacing: -0.09em;
+      }
+      .footer-copy {
+        max-width: 420px;
+        margin-top: 30px;
+        color: #cfcfcf;
+      }
+      .footer-title {
+        margin: 0 0 14px;
+        color: #aaa;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+      }
+      .footer-nav {
+        display: grid;
+        gap: 10px;
+      }
+      .footer-nav button {
+        padding: 0;
+        border: 0;
+        background: none;
+        color: #fff;
+        text-align: left;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .footer-nav button::after {
+        content: " ↗";
+      }
+      .footer-status {
+        padding: 18px;
+        border: 1px solid #777;
+        color: #d0d0d0;
+        font-size: 13px;
+      }
+      .footer-end {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 16px 32px;
+        border-top: 1px solid #666;
+        color: #aaa;
+        font-size: 12px;
+      }
+      .annotation {
+        margin: 0;
+        padding: 10px 32px;
+        background: #e8e8e8;
+        color: #444;
+        font-size: 12px;
+      }
+      @media (max-width: 767px) {
+        .header {
+          grid-template-columns: 1fr auto;
+          padding: 16px 18px;
+        }
+        .header-note {
+          display: none;
+        }
+        .nav {
+          grid-column: 1/-1;
+          width: 100%;
+        }
+        .nav button {
+          flex: 1;
+          padding: 9px 7px;
+          font-size: 13px;
+        }
+        .hero {
+          grid-template-columns: 1fr;
+        }
+        .hero-copy {
+          min-height: 540px;
+          padding: 34px 18px 26px;
+          border-right: 0;
+          border-bottom: 1px solid #111;
+        }
+        .hero h1 {
+          font-size: 58px;
+        }
+        .hero-visual {
+          min-height: 480px;
+        }
+        .section,
+        .slider-section {
+          padding-top: 62px;
+          padding-bottom: 62px;
+        }
+        .section {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+        .section-head {
+          grid-template-columns: 1fr;
+          gap: 14px;
+        }
+        .slider-section .section-head,
+        .slider-bottom {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+        .assembly {
+          grid-template-columns: 1fr;
+        }
+        .assembly-figure {
+          min-height: 330px;
+          padding: 20px;
+        }
+        .assembly-copy {
+          padding: 24px;
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .viewport {
+          padding-left: 18px;
+        }
+        .product {
+          flex-basis: calc(100% - 36px);
+        }
+        .product-image {
+          height: 230px;
+        }
+        .slider-bottom {
+          align-items: stretch;
+          flex-direction: column;
+        }
+        .moments {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-auto-rows: auto;
+        }
+        .moment,
+        .moment:nth-child(n) {
+          grid-column: auto;
+          grid-row: auto;
+          min-height: 250px;
+        }
+        .trust {
+          grid-template-columns: 1fr;
+        }
+        .trust-list {
+          padding: 12px 22px;
+        }
+        .trust-row {
+          grid-template-columns: 1fr auto;
+        }
+        .trust-row span:nth-child(2) {
+          grid-column: 1/-1;
+        }
+        .closing {
+          grid-template-columns: 1fr;
+        }
+        .closing > div {
+          min-height: 300px;
+          padding: 38px 18px;
+        }
+        .closing > div:last-child {
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .footer-main {
+          grid-template-columns: 1fr;
+          padding: 58px 18px 34px;
+        }
+        .footer-end {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 18px;
+        }
+        .annotation {
+          padding: 10px 18px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .product {
+          flex-basis: calc((100% - 64px) / 2);
+        }
+        .footer-main {
+          grid-template-columns: 1fr 1fr;
+        }
+        .footer-main > div:first-child {
+          grid-column: 1/-1;
+        }
+      }
+      :focus-visible {
+        outline: 3px solid #111 !important;
+        outline-offset: 3px;
+      }
+      .review-banner {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 10px 32px;
+        border-bottom: 1px solid #111;
+        background: #fffdcf;
+        font-size: 12px;
+        font-weight: 800;
+      }
+      .quick-nav{display:flex;gap:0;overflow:auto;border-bottom:1px solid #111;background:#fff}.quick-nav a{flex:1;min-width:max-content;padding:13px 18px;border-right:1px solid #111;color:#111;text-align:center;text-decoration:none;font-size:12px;font-weight:900}.quick-nav a:hover{background:#111;color:#fff}
+      .to-top {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 40;
+        display: none;
+        min-width: 48px;
+        min-height: 48px;
+        border: 2px solid #111;
+        background: #fff;
+        font-weight: 900;
+        cursor: pointer;
+      }
+      .to-top.show {
+        display: block;
+      }
+      @media (max-width: 767px) {
+        .review-banner {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 10px 18px;
+        }
+        .to-top {
+          right: 12px;
+          bottom: 12px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .track {
+          transition: none !important;
+        }
+      }
+      /* REFERENCE-LED VISUAL PASS: product-first editorial system */
+      body{background:#c9c9c3}.page{width:min(1440px,100%);background:#f7f7f2}.review-banner{background:#dff36a;color:#111;letter-spacing:.02em}.header{grid-template-columns:180px 1fr auto;background:#111;color:#fff}.brand{font-size:36px}.header-note{color:#aaa}.nav button{border-color:#777;background:#111;color:#fff;border-radius:999px}.nav button[aria-current=page]{background:#dff36a;color:#111}.quick-nav{padding:8px 24px;background:#f7f7f2}.quick-nav a{border:0;border-radius:999px}.hero{gap:18px;padding:18px;background:#111;border:0}.hero-copy,.hero-visual{border:0;border-radius:28px}.hero-copy{padding:54px 42px;background:#f7f7f2}.hero h1{font-size:clamp(68px,9vw,132px);line-height:.8}.hero-visual{background:#dff36a}.pack{height:450px;transform:rotate(5deg);border-radius:34px 34px 76px 76px;box-shadow:22px 22px 0 #111}.visual-note{border:0;border-radius:12px;box-shadow:0 8px 30px #0002}.signal-strip{margin:0 18px;border-radius:0 0 20px 20px}.section,.slider-section{border:0}.section-head{grid-template-columns:150px 1fr}.section-head h2{font-size:clamp(46px,6vw,84px)}.assembly{overflow:hidden;border:0;border-radius:28px;box-shadow:0 0 0 1px #111}.assembly-figure{background:#dff36a}.part{box-shadow:7px 7px 0 #111}.product{margin-right:14px;overflow:hidden;border:1px solid #111!important;border-radius:22px}.product-image{height:300px}.product:nth-child(even) .product-image{background:#dff36a;color:#111}.product-body{padding:26px}.product .btn{border-radius:999px}.moments{gap:14px}.moment{border:0;border-radius:24px}.moment:nth-child(1){background:#111}.moment:nth-child(2){background:#dff36a}.trust{overflow:hidden;border:0;border-radius:28px;box-shadow:0 0 0 1px #111}.status{border-radius:999px}.closing{margin:18px;border:0;border-radius:28px;overflow:hidden}.footer{margin-top:18px;border-radius:28px 28px 0 0}.to-top{border-radius:50%;background:#dff36a}@media(max-width:767px){.header{grid-template-columns:1fr}.nav{grid-column:auto}.hero{padding:10px}.hero-copy{padding:38px 22px}.hero h1{font-size:64px}.hero-visual{min-height:430px}.section-head{grid-template-columns:1fr}.quick-nav{padding:7px}.closing{margin:10px}}
+      /* STRICT MONOCHROME OVERRIDE */body{background:#cfcfcf}.page{background:#fff}.review-banner{background:#e4e4e4}.nav button[aria-current=page]{background:#fff;color:#111}.quick-nav{background:#fff}.hero-copy{background:#fff}.hero-visual,.assembly-figure,.product:nth-child(even) .product-image,.moment:nth-child(2),.to-top{background:#dedede;color:#111}
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 건너뛰기</a>
+    <div class="page">
+      <aside class="review-banner" aria-label="보완본 검토 상태">
+        <span>2차 보완본 · 클릭 가능한 와이어프레임</span
+        ><span>CONFIRMED / PROPOSAL / HOLD 상태 구분</span>
+      </aside>
+      <header class="header">
+        <div class="brand">YOVIA</div>
+        <div class="header-note">
+          P-001 · MAIN STORYBOARD · CONCEPT 02 / MONOCHROME
+        </div>
+        <nav class="nav" aria-label="주요 화면">
+          <button aria-current="page" data-target="P-001">홈</button
+          ><button data-target="P-006">제품 카테고리</button
+          ><button data-target="P-005">브랜드 소개</button>
+        </nav>
+      </header>
+      <nav class="quick-nav" aria-label="메인페이지 영역 바로가기"><a href="#assembly">제품 구성</a><a href="#products">대표 상품</a><a href="#moments">사용 상황</a><a href="#trust">정보 상태</a></nav>
+      <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div>
+              <span class="label">P-001-02 · PRODUCT FIRST</span>
+              <h1 id="hero-title">바쁜 하루,<br />한 팩이면<br />충분하게.</h1>
+              <p class="hero-lead">
+                그릭요거트 베이스와 퓨레·토핑의 조합을 한 흐름에서 살펴보는
+                YOVIA 올인원 데스크 푸드.
+              </p>
+              <div class="actions">
+                <button class="btn primary" data-target="P-006">
+                  제품 구성 살펴보기</button
+                ><button class="btn" data-target="P-005">브랜드 이야기</button>
+              </div>
+            </div>
+            <small
+              >근거: 제품 중심 히어로 111/197 · CTA 155/197 ·
+              VC001-REQ-001</small
+            >
+          </div>
+          <div
+            class="hero-visual"
+            role="img"
+            aria-label="YOVIA 팩과 퓨레, 토핑을 함께 보여주는 대표 제품 이미지 자리"
+          >
+            <div class="pack"></div>
+            <div class="visual-note">
+              P-001-03<br />공식 제품 이미지 필요<br /><strong
+                >NOT VERIFIED</strong
+              >
+            </div>
+          </div>
+        </section>
+        <div class="signal-strip" aria-hidden="true">
+          <span>GREEK YOGURT BASE</span><span>PUREE + TOPPING</span
+          ><span>ONE PACK FLOW</span><span>DESK FOOD</span>
+        </div>
+        <section class="section" id="assembly" aria-labelledby="assembly-title">
+          <div class="section-head">
+            <div><span class="label">P-001-04</span></div>
+            <div>
+              <h2 id="assembly-title">한 팩 안의 관계부터 보여줍니다.</h2>
+              <p>
+                타사 구조를 복제하지 않고 YOVIA의 실제 팩·퓨레·토핑 자산이
+                확정될 때 교체하는 제품 구조 영역입니다.
+              </p>
+            </div>
+          </div>
+          <div class="assembly">
+            <div
+              class="assembly-figure"
+              role="img"
+              aria-label="베이스, 퓨레, 토핑의 관계를 나타내는 흑백 구조도"
+            >
+              <div class="part">01<br />BASE</div>
+              <div class="part">02<br />PUREE</div>
+              <div class="part">03<br />TOPPING</div>
+            </div>
+            <div class="assembly-copy">
+              <span class="label">HOW IT COMES TOGETHER</span>
+              <ol>
+                <li>
+                  <div>
+                    <strong>팩을 확인합니다</strong><br /><small
+                      >실제 개봉 방식은 자료 확인 후 반영</small
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <strong>조합을 선택합니다</strong><br /><small
+                      >확정 제품 구성만 안내</small
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <strong>한 흐름으로 즐깁니다</strong><br /><small
+                      >미검증 시간·편익 수치 제외</small
+                    >
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section class="slider-section" id="products" aria-labelledby="products-title">
+          <div class="section-head">
+            <div><span class="label">P-001-05</span></div>
+            <div class="slider-headline">
+              <div>
+                <h2 id="products-title">오늘의 팩을 고르는 일.</h2>
+                <p>
+                  메인에서는 대표 7개만 보여주고 전체 상품은 카테고리로
+                  연결합니다.
+                </p>
+              </div>
+              <div class="controls">
+                <button id="prev" aria-label="이전 상품">←</button
+                ><button id="next" aria-label="다음 상품">→</button>
+              </div>
+            </div>
+          </div>
+          <div class="viewport">
+            <div class="track" id="track">
+              <article class="product">
+                <div class="product-image">001</div>
+                <div class="product-body">
+                  <h3>120g 모닝 파우치</h3>
+                  <p>120g · 기본 팩 · 기획서 명시</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">002</div>
+                <div class="product-body">
+                  <h3>400g 홈트레이닝 팩</h3>
+                  <p>400g · 기본 팩 · 기획서 명시</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">003</div>
+                <div class="product-body">
+                  <h3>800g 그릭 매니아 팩</h3>
+                  <p>800g · 기본 팩 · 기획서 명시</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">012</div>
+                <div class="product-body">
+                  <h3>7AM 갓생 팩</h3>
+                  <p>120g 베이스·블루베리 퓨레 조합 제안</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">013</div>
+                <div class="product-body">
+                  <h3>3PM 리프레시 팩</h3>
+                  <p>120g 베이스·스트로베리 퓨레 조합 제안</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">014</div>
+                <div class="product-body">
+                  <h3>위켄드 뷰티 팩</h3>
+                  <p>120g 또는 400g 베이스·망고 퓨레 조합 제안</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+              <article class="product">
+                <div class="product-image">015</div>
+                <div class="product-body">
+                  <h3>스타터 팩</h3>
+                  <p>시그니처 3종 각 2개·총 6개입 기획</p>
+                  <button class="btn" data-target="P-006">
+                    카테고리에서 보기
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="slider-bottom">
+            <p id="status" aria-live="polite"></p>
+            <button class="btn primary" data-target="P-006">
+              전체 15개 상품 보기
+            </button>
+          </div>
+        </section>
+        <section class="section" id="moments" aria-labelledby="moments-title">
+          <div class="section-head">
+            <div><span class="label">P-001-06~09</span></div>
+            <div>
+              <h2 id="moments-title">
+                제품보다 먼저가 아니라, 제품과 함께 보이는 일상.
+              </h2>
+              <p>사용 상황은 제품의 역할을 설명하는 장면으로만 사용합니다.</p>
+            </div>
+          </div>
+          <div class="moments">
+            <article class="moment">
+              <span class="moment-no">07</span>
+              <h3>출근·등교 전</h3>
+              <p>짧은 아침에 제품 구성과 조합 방향을 한 번에 확인합니다.</p>
+            </article>
+            <article class="moment">
+              <span class="moment-no">03</span>
+              <h3>업무 사이</h3>
+              <p>책상에서 살펴보는 간편한 구성.</p>
+            </article>
+            <article class="moment">
+              <span class="moment-no">01</span>
+              <h3>내 취향대로</h3>
+              <p>
+                팩을 중심으로 퓨레와 토핑을 나누어 보고 확정·준비 상태를
+                구분합니다.
+              </p>
+            </article>
+            <article class="moment">
+              <span class="moment-no">00</span>
+              <h3>미검증 표현은 0</h3>
+              <p>
+                빠른 취식 시간, 정리 부담 감소, 건강 효능은 근거 확보 전
+                수치화하지 않습니다.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section class="section" id="trust" aria-labelledby="trust-title">
+          <div class="trust">
+            <div class="trust-title">
+              <span class="label">P-001-10 · TRUST</span>
+              <h2 id="trust-title">확인된 것만 말합니다.</h2>
+              <p>수치보다 먼저 정보의 상태를 보여줍니다.</p>
+            </div>
+            <div class="trust-list">
+              <div class="trust-row">
+                <strong>제품명·용량</strong><span>기획 자료 기준 표시</span
+                ><span class="status">CONFIRMED</span>
+              </div>
+              <div class="trust-row">
+                <strong>시그니처 조합</strong
+                ><span>출시 확정이 아닌 제안 상태</span
+                ><span class="status">PROPOSAL</span>
+              </div>
+              <div class="trust-row">
+                <strong>원료·영양·알레르기</strong
+                ><span>공식 자료 확보 후 반영</span
+                ><span class="status">HOLD</span>
+              </div>
+              <div class="trust-row">
+                <strong>가격·판매·구매</strong
+                ><span>정책과 채널 확정 후 반영</span
+                ><span class="status">HOLD</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="closing">
+          <div>
+            <span class="label">P-001-11 · NEXT</span>
+            <h2>어떤<br />YOVIA가<br />맞을까요?</h2>
+          </div>
+          <div>
+            <p>
+              제품 구성을 먼저 비교하거나 YOVIA가 시작된 이야기를 확인하세요.
+            </p>
+            <div class="actions">
+              <button class="btn primary" data-target="P-006">
+                제품 카테고리</button
+              ><button class="btn" data-target="P-005">브랜드 소개</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-main">
+          <div>
+            <div class="footer-mark">YOVIA</div>
+            <p class="footer-copy">
+              바쁜 하루, 그릭요거트를 한 팩으로. 제품과 일상의 관계를 흑백
+              타이포그래피로 다시 회수하는 브랜드 엔딩.
+            </p>
+          </div>
+          <div>
+            <p class="footer-title">EXPLORE</p>
+            <nav class="footer-nav" aria-label="푸터 화면 탐색">
+              <button data-target="P-001">홈</button
+              ><button data-target="P-006">제품 카테고리</button
+              ><button data-target="P-005">브랜드 소개</button>
+            </nav>
+          </div>
+          <div>
+            <p class="footer-title">PROJECT STATUS</p>
+            <div class="footer-status">
+              가격·판매·구매 정책은 확정 전입니다. 공식 정보 확인 후 사용자용
+              푸터를 확장합니다.
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <span>CONCEPT 02 · MONOCHROME STORYBOARD</span
+          ><span>200 REFERENCE ANALYSIS + VC001</span>
+        </div>
+      </footer>
+      <p class="annotation">
+        동작형 스토리보드 · 상품 슬라이드 확인 가능 · 실제 화면 이동과 판매 기능
+        없음
+      </p>
+    </div>
+    <button class="to-top" id="to-top" aria-label="페이지 맨 위로 이동">
+      ↑
+    </button>
+    <script>
+      const pages = {
+          "P-001": "메인페이지_스토리보드_2차.html",
+          "P-005": "브랜드소개페이지_스토리보드_2차.html",
+          "P-006": "카테고리페이지_스토리보드_2차.html",
+        },
+        track = document.getElementById("track"),
+        cards = [...track.children],
+        prev = document.getElementById("prev"),
+        next = document.getElementById("next"),
+        status = document.getElementById("status");
+      let index = 0;
+      function visible() {
+        return innerWidth < 768 ? 1 : innerWidth < 1024 ? 2 : 3;
+      }
+      function render() {
+        const count = visible(),
+          max = Math.max(0, cards.length - count);
+        index = Math.min(index, max);
+        const gap = 0,
+          width = cards[0].getBoundingClientRect().width + gap;
+        track.style.transform = `translateX(${-index * width}px)`;
+        prev.disabled = index === 0;
+        next.disabled = index === max;
+        status.textContent = `${index + 1}–${Math.min(index + count, cards.length)} / ${cards.length} 상품`;
+      }
+      prev.onclick = () => {
+        if (index > 0) {
+          index--;
+          render();
+        }
+      };
+      next.onclick = () => {
+        if (index < cards.length - visible()) {
+          index++;
+          render();
+        }
+      };
+      document
+        .querySelectorAll("[data-target]")
+        .forEach(
+          (el) =>
+            (el.onclick = () => (location.href = pages[el.dataset.target])),
+        );
+      const toTop = document.getElementById("to-top");
+      addEventListener(
+        "scroll",
+        () => toTop.classList.toggle("show", scrollY > 520),
+        { passive: true },
+      );
+      toTop.onclick = () =>
+        scrollTo({
+          top: 0,
+          behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+            ? "auto"
+            : "smooth",
+        });
+      addEventListener("resize", render);
+      render();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1351 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>YOVIA 제품 카테고리 2차 보완본</title>
+    <style>
+      :focus-visible {
+        outline: 3px solid #111 !important;
+        outline-offset: 3px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto !important;
+        }
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      :root {
+        --k: #101010;
+        --g1: #3b3b3b;
+        --g2: #777;
+        --g3: #bcbcbc;
+        --g4: #e3e3e3;
+        --p: #f5f5f5;
+        --w: #fff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        color: var(--k);
+        background: #d8d8d8;
+        font-family: Arial, "Noto Sans KR", sans-serif;
+        line-height: 1.5;
+      }
+      .page {
+        width: min(1320px, 100%);
+        margin: auto;
+        overflow: hidden;
+        background: #fff;
+      }
+      button {
+        font: inherit;
+      }
+      .skip {
+        position: absolute;
+        left: -9999px;
+      }
+      .skip:focus {
+        left: 10px;
+        top: 10px;
+        z-index: 30;
+        padding: 10px;
+        background: #fff;
+        border: 2px solid #000;
+      }
+      .micro {
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+      .header {
+        display: grid;
+        grid-template-columns: 180px 1fr auto;
+        border-bottom: 1px solid #111;
+      }
+      .header > * {
+        display: flex;
+        align-items: center;
+        padding: 18px 28px;
+      }
+      .logo {
+        border-right: 1px solid #111;
+        font-size: 29px;
+        font-weight: 900;
+        letter-spacing: -0.08em;
+      }
+      .header-note {
+        color: #666;
+        font-size: 12px;
+      }
+      .nav {
+        gap: 6px;
+      }
+      .nav button,
+      .btn {
+        min-height: 46px;
+        padding: 10px 17px;
+        border: 1px solid #111;
+        background: #fff;
+        color: #111;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .nav button[aria-current="page"],
+      .btn.black {
+        background: #111;
+        color: #fff;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        min-height: 570px;
+        border-bottom: 1px solid #111;
+      }
+      .hero-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 44px 34px;
+        border-right: 1px solid #111;
+      }
+      .hero h1 {
+        margin: 24px 0;
+        font-size: clamp(66px, 10vw, 130px);
+        line-height: 0.78;
+        letter-spacing: -0.095em;
+      }
+      .hero p {
+        max-width: 620px;
+        font-size: 18px;
+      }
+      .hero-index {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #111;
+        color: #fff;
+      }
+      .index-cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 285px;
+        padding: 26px;
+        border-right: 1px solid #666;
+        border-bottom: 1px solid #666;
+      }
+      .index-cell:nth-child(even) {
+        border-right: 0;
+      }
+      .index-cell:nth-child(n + 3) {
+        border-bottom: 0;
+      }
+      .index-number {
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: -0.08em;
+      }
+      .index-cell span:last-child {
+        color: #bbb;
+        font-size: 12px;
+      }
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        border-bottom: 1px solid #111;
+        background: #fff;
+      }
+      .filters {
+        display: flex;
+        overflow: auto;
+      }
+      .filters button {
+        min-height: 62px;
+        padding: 0 24px;
+        border: 0;
+        border-right: 1px solid #111;
+        background: #fff;
+        font-weight: 900;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+      .filters button[aria-pressed="true"] {
+        background: #111;
+        color: #fff;
+      }
+      .toolbar-status {
+        display: flex;
+        align-items: center;
+        padding: 0 26px;
+        border-left: 1px solid #111;
+        font-family: monospace;
+        font-size: 12px;
+      }
+      .catalog {
+        padding: 62px 28px 100px;
+        background: #f2f2f2;
+      }
+      .catalog-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        align-items: end;
+        margin-bottom: 28px;
+      }
+      .catalog h2 {
+        margin: 8px 0 0;
+        font-size: clamp(42px, 5vw, 66px);
+        line-height: 0.96;
+        letter-spacing: -0.06em;
+      }
+      .catalog-note {
+        max-width: 460px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        border: 1px solid #111;
+        background: #fff;
+      }
+      .card[hidden] {
+        display: none;
+      }
+      .card-head {
+        display: grid;
+        grid-template-columns: 1fr 72px;
+        border-bottom: 1px solid #111;
+      }
+      .card-id {
+        padding: 13px;
+        font-family: monospace;
+        font-size: 12px;
+        font-weight: 900;
+      }
+      .card-no {
+        display: grid;
+        place-items: center;
+        border-left: 1px solid #111;
+        background: #111;
+        color: #fff;
+        font-size: 23px;
+        font-weight: 900;
+      }
+      .visual {
+        height: 245px;
+        display: grid;
+        place-items: center;
+        border-bottom: 1px solid #111;
+        background: repeating-linear-gradient(
+          135deg,
+          #eee 0,
+          #eee 12px,
+          #fff 12px,
+          #fff 24px
+        );
+        font-size: 42px;
+        font-weight: 900;
+        color: #aaa;
+      }
+      .card[data-group="puree"] .visual {
+        background: #ddd;
+        color: #888;
+      }
+      .card[data-group="topping"] .visual {
+        background: #222;
+        color: #666;
+      }
+      .card-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .group {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 900;
+      }
+      .card h3 {
+        margin: 10px 0 8px;
+        font-size: 23px;
+        letter-spacing: -0.035em;
+      }
+      .card p {
+        color: #444;
+      }
+      .state {
+        display: inline-block;
+        align-self: flex-start;
+        margin-top: auto;
+        padding: 4px 7px;
+        border: 1px solid #111;
+        font-size: 10px;
+        font-weight: 900;
+      }
+      .select {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        margin-top: 17px;
+        padding-top: 15px;
+        border-top: 1px solid #111;
+        font-size: 13px;
+        font-weight: 800;
+      }
+      .select input {
+        width: 20px;
+        height: 20px;
+        accent-color: #111;
+      }
+      .compare {
+        display: grid;
+        grid-template-columns: 220px 1fr auto;
+        border-top: 1px solid #111;
+        border-bottom: 1px solid #111;
+        background: #fff;
+      }
+      .compare-title,
+      .compare-items,
+      .compare-action {
+        padding: 25px 28px;
+      }
+      .compare-title {
+        background: #111;
+        color: #fff;
+      }
+      .compare-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 9px;
+      }
+      .compare-slot {
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border: 1px dashed #999;
+        color: #777;
+        font-size: 12px;
+      }
+      .compare-slot.filled {
+        border-style: solid;
+        border-color: #111;
+        color: #111;
+        font-weight: 800;
+      }
+      .compare-action {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #111;
+      }
+      .guide {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        border-bottom: 1px solid #111;
+      }
+      .guide-title {
+        padding: 70px 34px;
+        background: #e1e1e1;
+      }
+      .guide h2 {
+        font-size: clamp(45px, 6vw, 76px);
+        line-height: 0.95;
+        letter-spacing: -0.065em;
+      }
+      .guide-list {
+        padding: 40px 34px;
+      }
+      .guide-row {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+        gap: 24px;
+        padding: 22px 0;
+        border-bottom: 1px solid #111;
+      }
+      .guide-row:last-child {
+        border: 0;
+      }
+      .guide-row strong {
+        font-family: monospace;
+      }
+      .proof {
+        padding: 90px 34px;
+        border-bottom: 1px solid #111;
+        background: #111;
+        color: #fff;
+      }
+      .proof-head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 38px;
+      }
+      .proof h2 {
+        font-size: clamp(45px, 6vw, 76px);
+        line-height: 0.95;
+        letter-spacing: -0.065em;
+      }
+      .proof-head p {
+        align-self: end;
+        color: #ccc;
+      }
+      .proof-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid #777;
+      }
+      .proof-cell {
+        min-height: 190px;
+        padding: 22px;
+        border-right: 1px solid #777;
+      }
+      .proof-cell:last-child {
+        border: 0;
+      }
+      .proof-cell span {
+        color: #aaa;
+      }
+      .proof-cell strong {
+        display: block;
+        margin-top: 55px;
+        font-size: 22px;
+      }
+      .next {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        border-bottom: 1px solid #111;
+      }
+      .next-copy {
+        padding: 70px 34px;
+      }
+      .next h2 {
+        margin: 0;
+        font-size: clamp(58px, 8vw, 105px);
+        line-height: 0.84;
+        letter-spacing: -0.087em;
+      }
+      .next-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 42px;
+        border-left: 1px solid #111;
+        background: #ddd;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+      }
+      .footer {
+        background: #111;
+        color: #fff;
+      }
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 1.4fr 0.7fr 0.9fr;
+      }
+      .footer-grid > div {
+        min-height: 290px;
+        padding: 40px 34px;
+        border-right: 1px solid #666;
+      }
+      .footer-grid > div:last-child {
+        border: 0;
+      }
+      .footer-logo {
+        font-size: clamp(74px, 11vw, 140px);
+        font-weight: 900;
+        line-height: 0.8;
+        letter-spacing: -0.09em;
+      }
+      .footer-nav {
+        display: grid;
+        gap: 11px;
+        margin-top: 24px;
+      }
+      .footer-nav button {
+        padding: 0;
+        border: 0;
+        background: none;
+        color: #fff;
+        text-align: left;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .footer-state {
+        margin-top: 24px;
+        padding: 16px;
+        border: 1px solid #777;
+        color: #ccc;
+        font-size: 13px;
+      }
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 34px;
+        border-top: 1px solid #666;
+        color: #aaa;
+        font-size: 11px;
+      }
+      .annotation {
+        margin: 0;
+        padding: 10px 34px;
+        background: #ddd;
+        color: #444;
+        font-size: 12px;
+      }
+      .modal {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: none;
+        place-items: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.72);
+      }
+      .modal.open {
+        display: grid;
+      }
+      .modal-box {
+        width: min(760px, 100%);
+        max-height: 86vh;
+        overflow: auto;
+        border: 2px solid #111;
+        background: #fff;
+      }
+      .modal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid #111;
+      }
+      .modal-head h2 {
+        margin: 0;
+      }
+      .modal-head button {
+        width: 44px;
+        height: 44px;
+        border: 1px solid #111;
+        background: #fff;
+        font-size: 22px;
+      }
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .comparison-table th,
+      .comparison-table td {
+        padding: 15px;
+        border: 1px solid #111;
+        text-align: left;
+      }
+      .comparison-table th {
+        background: #eee;
+      }
+      @media (max-width: 767px) {
+        .header {
+          grid-template-columns: 1fr;
+        }
+        .header > * {
+          padding: 14px 18px;
+        }
+        .logo {
+          border-right: 0;
+          border-bottom: 1px solid #111;
+        }
+        .header-note {
+          display: none;
+        }
+        .nav {
+          gap: 0;
+        }
+        .nav button {
+          flex: 1;
+          padding: 9px 5px;
+        }
+        .hero {
+          grid-template-columns: 1fr;
+          min-height: 0;
+        }
+        .hero-copy {
+          min-height: 510px;
+          padding: 34px 18px;
+          border-right: 0;
+          border-bottom: 1px solid #111;
+        }
+        .hero h1 {
+          font-size: 75px;
+        }
+        .index-cell {
+          min-height: 210px;
+        }
+        .toolbar {
+          position: static;
+          grid-template-columns: 1fr;
+        }
+        .filters button {
+          padding: 0 17px;
+        }
+        .toolbar-status {
+          min-height: 48px;
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .catalog {
+          padding: 52px 18px 70px;
+        }
+        .catalog-head {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .compare {
+          grid-template-columns: 1fr;
+        }
+        .compare-title,
+        .compare-items,
+        .compare-action {
+          padding: 18px;
+        }
+        .compare-items {
+          grid-template-columns: 1fr;
+        }
+        .compare-action {
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .compare-action .btn {
+          width: 100%;
+        }
+        .guide {
+          grid-template-columns: 1fr;
+        }
+        .guide-title,
+        .guide-list {
+          padding: 55px 18px;
+        }
+        .guide-row {
+          grid-template-columns: 1fr;
+        }
+        .proof {
+          padding: 65px 18px;
+        }
+        .proof-head {
+          grid-template-columns: 1fr;
+        }
+        .proof-grid {
+          grid-template-columns: 1fr;
+        }
+        .proof-cell {
+          min-height: 150px;
+          border-right: 0;
+          border-bottom: 1px solid #777;
+        }
+        .proof-cell:last-child {
+          border-bottom: 0;
+        }
+        .proof-cell strong {
+          margin-top: 30px;
+        }
+        .next {
+          grid-template-columns: 1fr;
+        }
+        .next-copy {
+          padding: 60px 18px;
+        }
+        .next-action {
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .footer-grid > div {
+          min-height: 0;
+          border-right: 0;
+          border-bottom: 1px solid #666;
+        }
+        .footer-bottom {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 8px;
+          padding: 14px 18px;
+        }
+        .annotation {
+          padding: 10px 18px;
+        }
+        .comparison-table {
+          font-size: 12px;
+        }
+        .comparison-table th,
+        .comparison-table td {
+          padding: 9px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .compare {
+          grid-template-columns: 180px 1fr;
+        }
+        .compare-action {
+          grid-column: 1/-1;
+          border-left: 0;
+          border-top: 1px solid #111;
+        }
+        .proof-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .proof-cell:nth-child(2) {
+          border-right: 0;
+        }
+        .proof-cell:nth-child(-n + 2) {
+          border-bottom: 1px solid #777;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .footer-grid > div:first-child {
+          grid-column: 1/-1;
+        }
+      }
+      :focus-visible{outline:3px solid #111!important;outline-offset:3px}.review-banner{display:flex;justify-content:space-between;gap:16px;padding:10px 28px;border-bottom:1px solid #111;background:#fffdcf;font-size:12px;font-weight:800}.quick-nav{display:flex;overflow:auto;border-bottom:1px solid #111;background:#fff}.quick-nav a{flex:1;min-width:max-content;padding:13px 18px;border-right:1px solid #111;color:#111;text-align:center;text-decoration:none;font-size:12px;font-weight:900}.quick-nav a:hover{background:#111;color:#fff}.compare-actions{display:grid;gap:8px}.selection-feedback{min-height:22px;margin:0;font-size:12px;font-weight:800}.to-top{position:fixed;right:20px;bottom:20px;z-index:40;display:none;min-width:48px;min-height:48px;border:2px solid #111;background:#fff;font-weight:900}.to-top.show{display:block}@media(max-width:767px){.review-banner{align-items:flex-start;flex-direction:column;padding:10px 18px}.to-top{right:12px;bottom:12px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+      /* REFERENCE-LED VISUAL PASS: shelf browsing + concise product hierarchy */
+      body{background:#c9c9c3}.page{width:min(1440px,100%);background:#f7f7f2}.review-banner{background:#dff36a}.header{grid-template-columns:180px 1fr auto;background:#111;color:#fff}.logo{font-size:36px}.header-note{color:#aaa}.nav button{border-color:#777;background:#111;color:#fff;border-radius:999px}.nav button[aria-current=page]{background:#dff36a;color:#111}.quick-nav{padding:8px 24px;background:#f7f7f2}.quick-nav a{border:0;border-radius:999px}.hero{gap:18px;padding:18px;background:#111;border:0}.hero-copy,.hero-index{border:0;border-radius:28px;overflow:hidden}.hero-copy{padding:50px 42px;background:#f7f7f2}.hero h1{font-size:clamp(72px,10vw,142px)}.hero-index{gap:1px;background:#777}.index-cell{background:#111}.index-cell:nth-child(1){background:#dff36a;color:#111}.index-cell:nth-child(1) span:last-child{color:#111}.toolbar{top:0;margin:0 18px;border:1px solid #111;border-radius:999px;overflow:hidden}.filters button{min-height:56px;border:0;border-right:1px solid #bbb}.filters button[aria-pressed=true]{background:#dff36a;color:#111}.catalog{background:#e9e9e3}.grid{gap:18px}.card{overflow:hidden;border:0;border-radius:24px;box-shadow:0 0 0 1px #111;transition:transform .2s ease,box-shadow .2s ease}.card:hover{transform:translateY(-5px);box-shadow:0 10px 0 #111}.card-head{background:#111;color:#fff}.visual{height:280px}.card[data-group=pack] .visual{background:#f7f7f2}.card[data-group=puree] .visual{background:#dff36a;color:#111}.card[data-group=topping] .visual{background:#111;color:#777}.state{border-radius:999px}.select{margin:18px -20px -20px;padding:17px 20px;background:#eee}.compare{position:relative;margin:18px;overflow:hidden;border:0;border-radius:28px;box-shadow:0 0 0 1px #111}.compare-title{background:#dff36a;color:#111}.compare-slot{border-radius:14px}.compare-action .btn{border-radius:999px}.guide{margin:18px;overflow:hidden;border:0;border-radius:28px}.proof{margin:18px;border:0;border-radius:28px}.proof-cell:first-child{background:#dff36a;color:#111}.next{margin:18px;overflow:hidden;border:0;border-radius:28px}.to-top{border-radius:50%;background:#dff36a}@media(max-width:767px){.header{grid-template-columns:1fr}.hero{padding:10px}.hero-copy{padding:38px 22px}.hero h1{font-size:72px}.quick-nav{padding:7px}.toolbar{margin:10px;border-radius:20px}.catalog{padding-left:14px;padding-right:14px}.compare,.guide,.proof,.next{margin:10px}.card:hover{transform:none;box-shadow:0 0 0 1px #111}}
+      /* STRICT MONOCHROME OVERRIDE */body{background:#cfcfcf}.page{background:#fff}.review-banner{background:#e4e4e4}.nav button[aria-current=page]{background:#fff;color:#111}.quick-nav,.hero-copy{background:#fff}.index-cell:nth-child(1),.filters button[aria-pressed=true],.card[data-group=puree] .visual,.compare-title,.proof-cell:first-child,.to-top{background:#dedede;color:#111}.catalog{background:#ededed}.card[data-group=pack] .visual{background:#f7f7f7}
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 건너뛰기</a>
+    <div class="page">
+      <aside class="review-banner" aria-label="보완본 검토 상태"><span>2차 보완본 · 제품 탐색·비교</span><span>15개는 설계 슬롯 · 가격·구매는 HOLD</span></aside>
+      <header class="header">
+        <div class="logo">YOVIA</div>
+        <div class="header-note">P-006 / PRODUCT LIBRARY / CONCEPT 02</div>
+        <nav class="nav" aria-label="주요 화면">
+          <button data-target="P-001">홈</button
+          ><button aria-current="page" data-target="P-006">제품 카테고리</button
+          ><button data-target="P-005">브랜드 소개</button>
+        </nav>
+      </header>
+      <nav class="quick-nav" aria-label="제품 카테고리 영역 바로가기"><a href="#catalog">제품 목록</a><a href="#compare">선택 비교</a><a href="#state-guide">상태 안내</a><a href="#evidence">근거 정보</a></nav>
+      <main id="main">
+        <section class="hero">
+          <div class="hero-copy">
+            <div>
+              <span class="micro">P-006-C02-02 · All products</span>
+              <h1>15<br />PRODUCT<br />INDEX</h1>
+            </div>
+            <p>
+              기본 팩·퓨레·토핑·시그니처 상품을 제품군과 기획 상태별로
+              탐색합니다. 15개는 설계 슬롯이며 실제 출시 수량을 의미하지
+              않습니다.
+            </p>
+          </div>
+          <div class="hero-index">
+            <div class="index-cell">
+              <div class="index-number">07</div>
+              <span>YOVIA PACKS</span>
+            </div>
+            <div class="index-cell">
+              <div class="index-number">05</div>
+              <span>PUREE STICKS</span>
+            </div>
+            <div class="index-cell">
+              <div class="index-number">03</div>
+              <span>TOPPINGS</span>
+            </div>
+            <div class="index-cell">
+              <div class="index-number">00</div>
+              <span>PRICE / PURCHASE · HOLD</span>
+            </div>
+          </div>
+        </section>
+        <section class="toolbar" aria-label="제품군 필터">
+          <div class="filters">
+            <button data-filter="all" aria-pressed="true">전체 15</button
+            ><button data-filter="pack" aria-pressed="false">팩 7</button
+            ><button data-filter="puree" aria-pressed="false">퓨레 5</button
+            ><button data-filter="topping" aria-pressed="false">토핑 3</button>
+          </div>
+          <div class="toolbar-status" id="filter-status" aria-live="polite">
+            15개 표시
+          </div>
+        </section>
+        <section class="catalog" id="catalog">
+          <div class="catalog-head">
+            <div>
+              <span class="micro">P-006-C02-03~06 · Catalog</span>
+              <h2>제품을 번호로 찾고,<br />상태로 확인합니다.</h2>
+            </div>
+            <p class="catalog-note">
+              카드의 명암은 제품군 구분용이며, 모든 상태는 텍스트로 함께
+              표시합니다. 비교는 이름·제품군·기획 상태만 제공합니다.
+            </p>
+          </div>
+          <div class="grid" id="product-grid">
+            <article
+              class="card"
+              data-group="pack"
+              data-name="120g 모닝 파우치"
+              data-state="기획서 명시"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-001</div>
+                <div class="card-no">01</div>
+              </div>
+              <div class="visual">120g</div>
+              <div class="card-body">
+                <span class="group">PACK / BASIC</span>
+                <h3>120g 모닝 파우치</h3>
+                <p>출근·학교 등 데스크 취식 환경을 위한 기본 팩.</p>
+                <span class="state">기획서 명시</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="400g 홈트레이닝 팩"
+              data-state="기획서 명시"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-002</div>
+                <div class="card-no">02</div>
+              </div>
+              <div class="visual">400g</div>
+              <div class="card-body">
+                <span class="group">PACK / BASIC</span>
+                <h3>400g 홈트레이닝 팩</h3>
+                <p>가정·운동·식단 관리용 중용량 기본 팩.</p>
+                <span class="state">기획서 명시</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="800g 그릭 매니아 팩"
+              data-state="기획서 명시"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-003</div>
+                <div class="card-no">03</div>
+              </div>
+              <div class="visual">800g</div>
+              <div class="card-body">
+                <span class="group">PACK / BASIC</span>
+                <h3>800g 그릭 매니아 팩</h3>
+                <p>가정 내 반복 소비를 위한 대용량 기본 팩.</p>
+                <span class="state">기획서 명시</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="puree"
+              data-name="생과일 퓨레 스틱 01"
+              data-state="세부 맛 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-004</div>
+                <div class="card-no">04</div>
+              </div>
+              <div class="visual">P01</div>
+              <div class="card-body">
+                <span class="group">PUREE</span>
+                <h3>생과일 퓨레 스틱 01</h3>
+                <p>그릭요거트와 조합하는 퓨레 슬롯.</p>
+                <span class="state">세부 맛 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="puree"
+              data-name="생과일 퓨레 스틱 02"
+              data-state="세부 맛 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-005</div>
+                <div class="card-no">05</div>
+              </div>
+              <div class="visual">P02</div>
+              <div class="card-body">
+                <span class="group">PUREE</span>
+                <h3>생과일 퓨레 스틱 02</h3>
+                <p>그릭요거트와 조합하는 퓨레 슬롯.</p>
+                <span class="state">세부 맛 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="puree"
+              data-name="생과일 퓨레 스틱 03"
+              data-state="세부 맛 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-006</div>
+                <div class="card-no">06</div>
+              </div>
+              <div class="visual">P03</div>
+              <div class="card-body">
+                <span class="group">PUREE</span>
+                <h3>생과일 퓨레 스틱 03</h3>
+                <p>그릭요거트와 조합하는 퓨레 슬롯.</p>
+                <span class="state">세부 맛 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="puree"
+              data-name="생과일 퓨레 스틱 04"
+              data-state="세부 맛 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-007</div>
+                <div class="card-no">07</div>
+              </div>
+              <div class="visual">P04</div>
+              <div class="card-body">
+                <span class="group">PUREE</span>
+                <h3>생과일 퓨레 스틱 04</h3>
+                <p>그릭요거트와 조합하는 퓨레 슬롯.</p>
+                <span class="state">세부 맛 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="puree"
+              data-name="생과일 퓨레 스틱 05"
+              data-state="세부 맛 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-008</div>
+                <div class="card-no">08</div>
+              </div>
+              <div class="visual">P05</div>
+              <div class="card-body">
+                <span class="group">PUREE</span>
+                <h3>생과일 퓨레 스틱 05</h3>
+                <p>그릭요거트와 조합하는 퓨레 슬롯.</p>
+                <span class="state">세부 맛 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="topping"
+              data-name="견과류 토핑 01"
+              data-state="세부 조합 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-009</div>
+                <div class="card-no">09</div>
+              </div>
+              <div class="visual">T01</div>
+              <div class="card-body">
+                <span class="group">TOPPING</span>
+                <h3>견과류 토핑 01</h3>
+                <p>그릭요거트와 함께 구성할 토핑 슬롯.</p>
+                <span class="state">세부 조합 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="topping"
+              data-name="견과류 토핑 02"
+              data-state="세부 조합 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-010</div>
+                <div class="card-no">10</div>
+              </div>
+              <div class="visual">T02</div>
+              <div class="card-body">
+                <span class="group">TOPPING</span>
+                <h3>견과류 토핑 02</h3>
+                <p>그릭요거트와 함께 구성할 토핑 슬롯.</p>
+                <span class="state">세부 조합 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="topping"
+              data-name="견과류 토핑 03"
+              data-state="세부 조합 HOLD"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-011</div>
+                <div class="card-no">11</div>
+              </div>
+              <div class="visual">T03</div>
+              <div class="card-body">
+                <span class="group">TOPPING</span>
+                <h3>견과류 토핑 03</h3>
+                <p>그릭요거트와 함께 구성할 토핑 슬롯.</p>
+                <span class="state">세부 조합 HOLD</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="yovia 7AM 갓생 팩"
+              data-state="메뉴 제안"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-012</div>
+                <div class="card-no">12</div>
+              </div>
+              <div class="visual">7AM</div>
+              <div class="card-body">
+                <span class="group">PACK / SIGNATURE</span>
+                <h3>yovia 7AM 갓생 팩</h3>
+                <p>120g 베이스·블루베리 퓨레 조합 제안.</p>
+                <span class="state">메뉴 제안</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="yovia 3PM 리프레시 팩"
+              data-state="메뉴 제안"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-013</div>
+                <div class="card-no">13</div>
+              </div>
+              <div class="visual">3PM</div>
+              <div class="card-body">
+                <span class="group">PACK / SIGNATURE</span>
+                <h3>yovia 3PM 리프레시 팩</h3>
+                <p>120g 베이스·스트로베리 퓨레 조합 제안.</p>
+                <span class="state">메뉴 제안</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="yovia 위켄드 뷰티 팩"
+              data-state="메뉴 제안"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-014</div>
+                <div class="card-no">14</div>
+              </div>
+              <div class="visual">WKD</div>
+              <div class="card-body">
+                <span class="group">PACK / SIGNATURE</span>
+                <h3>yovia 위켄드 뷰티 팩</h3>
+                <p>120g 또는 400g 베이스·망고 퓨레 조합 제안.</p>
+                <span class="state">메뉴 제안</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+            <article
+              class="card"
+              data-group="pack"
+              data-name="yovia 스타터 팩"
+              data-state="런칭 기획 상품"
+            >
+              <div class="card-head">
+                <div class="card-id">PRODUCT-015</div>
+                <div class="card-no">15</div>
+              </div>
+              <div class="visual">START</div>
+              <div class="card-body">
+                <span class="group">PACK / STARTER</span>
+                <h3>yovia 스타터 팩</h3>
+                <p>시그니처 3종 각 2개·총 6개입 기획.</p>
+                <span class="state">런칭 기획 상품</span
+                ><label class="select"
+                  ><input type="checkbox" /> 비교 선택</label
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="compare" id="compare" aria-labelledby="compare-title">
+          <div class="compare-title">
+            <span class="micro">P-006-C02-07</span>
+            <h2 id="compare-title">선택 비교</h2>
+            <small>최대 3개</small>
+          </div>
+          <div class="compare-items" id="compare-items">
+            <div class="compare-slot">상품을 선택하세요</div>
+            <div class="compare-slot">상품을 선택하세요</div>
+            <div class="compare-slot">상품을 선택하세요</div>
+          </div>
+          <div class="compare-action"><div class="compare-actions">
+            <p class="selection-feedback" id="selection-feedback" aria-live="polite">0개 선택 · 비교는 2개부터 가능</p>
+            <button class="btn black" id="compare-button" disabled>선택 상품 비교</button>
+            <button class="btn" id="clear-selection" disabled>선택 초기화</button>
+          </div>
+          </div>
+        </section>
+        <section class="guide" id="state-guide">
+          <div class="guide-title">
+            <span class="micro">P-006-C02-08 · Reading guide</span>
+            <h2>같은 카드 안에서도 상태는 다릅니다.</h2>
+          </div>
+          <div class="guide-list">
+            <div class="guide-row">
+              <strong>CONFIRMED</strong
+              ><span>기획 자료에서 제품명·기본 용량이 확인된 기본 팩</span>
+            </div>
+            <div class="guide-row">
+              <strong>PROPOSAL</strong
+              ><span>출시 확정이 아닌 시그니처 조합 제안</span>
+            </div>
+            <div class="guide-row">
+              <strong>HOLD</strong
+              ><span>맛·조합·원료·영양 등 공식 자료가 더 필요한 슬롯</span>
+            </div>
+            <div class="guide-row">
+              <strong>NO PRICE</strong
+              ><span>가격·재고·판매·구매 정책 확정 전</span>
+            </div>
+          </div>
+        </section>
+        <section class="proof" id="evidence">
+          <div class="proof-head">
+            <div>
+              <span class="micro">P-006-C02-09 · Evidence</span>
+              <h2>상품이 많아 보여도, 사실은 더 선명하게.</h2>
+            </div>
+            <p>
+              15개 슬롯을 실제 출시 상품으로 오인하지 않도록 제품군과 상태를
+              모든 카드에 반복합니다.
+            </p>
+          </div>
+          <div class="proof-grid">
+            <div class="proof-cell">
+              <span>PACK</span><strong>7개 슬롯</strong>
+            </div>
+            <div class="proof-cell">
+              <span>PUREE</span><strong>5개 슬롯</strong>
+            </div>
+            <div class="proof-cell">
+              <span>TOPPING</span><strong>3개 슬롯</strong>
+            </div>
+            <div class="proof-cell">
+              <span>PRICE / BUY</span><strong>HOLD</strong>
+            </div>
+          </div>
+        </section>
+        <section class="next">
+          <div class="next-copy">
+            <span class="micro">P-006-C02-10 · Next</span>
+            <h2>제품 뒤의<br />이야기도<br />확인하세요.</h2>
+          </div>
+          <div class="next-action">
+            <p>
+              YOVIA가 어떤 문제에서 시작했는지 브랜드 소개에서 확인할 수
+              있습니다.
+            </p>
+            <div class="actions">
+              <button class="btn black" data-target="P-005">브랜드 소개</button
+              ><button class="btn" data-target="P-001">메인페이지</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo">YOVIA</div>
+            <p>제품군과 정보 상태를 명확하게 탐색하는 YOVIA 제품 라이브러리.</p>
+          </div>
+          <div>
+            <span class="micro">EXPLORE</span>
+            <nav class="footer-nav" aria-label="푸터 화면 탐색">
+              <button data-target="P-001">홈 ↗</button
+              ><button data-target="P-006">제품 카테고리 ↗</button
+              ><button data-target="P-005">브랜드 소개 ↗</button>
+            </nav>
+          </div>
+          <div>
+            <span class="micro">PROJECT STATUS</span>
+            <div class="footer-state">
+              가격·재고·판매·구매 기능은 정책 확정 전입니다.
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>PRODUCT LIBRARY / CONCEPT 02 / MONOCHROME</span
+          ><span>200 REFERENCES + VC001</span>
+        </div>
+      </footer>
+      <p class="annotation">
+        동작형 스토리보드 · 필터 및 최대 3개 비교 확인 가능 · 실제 구매 기능
+        없음
+      </p>
+    </div>
+    <div
+      class="modal"
+      id="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <div class="modal-box">
+        <div class="modal-head">
+          <h2 id="modal-title">선택 상품 비교</h2>
+          <button id="modal-close" aria-label="비교 창 닫기">×</button>
+        </div>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+    <button class="to-top" id="to-top" aria-label="페이지 맨 위로 이동">↑</button>
+    <script>
+      const pages = {
+          "P-001": "메인페이지_스토리보드_2차.html",
+          "P-005": "브랜드소개페이지_스토리보드_2차.html",
+          "P-006": "카테고리페이지_스토리보드_2차.html",
+        },
+        cards = [...document.querySelectorAll(".card")],
+        filters = [...document.querySelectorAll("[data-filter]")],
+        filterStatus = document.getElementById("filter-status"),
+        slots = [...document.querySelectorAll(".compare-slot")],
+        compareButton = document.getElementById("compare-button"),
+        clearSelection = document.getElementById("clear-selection"),
+        selectionFeedback = document.getElementById("selection-feedback"),
+        modal = document.getElementById("modal"),
+        modalContent = document.getElementById("modal-content");
+      let selected = [];
+      function updateCompare() {
+        slots.forEach((slot, i) => {
+          const card = selected[i];
+          slot.textContent = card ? card.dataset.name : "상품을 선택하세요";
+          slot.classList.toggle("filled", !!card);
+        });
+        compareButton.disabled = selected.length < 2;
+        clearSelection.disabled = selected.length === 0;
+        selectionFeedback.textContent = `${selected.length}개 선택 · ${selected.length < 2 ? "비교는 2개부터 가능" : "비교 가능"}`;
+      }
+      filters.forEach(
+        (button) =>
+          (button.onclick = () => {
+            filters.forEach((x) => x.setAttribute("aria-pressed", "false"));
+            button.setAttribute("aria-pressed", "true");
+            const filter = button.dataset.filter;
+            let count = 0;
+            cards.forEach((card) => {
+              const show = filter === "all" || card.dataset.group === filter;
+              card.hidden = !show;
+              if (show) count++;
+            });
+            filterStatus.textContent = `${count}개 표시`;
+          }),
+      );
+      cards.forEach((card) => {
+        const input = card.querySelector("input");
+        input.onchange = () => {
+          if (input.checked) {
+            if (selected.length === 3) {
+              input.checked = false;
+              selectionFeedback.textContent = "최대 3개까지 선택할 수 있습니다.";
+              return;
+            }
+            selected.push(card);
+          } else selected = selected.filter((x) => x !== card);
+          updateCompare();
+        };
+      });
+      clearSelection.onclick=()=>{selected=[];cards.forEach(card=>card.querySelector("input").checked=false);updateCompare();clearSelection.focus()};
+      compareButton.onclick = () => {
+        const heads = selected
+          .map((x) => `<th>${x.dataset.name}</th>`)
+          .join("");
+        const groups = selected
+          .map((x) => `<td>${x.querySelector(".group").textContent}</td>`)
+          .join("");
+        const states = selected
+          .map((x) => `<td>${x.dataset.state}</td>`)
+          .join("");
+        modalContent.innerHTML = `<table class="comparison-table"><thead><tr><th>비교 항목</th>${heads}</tr></thead><tbody><tr><th>제품군</th>${groups}</tr><tr><th>기획 상태</th>${states}</tr><tr><th>가격·구매</th>${selected.map(() => "<td>HOLD</td>").join("")}</tr></tbody></table>`;
+        modal.classList.add("open");
+        document.getElementById("modal-close").focus();
+      };
+      document.getElementById("modal-close").onclick = () => {
+        modal.classList.remove("open");
+        compareButton.focus();
+      };
+      modal.onclick = (e) => {
+        if (e.target === modal) document.getElementById("modal-close").click();
+      };
+      addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && modal.classList.contains("open"))
+          document.getElementById("modal-close").click();
+      });
+      const toTop=document.getElementById("to-top");addEventListener("scroll",()=>toTop.classList.toggle("show",scrollY>520),{passive:true});toTop.onclick=()=>scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+      document
+        .querySelectorAll("[data-target]")
+        .forEach(
+          (el) =>
+            (el.onclick = () => (location.href = pages[el.dataset.target])),
+        );
+      updateCompare();
+    </script>
+  </body>
+</html>
