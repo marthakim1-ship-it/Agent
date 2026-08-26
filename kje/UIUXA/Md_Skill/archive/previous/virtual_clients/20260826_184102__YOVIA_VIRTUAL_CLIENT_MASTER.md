@@ -1,13 +1,13 @@
 # YOVIA VIRTUAL CLIENT MASTER
 
 ## 생성 기준
-- 기존 VC-001~030을 유지하고 상품 정보 아키텍처·카탈로그 거버넌스 관점 VC-031을 추가했다.
+- 기존 VC-001~021을 유지하고 중복되지 않는 운영·구매 후·출시 관점 VC-022~030을 추가했다.
 - 최상위 고정 정의: YOVIA는 그릭요거트를 베이스로 바쁜 일상에서도 간편하게 건강한 식습관을 이어가도록 돕는 간편 건강식 브랜드다.
 - 페르소나를 복제하지 않고 실제 UX/UI 발주 의사결정 축으로 변환했다.
 - 미확정 제품 사양·효능·가격·채널은 Hold 또는 Validation Needed로 보존했다.
 
 ## Source 상태
-- 사용 Source: 7개 — 브랜드 기준 1, 발주 브리프 PDF 3, 페르소나 TXT 2, 상품 구조 보완 브리프 TXT 1
+- 사용 Source: 6개 — 브랜드 기준 1, 발주 브리프 PDF 3, 페르소나 TXT 2
 - 보류 Source: 0개 — 기존 리서치·분류·분석 출력은 신규 운영 관점의 보조 근거로 사용
 - 제외 Source: 0개
 
@@ -44,7 +44,6 @@
 | VC-028 | 배지훈 | 주문 후 문제 해결 책임자 | 오배송·파손·환불·교환 상태와 복구 | 6 |
 | VC-029 | 신가람 | 재고 대기·출시 알림 책임자 | 품절·출시 상태·알림 동의·철회 | 6 |
 | VC-030 | 고은별 | 출시 전 경험 QA·릴리스 책임자 | 전체 여정·상태·접근성 회귀와 출시 판정 | 6 |
-| VC-031 | 류지민 | 상품 정보 아키텍처·카탈로그 거버넌스 책임자 | 판매 단위·통합 식별자·페이지 간 상품 정합성 | 10 |
 
 ## 주요 공통 관점
 - YOVIA의 그릭요거트 기반 간편 건강식 정의를 즉시 이해시킨다.
@@ -76,14 +75,13 @@
 | 반복 구매·알림 동의 | VC-004, 014, 025, 029 | 4 | Medium/정책 미확정 |
 | 체험·후기 신뢰 | VC-006, 011, 019, 026, 027 | 5 | Medium/실데이터 필요 |
 | 기관 도입·출시 QA | VC-015, 017, 024, 030 | 4 | Derived/운영 검증 필요 |
-| 상품 정보 구조·카탈로그 정합성 | VC-001, 007, 017, 030, 031 | 5 | High/판매 단위 검증 필요 |
 
 ## 요구사항 집계
-- 총 197개
-- Must 73 / Should 91 / Could 2 / Hold 31
-- 전체 요구사항 관계: COMMON 41 / MAJORITY 4 / SPECIALIZED 53 / CONFLICT 3 / EXCEPTION 6 / DERIVED 55 / VALIDATION_REQUIRED 33 / BRAND_CONFLICT 2
+- 총 187개
+- Must 67 / Should 88 / Could 2 / Hold 30
+- 전체 요구사항 관계: COMMON 40 / MAJORITY 4 / SPECIALIZED 49 / CONFLICT 3 / EXCEPTION 6 / DERIVED 52 / VALIDATION_REQUIRED 31 / BRAND_CONFLICT 2
 - Brand Fit Conflict 2 유지; 신규 Hold는 브랜드 충돌이 아니라 검증 전 공개 통제
-- Validation Required 163
+- Validation Required 158
 
 ## 추가 검증 필요
 - 실제 제품 용량·영양 수치·가격·판매 채널·출시일·CTA
@@ -92,9 +90,8 @@
 - 최종 패키지·제품·촬영 자산과 접근성
 - 페르소나 자료의 조사 방법과 대표성
 - 맛·식감 관능 기준, 단위 가격·포만감, 가족 적용 범위, 소재·분리배출, 접근성 감사
-- 기본 팩 용량의 상품/옵션 여부, 퓨레·토핑 판매 단위, 시그니처·스타터의 실제 판매 여부
 
 ## 출력 연결
-- 상세 클라이언트: `clients/VC_001.md` ~ `clients/VC_031.md`
+- 상세 클라이언트: `clients/VC_001.md` ~ `clients/VC_030.md`
 - 전체 요구사항: `YOVIA_REQUIREMENT_MASTER.md`
 - Source/Evidence 추적: `YOVIA_SOURCE_TRACEABILITY.md`

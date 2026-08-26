@@ -2,8 +2,8 @@
 
 ## 문서 상태
 
-- 생성 범위: 가상 클라이언트 VC-001~VC-031
-- 요구사항 수: 197
+- 생성 범위: 가상 클라이언트 VC-001~VC-021
+- 요구사항 수: 133
 - 브랜드 고정 기준: `input/00_brand/YOVIA_BRAND_CANONICAL.md`
 - 주의: 페르소나 요구의 제품 사양·효능은 자동 확정하지 않음
 
@@ -199,21 +199,11 @@
 | VC030-REQ-004 | VC-030 | 320px·200% 확대·키보드·느린 연결 후보 검증 | Accessibility | Should | SRC-BRAND-001, SRC-PDF-003 | EVD-0043 | Medium | High | 포용성에 부합 | DERIVED | 없음 | true | 환경 정의 필요 |
 | VC030-REQ-005 | VC-030 | 결함 심각도·소유자·재현·재검증 이력 기록 | Technical | Should | SRC-BRAND-001, SRC-REF-003 | EVD-0043 | Medium | High | 품질 추적성 | DERIVED | 없음 | true | 운영 도구 필요 |
 | VC030-REQ-006 | VC-030 | 미실행 테스트·중대 결함·미확정 정책의 출시 승인 금지 | Constraint | Hold | SRC-BRAND-001 | EVD-0043 | High | High | 신뢰 보호 | VALIDATION_REQUIRED | 없음 | true | 출시 보류 |
-| VC031-REQ-001 | VC-031 | 기본 팩·퓨레·토핑·시그니처·스타터를 독립 상품·추천 조합·구성 옵션으로 구분하고 상품 수를 같은 기준으로 계산 | Information | Must | SRC-BRIEF-001 | EVD-0044 | High | High | 상품 체계 일관성과 직접 부합 | SPECIALIZED | 없음 | true | 실제 판매 단위 근거 필요 |
-| VC031-REQ-002 | VC-031 | 화면 번호와 분리된 통합 식별자를 부여하고 세 페이지에서 같은 항목에 같은 번호·이름·상품군·상태 사용 | Technical | Must | SRC-BRIEF-001 | EVD-0044 | High | High | 페이지 간 정합성 확보 | SPECIALIZED | 없음 | false | 통합 식별자 규칙 |
-| VC031-REQ-003 | VC-031 | 번호·이름·상품군·용량·구성·핵심 특징·분류·상태를 가진 상품 통합 기준표를 Single Source of Truth로 운영 | Content | Must | SRC-BRIEF-001 | EVD-0044 | High | High | 정보 명확성과 운영 일관성 | SPECIALIZED | 없음 | false | 세 페이지 공통 원본 |
-| VC031-REQ-004 | VC-031 | 모든 상품·구성 정보를 이름→상품군→용량·구성→핵심 특징→상태 순으로 표시 | Product Understanding | Must | SRC-BRIEF-001 | EVD-0044 | High | High | 제품 이해와 비교 가능성 | DERIVED | 없음 | false | 상품군별 추가 정보는 후순위 |
-| VC031-REQ-005 | VC-031 | 대표 영역은 선정 이유, 전체 목록은 상품군 내 비교 정보를 담당하도록 설명 역할 분리 | UX | Should | SRC-BRIEF-001 | EVD-0045 | High | High | 반복을 줄이고 탐색 목적을 분리 | DERIVED | 없음 | false | 동일 항목 재노출은 허용 |
-| VC031-REQ-006 | VC-031 | 구성 이해→추천 조합 확인→향후 구매·정기배송 순으로 CTA 강도와 서비스 확정성 구분 | Conversion | Must | SRC-BRAND-001, SRC-BRIEF-001 | EVD-0045 | High | High | 미확정 판매 정책의 오인 방지 | VALIDATION_REQUIRED | 없음 | true | 구매·정기배송 정책 필요 |
-| VC031-REQ-007 | VC-031 | 확정·제안·보류·확인 필요 상태를 유지하고 미확정 제품·판매 정보를 임의 생성하지 않음 | Trust | Must | SRC-BRAND-001, SRC-BRIEF-001 | EVD-0046 | High | High | 브랜드 신뢰 원칙과 직접 일치 | COMMON | 없음 | true | 원천 근거 연결 필요 |
-| VC031-REQ-008 | VC-031 | 제품 패키지·원형·곡선을 핵심 구간에 선택적으로 반복하고 상태 표시는 비교 정보보다 낮은 위계로 유지 | Visual | Should | SRC-BRAND-001, SRC-BRIEF-001 | EVD-0046 | High | High | 기존 제품 중심 시각 방향 유지 | DERIVED | 없음 | false | 완성 색상은 별도 결정 |
-| VC031-REQ-009 | VC-031 | 공개 전 세 페이지의 이름·번호·상품군·상태·상품 수와 CTA 중복 표현을 교차 검수 | Technical | Should | SRC-BRIEF-001 | EVD-0044, EVD-0045 | High | High | 통합 기준의 공개 품질 보장 | SPECIALIZED | 없음 | true | 승인자·검수 절차 필요 |
-| VC031-REQ-010 | VC-031 | 120g·400g·800g의 상품/용량 옵션 여부, 퓨레·토핑 판매 단위, 시그니처·스타터의 실제 판매 여부는 근거 확인 전 확정 금지 | Constraint | Hold | SRC-BRIEF-001 | EVD-0046 | High | High | 미확정 정보 확대 방지 | VALIDATION_REQUIRED | 없음 | true | 사실 확인 전 보류 |
 
 ## 집계
 
-- Priority: Must 73 / Should 91 / Could 2 / Hold 31
-- Relationship: COMMON 41 / MAJORITY 4 / SPECIALIZED 53 / CONFLICT 3 / EXCEPTION 6 / DERIVED 55 / VALIDATION_REQUIRED 33 / BRAND_CONFLICT 2
-- Brand Fit: High 182 / Medium 10 / Low 3 / Conflict 2
-- Validation Needed: 163
-- 집계 메모: VC-001~031 전체 197개 행을 기준으로 검증한다. Relationship 세부 합계는 실제 행 파싱 결과를 우선한다.
+- Priority: Must 67 / Should 88 / Could 2 / Hold 30
+- Relationship: COMMON 40 / MAJORITY 4 / SPECIALIZED 49 / CONFLICT 3 / EXCEPTION 6 / DERIVED 52 / VALIDATION_REQUIRED 31 / BRAND_CONFLICT 2
+- Brand Fit: High 172 / Medium 10 / Low 3 / Conflict 2
+- Validation Needed: 158
+- 집계 메모: VC-001~030 전체 187개 행을 기준으로 검증한다. Relationship 세부 합계는 실제 행 파싱 결과를 우선한다.

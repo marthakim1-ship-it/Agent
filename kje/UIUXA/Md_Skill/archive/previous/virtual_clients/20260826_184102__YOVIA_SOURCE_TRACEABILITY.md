@@ -10,7 +10,6 @@
 | SRC-PDF-003 | `input/02_virtual_client/가상클라이언트_3_이혜원_동행온.pdf` | 검증용 발주 브리프 | readable | 구조 원칙에 사용 |
 | SRC-PER-001 | `input/03_persona/페르소나 인터뷰01.txt` | 페르소나·인터뷰 자료 | readable; representativeness not verified | 사용자 문제·요구에 사용 |
 | SRC-PER-002 | `input/03_persona/페르소나 인터뷰02.txt` | 페르소나·인터뷰 자료 | readable; representativeness not verified | 사용자 문제·요구에 사용 |
-| SRC-BRIEF-001 | `input/02_virtual_client/가상클라이언트_생성_보완사항.txt` | 사용자 제공 상품 구조 보완 브리프 | readable; stated supplemental brief | 상품 분류·통합 식별자·페이지 정합성 요구에 사용 |
 | SRC-REF-001 | `output/01_research/YOVIA_BRAND_REFERENCE_RESEARCH_200.md` | 보조 리서치 | 200개 레코드 판독 가능; 상태 혼재 | 신규 운영 관점에 제한 사용 |
 | SRC-REF-002 | `output/02_classification/YOVIA_REFERENCE_CLASSIFICATION.md` | 보조 분류 | Phase 2 누적 70개 | 패턴 보조 근거로 사용 |
 | SRC-REF-003 | `output/03_analysis/YOVIA_RESEARCH_ANALYSIS.md` | 보조 분석 | Phase 2 누적 70개 | 우선순위·위험 보조 근거로 사용 |
@@ -42,7 +41,7 @@
 | EVD-0021 | SRC-BRAND-001, SRC-PER-001, SRC-PER-002 | conflict | 가족 공유·무첨가·알레르기 요구가 있으나 적용 대상과 근거가 미확정 | 주의 정보와 적용 범위를 우선해야 함 | 가족·안심 정보 체계 |
 | EVD-0022 | SRC-BRAND-001, SRC-PER-001, SRC-PER-002 | hypothesis | 잔여물·폐기·친환경 소재 요구가 반복되나 소재·효과 근거가 없음 | 사용 후 경험과 환경 주장 통제가 필요 | 폐기 안내와 그린워싱 방지 |
 | EVD-0023 | SRC-BRAND-001, SRC-PDF-001, SRC-PDF-002, SRC-PDF-003 | derived | 모바일 명확성·상태·CTA 요구를 다양한 입력·인지 조건에서도 유지해야 함 | 색상·이미지에 의존하지 않는 정보와 복구가 필요 | 포용적 정보 접근성 |
-| EVD-0024 | SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 | derived | 첫 방문에서 제품 정의·패키지·사용법을 순차 설명하는 패턴 | 낯선 제품은 가치와 구조를 한 번에 학습하기 어렵다 | 첫 방문 온보딩과 제품 교육 |
++| EVD-0024 | SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 | derived | 첫 방문에서 제품 정의·패키지·사용법을 순차 설명하는 패턴 | 낯선 제품은 가치와 구조를 한 번에 학습하기 어렵다 | 첫 방문 온보딩과 제품 교육 |
 | EVD-0025 | SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 | derived | 판매처·구매 CTA가 반복되나 YOVIA 채널은 미확정 | 관심 이후 채널 상태와 복구가 필요하다 | 정확한 판매처 전환 |
 | EVD-0026 | SRC-BRAND-001, SRC-REF-001, SRC-REF-003 | derived | FAQ·아코디언·지원 연결이 제품 정보 보조로 관찰됨 | 질문 해결과 담당 채널 연결이 필요하다 | 검증 FAQ와 고객지원 |
 | EVD-0027 | SRC-BRAND-001, SRC-REF-001, SRC-REF-003 | derived | 위치·문의·마케팅 기능은 데이터 목적과 선택권을 요구 | 핵심 정보 접근과 비필수 동의를 분리해야 한다 | 최소 수집과 동의 통제 |
@@ -62,9 +61,6 @@
 | EVD-0041 | SRC-BRAND-001, SRC-PDF-001, SRC-PDF-002, SRC-REF-001 | derived | 오류 복구·지원 연결 요구는 주문 이후 책임 범위와 상태 추적을 필요로 함 | 안전 문제와 일반 주문 문제를 구분해야 함 | 주문 후 문제 해결 |
 | EVD-0042 | SRC-BRAND-001, SRC-PDF-001, SRC-PDF-002, SRC-REF-001 | conflict | 구매 CTA 요구와 미확정 출시·재고·채널이 공존 | 구매 불가 상태에서 허위 긴급성 없이 관심을 보존해야 함 | 재고 대기·출시 알림 통제 |
 | EVD-0043 | SRC-BRAND-001, SRC-PDF-001, SRC-PDF-002, SRC-PDF-003, SRC-REF-003 | derived | 화면별 품질 요구가 많지만 실제 통합 출시 판정은 별도 검증이 필요 | 전체 여정·상태·버전의 회귀 검증이 필요 | 출시 전 경험 QA·릴리스 판정 |
-| EVD-0044 | SRC-BRIEF-001 | stated | 기본 팩 용량·퓨레·토핑·시그니처·스타터의 판매 단위와 페이지별 번호 기준이 서로 다름 | 카드 수가 아니라 고유 상품·추천 조합·구성 옵션을 먼저 구분해야 함 | 통합 상품 분류·식별자·Single Source of Truth |
-| EVD-0045 | SRC-BRIEF-001 | stated | 대표 상품과 전체 목록의 설명이 반복되고 구성 예시에서 정기배송 CTA가 실제 서비스처럼 강하게 보임 | 영역별 설명 목적과 서비스 확정성에 맞춰 행동 단계를 분리해야 함 | 대표/전체 역할 분리와 단계형 CTA |
-| EVD-0046 | SRC-BRAND-001, SRC-BRIEF-001 | conflict | 제품 중심 시각 방향과 다양한 구성은 유지해야 하지만 용량·판매 방식·가격·영양·정책은 확인되지 않음 | 기존 시각 언어를 유지하면서 상품 사실과 제안 상태의 경계를 명시해야 함 | 시각 일관성과 미확정 상품 정보 통제 |
 
 ## 3. 추적 체인
 
@@ -83,7 +79,7 @@
 | SRC-BRAND-001 + SRC-PER-001/002 → EVD-0021 | 가족 공유·주의 정보 | VC-008 | VC008-REQ-001~006 |
 | SRC-BRAND-001 + SRC-PER-001/002 → EVD-0022 | 정리·폐기·환경 주장 | VC-009 | VC009-REQ-001~006 |
 | SRC-BRAND-001 + SRC-PDF-001/002/003 → EVD-0023 | 포용적 정보·상태·복구 | VC-010 | VC010-REQ-001~006 |
-| SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 → EVD-0024 | 첫 방문 온보딩과 제품 교육 | VC-011 | VC011-REQ-001~006 |
++| SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 → EVD-0024 | 첫 방문 온보딩과 제품 교육 | VC-011 | VC011-REQ-001~006 |
 | SRC-BRAND-001, SRC-REF-001, SRC-REF-002, SRC-REF-003 → EVD-0025 | 정확한 판매처 전환 | VC-012 | VC012-REQ-001~006 |
 | SRC-BRAND-001, SRC-REF-001, SRC-REF-003 → EVD-0026 | 검증 FAQ와 고객지원 | VC-013 | VC013-REQ-001~006 |
 | SRC-BRAND-001, SRC-REF-001, SRC-REF-003 → EVD-0027 | 최소 수집과 동의 통제 | VC-014 | VC014-REQ-001~006 |
@@ -103,7 +99,6 @@
 | SRC-BRAND-001 + SRC-PDF-001/002 + SRC-REF-001 → EVD-0041 | 주문 후 문제 유형·처리 상태 | VC-028 | VC028-REQ-001~006 |
 | SRC-BRAND-001 + SRC-PDF-001/002 + SRC-REF-001 → EVD-0042 | 품절·출시 상태와 알림 통제 | VC-029 | VC029-REQ-001~006 |
 | SRC-BRAND-001 + SRC-PDF-001/002/003 + SRC-REF-003 → EVD-0043 | 통합 여정·상태·버전 출시 검증 | VC-030 | VC030-REQ-001~006 |
-| SRC-BRIEF-001 + SRC-BRAND-001 → EVD-0044~0046 | 상품 분류·통합 식별자·영역 역할·CTA 확정성·미확정 정보 통제 | VC-031 | VC031-REQ-001~010 |
 
 ## 4. 보류·제한
 
@@ -112,4 +107,3 @@
 - 페르소나 TXT는 읽을 수 있으나 실제 인터뷰 방법과 표본 대표성은 확인되지 않았다.
 - M4A 자료는 발견되지 않았다.
 - 이름과 직책은 `synthetic`; 핵심 요구는 위 Source/Evidence에 연결했다.
-- SRC-BRIEF-001은 상품 체계 보완 요구를 담은 발주 자료이며 실제 판매 단위·용량·정책을 확정하는 근거로 사용하지 않는다.
